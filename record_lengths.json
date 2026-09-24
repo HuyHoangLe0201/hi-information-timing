@@ -1,0 +1,38 @@
+{
+ "PRONOSTIA": {
+  "bearings": 16,
+  "median_n": 1274.0,
+  "mean_n": 1466.3125,
+  "min_n": 230.0,
+  "max_n": 2803.0,
+  "causal_window": 101
+ },
+ "XJTU": {
+  "bearings": 15,
+  "median_n": 161.0,
+  "mean_n": 614.4,
+  "min_n": 42.0,
+  "max_n": 2538.0,
+  "causal_window": 13
+ },
+ "ratio_median_n": 7.913043478260869,
+ "battery": {
+  "channels": 12,
+  "with_flat_run": 6,
+  "longest_run": 19,
+  "per_channel": {
+   "B0005/cap": 1,
+   "B0005/Re": 19,
+   "B0005/Rct": 19,
+   "B0006/cap": 1,
+   "B0006/Re": 19,
+   "B0006/Rct": 19,
+   "B0007/cap": 1,
+   "B0007/Re": 19,
+   "B0007/Rct": 19,
+   "B0018/cap": 1,
+   "B0018/Re": 1,
+   "B0018/Rct": 1
+  }
+ }
+}

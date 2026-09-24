@@ -1,0 +1,55 @@
+﻿does the tail factor drift along a record?
+
+kappa computed in 6 windows of life, on the locally standardised residual
+
+232 cells (237s)
+
+rig        kind            cells  kappa early  kappa late   late/early   max/min
+--------------------------------------------------------------------------------
+PRONOSTIA  distribution       64        1.082       1.192         1.08      1.49
+PRONOSTIA  amount             64        1.144       2.368         1.71      2.60
+XJTU       distribution       52        1.094       1.251         1.19      1.63
+XJTU       amount             52        1.090       1.671         1.65      2.15
+--------------------------------------------------------------------------------
+pooled late-over-early drift: median 1.28, quartiles 1.07 to 1.81
+
+The tail factor DOES drift, so the normalisation does not cancel it
+and the ages this paper quotes carry a bias whose size is measured
+below.
+
+ages before and after correcting the density by kappa(tau)^2,
+on the paper's own statistic
+
+rig        kind            tau as read  tau corrected    shift
+---------------------------------------------------------------
+PRONOSTIA  distribution          0.329          0.316   -0.013
+PRONOSTIA  amount                0.970          0.949   -0.021
+XJTU       distribution          0.555          0.422   -0.134
+XJTU       amount                0.893          0.816   -0.078
+---------------------------------------------------------------
+
+rig          gap as read   gap corrected    change
+--------------------------------------------------
+PRONOSTIA          0.641           0.633    -0.008
+XJTU               0.338           0.394    +0.056
+--------------------------------------------------
+
+cells whose age moves by more than 0.05: 59 of 232
+  25 amount, 34 distribution -- the correction acts on a minority of cells, which is why the
+  median shift per cell is near zero while the family medians move.
+
+The correction moves the gap by at most 0.056 of a lifetime.  The
+direction is what settles the question Proposition 11 raises: a
+correction that SHRANK the gap would mean part of the separation was an
+artefact of the robust scale.
+
+It does not shrink it.  On PRONOSTIA the gap is unchanged to within
+0.008, and on XJTU-SY it GROWS by 0.056.  The applied
+result therefore survives its own scale correction, and on the weaker
+rig it is strengthened by it.
+
+The drift is also family-dependent in a way worth stating on its own:
+the amount indicators' residuals become markedly more impulsive late in
+life while the distributional ones barely change.  That is consistent
+with spalling, which produces impulsive excursions in level and leaves
+the shape of the spectrum comparatively steady.

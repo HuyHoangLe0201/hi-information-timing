@@ -1,0 +1,4 @@
+0
+
+Printed numbers whose source does not round to them, at the last
+run that was accepted.  It may be lowered and may not be raised.

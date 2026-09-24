@@ -1,0 +1,55 @@
+{
+  "recovery": [
+    {
+      "case": "constant noise",
+      "truth": 2.998797794358605,
+      "unweighted": 2.9301797257899103,
+      "weighted": 2.9911195220576356,
+      "winner": "weighted"
+    },
+    {
+      "case": "noise rising 5x",
+      "truth": 2.285164934637428,
+      "unweighted": 2.984550849166065,
+      "weighted": 2.18550898927654,
+      "winner": "weighted"
+    },
+    {
+      "case": "noise falling 5x",
+      "truth": 5.134174625954199,
+      "unweighted": 2.6991835769340353,
+      "weighted": 4.782572019345833,
+      "winner": "weighted"
+    },
+    {
+      "case": "noise tracks signal",
+      "truth": 1.5910587169458472,
+      "unweighted": 2.9060669256810385,
+      "weighted": 1.5904078044190721,
+      "winner": "weighted"
+    }
+  ],
+  "leakage": [
+    {
+      "channel": "rms",
+      "units": 17,
+      "corr": 0.6571357058875245
+    },
+    {
+      "channel": "kurt",
+      "units": 17,
+      "corr": 0.6930483011401056
+    },
+    {
+      "channel": "0--2 kHz",
+      "units": 17,
+      "corr": 0.23091776239319647
+    },
+    {
+      "channel": "4--10 kHz",
+      "units": 17,
+      "corr": 0.44713400158859185
+    }
+  ],
+  "control_corr": 0.02618186253083109
+}

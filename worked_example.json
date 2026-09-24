@@ -1,0 +1,30 @@
+{
+  "tau0": 0.7,
+  "qstar": 0.35,
+  "bands": {
+    "rms": {
+      "units": 16,
+      "feasible": 0,
+      "w_med": null,
+      "N_med": null,
+      "fs_med": 1169.5,
+      "life_med": 11695.0
+    },
+    "hf 4-10kHz": {
+      "units": 15,
+      "feasible": 12,
+      "w_med": 0.636412611856116,
+      "N_med": 1247.5,
+      "fs_med": 1428.0,
+      "life_med": 14280.0
+    },
+    "lf 0-2kHz": {
+      "units": 12,
+      "feasible": 5,
+      "w_med": 0.5808062789867998,
+      "N_med": 1312.0,
+      "fs_med": 1169.5,
+      "life_med": 11695.0
+    }
+  }
+}

@@ -1,0 +1,38 @@
+﻿standard error of the earliest usable age
+
+blocks are the smoothing window; a cell needs 4 of them
+
+record       measure            kind             tau  blocks   formula  bootstrap  ratio
+----------------------------------------------------------------------------------------
+Bearing1_1   total power        amount         0.971      12    0.0145     0.0232   0.62
+Bearing1_1   peak band power    amount         0.973      12    0.0098     0.0026   3.81
+Bearing1_1   high-band power    amount         0.875      10    0.0388     0.0040   9.79
+Bearing1_1   log total power    amount         0.033       0        --         --     --
+Bearing1_1   spectral entropy   distribution   0.018       0        --         --     --
+Bearing1_1   high/low ratio     distribution   0.763       9    0.0451     0.1243   0.36
+Bearing1_2   total power        amount         0.925      11    0.0758     0.0038  19.92
+Bearing1_2   peak band power    amount         0.014       0        --         --     --
+Bearing1_2   high-band power    amount         0.962      12    0.0126     0.0035   3.57
+Bearing1_2   log total power    amount         0.034       0        --         --     --
+Bearing1_2   spectral entropy   distribution   0.013       0        --         --     --
+Bearing1_2   high/low ratio     distribution   0.149       1        --         --     --
+Bearing1_3   total power        amount         0.979      12    0.0052     0.0038   1.36
+Bearing1_3   peak band power    amount         0.981      12    0.0043     0.0044   0.99
+Bearing1_3   high-band power    amount         0.969      12    0.0146     0.0011  12.73
+Bearing1_3   log total power    amount         0.972      12    0.0091     0.0022   4.17
+Bearing1_3   spectral entropy   distribution   0.374       4    0.1879     0.1295   1.45
+Bearing1_3   high/low ratio     distribution   0.698       8    0.2515     0.3490   0.72
+----------------------------------------------------------------------------------------
+(686s)
+
+formula over bootstrap: median 2.51, range 0.36 to 19.92 over 12 cells
+Both estimate the same quantity by different routes, so agreement to
+a factor of about two is what a first-order formula supports.
+
+6 cells could not be reached: 3 amount, 3 distribution
+They are the cells whose tau_min falls before the record has accumulated
+4 smoothing windows, so the partial sum has too few independent blocks
+to have a variance estimated from it.  By the proposition those are also
+the cells whose age is most sharply determined, since the standard error
+scales as 1/g and the density is large there; the limitation is one of
+this estimator's resolution, not of the quantity.

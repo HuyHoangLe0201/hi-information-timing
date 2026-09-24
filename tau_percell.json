@@ -1,0 +1,347 @@
+{
+  "PRONOSTIA": [
+    {
+      "unit": "Bearing1_1",
+      "spectral entropy": 0.018194791295041028,
+      "spectral centroid": 0.5005351409204424,
+      "spectral spread": 0.030324652158401712,
+      "high/low ratio": 0.7627541919372102,
+      "total power": 0.9711023902961113,
+      "peak band power": 0.9732429539778809,
+      "high-band power": 0.8751337852301107,
+      "log total power": 0.0328219764537995
+    },
+    {
+      "unit": "Bearing1_2",
+      "spectral entropy": 0.012629161882893225,
+      "spectral centroid": 0.8254879448909299,
+      "spectral spread": 0.018369690011481057,
+      "high/low ratio": 0.14925373134328357,
+      "total power": 0.9253731343283582,
+      "peak band power": 0.013777267508610792,
+      "high-band power": 0.9621125143513203,
+      "log total power": 0.03444316877152698
+    },
+    {
+      "unit": "Bearing1_3",
+      "spectral entropy": 0.3738947368421053,
+      "spectral centroid": 0.6223157894736842,
+      "spectral spread": 0.024842105263157895,
+      "high/low ratio": 0.6976842105263158,
+      "total power": 0.9789473684210527,
+      "peak band power": 0.9810526315789474,
+      "high-band power": 0.968842105263158,
+      "log total power": 0.9717894736842105
+    },
+    {
+      "unit": "Bearing1_5",
+      "spectral entropy": 0.014616321559074299,
+      "spectral centroid": 0.010556232237109216,
+      "spectral spread": 0.011774259033698742,
+      "high/low ratio": 0.00933820544051969,
+      "total power": 0.976857490864799,
+      "peak band power": 0.978481526593585,
+      "high-band power": 0.9772634997969956,
+      "log total power": 0.9829476248477467
+    },
+    {
+      "unit": "Bearing1_6",
+      "spectral entropy": 0.9750816993464052,
+      "spectral centroid": 0.9673202614379085,
+      "spectral spread": 0.19852941176470587,
+      "high/low ratio": 0.9750816993464052,
+      "total power": 0.9820261437908496,
+      "peak band power": 0.9836601307189542,
+      "high-band power": 0.9750816993464052,
+      "log total power": 0.9824346405228758
+    },
+    {
+      "unit": "Bearing1_7",
+      "spectral entropy": 0.48871181938911024,
+      "spectral centroid": 0.41478530323151835,
+      "spectral spread": 0.38778220451527223,
+      "high/low ratio": 0.40017706949977866,
+      "total power": 0.9676848162903939,
+      "peak band power": 0.9703408587870739,
+      "high-band power": 0.9752102700309871,
+      "log total power": 0.9783089862771137
+    },
+    {
+      "unit": "Bearing2_1",
+      "spectral entropy": 0.14709110867178923,
+      "spectral centroid": 0.15148188803512624,
+      "spectral spread": 0.13172338090010977,
+      "high/low ratio": 0.04610318331503842,
+      "total power": 0.9703622392974753,
+      "peak band power": 0.9813391877058177,
+      "high-band power": 0.16575192096597147,
+      "log total power": 0.2897914379802415
+    },
+    {
+      "unit": "Bearing2_2",
+      "spectral entropy": 0.26097867001254704,
+      "spectral centroid": 0.24717691342534504,
+      "spectral spread": 0.2245922208281054,
+      "high/low ratio": 0.2233375156838143,
+      "total power": 0.944792973651192,
+      "peak band power": 0.5633626097867002,
+      "high-band power": 0.2371392722710163,
+      "log total power": 0.48306148055207027
+    },
+    {
+      "unit": "Bearing2_3",
+      "spectral entropy": 0.9728900255754476,
+      "spectral centroid": 0.018925831202046037,
+      "spectral spread": 0.25626598465473144,
+      "high/low ratio": 0.11508951406649616,
+      "total power": 0.9749360613810741,
+      "peak band power": 0.9754475703324809,
+      "high-band power": 0.9790281329923274,
+      "log total power": 0.9805626598465473
+    },
+    {
+      "unit": "Bearing2_4",
+      "spectral entropy": 0.9840213049267643,
+      "spectral centroid": 0.5619174434087882,
+      "spectral spread": 0.2969374167776298,
+      "high/low ratio": 0.170439414114514,
+      "total power": 0.9747003994673769,
+      "peak band power": 0.9747003994673769,
+      "high-band power": 0.9760319573901465,
+      "log total power": 0.9840213049267643
+    },
+    {
+      "unit": "Bearing2_5",
+      "spectral entropy": 0.14971873647771528,
+      "spectral centroid": 0.10298572046733016,
+      "spectral spread": 0.0839463435742103,
+      "high/low ratio": 0.08308091735179576,
+      "total power": 0.9805279099956729,
+      "peak band power": 0.22414539160536565,
+      "high-band power": 0.14842059714409347,
+      "log total power": 0.5240155776720035
+    },
+    {
+      "unit": "Bearing2_6",
+      "spectral entropy": 0.3195435092724679,
+      "spectral centroid": 0.16405135520684735,
+      "spectral spread": 0.11126961483594865,
+      "high/low ratio": 0.18687589158345222,
+      "total power": 0.9657631954350927,
+      "peak band power": 0.9643366619115549,
+      "high-band power": 0.9643366619115549,
+      "log total power": 0.9771754636233951
+    },
+    {
+      "unit": "Bearing2_7",
+      "spectral entropy": 0.9695652173913043,
+      "spectral centroid": 0.9695652173913043,
+      "spectral spread": 0.9739130434782609,
+      "high/low ratio": 0.9739130434782609,
+      "total power": 0.9521739130434783,
+      "peak band power": 0.9478260869565217,
+      "high-band power": 0.9478260869565217,
+      "log total power": 0.9652173913043478
+    },
+    {
+      "unit": "Bearing3_1",
+      "spectral entropy": 0.09902912621359224,
+      "spectral centroid": 0.9689320388349515,
+      "spectral spread": 0.1262135922330097,
+      "high/low ratio": 0.9592233009708738,
+      "total power": 0.9262135922330097,
+      "peak band power": 0.9242718446601942,
+      "high-band power": 0.9320388349514563,
+      "log total power": 0.9281553398058252
+    },
+    {
+      "unit": "Bearing3_2",
+      "spectral entropy": 0.8607208307880269,
+      "spectral centroid": 0.8668295662797801,
+      "spectral spread": 0.8607208307880269,
+      "high/low ratio": 0.8564447159437997,
+      "total power": 0.9749541844838119,
+      "peak band power": 0.9761759315821625,
+      "high-band power": 0.9798411728772144,
+      "log total power": 0.9798411728772144
+    },
+    {
+      "unit": "Bearing3_3",
+      "spectral entropy": 0.7672811059907834,
+      "spectral centroid": 0.9516129032258065,
+      "spectral spread": 0.17050691244239632,
+      "high/low ratio": 0.7073732718894009,
+      "total power": 0.9539170506912442,
+      "peak band power": 0.7626728110599078,
+      "high-band power": 0.1889400921658986,
+      "log total power": 0.7764976958525346
+    }
+  ],
+  "XJTU": [
+    {
+      "unit": "35Hz12kN__Bearing1_1",
+      "spectral entropy": null,
+      "spectral centroid": null,
+      "spectral spread": null,
+      "high/low ratio": null,
+      "total power": null,
+      "peak band power": null,
+      "high-band power": null,
+      "log total power": null
+    },
+    {
+      "unit": "35Hz12kN__Bearing1_2",
+      "spectral entropy": null,
+      "spectral centroid": null,
+      "spectral spread": null,
+      "high/low ratio": null,
+      "total power": null,
+      "peak band power": null,
+      "high-band power": null,
+      "log total power": null
+    },
+    {
+      "unit": "35Hz12kN__Bearing1_3",
+      "spectral entropy": null,
+      "spectral centroid": null,
+      "spectral spread": null,
+      "high/low ratio": null,
+      "total power": null,
+      "peak band power": null,
+      "high-band power": null,
+      "log total power": null
+    },
+    {
+      "unit": "35Hz12kN__Bearing1_4",
+      "spectral entropy": null,
+      "spectral centroid": null,
+      "spectral spread": null,
+      "high/low ratio": null,
+      "total power": null,
+      "peak band power": null,
+      "high-band power": null,
+      "log total power": null
+    },
+    {
+      "unit": "35Hz12kN__Bearing1_5",
+      "spectral entropy": null,
+      "spectral centroid": null,
+      "spectral spread": null,
+      "high/low ratio": null,
+      "total power": null,
+      "peak band power": null,
+      "high-band power": null,
+      "log total power": null
+    },
+    {
+      "unit": "37.5Hz11kN__Bearing2_1",
+      "spectral entropy": 0.9083503054989817,
+      "spectral centroid": 0.03054989816700611,
+      "spectral spread": 0.9083503054989817,
+      "high/low ratio": 0.9205702647657841,
+      "total power": 0.9653767820773931,
+      "peak band power": 0.9226069246435845,
+      "high-band power": 0.9674134419551935,
+      "log total power": 0.9205702647657841
+    },
+    {
+      "unit": "37.5Hz11kN__Bearing2_2",
+      "spectral entropy": null,
+      "spectral centroid": null,
+      "spectral spread": null,
+      "high/low ratio": null,
+      "total power": null,
+      "peak band power": null,
+      "high-band power": null,
+      "log total power": null
+    },
+    {
+      "unit": "37.5Hz11kN__Bearing2_3",
+      "spectral entropy": 0.575984990619137,
+      "spectral centroid": 0.24577861163227016,
+      "spectral spread": 0.24202626641651032,
+      "high/low ratio": 0.2401500938086304,
+      "total power": 0.5816135084427767,
+      "peak band power": 0.651031894934334,
+      "high-band power": 0.21951219512195122,
+      "log total power": 0.5703564727954972
+    },
+    {
+      "unit": "37.5Hz11kN__Bearing2_4",
+      "spectral entropy": null,
+      "spectral centroid": null,
+      "spectral spread": null,
+      "high/low ratio": null,
+      "total power": null,
+      "peak band power": null,
+      "high-band power": null,
+      "log total power": null
+    },
+    {
+      "unit": "37.5Hz11kN__Bearing2_5",
+      "spectral entropy": 0.41297935103244837,
+      "spectral centroid": 0.3746312684365782,
+      "spectral spread": 0.4631268436578171,
+      "high/low ratio": 0.4896755162241888,
+      "total power": 0.4837758112094395,
+      "peak band power": 0.5162241887905604,
+      "high-band power": 0.3805309734513274,
+      "log total power": 0.46607669616519176
+    },
+    {
+      "unit": "40Hz10kN__Bearing3_1",
+      "spectral entropy": 0.9259259259259259,
+      "spectral centroid": 0.9243498817966903,
+      "spectral spread": 0.030338849487785657,
+      "high/low ratio": 0.9018912529550828,
+      "total power": 0.9696611505122144,
+      "peak band power": 0.9704491725768322,
+      "high-band power": 0.9771473601260835,
+      "log total power": 0.9487785657998424
+    },
+    {
+      "unit": "40Hz10kN__Bearing3_2",
+      "spectral entropy": 0.7027243589743589,
+      "spectral centroid": 0.8822115384615384,
+      "spectral spread": 0.008413461538461538,
+      "high/low ratio": 0.023237179487179488,
+      "total power": 0.9719551282051282,
+      "peak band power": 0.9823717948717948,
+      "high-band power": 0.8533653846153846,
+      "log total power": 0.7672275641025641
+    },
+    {
+      "unit": "40Hz10kN__Bearing3_3",
+      "spectral entropy": 0.026954177897574125,
+      "spectral centroid": 0.013477088948787063,
+      "spectral spread": 0.9002695417789758,
+      "high/low ratio": 0.9056603773584906,
+      "total power": 0.9029649595687331,
+      "peak band power": 0.9002695417789758,
+      "high-band power": 0.9299191374663073,
+      "log total power": 0.9137466307277629
+    },
+    {
+      "unit": "40Hz10kN__Bearing3_4",
+      "spectral entropy": 0.6613861386138614,
+      "spectral centroid": 0.1782178217821782,
+      "spectral spread": 0.4646864686468647,
+      "high/low ratio": 0.6759075907590759,
+      "total power": 0.9531353135313532,
+      "peak band power": 0.9445544554455445,
+      "high-band power": 0.9498349834983498,
+      "log total power": 0.9379537953795379
+    },
+    {
+      "unit": "40Hz10kN__Bearing3_5",
+      "spectral entropy": null,
+      "spectral centroid": null,
+      "spectral spread": null,
+      "high/low ratio": null,
+      "total power": null,
+      "peak band power": null,
+      "high-band power": null,
+      "log total power": null
+    }
+  ]
+}

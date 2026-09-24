@@ -1,0 +1,54 @@
+﻿per-unit gradients and ages from cache
+
+weight stability against outcome stability, measured on each rig
+
+measure            kind          rig          weight cos  tau median   tau IQR
+------------------------------------------------------------------------------
+spectral entropy   distribution  PRONOSTIA         0.845       0.346     0.753
+spectral centroid  distribution  PRONOSTIA         0.959       0.531     0.728
+spectral spread    distribution  PRONOSTIA         0.861       0.151     0.196
+high/low ratio     distribution  PRONOSTIA         0.974       0.312     0.645
+total power        amount        PRONOSTIA         1.000       0.971     0.022
+peak band power    amount        PRONOSTIA         0.000       0.972     0.093
+high-band power    amount        PRONOSTIA         1.000       0.963     0.260
+log total power    amount        PRONOSTIA         1.000       0.969     0.466
+spectral entropy   distribution  XJTU              0.785       0.662     0.435
+spectral centroid  distribution  XJTU              0.960       0.509     0.447
+spectral spread    distribution  XJTU              0.916       0.463     0.255
+high/low ratio     distribution  XJTU              0.988       0.602     0.413
+total power        amount        XJTU              1.000       0.907     0.280
+peak band power    amount        XJTU              1.000       0.900     0.430
+high-band power    amount        XJTU              1.000       0.614     0.730
+log total power    amount        XJTU              1.000       0.886     0.368
+------------------------------------------------------------------------------
+
+the prediction is about stability, not earliness
+
+PRONOSTIA: 8 measures
+  weight stability against tau spread    : -0.07  (prediction: negative)
+  weight stability against tau itself    : +0.14  (no prediction; a confound check)
+XJTU: 8 measures
+  weight stability against tau spread    : +0.07  (prediction: negative)
+  weight stability against tau itself    : +0.50  (no prediction; a confound check)
+
+before reading the correlations: 5 of 8 measures have a
+weight cosine above 0.95, and the spread that remains comes largely
+from one outlier -- the peak band, whose gradient is a spike at the
+argmax and therefore differs between bearings that peak elsewhere.
+
+No relation appears: the rank correlations are +0.07 and -0.07, which
+is zero.  Two things keep this from being a clean refutation, and
+both are limitations of the test rather than support for the
+hypothesis.  The predictor is concentrated near one, so the rank test
+rests on very little spread.  And the outcome, the spread of tau
+across bearings, mixes instability of the indicator with genuine
+differences between bearings, which no rearrangement of these data
+separates.  The honest statement is that the mechanism of Section 9.4
+does not yield a pre-deployment predictor of age stability ON THIS
+EVIDENCE, and that a measure set with more varied gradients would be
+needed to decide it.
+
+Weight stability does not track the age itself (at most +0.50), so the
+relation above is about stability and not about earliness in
+disguise -- which the constant-gradient amount indicators, stable and
+late, already suggest.

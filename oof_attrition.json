@@ -1,0 +1,22 @@
+[
+  {
+    "rig": "PRONOSTIA",
+    "bearings": 16,
+    "kept": 160,
+    "total": 160,
+    "kept_frac": 1.0,
+    "shortest": 230,
+    "lost_min": null,
+    "lost_max": null
+  },
+  {
+    "rig": "XJTU",
+    "bearings": 15,
+    "kept": 100,
+    "total": 150,
+    "kept_frac": 0.6666666666666666,
+    "shortest": 42,
+    "lost_min": 42,
+    "lost_max": 123
+  }
+]

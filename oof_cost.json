@@ -1,0 +1,14 @@
+{
+  "cells": 170,
+  "scale_ratio_median": 1.023506006667537,
+  "scale_ratio_q1": 1.0084890581083552,
+  "scale_ratio_q3": 1.0472065633209588,
+  "G_ratio_median": 1.0106982859540032,
+  "tau_shift_median": 0.0004721110313069127,
+  "tau_shift_q1": -0.0012280552646476914,
+  "tau_shift_q3": 0.0032725247725406414,
+  "cells_moved": 36,
+  "cells_total": 170,
+  "tau_shift_worst": 0.8771526980482204,
+  "tau_shift_q75abs": 0.00819015864605148
+}

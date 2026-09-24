@@ -1,0 +1,335 @@
+{
+  "records": [
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing1_1",
+      "n": 2803,
+      "d": 0.3913663931501962,
+      "a": 0.9564752051373528,
+      "margin": -0.5651088119871566,
+      "cls": "ordered"
+    },
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing1_2",
+      "n": 871,
+      "d": 0.016073478760045924,
+      "a": 0.03788748564867968,
+      "margin": -0.021814006888633754,
+      "cls": "ordered"
+    },
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing2_1",
+      "n": 911,
+      "d": 0.08342480790340286,
+      "a": 0.40065861690450055,
+      "margin": -0.3172338090010977,
+      "cls": "ordered"
+    },
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing2_2",
+      "n": 797,
+      "d": 0.04265997490589712,
+      "a": 0.5194479297365119,
+      "margin": -0.47678795483061476,
+      "cls": "ordered"
+    },
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing3_1",
+      "n": 515,
+      "d": 0.09902912621359224,
+      "a": 0.9281553398058252,
+      "margin": -0.8291262135922329,
+      "cls": "ordered"
+    },
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing3_2",
+      "n": 1637,
+      "d": 0.014050091631032376,
+      "a": 0.981062919975565,
+      "margin": -0.9670128283445327,
+      "cls": "ordered"
+    },
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing1_3",
+      "n": 2375,
+      "d": 0.6256842105263158,
+      "a": 0.9713684210526315,
+      "margin": -0.3456842105263157,
+      "cls": "ordered"
+    },
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing1_4",
+      "n": 1428,
+      "d": 0.015406162464985995,
+      "a": 0.7598039215686274,
+      "margin": -0.7443977591036415,
+      "cls": "ordered"
+    },
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing1_5",
+      "n": 2463,
+      "d": 0.012992285830288266,
+      "a": 0.9809175801867641,
+      "margin": -0.9679252943564759,
+      "cls": "ordered"
+    },
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing1_6",
+      "n": 2448,
+      "d": 0.6384803921568627,
+      "a": 0.983251633986928,
+      "margin": -0.34477124183006536,
+      "cls": "ordered"
+    },
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing1_7",
+      "n": 2259,
+      "d": 0.04869411243913236,
+      "a": 0.9760956175298805,
+      "margin": -0.9274015050907481,
+      "cls": "ordered"
+    },
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing2_3",
+      "n": 1955,
+      "d": 0.08388746803069054,
+      "a": 0.9764705882352941,
+      "margin": -0.8925831202046035,
+      "cls": "ordered"
+    },
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing2_4",
+      "n": 751,
+      "d": 0.4194407456724368,
+      "a": 0.9826897470039947,
+      "margin": -0.5632490013315579,
+      "cls": "ordered"
+    },
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing2_5",
+      "n": 2311,
+      "d": 0.18130679359584595,
+      "a": 0.9736045002163566,
+      "margin": -0.7922977066205106,
+      "cls": "ordered"
+    },
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing2_6",
+      "n": 701,
+      "d": 0.24108416547788872,
+      "a": 0.9714693295292439,
+      "margin": -0.7303851640513552,
+      "cls": "ordered"
+    },
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing2_7",
+      "n": 230,
+      "d": 0.9652173913043478,
+      "a": 0.9565217391304348,
+      "margin": 0.008695652173912993,
+      "cls": "reversed"
+    },
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing3_3",
+      "n": 434,
+      "d": 0.16129032258064516,
+      "a": 0.7995391705069125,
+      "margin": -0.6382488479262673,
+      "cls": "ordered"
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "35Hz12kN__Bearing1_1",
+      "n": 123,
+      "d": 0.6422764227642277,
+      "a": 0.975609756097561,
+      "margin": -0.33333333333333326,
+      "cls": "ordered"
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "35Hz12kN__Bearing1_2",
+      "n": 161,
+      "d": 0.391304347826087,
+      "a": 0.36645962732919257,
+      "margin": 0.0248447204968944,
+      "cls": "reversed"
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "35Hz12kN__Bearing1_3",
+      "n": 158,
+      "d": 0.43670886075949367,
+      "a": 0.4873417721518987,
+      "margin": -0.050632911392405056,
+      "cls": "ordered"
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "35Hz12kN__Bearing1_4",
+      "n": 122,
+      "d": 0.39344262295081966,
+      "a": 0.9918032786885246,
+      "margin": -0.5983606557377049,
+      "cls": "ordered"
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "35Hz12kN__Bearing1_5",
+      "n": 52,
+      "d": null,
+      "a": null,
+      "margin": null,
+      "cls": "unusable"
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "37.5Hz11kN__Bearing2_1",
+      "n": 491,
+      "d": 0.018329938900203666,
+      "a": 0.9287169042769857,
+      "margin": -0.9103869653767821,
+      "cls": "ordered"
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "37.5Hz11kN__Bearing2_2",
+      "n": 161,
+      "d": 0.5093167701863354,
+      "a": 0.30434782608695654,
+      "margin": 0.20496894409937882,
+      "cls": "reversed"
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "37.5Hz11kN__Bearing2_3",
+      "n": 533,
+      "d": 0.23639774859287055,
+      "a": 0.5816135084427767,
+      "margin": -0.34521575984990616,
+      "cls": "ordered"
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "37.5Hz11kN__Bearing2_4",
+      "n": 42,
+      "d": null,
+      "a": null,
+      "margin": null,
+      "cls": "unusable"
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "37.5Hz11kN__Bearing2_5",
+      "n": 339,
+      "d": 0.3274336283185841,
+      "a": 0.4690265486725664,
+      "margin": -0.1415929203539823,
+      "cls": "ordered"
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "40Hz10kN__Bearing3_1",
+      "n": 2538,
+      "d": 0.09456264775413711,
+      "a": 0.9728132387706856,
+      "margin": -0.8782505910165485,
+      "cls": "ordered"
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "40Hz10kN__Bearing3_2",
+      "n": 2496,
+      "d": 0.018830128205128204,
+      "a": 0.8449519230769231,
+      "margin": -0.8261217948717949,
+      "cls": "ordered"
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "40Hz10kN__Bearing3_3",
+      "n": 371,
+      "d": 0.013477088948787063,
+      "a": 0.9029649595687331,
+      "margin": -0.889487870619946,
+      "cls": "ordered"
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "40Hz10kN__Bearing3_4",
+      "n": 1515,
+      "d": 0.02838283828382838,
+      "a": 0.9419141914191419,
+      "margin": -0.9135313531353135,
+      "cls": "ordered"
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "40Hz10kN__Bearing3_5",
+      "n": 114,
+      "d": 0.32456140350877194,
+      "a": 0.08771929824561403,
+      "margin": 0.2368421052631579,
+      "cls": "reversed"
+    }
+  ],
+  "PRONOSTIA_ordered": 16,
+  "PRONOSTIA_reversed": 1,
+  "PRONOSTIA_unusable": 0,
+  "PRONOSTIA_total": 17,
+  "XJTU_SY_ordered": 10,
+  "XJTU_SY_reversed": 3,
+  "XJTU_SY_unusable": 2,
+  "XJTU_SY_total": 15,
+  "reversed_total": 4,
+  "usable_total": 30,
+  "reversals": [
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing2_7",
+      "n": 230,
+      "margin": 0.008695652173912993,
+      "samples": 1.9999999999999885
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "35Hz12kN__Bearing1_2",
+      "n": 161,
+      "margin": 0.0248447204968944,
+      "samples": 3.9999999999999987
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "37.5Hz11kN__Bearing2_2",
+      "n": 161,
+      "margin": 0.20496894409937882,
+      "samples": 32.99999999999999
+    },
+    {
+      "rig": "XJTU-SY",
+      "unit": "40Hz10kN__Bearing3_5",
+      "n": 114,
+      "margin": 0.2368421052631579,
+      "samples": 27.0
+    }
+  ],
+  "worst_reversal_margin": 0.2368421052631579,
+  "worst_reversal_unit": "40Hz10kN__Bearing3_5",
+  "worst_reversal_samples": 27.0
+}

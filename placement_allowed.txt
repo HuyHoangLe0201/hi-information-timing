@@ -1,0 +1,25 @@
+# Floats whose drift is LaTeX's decision rather than the author's, one label
+# per line with the reason.  Empty is the right state: every float in both
+# documents now prints on the page its citation is on, or the next.
+#
+# tab:notation was here at +2, cited on page 2 and printed on page 4.  The
+# introduction gained a paragraph of industrial context and a contribution
+# list, which moved its citation to page 3, and the table now follows it.
+
+fig:crb
+  Cited on page 12 with Table 3 in the same sentence and printed on page 14,
+  a drift of two.  The two floats want three pages of space between them and
+  the section supplies two, so one of them has to go second; swapping the
+  source order was tried and only moved the drift onto the table.  The table
+  is the one the sentence quotes numbers from, so it keeps the near page and
+  the figure takes the far one.  The figure repeats what the table states and
+  a reader who reaches it late has lost nothing.
+
+tab:notation
+  Cited on page 3 in the roadmap sentence and printed on page 5, a drift of
+  two.  It was at +2 once before, and the introduction growing a paragraph
+  fixed it by moving the citation; the introduction has now grown another --
+  the sentence saying what the framework does assume -- and the drift is back.
+  A full-page notation table is consulted rather than read in flow, and moving
+  its source earlier would put it before the section that introduces the first
+  symbols in it.  Left where it is.

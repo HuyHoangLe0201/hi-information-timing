@@ -1,0 +1,72 @@
+[
+  {
+    "measure": "spectral entropy",
+    "kind": "distribution",
+    "tau": 0.3460058562955177,
+    "signal": 0.9912846388368314,
+    "units": 16
+  },
+  {
+    "measure": "spectral centroid",
+    "kind": "distribution",
+    "tau": 0.5320704514328143,
+    "signal": 0.9899410451635346,
+    "units": 16
+  },
+  {
+    "measure": "spectral spread",
+    "kind": "distribution",
+    "tau": 0.15111514667125303,
+    "signal": 0.9970809205675778,
+    "units": 16
+  },
+  {
+    "measure": "spectral Gini",
+    "kind": "distribution",
+    "tau": 0.28812128935720077,
+    "signal": 0.99289352517638,
+    "units": 16
+  },
+  {
+    "measure": "top-8-band share",
+    "kind": "distribution",
+    "tau": 0.35972971693768085,
+    "signal": 0.9934395370310256,
+    "units": 16
+  },
+  {
+    "measure": "high/low band ratio",
+    "kind": "distribution",
+    "tau": 0.31175729259179646,
+    "signal": 0.9856812618330006,
+    "units": 16
+  },
+  {
+    "measure": "total power",
+    "kind": "amount",
+    "tau": 0.9707323147967933,
+    "signal": 0.9897641892935167,
+    "units": 16
+  },
+  {
+    "measure": "peak band power",
+    "kind": "amount",
+    "tau": 0.9717919063824774,
+    "signal": 0.9953212374134749,
+    "units": 16
+  },
+  {
+    "measure": "high-band power",
+    "kind": "amount",
+    "tau": 0.9632245881314376,
+    "signal": 0.9947436511800107,
+    "units": 16
+  },
+  {
+    "measure": "log total power",
+    "kind": "amount",
+    "tau": 0.9685034324942792,
+    "signal": 0.9943088763130267,
+    "units": 16
+  }
+]

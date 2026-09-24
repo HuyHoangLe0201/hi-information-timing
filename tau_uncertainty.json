@@ -1,0 +1,44 @@
+{
+  "delta_vs_boot": [
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing1_1",
+      "measure": "total power",
+      "tau": 0.9711023902961113,
+      "formula": 0.014964052532286987,
+      "boot": 0.02276696240070117,
+      "ratio": 0.657270489972177
+    },
+    {
+      "rig": "PRONOSTIA",
+      "unit": "Bearing1_2",
+      "measure": "total power",
+      "tau": 0.9265212399540758,
+      "formula": 0.08446438763457305,
+      "boot": 0.14774325872311925,
+      "ratio": 0.57169706668556
+    }
+  ],
+  "ratio_median": 0.6144837783288685,
+  "ratio_min": 0.57169706668556,
+  "ratio_max": 0.657270489972177,
+  "fleet": [
+    {
+      "rig": "PRONOSTIA",
+      "units": 16,
+      "gap": 0.43667979938364865,
+      "lo": 0.2806144526179143,
+      "hi": 0.5741788925382989,
+      "excludes_zero": true
+    },
+    {
+      "rig": "XJTU",
+      "units": 7,
+      "gap": 0.33208255159474676,
+      "lo": 0.03687315634218291,
+      "hi": 0.44474393530997297,
+      "excludes_zero": true
+    }
+  ],
+  "boot_draws": 4000
+}

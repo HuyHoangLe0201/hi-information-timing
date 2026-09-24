@@ -1,0 +1,48 @@
+6
+
+Places where the prose points at a later section, at the last run that was
+accepted.  All four were read once, and each is a promise whose sentence stands
+on its own; none asks the reader to hold an undefined thing in mind:
+
+  sec:reading        "the curve is estimated from the record rather than fitted
+                     to a parametric family, which matters because measured
+                     degradation shapes do not share one" -- the claim is made,
+                     the later section supplies the measurement behind it;
+  sec:distribution   the serial correlation is measured on ten indicators, and
+                     the sentence now says what they are before naming where
+                     they are compared;
+  sec:bayes          the re-anchoring condition, whose numbers are given in
+                     place;
+  sec:mechanism      "the mechanism is taken up in Section ..." -- an
+                     announcement, carrying nothing the reader needs yet.
+
+Raise this only after reading the printed list.  A rise means the reader is
+being asked to wait for something one more time, which is the thing this layer
+exists to keep from growing quietly.  It was written after five places were
+found where a term, a set of indicators or a proposition arrived before what it
+carried: the rank guard, named in the discussion and defined nowhere in the main
+text; "information-weighted", used in Section 4 and defined in Appendix A; a
+correlation measured over indicators three sections early; and three
+propositions invoked by number alone.
+
+Raised to five at the third reviewer read, against the printed list:
+
+  sec:data           "a reader who wants only the applied result may read
+                     Section 3 for the corpus and go straight there" -- a
+                     navigation sentence, which carries nothing forward and
+                     exists precisely so a reader need not wait;
+  sec:mechanism      the entry above is now a different sentence.  The oracle
+                     span bound tau_lin = 0.007 is quoted in Section 10.2, and
+                     the sentence naming it an oracle points at Section 10.4
+                     for what happens when that direction is carried to another
+                     bearing.  Without the pointer the number reads as a
+                     deployable one, which a reviewer took it for; the pointer
+                     is the correction, not a deferral.
+
+Raised to six at the seventh reviewer read:
+
+  sec:identifiability  Section 9.3 compares the two families by total budget
+                       and says at once that a budget ratio is not comparable
+                       to better than the factor Appendix C measures.  The
+                       pointer is the qualification, not a deferral, and the
+                       sentence it qualifies would overclaim without it.

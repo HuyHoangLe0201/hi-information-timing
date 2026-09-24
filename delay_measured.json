@@ -1,0 +1,184 @@
+{
+  "curves": 170,
+  "rows": [
+    {
+      "base": 0.0001,
+      "loss": 10.0,
+      "usable": 30,
+      "infeasible": 0,
+      "at_floor": 140,
+      "median": 0.01980264288311616,
+      "q1": 0.0097926267281106,
+      "q3": 0.06568565101512537
+    },
+    {
+      "base": 0.0001,
+      "loss": 100.0,
+      "usable": 30,
+      "infeasible": 0,
+      "at_floor": 140,
+      "median": 0.11919709133236114,
+      "q1": 0.05814205416453756,
+      "q3": 0.579861111111111
+    },
+    {
+      "base": 0.0001,
+      "loss": 1000.0,
+      "usable": 30,
+      "infeasible": 0,
+      "at_floor": 140,
+      "median": 0.7177419354838709,
+      "q1": 0.17513020109772487,
+      "q3": 0.9263619368075682
+    },
+    {
+      "base": 0.0001,
+      "loss": 10000.0,
+      "usable": 18,
+      "infeasible": 12,
+      "at_floor": 140,
+      "median": 0.9802577135598729,
+      "q1": 0.9515851449275362,
+      "q3": 0.9940942039106514
+    },
+    {
+      "base": 0.001,
+      "loss": 10.0,
+      "usable": 64,
+      "infeasible": 0,
+      "at_floor": 106,
+      "median": 0.07357038214188166,
+      "q1": 0.025450076179325036,
+      "q3": 0.3524018690429782
+    },
+    {
+      "base": 0.001,
+      "loss": 100.0,
+      "usable": 64,
+      "infeasible": 0,
+      "at_floor": 106,
+      "median": 0.691647695545724,
+      "q1": 0.1418791037194514,
+      "q3": 0.8435266804062275
+    },
+    {
+      "base": 0.001,
+      "loss": 1000.0,
+      "usable": 40,
+      "infeasible": 24,
+      "at_floor": 106,
+      "median": 0.9735023041474654,
+      "q1": 0.9241477372684507,
+      "q3": 0.9959835778705074
+    },
+    {
+      "base": 0.001,
+      "loss": 10000.0,
+      "usable": 0,
+      "infeasible": 64,
+      "at_floor": 106,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    {
+      "base": 0.01,
+      "loss": 10.0,
+      "usable": 117,
+      "infeasible": 0,
+      "at_floor": 53,
+      "median": 0.1026267562614539,
+      "q1": 0.0328219764537995,
+      "q3": 0.524125719344843
+    },
+    {
+      "base": 0.01,
+      "loss": 100.0,
+      "usable": 69,
+      "infeasible": 48,
+      "at_floor": 53,
+      "median": 0.9474648747709224,
+      "q1": 0.836405529953917,
+      "q3": 0.9920106524633822
+    },
+    {
+      "base": 0.01,
+      "loss": 1000.0,
+      "usable": 0,
+      "infeasible": 117,
+      "at_floor": 53,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    {
+      "base": 0.01,
+      "loss": 10000.0,
+      "usable": 0,
+      "infeasible": 117,
+      "at_floor": 53,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    {
+      "base": 0.35,
+      "loss": 10.0,
+      "usable": 0,
+      "infeasible": 170,
+      "at_floor": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    {
+      "base": 0.35,
+      "loss": 100.0,
+      "usable": 0,
+      "infeasible": 170,
+      "at_floor": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    {
+      "base": 0.35,
+      "loss": 1000.0,
+      "usable": 0,
+      "infeasible": 170,
+      "at_floor": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    {
+      "base": 0.35,
+      "loss": 10000.0,
+      "usable": 0,
+      "infeasible": 170,
+      "at_floor": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    }
+  ],
+  "thresholds": [
+    {
+      "base": 0.0001,
+      "max_loss": 10000.0
+    },
+    {
+      "base": 0.001,
+      "max_loss": 1000.0
+    },
+    {
+      "base": 0.01,
+      "max_loss": 100.0
+    },
+    {
+      "base": 0.35,
+      "max_loss": 2.857142857142857
+    }
+  ],
+  "powerlaw_pred": 2.056003356400234
+}

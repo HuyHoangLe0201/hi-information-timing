@@ -1,0 +1,300 @@
+{
+ "PRONOSTIA": {
+  "rows": [
+   {
+    "measure": "spectral entropy",
+    "kind": "distribution",
+    "units": 16,
+    "budget": 1473708.7076334576,
+    "tau": 0.3460058562955177
+   },
+   {
+    "measure": "spectral centroid",
+    "kind": "distribution",
+    "units": 16,
+    "budget": 3350685.7504330655,
+    "tau": 0.5314046724714294
+   },
+   {
+    "measure": "spectral spread",
+    "kind": "distribution",
+    "units": 16,
+    "budget": 2549812.831425297,
+    "tau": 0.15111514667125303
+   },
+   {
+    "measure": "spectral Gini",
+    "kind": "distribution",
+    "units": 16,
+    "budget": 1377763.1596991546,
+    "tau": 0.28812128935720077
+   },
+   {
+    "measure": "top-8-band share",
+    "kind": "distribution",
+    "units": 16,
+    "budget": 1301869.790067182,
+    "tau": 0.359016450175912
+   },
+   {
+    "measure": "high/low band ratio",
+    "kind": "distribution",
+    "units": 16,
+    "budget": 3634792.682505949,
+    "tau": 0.31175729259179646
+   },
+   {
+    "measure": "total power",
+    "kind": "amount",
+    "units": 16,
+    "budget": 59901758.48595628,
+    "tau": 0.9707323147967933
+   },
+   {
+    "measure": "peak band power",
+    "kind": "amount",
+    "units": 16,
+    "budget": 32929845.429573815,
+    "tau": 0.9717919063824774
+   },
+   {
+    "measure": "high-band power",
+    "kind": "amount",
+    "units": 16,
+    "budget": 41851624.09329296,
+    "tau": 0.9632245881314376
+   },
+   {
+    "measure": "log total power",
+    "kind": "amount",
+    "units": 16,
+    "budget": 7865882.837019596,
+    "tau": 0.9685034324942792
+   }
+  ],
+  "spearman_tau_budget": 0.7212121212121211,
+  "p": 0.018573155089460204,
+  "budget_span": 46.012096557571326,
+  "family_budget": {
+   "distribution": 2011760.7695293773,
+   "amount": 37390734.761433385
+  },
+  "budget_ratio": 18.586074113663333,
+  "relative_gap": 0.6407362992018792,
+  "base": 3492739.216469507,
+  "absolute_sweep": [
+   {
+    "mult": 0.05,
+    "L": 174636.96082347538,
+    "distribution": 0.082029711672542,
+    "amount": 0.08183681531749479,
+    "gap": -0.0001928963550472118,
+    "censored": 1,
+    "total": 160
+   },
+   {
+    "mult": 0.1,
+    "L": 349273.92164695077,
+    "distribution": 0.12479030608201605,
+    "amount": 0.14250289836969232,
+    "gap": 0.01771259228767627,
+    "censored": 6,
+    "total": 160
+   },
+   {
+    "mult": 0.2,
+    "L": 698547.8432939015,
+    "distribution": 0.49039721217991333,
+    "amount": 0.3245742707028004,
+    "gap": -0.1658229414771129,
+    "censored": 16,
+    "total": 160
+   },
+   {
+    "mult": 0.35,
+    "L": 1222458.7257643274,
+    "distribution": 0.8178710946262766,
+    "amount": 0.49761936208148977,
+    "gap": -0.32025173254478684,
+    "censored": 34,
+    "total": 160
+   },
+   {
+    "mult": 0.5,
+    "L": 1746369.6082347536,
+    "distribution": 0.8930335337427258,
+    "amount": 0.9426332602888352,
+    "gap": 0.049599726546109446,
+    "censored": 51,
+    "total": 160
+   },
+   {
+    "mult": 1.0,
+    "L": 3492739.216469507,
+    "distribution": 1.0,
+    "amount": 0.959655717975228,
+    "gap": -0.04034428202477203,
+    "censored": 73,
+    "total": 160
+   },
+   {
+    "mult": 2.0,
+    "L": 6985478.432939014,
+    "distribution": 1.0,
+    "amount": 0.9665786806568075,
+    "gap": -0.03342131934319248,
+    "censored": 103,
+    "total": 160
+   }
+  ]
+ },
+ "XJTU": {
+  "rows": [
+   {
+    "measure": "spectral entropy",
+    "kind": "distribution",
+    "units": 13,
+    "budget": 1404944.9478579378,
+    "tau": 0.6613861386138614
+   },
+   {
+    "measure": "spectral centroid",
+    "kind": "distribution",
+    "units": 13,
+    "budget": 1181132.5154790538,
+    "tau": 0.5093167701863354
+   },
+   {
+    "measure": "spectral spread",
+    "kind": "distribution",
+    "units": 13,
+    "budget": 1159778.7283591633,
+    "tau": 0.4631268436578171
+   },
+   {
+    "measure": "spectral Gini",
+    "kind": "distribution",
+    "units": 13,
+    "budget": 1478663.8368352663,
+    "tau": 0.5660377358490566
+   },
+   {
+    "measure": "top-8-band share",
+    "kind": "distribution",
+    "units": 13,
+    "budget": 1402490.717907051,
+    "tau": 0.4906832298136646
+   },
+   {
+    "measure": "high/low band ratio",
+    "kind": "distribution",
+    "units": 13,
+    "budget": 1083963.7089448872,
+    "tau": 0.6016260162601627
+   },
+   {
+    "measure": "total power",
+    "kind": "amount",
+    "units": 13,
+    "budget": 4802575.203804819,
+    "tau": 0.906832298136646
+   },
+   {
+    "measure": "peak band power",
+    "kind": "amount",
+    "units": 13,
+    "budget": 5310267.421943217,
+    "tau": 0.9002695417789758
+   },
+   {
+    "measure": "high-band power",
+    "kind": "amount",
+    "units": 13,
+    "budget": 4901404.448246237,
+    "tau": 0.6075949367088608
+   },
+   {
+    "measure": "log total power",
+    "kind": "amount",
+    "units": 13,
+    "budget": 4424243.49978575,
+    "tau": 0.8859649122807017
+   }
+  ],
+  "spearman_tau_budget": 0.7333333333333332,
+  "p": 0.01580059625057158,
+  "budget_span": 4.898934695066632,
+  "family_budget": {
+   "distribution": 1291811.6166930525,
+   "amount": 4851989.826025528
+  },
+  "budget_ratio": 3.755957728918929,
+  "relative_gap": 0.3554399740121428,
+  "base": 1441804.392346602,
+  "absolute_sweep": [
+   {
+    "mult": 0.05,
+    "L": 72090.2196173301,
+    "distribution": 0.024844720496894408,
+    "amount": 0.044756842680443096,
+    "gap": 0.019912122183548688,
+    "censored": 0,
+    "total": 130
+   },
+   {
+    "mult": 0.1,
+    "L": 144180.4392346602,
+    "distribution": 0.10421545667447307,
+    "amount": 0.0934959349593496,
+    "gap": -0.01071952171512347,
+    "censored": 0,
+    "total": 130
+   },
+   {
+    "mult": 0.2,
+    "L": 288360.8784693204,
+    "distribution": 0.4085545722713865,
+    "amount": 0.35093167701863354,
+    "gap": -0.05762289525275294,
+    "censored": 0,
+    "total": 130
+   },
+   {
+    "mult": 0.35,
+    "L": 504631.53732131066,
+    "distribution": 0.5516224188790559,
+    "amount": 0.42971145530308985,
+    "gap": -0.12191096357596609,
+    "censored": 4,
+    "total": 130
+   },
+   {
+    "mult": 0.5,
+    "L": 720902.196173301,
+    "distribution": 0.6750130276185513,
+    "amount": 0.4889535340828681,
+    "gap": -0.18605949353568318,
+    "censored": 15,
+    "total": 130
+   },
+   {
+    "mult": 1.0,
+    "L": 1441804.392346602,
+    "distribution": 1.0,
+    "amount": 0.917140924345067,
+    "gap": -0.082859075654933,
+    "censored": 52,
+    "total": 130
+   },
+   {
+    "mult": 2.0,
+    "L": 2883608.784693204,
+    "distribution": 1.0,
+    "amount": 0.9379140993580655,
+    "gap": -0.06208590064193453,
+    "censored": 67,
+    "total": 130
+   }
+  ]
+ }
+}

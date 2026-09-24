@@ -1,0 +1,90 @@
+{
+  "PRONOSTIA": [
+    {
+      "measure": "h/v total power ratio",
+      "kind": "spatial",
+      "tau": 0.13499767464074375,
+      "signal": 0.9938460092641817,
+      "units": 16
+    },
+    {
+      "measure": "h/v high-band ratio",
+      "kind": "spatial",
+      "tau": 0.49986991366067346,
+      "signal": 0.9808710608112831,
+      "units": 16
+    },
+    {
+      "measure": "combined power",
+      "kind": "amount",
+      "tau": 0.9700128573084521,
+      "signal": 0.994631467784393,
+      "units": 16
+    },
+    {
+      "measure": "combined high-band power",
+      "kind": "amount",
+      "tau": 0.9637986409442965,
+      "signal": 0.9892352335779911,
+      "units": 16
+    },
+    {
+      "measure": "spectral entropy (h+v)",
+      "kind": "spectral",
+      "tau": 0.4432695802682821,
+      "signal": 0.9886261786372224,
+      "units": 16
+    },
+    {
+      "measure": "spectral spread (h+v)",
+      "kind": "spectral",
+      "tau": 0.3010958203783496,
+      "signal": 0.9935534732188869,
+      "units": 16
+    }
+  ],
+  "XJTU": [
+    {
+      "measure": "h/v total power ratio",
+      "kind": "spatial",
+      "tau": 0.7699115044247787,
+      "signal": 0.9833033857329524,
+      "units": 13
+    },
+    {
+      "measure": "h/v high-band ratio",
+      "kind": "spatial",
+      "tau": 0.1788778877887789,
+      "signal": 0.9947958942205639,
+      "units": 13
+    },
+    {
+      "measure": "combined power",
+      "kind": "amount",
+      "tau": 0.9557755775577558,
+      "signal": 0.9930549786635293,
+      "units": 13
+    },
+    {
+      "measure": "combined high-band power",
+      "kind": "amount",
+      "tau": 0.6835443037974683,
+      "signal": 0.9841748898860724,
+      "units": 13
+    },
+    {
+      "measure": "spectral entropy (h+v)",
+      "kind": "spectral",
+      "tau": 0.691089108910891,
+      "signal": 0.9837386949873004,
+      "units": 13
+    },
+    {
+      "measure": "spectral spread (h+v)",
+      "kind": "spectral",
+      "tau": 0.47468354430379744,
+      "signal": 0.9828808956599756,
+      "units": 13
+    }
+  ]
+}

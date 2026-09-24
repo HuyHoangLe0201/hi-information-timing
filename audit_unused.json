@@ -1,0 +1,2913 @@
+{
+  "files": 107,
+  "unread_total": 1042,
+  "detail": [
+    {
+      "file": "attrition.json",
+      "keys": 16,
+      "read": 16,
+      "unread": []
+    },
+    {
+      "file": "audit_directions.json",
+      "keys": 12,
+      "read": 3,
+      "unread": [
+        "eta_down",
+        "eta_up",
+        "etasign_bad",
+        "etasign_pairs",
+        "results/claim",
+        "results/detail",
+        "results/verdict",
+        "results/where",
+        "rob_margins"
+      ]
+    },
+    {
+      "file": "audit_unused.json",
+      "keys": 12,
+      "read": 4,
+      "unread": [
+        "files",
+        "sibling_groups",
+        "sibling_quantities",
+        "siblings/file",
+        "siblings/parent",
+        "siblings/read",
+        "siblings/unread",
+        "unread_total"
+      ]
+    },
+    {
+      "file": "autocorrelation.json",
+      "keys": 45,
+      "read": 30,
+      "unread": [
+        "ar1/exact",
+        "ar1/phi",
+        "ar1/predicted",
+        "ar1/rel_err",
+        "ar1_scaling/n",
+        "ar1_scaling/phi",
+        "ar1_scaling/ratio",
+        "ar1_scaling/rel_err",
+        "drift/drift",
+        "drift/kind",
+        "drift/measure",
+        "drift/phi_early",
+        "drift/phi_late",
+        "drift/records",
+        "family_ell_ratio"
+      ]
+    },
+    {
+      "file": "bandwidth_optimum.json",
+      "keys": 15,
+      "read": 11,
+      "unread": [
+        "best_ratio",
+        "ratio_at_8",
+        "ratio_max",
+        "ratio_min"
+      ]
+    },
+    {
+      "file": "bandwidth_sweep.json",
+      "keys": 12,
+      "read": 8,
+      "unread": [
+        "gap_max",
+        "local_bw",
+        "qstar",
+        "trend_bw"
+      ]
+    },
+    {
+      "file": "battery_diagnosis.json",
+      "keys": 11,
+      "read": 10,
+      "unread": [
+        "tail_median_robust"
+      ]
+    },
+    {
+      "file": "bayesian_floor.json",
+      "keys": 30,
+      "read": 26,
+      "unread": [
+        "crossover",
+        "cv_working",
+        "map_over_bayes_max",
+        "map_over_bayes_min"
+      ]
+    },
+    {
+      "file": "causal_check.json",
+      "keys": 28,
+      "read": 18,
+      "unread": [
+        "per_measure/PRONOSTIA/causal",
+        "per_measure/PRONOSTIA/causal_record_floor",
+        "per_measure/PRONOSTIA/centred",
+        "per_measure/PRONOSTIA/kind",
+        "per_measure/PRONOSTIA/measure",
+        "per_measure/XJTU/causal",
+        "per_measure/XJTU/causal_record_floor",
+        "per_measure/XJTU/centred",
+        "per_measure/XJTU/kind",
+        "per_measure/XJTU/measure"
+      ]
+    },
+    {
+      "file": "censoring_serial.json",
+      "keys": 22,
+      "read": 11,
+      "unread": [
+        "drift/channel",
+        "drift/drift",
+        "drift/phi_early",
+        "drift/phi_late",
+        "worst_cell/channel",
+        "worst_cell/cut",
+        "worst_cell/err",
+        "worst_cell/eta_corr",
+        "worst_cell/eta_raw",
+        "worst_cell/ratio",
+        "worst_cell/records"
+      ]
+    },
+    {
+      "file": "censoring_validate.json",
+      "keys": 11,
+      "read": 9,
+      "unread": [
+        "levels",
+        "reps"
+      ]
+    },
+    {
+      "file": "certificate_resolution.json",
+      "keys": 24,
+      "read": 8,
+      "unread": [
+        "decimation/k",
+        "decimation/length",
+        "decimation/phases",
+        "decimation/records",
+        "decimation/spread",
+        "long_records",
+        "median_z_resolved",
+        "n_certified_undecidable",
+        "records/margin",
+        "records/n",
+        "records/spread",
+        "records/tolerated",
+        "records/unit",
+        "records/verdict",
+        "records/worst",
+        "records/z"
+      ]
+    },
+    {
+      "file": "channel_corr.json",
+      "keys": 14,
+      "read": 7,
+      "unread": [
+        "channels/channel",
+        "channels/increment",
+        "channels/kept",
+        "channels/own",
+        "kept_max",
+        "kept_median",
+        "kept_min"
+      ]
+    },
+    {
+      "file": "check_singular.json",
+      "keys": 28,
+      "read": 15,
+      "unread": [
+        "bands",
+        "dependent",
+        "max_sd_of_band_sum",
+        "sets/K",
+        "sets/cond",
+        "sets/feasible",
+        "sets/set",
+        "sets/tau",
+        "sets/units",
+        "ten_vs_nine/diff",
+        "ten_vs_nine/nine",
+        "ten_vs_nine/ten",
+        "ten_vs_nine/units"
+      ]
+    },
+    {
+      "file": "clock_band.json",
+      "keys": 9,
+      "read": 9,
+      "unread": []
+    },
+    {
+      "file": "clock_scale.json",
+      "keys": 45,
+      "read": 42,
+      "unread": [
+        "q",
+        "reps",
+        "seed"
+      ]
+    },
+    {
+      "file": "contrast_identity.json",
+      "keys": 18,
+      "read": 11,
+      "unread": [
+        "contrast_max",
+        "margin_min",
+        "per_bearing/margin",
+        "per_bearing/survives",
+        "per_bearing/tolerated",
+        "per_bearing/unit",
+        "per_bearing/worst_contrast"
+      ]
+    },
+    {
+      "file": "crb_full.json",
+      "keys": 28,
+      "read": 28,
+      "unread": []
+    },
+    {
+      "file": "crb_results.json",
+      "keys": 240,
+      "read": 240,
+      "unread": []
+    },
+    {
+      "file": "criteria_resolution.json",
+      "keys": 9,
+      "read": 9,
+      "unread": []
+    },
+    {
+      "file": "decision_value.json",
+      "keys": 19,
+      "read": 7,
+      "unread": [
+        "grid/cost",
+        "grid/ratio",
+        "grid/sigma",
+        "grid/u",
+        "ratios",
+        "sigma_oracle",
+        "sigma_ridge",
+        "sigmas",
+        "value/fraction",
+        "value/ratio",
+        "value/saved",
+        "value/sigma"
+      ]
+    },
+    {
+      "file": "delay_measured.json",
+      "keys": 12,
+      "read": 9,
+      "unread": [
+        "powerlaw_pred",
+        "thresholds/base",
+        "thresholds/max_loss"
+      ]
+    },
+    {
+      "file": "derivative_bias.json",
+      "keys": 52,
+      "read": 20,
+      "unread": [
+        "eta/channel",
+        "eta/cut",
+        "eta/eta_corr",
+        "eta/eta_raw",
+        "eta/ratio",
+        "eta/records",
+        "formula_check/formula",
+        "formula_check/gap",
+        "formula_check/measured",
+        "formula_check/trend",
+        "q4_worst",
+        "real/channel",
+        "real/kind",
+        "real/quarters",
+        "real/records",
+        "real_last_quarter",
+        "real_mid_all_negative",
+        "real_q4_all_positive",
+        "real_worst",
+        "sweep/at12",
+        "sweep/at5",
+        "sweep/at8",
+        "sweep/n",
+        "sweep/spread",
+        "sweep/trend",
+        "window_shift_worst",
+        "window_worst_case/channel",
+        "window_worst_case/d",
+        "window_worst_case/tau0",
+        "window_worst_case/unit",
+        "window_worst_case/w_corr",
+        "window_worst_case/w_raw"
+      ]
+    },
+    {
+      "file": "distribution_both.json",
+      "keys": 14,
+      "read": 14,
+      "unread": []
+    },
+    {
+      "file": "endtoend_real.json",
+      "keys": 33,
+      "read": 32,
+      "unread": [
+        "saturation_spread"
+      ]
+    },
+    {
+      "file": "epsilon_certificate.json",
+      "keys": 24,
+      "read": 10,
+      "unread": [
+        "closed_form/closed",
+        "closed_form/eps",
+        "closed_form/err",
+        "closed_form/eta",
+        "closed_form/exact",
+        "eps_max_of_corrections",
+        "extremal/best",
+        "extremal/density",
+        "extremal/eps",
+        "extremal/eta",
+        "extremal/ratio",
+        "extremal/step",
+        "max_excess",
+        "worst_search_over_step"
+      ]
+    },
+    {
+      "file": "estimated_correction.json",
+      "keys": 28,
+      "read": 11,
+      "unread": [
+        "bias/bias",
+        "bias/cA",
+        "bias/cB",
+        "bias/n",
+        "bias/pred",
+        "bias/ratio",
+        "bias_ratio_median",
+        "noise/base",
+        "noise/ell",
+        "noise/n",
+        "noise/pred",
+        "noise/ratio",
+        "noise/s",
+        "noise/sd",
+        "pred_ratio_median",
+        "worst_correction",
+        "worst_diff"
+      ]
+    },
+    {
+      "file": "eta_monotone.json",
+      "keys": 13,
+      "read": 8,
+      "unread": [
+        "amount_added_median",
+        "amount_added_worst",
+        "distrib_added_best",
+        "distrib_added_median",
+        "signs_as_predicted"
+      ]
+    },
+    {
+      "file": "eta_standard_error.json",
+      "keys": 31,
+      "read": 19,
+      "unread": [
+        "boot_ratio_max",
+        "n_records",
+        "ratio_max",
+        "ratio_min",
+        "se_max",
+        "se_min",
+        "validation/boot",
+        "validation/law",
+        "validation/n",
+        "validation/pred",
+        "validation/ratio",
+        "validation/truth"
+      ]
+    },
+    {
+      "file": "exponent_measure.json",
+      "keys": 15,
+      "read": 5,
+      "unread": [
+        "beta_q1",
+        "beta_q3",
+        "channels/beta",
+        "channels/channel",
+        "channels/q1",
+        "channels/q3",
+        "channels/r",
+        "channels/spread",
+        "channels/units",
+        "delay_range"
+      ]
+    },
+    {
+      "file": "feasibility.json",
+      "keys": 7,
+      "read": 1,
+      "unread": [
+        "G",
+        "age",
+        "edge_hits",
+        "noise",
+        "oracle",
+        "predicted"
+      ]
+    },
+    {
+      "file": "figdistort.json",
+      "keys": 17,
+      "read": 7,
+      "unread": [
+        "extreme_share_of_budget",
+        "extreme_share_of_samples",
+        "n_bearings",
+        "n_survive",
+        "overcharge_median",
+        "panel_a/M",
+        "panel_a/channel",
+        "panel_a/contrast",
+        "panel_a/unit",
+        "panel_a_levels"
+      ]
+    },
+    {
+      "file": "figflow.json",
+      "keys": 8,
+      "read": 8,
+      "unread": []
+    },
+    {
+      "file": "figmodel.json",
+      "keys": 20,
+      "read": 9,
+      "unread": [
+        "displacement_early",
+        "displacement_late",
+        "displacement_tau",
+        "drawn_channel",
+        "drawn_scale_span",
+        "drawn_scale_unit",
+        "drawn_units",
+        "schematic_peak",
+        "schematic_rise",
+        "shift_median",
+        "span_median"
+      ]
+    },
+    {
+      "file": "fisher_nongaussian.json",
+      "keys": 35,
+      "read": 18,
+      "unread": [
+        "decomposition/domain",
+        "decomposition/inefficiency",
+        "decomposition/kappa2",
+        "decomposition/overstatement",
+        "decomposition/records",
+        "simulation/floor_2nd",
+        "simulation/floor_rob",
+        "simulation/floor_true",
+        "simulation/huber",
+        "simulation/ls",
+        "simulation/nu",
+        "simulation/tml",
+        "student_t/I_f",
+        "student_t/I_rob2",
+        "student_t/I_var",
+        "student_t/kappa2",
+        "student_t/nu"
+      ]
+    },
+    {
+      "file": "fleet_identifiability.json",
+      "keys": 10,
+      "read": 5,
+      "unread": [
+        "eff_at_32",
+        "growth/N",
+        "growth/efficiency",
+        "growth/floor",
+        "growth/sd"
+      ]
+    },
+    {
+      "file": "floor_calibration.json",
+      "keys": 17,
+      "read": 9,
+      "unread": [
+        "cal_excess_min",
+        "calibration/est",
+        "calibration/excess",
+        "calibration/profile",
+        "calibration/snr",
+        "calibration/true",
+        "null_worst_p90",
+        "reps"
+      ]
+    },
+    {
+      "file": "floor_constant.json",
+      "keys": 12,
+      "read": 7,
+      "unread": [
+        "gap_to_closed",
+        "pipeline_median_floor",
+        "quadrature",
+        "rows/case",
+        "rows/value"
+      ]
+    },
+    {
+      "file": "floor_serial.json",
+      "keys": 36,
+      "read": 4,
+      "unread": [
+        "decomposition/dt_rms",
+        "decomposition/implied",
+        "decomposition/phi",
+        "decomposition/sl",
+        "dt_growth",
+        "eta/channel",
+        "eta/cut",
+        "eta/eta_flat",
+        "eta/eta_phi",
+        "eta/ratio",
+        "eta/records",
+        "eta_cells",
+        "eta_down",
+        "eta_err_median",
+        "eta_err_worst",
+        "eta_ratio_span",
+        "floor_share",
+        "floor_share_q1",
+        "gap_flat",
+        "gap_phi",
+        "level_direction",
+        "ratio_at_0",
+        "ratio_at_max",
+        "sl_shrink",
+        "surrogate_spread",
+        "tilt",
+        "tilt_iqr",
+        "tilt_q1_level",
+        "tilt_q4_level",
+        "tilt_se",
+        "window_shift_median",
+        "window_shift_p95"
+      ]
+    },
+    {
+      "file": "frozen_split.json",
+      "keys": 59,
+      "read": 52,
+      "unread": [
+        "boot",
+        "grid/bws",
+        "grid/default",
+        "grid/fracs",
+        "grid/qs",
+        "seed",
+        "splits"
+      ]
+    },
+    {
+      "file": "fusion_null.json",
+      "keys": 9,
+      "read": 9,
+      "unread": []
+    },
+    {
+      "file": "fusion_ranksafe.json",
+      "keys": 19,
+      "read": 15,
+      "unread": [
+        "cond_max",
+        "monotone_published/pass_",
+        "monotone_published/tests",
+        "units"
+      ]
+    },
+    {
+      "file": "gap_standard_error.json",
+      "keys": 24,
+      "read": 11,
+      "unread": [
+        "pairs/median",
+        "pairs/n",
+        "pairs/pair",
+        "rows/gap",
+        "rows/se_a",
+        "rows/se_d",
+        "rows/tau_a",
+        "rows/tau_d",
+        "rows/unit",
+        "var_real",
+        "var_total",
+        "var_within",
+        "within_excluding_degenerate"
+      ]
+    },
+    {
+      "file": "hier_bootstrap.json",
+      "keys": 16,
+      "read": 14,
+      "unread": [
+        "boot",
+        "seed"
+      ]
+    },
+    {
+      "file": "identifiable_part.json",
+      "keys": 20,
+      "read": 8,
+      "unread": [
+        "ages/age_raw",
+        "ages/age_surv",
+        "ages/channel",
+        "ages/family",
+        "ages/records",
+        "ages/shift",
+        "channels/channel",
+        "channels/family",
+        "channels/kappa",
+        "channels/overstatement",
+        "channels/records",
+        "gap_change"
+      ]
+    },
+    {
+      "file": "leave_one_measure.json",
+      "keys": 9,
+      "read": 5,
+      "unread": [
+        "deletions/PRONOSTIA",
+        "deletions/XJTU",
+        "deletions/dropped",
+        "deletions/family"
+      ]
+    },
+    {
+      "file": "length_screen.json",
+      "keys": 22,
+      "read": 4,
+      "unread": [
+        "decimation/cells",
+        "decimation/distortion",
+        "decimation/drift",
+        "decimation/k",
+        "decimation/length",
+        "decimation/spread",
+        "derived_screen",
+        "effective_bandwidth/frac",
+        "effective_bandwidth/n",
+        "effective_bandwidth/w",
+        "length_for_half/derivative",
+        "length_for_half/serial",
+        "length_for_half/tail",
+        "length_for_quarter/derivative",
+        "length_for_quarter/serial",
+        "length_for_quarter/tail",
+        "long_records",
+        "typical_log_contrast"
+      ]
+    },
+    {
+      "file": "linear_transfer_paired.json",
+      "keys": 23,
+      "read": 8,
+      "unread": [
+        "disagreeing/gap_own",
+        "disagreeing/gap_tr",
+        "disagreeing/m",
+        "disagreeing/unit",
+        "n",
+        "per_unit/censored",
+        "per_unit/gap_own",
+        "per_unit/gap_tr",
+        "per_unit/m",
+        "per_unit/own",
+        "per_unit/shape",
+        "per_unit/tr",
+        "per_unit/unit",
+        "transfer_earlier_units",
+        "transfer_finite"
+      ]
+    },
+    {
+      "file": "linear_vs_shape.json",
+      "keys": 28,
+      "read": 11,
+      "unread": [
+        "bearings",
+        "dropped_short",
+        "per_unit/K",
+        "per_unit/amount/high-band power",
+        "per_unit/amount/peak band power",
+        "per_unit/amount/total power",
+        "per_unit/best_amount",
+        "per_unit/best_shape",
+        "per_unit/lin_anchored",
+        "per_unit/lin_own",
+        "per_unit/lin_tr",
+        "per_unit/m",
+        "per_unit/shape/high/low ratio",
+        "per_unit/shape/spectral centroid",
+        "per_unit/shape/spectral entropy",
+        "per_unit/shape/spectral spread",
+        "per_unit/unit"
+      ]
+    },
+    {
+      "file": "linearisation_radius.json",
+      "keys": 30,
+      "read": 24,
+      "unread": [
+        "at_zero",
+        "per_unit/C",
+        "per_unit/G",
+        "per_unit/n",
+        "per_unit/radius",
+        "per_unit/unit"
+      ]
+    },
+    {
+      "file": "mechanism_test.json",
+      "keys": 24,
+      "read": 10,
+      "unread": [
+        "clean_amount",
+        "clean_distribution",
+        "clean_ratio",
+        "onset_amount",
+        "onset_gap",
+        "paired_clean_p",
+        "paired_clean_p_signed_rank",
+        "paired_onset_n",
+        "paired_onset_p",
+        "rows/channel",
+        "rows/clean",
+        "rows/family",
+        "rows/onset",
+        "rows/records"
+      ]
+    },
+    {
+      "file": "mechanism_turbofan.json",
+      "keys": 12,
+      "read": 11,
+      "unread": [
+        "ref_age"
+      ]
+    },
+    {
+      "file": "monotone_distortion.json",
+      "keys": 24,
+      "read": 9,
+      "unread": [
+        "real/distortion",
+        "real/falling",
+        "real/observed",
+        "real/share",
+        "trials",
+        "w_example_down/after",
+        "w_example_down/before",
+        "w_example_down/delta",
+        "w_example_down/density",
+        "w_example_down/tau0",
+        "w_example_up/after",
+        "w_example_up/before",
+        "w_example_up/delta",
+        "w_example_up/density",
+        "w_example_up/tau0"
+      ]
+    },
+    {
+      "file": "multivariate_attained.json",
+      "keys": 15,
+      "read": 12,
+      "unread": [
+        "reps",
+        "vs_built_max",
+        "vs_built_min"
+      ]
+    },
+    {
+      "file": "nonparam_validate.json",
+      "keys": 18,
+      "read": 3,
+      "unread": [
+        "beta/0.1",
+        "beta/0.25",
+        "beta/0.5",
+        "beta/0.75",
+        "beta/0.9",
+        "nonparam/0.1",
+        "nonparam/0.25",
+        "nonparam/0.5",
+        "nonparam/0.75",
+        "nonparam/0.9",
+        "truth/0.1",
+        "truth/0.25",
+        "truth/0.5",
+        "truth/0.75",
+        "truth/0.9"
+      ]
+    },
+    {
+      "file": "nonparametric_nuisance.json",
+      "keys": 23,
+      "read": 6,
+      "unread": [
+        "bandwidth/frac",
+        "bandwidth/retained",
+        "bandwidth/slope",
+        "bandwidth/vs_prop10",
+        "bandwidth_gain",
+        "compare/beta",
+        "compare/info_in",
+        "compare/info_oof",
+        "compare/info_true",
+        "compare/n",
+        "compare/retained",
+        "compare/sd_oof",
+        "compare/sd_true",
+        "compare/slope_oof",
+        "compare/slope_true",
+        "retained_at_08",
+        "retained_at_90"
+      ]
+    },
+    {
+      "file": "nuisance_achievable.json",
+      "keys": 17,
+      "read": 12,
+      "unread": [
+        "betas",
+        "n",
+        "nuisance_error_factor",
+        "reps",
+        "snrs"
+      ]
+    },
+    {
+      "file": "odds_bound.json",
+      "keys": 23,
+      "read": 5,
+      "unread": [
+        "age_width_max",
+        "age_width_min",
+        "age_width_monotone",
+        "age_width_ratio",
+        "ages/M",
+        "ages/g_at",
+        "ages/hi",
+        "ages/in_middle",
+        "ages/lo",
+        "ages/mass",
+        "ages/tau",
+        "ages/width",
+        "ages/width_times_g",
+        "sharpness/M",
+        "sharpness/density",
+        "sharpness/gap",
+        "sharpness/ratio",
+        "sharpness/target"
+      ]
+    },
+    {
+      "file": "oof_attrition.json",
+      "keys": 8,
+      "read": 2,
+      "unread": [
+        "bearings",
+        "kept",
+        "lost_max",
+        "lost_min",
+        "shortest",
+        "total"
+      ]
+    },
+    {
+      "file": "oof_control.json",
+      "keys": 113,
+      "read": 112,
+      "unread": [
+        "qstar"
+      ]
+    },
+    {
+      "file": "oof_cost.json",
+      "keys": 12,
+      "read": 7,
+      "unread": [
+        "cells",
+        "scale_ratio_q1",
+        "scale_ratio_q3",
+        "tau_shift_q1",
+        "tau_shift_q3"
+      ]
+    },
+    {
+      "file": "oof_leak.json",
+      "keys": 36,
+      "read": 32,
+      "unread": [
+        "leak/at_45",
+        "leak/at_zero",
+        "leak/change",
+        "leak/n"
+      ]
+    },
+    {
+      "file": "optimal_indicator.json",
+      "keys": 47,
+      "read": 19,
+      "unread": [
+        "best_anchor/anchor",
+        "best_anchor/earlier",
+        "best_anchor/feasible",
+        "best_anchor/gain",
+        "best_anchor/later",
+        "best_anchor/lost",
+        "best_anchor/paired",
+        "best_anchor/units",
+        "best_standard/indicator",
+        "best_standard/q1",
+        "best_standard/q3",
+        "best_standard/share",
+        "common_channels",
+        "per_unit/K",
+        "per_unit/erank",
+        "per_unit/lam",
+        "per_unit/share",
+        "per_unit/trace",
+        "per_unit/unit",
+        "tau_best_single",
+        "tau_own",
+        "transfer/best_single",
+        "transfer/cos",
+        "transfer/own",
+        "transfer/rms",
+        "transfer/transferred",
+        "transfer/unit",
+        "units"
+      ]
+    },
+    {
+      "file": "oracle_vs_model.json",
+      "keys": 5,
+      "read": 3,
+      "unread": [
+        "baseline",
+        "level"
+      ]
+    },
+    {
+      "file": "order_stability.json",
+      "keys": 13,
+      "read": 12,
+      "unread": [
+        "pair_rank"
+      ]
+    },
+    {
+      "file": "ordering_census.json",
+      "keys": 25,
+      "read": 9,
+      "unread": [
+        "PRONOSTIA_ordered",
+        "PRONOSTIA_total",
+        "PRONOSTIA_unusable",
+        "XJTU_SY_ordered",
+        "XJTU_SY_total",
+        "XJTU_SY_unusable",
+        "records/a",
+        "records/cls",
+        "records/d",
+        "records/margin",
+        "records/n",
+        "records/rig",
+        "records/unit",
+        "worst_reversal_margin",
+        "worst_reversal_samples",
+        "worst_reversal_unit"
+      ]
+    },
+    {
+      "file": "price_of_flexibility.json",
+      "keys": 12,
+      "read": 6,
+      "unread": [
+        "ladder/beta",
+        "ladder/dof",
+        "ladder/kappa",
+        "ladder/nuisance",
+        "ladder/vs_par",
+        "ladder_span"
+      ]
+    },
+    {
+      "file": "prior_radius.json",
+      "keys": 17,
+      "read": 9,
+      "unread": [
+        "G_bearings_median",
+        "G_turbofan",
+        "demands/G",
+        "demands/eps",
+        "demands/inside_oracle",
+        "demands/inside_practical",
+        "demands/post",
+        "prior_sd"
+      ]
+    },
+    {
+      "file": "qstar_sweep.json",
+      "keys": 11,
+      "read": 8,
+      "unread": [
+        "boot",
+        "min_n",
+        "qs"
+      ]
+    },
+    {
+      "file": "rank_guard4.json",
+      "keys": 12,
+      "read": 7,
+      "unread": [
+        "implied/m",
+        "implied/t11",
+        "implied/t15",
+        "implied/t30",
+        "paper_threshold"
+      ]
+    },
+    {
+      "file": "rank_guard_data.json",
+      "keys": 15,
+      "read": 7,
+      "unread": [
+        "sets/K",
+        "sets/cond",
+        "sets/even",
+        "sets/proj",
+        "sets/records",
+        "sets/set",
+        "sets/share",
+        "sets/w_min"
+      ]
+    },
+    {
+      "file": "ranking_margin.json",
+      "keys": 24,
+      "read": 14,
+      "unread": [
+        "largest_correction_M",
+        "rows/M",
+        "rows/age_a",
+        "rows/age_d",
+        "rows/gap",
+        "rows/unit",
+        "slack/certificate",
+        "slack/empirical",
+        "slack/slack",
+        "slack/unit"
+      ]
+    },
+    {
+      "file": "ratio_control.json",
+      "keys": 5,
+      "read": 2,
+      "unread": [
+        "kind",
+        "signal",
+        "units"
+      ]
+    },
+    {
+      "file": "record_lengths.json",
+      "keys": 28,
+      "read": 27,
+      "unread": [
+        "ratio_median_n"
+      ]
+    },
+    {
+      "file": "regime_normalise.json",
+      "keys": 12,
+      "read": 10,
+      "unread": [
+        "min_n",
+        "qstar"
+      ]
+    },
+    {
+      "file": "regime_sensitivity.json",
+      "keys": 16,
+      "read": 6,
+      "unread": [
+        "amps",
+        "grid/abs_err",
+        "grid/amp",
+        "grid/bias",
+        "grid/rate",
+        "grid/reps",
+        "n",
+        "rates",
+        "reps",
+        "tolerance"
+      ]
+    },
+    {
+      "file": "retention_null.json",
+      "keys": 8,
+      "read": 3,
+      "unread": [
+        "eff",
+        "eff_null",
+        "indicator",
+        "units",
+        "w"
+      ]
+    },
+    {
+      "file": "reversal_resolution.json",
+      "keys": 16,
+      "read": 8,
+      "unread": [
+        "long_records",
+        "reversals/margin",
+        "reversals/n",
+        "reversals/spread",
+        "reversals/unit",
+        "reversals/z",
+        "spread_at_150",
+        "spread_at_300"
+      ]
+    },
+    {
+      "file": "score_mechanism.json",
+      "keys": 12,
+      "read": 4,
+      "unread": [
+        "cos_a_entropy",
+        "cos_score_entropy",
+        "per_unit/bands",
+        "per_unit/cos_a_ent",
+        "per_unit/cos_a_score",
+        "per_unit/cos_score_ent",
+        "per_unit/unit",
+        "ref_age"
+      ]
+    },
+    {
+      "file": "se_formula_check.json",
+      "keys": 18,
+      "read": 1,
+      "unread": [
+        "boot",
+        "checked/blocks",
+        "checked/boot",
+        "checked/formula",
+        "checked/kind",
+        "checked/measure",
+        "checked/ratio",
+        "checked/tau",
+        "checked/unit",
+        "min_blocks",
+        "ratio_median",
+        "ratio_min",
+        "unreachable/blocks",
+        "unreachable/kind",
+        "unreachable/measure",
+        "unreachable/tau",
+        "unreachable/unit"
+      ]
+    },
+    {
+      "file": "se_scaling.json",
+      "keys": 20,
+      "read": 4,
+      "unread": [
+        "boot",
+        "cases",
+        "cells/g",
+        "cells/measure",
+        "cells/prod",
+        "cells/q",
+        "cells/se",
+        "cells/tau",
+        "cells/unit",
+        "qs",
+        "summary/measure",
+        "summary/n",
+        "summary/prod_ratio",
+        "summary/se_ratio",
+        "summary/tighter",
+        "summary/unit"
+      ]
+    },
+    {
+      "file": "sensitivity_theory.json",
+      "keys": 41,
+      "read": 28,
+      "unread": [
+        "checks/density",
+        "checks/eps",
+        "checks/eta_obs",
+        "checks/eta_pred",
+        "checks/shape",
+        "checks/tau_obs",
+        "checks/tau_pred",
+        "checks/w_obs",
+        "checks/w_pred",
+        "eps_scaling_median",
+        "eta_corr_median",
+        "w_corr_median",
+        "worst_error_at_smallest_eps"
+      ]
+    },
+    {
+      "file": "shape_drift.json",
+      "keys": 34,
+      "read": 1,
+      "unread": [
+        "ineff_drift_amount",
+        "ineff_drift_distribution",
+        "ineff_drift_median",
+        "ineff_share_of_drift",
+        "inefficiency/channel",
+        "inefficiency/drift",
+        "inefficiency/kind",
+        "inefficiency/records",
+        "inefficiency/windows",
+        "kappa2/channel",
+        "kappa2/drift",
+        "kappa2/kind",
+        "kappa2/windows",
+        "kappa2_drift_median",
+        "over_drift_amount",
+        "over_drift_distribution",
+        "over_drift_max",
+        "over_drift_median",
+        "over_drift_min",
+        "over_hi",
+        "over_lo",
+        "overstatement/channel",
+        "overstatement/drift",
+        "overstatement/kind",
+        "overstatement/records",
+        "overstatement/windows",
+        "reproduce_error",
+        "rms_inefficiency",
+        "rms_n",
+        "rms_overstatement",
+        "whole_inefficiency",
+        "whole_n",
+        "whole_overstatement"
+      ]
+    },
+    {
+      "file": "shape_vs_level.json",
+      "keys": 5,
+      "read": 4,
+      "unread": [
+        "units"
+      ]
+    },
+    {
+      "file": "shared_ellipse.json",
+      "keys": 23,
+      "read": 10,
+      "unread": [
+        "ellipse/outside",
+        "ellipse/pair",
+        "ellipse/reach_max",
+        "ellipse/reach_min",
+        "ellipse/rho",
+        "ratio_max",
+        "ratio_median",
+        "reach_min",
+        "real/box",
+        "real/ellipse",
+        "real/ratio",
+        "real/rho",
+        "real/unit"
+      ]
+    },
+    {
+      "file": "skill_local.json",
+      "keys": 33,
+      "read": 6,
+      "unread": [
+        "best_sigma",
+        "helped/0.005",
+        "helped/0.01",
+        "helped/0.02",
+        "helped/0.05",
+        "helped/0.1",
+        "helped/0.231",
+        "radius_used",
+        "rows/channel",
+        "rows/ratios/0.005",
+        "rows/ratios/0.01",
+        "rows/ratios/0.02",
+        "rows/ratios/0.05",
+        "rows/ratios/0.1",
+        "rows/ratios/0.231",
+        "rows/tau_min",
+        "seed_scatter/b0_1",
+        "seed_scatter/b10_12.8",
+        "seed_scatter/b1_2",
+        "seed_scatter/b2_4",
+        "seed_scatter/b4_6",
+        "seed_scatter/b6_8",
+        "seed_scatter/b8_10",
+        "seed_scatter/kurt",
+        "seed_scatter/peak",
+        "seed_scatter/rms",
+        "sigmas"
+      ]
+    },
+    {
+      "file": "span_qr.json",
+      "keys": 26,
+      "read": 11,
+      "unread": [
+        "per_unit/H_inv",
+        "per_unit/K",
+        "per_unit/holds",
+        "per_unit/qK",
+        "per_unit/rank",
+        "per_unit/shuffled",
+        "per_unit/tau_lin",
+        "per_unit/unit",
+        "profile/c",
+        "profile/real",
+        "profile/shuffled",
+        "qstar",
+        "transfer/held_out",
+        "transfer/own",
+        "transfer/unit"
+      ]
+    },
+    {
+      "file": "spatial_test.json",
+      "keys": 10,
+      "read": 10,
+      "unread": []
+    },
+    {
+      "file": "submodularity.json",
+      "keys": 12,
+      "read": 6,
+      "unread": [
+        "counter_ratio",
+        "greedy/bearings",
+        "greedy/ratio_median",
+        "greedy/ratio_min",
+        "greedy/size",
+        "random_ratio_p95"
+      ]
+    },
+    {
+      "file": "submodularity_ratio.json",
+      "keys": 14,
+      "read": 9,
+      "unread": [
+        "by_rho/bound",
+        "by_rho/cond",
+        "by_rho/gamma",
+        "by_rho/rho",
+        "cap"
+      ]
+    },
+    {
+      "file": "sweep_choices.json",
+      "keys": 13,
+      "read": 9,
+      "unread": [
+        "folds/folds",
+        "folds/ratio",
+        "folds/records",
+        "folds/scale"
+      ]
+    },
+    {
+      "file": "tail_drift.json",
+      "keys": 29,
+      "read": 14,
+      "unread": [
+        "cells",
+        "drift_q1",
+        "drift_q3",
+        "nw",
+        "rows/k_drift",
+        "rows/k_first",
+        "rows/k_last",
+        "rows/k_spread",
+        "rows/kind",
+        "rows/measure",
+        "rows/rig",
+        "rows/tau",
+        "rows/tau_corr",
+        "rows/unit",
+        "worst_gap_change"
+      ]
+    },
+    {
+      "file": "tail_factor.json",
+      "keys": 22,
+      "read": 22,
+      "unread": []
+    },
+    {
+      "file": "tau_fleet_ci.json",
+      "keys": 33,
+      "read": 32,
+      "unread": [
+        "boot"
+      ]
+    },
+    {
+      "file": "theory_exact.json",
+      "keys": 20,
+      "read": 13,
+      "unread": [
+        "design/beta",
+        "design/delay",
+        "design/retained",
+        "table/beta",
+        "table/r_A",
+        "table/r_Abeta",
+        "table/r_beta"
+      ]
+    },
+    {
+      "file": "tightness2.json",
+      "keys": 9,
+      "read": 3,
+      "unread": [
+        "G",
+        "achieved",
+        "age",
+        "n",
+        "noise",
+        "predicted"
+      ]
+    },
+    {
+      "file": "timing_vs_amount.json",
+      "keys": 40,
+      "read": 40,
+      "unread": []
+    },
+    {
+      "file": "trimmed_certificate.json",
+      "keys": 188,
+      "read": 75,
+      "unread": [
+        "certified_share_rig_one_300",
+        "certified_share_rig_one_60",
+        "contrast_over_energy_max",
+        "contrast_over_energy_rig_two_60",
+        "eps_max_rig_two_60",
+        "exceedance_from_jensen",
+        "ladder/alpha",
+        "ladder/certified",
+        "ladder/median_charge",
+        "monotonicity_violations",
+        "ordering_holds_at_both_screens",
+        "per_bearing/best_alpha",
+        "per_bearing/best_charge",
+        "per_bearing/charge/0.0",
+        "per_bearing/charge/0.0001",
+        "per_bearing/charge/0.001",
+        "per_bearing/charge/0.01",
+        "per_bearing/charge/0.05",
+        "per_bearing/charge/0.1",
+        "per_bearing/charge/0.25",
+        "per_bearing/charge/1.0",
+        "per_bearing/contrast_over_energy",
+        "per_bearing/max_eps",
+        "per_bearing/tolerated",
+        "per_bearing/unit",
+        "per_bearing/worst_M2",
+        "per_bearing/worst_contrast",
+        "per_bearing/worst_energy",
+        "replicates_energy_holds",
+        "replicates_ordering",
+        "reproduces_tolerated",
+        "screen_added_records_rig_one",
+        "screen_added_records_rig_two",
+        "screen_contrast_rig_one_60",
+        "screen_contrast_rig_two_60",
+        "screen_sensitivity/PRONOSTIA@300/best_alpha_median",
+        "screen_sensitivity/PRONOSTIA@300/charge_best_median",
+        "screen_sensitivity/PRONOSTIA@300/charge_contrast_median",
+        "screen_sensitivity/PRONOSTIA@300/charge_energy_median",
+        "screen_sensitivity/PRONOSTIA@300/charge_essential_median",
+        "screen_sensitivity/PRONOSTIA@300/charge_range_median",
+        "screen_sensitivity/PRONOSTIA@300/contrast_below_energy",
+        "screen_sensitivity/PRONOSTIA@300/contrast_over_energy_max",
+        "screen_sensitivity/PRONOSTIA@300/energy_below_trimmed",
+        "screen_sensitivity/PRONOSTIA@300/eps_max",
+        "screen_sensitivity/PRONOSTIA@300/eps_median",
+        "screen_sensitivity/PRONOSTIA@300/n_bearings",
+        "screen_sensitivity/PRONOSTIA@300/n_best",
+        "screen_sensitivity/PRONOSTIA@300/n_contrast",
+        "screen_sensitivity/PRONOSTIA@300/n_energy",
+        "screen_sensitivity/PRONOSTIA@300/n_essential",
+        "screen_sensitivity/PRONOSTIA@300/n_range",
+        "screen_sensitivity/PRONOSTIA@300/rig",
+        "screen_sensitivity/PRONOSTIA@60/best_alpha_median",
+        "screen_sensitivity/PRONOSTIA@60/charge_best_median",
+        "screen_sensitivity/PRONOSTIA@60/charge_contrast_median",
+        "screen_sensitivity/PRONOSTIA@60/charge_energy_median",
+        "screen_sensitivity/PRONOSTIA@60/charge_essential_median",
+        "screen_sensitivity/PRONOSTIA@60/charge_range_median",
+        "screen_sensitivity/PRONOSTIA@60/contrast_below_energy",
+        "screen_sensitivity/PRONOSTIA@60/contrast_over_energy_max",
+        "screen_sensitivity/PRONOSTIA@60/energy_below_trimmed",
+        "screen_sensitivity/PRONOSTIA@60/eps_max",
+        "screen_sensitivity/PRONOSTIA@60/eps_median",
+        "screen_sensitivity/PRONOSTIA@60/n_bearings",
+        "screen_sensitivity/PRONOSTIA@60/n_best",
+        "screen_sensitivity/PRONOSTIA@60/n_contrast",
+        "screen_sensitivity/PRONOSTIA@60/n_energy",
+        "screen_sensitivity/PRONOSTIA@60/n_essential",
+        "screen_sensitivity/PRONOSTIA@60/n_range",
+        "screen_sensitivity/PRONOSTIA@60/rig",
+        "screen_sensitivity/XJTU-SY@300/best_alpha_median",
+        "screen_sensitivity/XJTU-SY@300/charge_best_median",
+        "screen_sensitivity/XJTU-SY@300/charge_contrast_median",
+        "screen_sensitivity/XJTU-SY@300/charge_energy_median",
+        "screen_sensitivity/XJTU-SY@300/charge_essential_median",
+        "screen_sensitivity/XJTU-SY@300/charge_range_median",
+        "screen_sensitivity/XJTU-SY@300/contrast_below_energy",
+        "screen_sensitivity/XJTU-SY@300/contrast_over_energy_max",
+        "screen_sensitivity/XJTU-SY@300/energy_below_trimmed",
+        "screen_sensitivity/XJTU-SY@300/eps_max",
+        "screen_sensitivity/XJTU-SY@300/eps_median",
+        "screen_sensitivity/XJTU-SY@300/n_bearings",
+        "screen_sensitivity/XJTU-SY@300/n_best",
+        "screen_sensitivity/XJTU-SY@300/n_contrast",
+        "screen_sensitivity/XJTU-SY@300/n_energy",
+        "screen_sensitivity/XJTU-SY@300/n_essential",
+        "screen_sensitivity/XJTU-SY@300/n_range",
+        "screen_sensitivity/XJTU-SY@300/rig",
+        "screen_sensitivity/XJTU-SY@60/best_alpha_median",
+        "screen_sensitivity/XJTU-SY@60/charge_best_median",
+        "screen_sensitivity/XJTU-SY@60/charge_contrast_median",
+        "screen_sensitivity/XJTU-SY@60/charge_energy_median",
+        "screen_sensitivity/XJTU-SY@60/charge_essential_median",
+        "screen_sensitivity/XJTU-SY@60/charge_range_median",
+        "screen_sensitivity/XJTU-SY@60/contrast_below_energy",
+        "screen_sensitivity/XJTU-SY@60/contrast_over_energy_max",
+        "screen_sensitivity/XJTU-SY@60/energy_below_trimmed",
+        "screen_sensitivity/XJTU-SY@60/eps_max",
+        "screen_sensitivity/XJTU-SY@60/eps_median",
+        "screen_sensitivity/XJTU-SY@60/n_bearings",
+        "screen_sensitivity/XJTU-SY@60/n_best",
+        "screen_sensitivity/XJTU-SY@60/n_contrast",
+        "screen_sensitivity/XJTU-SY@60/n_energy",
+        "screen_sensitivity/XJTU-SY@60/n_essential",
+        "screen_sensitivity/XJTU-SY@60/n_range",
+        "screen_sensitivity/XJTU-SY@60/rig",
+        "xjtu_eps_max",
+        "xjtu_n",
+        "xjtu_n_best",
+        "xjtu_n_contrast",
+        "xjtu_n_energy",
+        "xjtu_n_range"
+      ]
+    },
+    {
+      "file": "trust_table.json",
+      "keys": 6,
+      "read": 4,
+      "unread": [
+        "tau_0.10",
+        "units"
+      ]
+    },
+    {
+      "file": "turbofan_distribution.json",
+      "keys": 34,
+      "read": 12,
+      "unread": [
+        "min_n",
+        "per_unit/FD001/deviation Gini",
+        "per_unit/FD001/deviation entropy",
+        "per_unit/FD001/log total deviation",
+        "per_unit/FD001/max deviation",
+        "per_unit/FD001/mean deviation",
+        "per_unit/FD001/n",
+        "per_unit/FD001/participation ratio",
+        "per_unit/FD001/top-five share",
+        "per_unit/FD001/total deviation",
+        "per_unit/FD001/unit",
+        "per_unit/FD004/deviation Gini",
+        "per_unit/FD004/deviation entropy",
+        "per_unit/FD004/log total deviation",
+        "per_unit/FD004/max deviation",
+        "per_unit/FD004/mean deviation",
+        "per_unit/FD004/n",
+        "per_unit/FD004/participation ratio",
+        "per_unit/FD004/top-five share",
+        "per_unit/FD004/total deviation",
+        "per_unit/FD004/unit",
+        "qstar"
+      ]
+    },
+    {
+      "file": "weight_stability.json",
+      "keys": 14,
+      "read": 13,
+      "unread": [
+        "qstar"
+      ]
+    },
+    {
+      "file": "window_serial.json",
+      "keys": 20,
+      "read": 9,
+      "unread": [
+        "sign/channel",
+        "sign/n_corr",
+        "sign/n_raw",
+        "sign/ok_corr",
+        "sign/ok_raw",
+        "window/change",
+        "window/channel",
+        "window/records",
+        "window/tau0",
+        "window/w_corr",
+        "window/w_raw"
+      ]
+    },
+    {
+      "file": "window_signlaw.json",
+      "keys": 27,
+      "read": 21,
+      "unread": [
+        "best_half",
+        "gap_ratio",
+        "n_disagree",
+        "rate_at_1",
+        "rate_smoothed",
+        "step_ratio"
+      ]
+    },
+    {
+      "file": "window_validate.json",
+      "keys": 18,
+      "read": 9,
+      "unread": [
+        "disagree",
+        "fracs",
+        "qstar",
+        "shape/ages",
+        "shape/falls",
+        "shape/law",
+        "shape/unit",
+        "shape/ws",
+        "units"
+      ]
+    },
+    {
+      "file": "wishart_tails.json",
+      "keys": 71,
+      "read": 16,
+      "unread": [
+        "K_max",
+        "applied/K_kept",
+        "applied/K_nominal",
+        "applied/records",
+        "applied/set",
+        "applied/shift",
+        "applied/tau_applied",
+        "applied/tau_eff",
+        "c_combined_error",
+        "c_hybrid",
+        "c_sample",
+        "gaussian_control_error",
+        "hybrid/K",
+        "hybrid/m",
+        "hybrid/measured/3",
+        "hybrid/measured/30",
+        "hybrid/measured/4.28",
+        "hybrid/measured/5",
+        "hybrid/measured/8",
+        "hybrid/measured/inf",
+        "hybrid/predicted",
+        "hybrid_ratio_at_nu428",
+        "hybrid_short_at_nu428",
+        "hybrid_short_ratio",
+        "iat_at_max_phi",
+        "kappa2_identity/measured",
+        "kappa2_identity/nu",
+        "kappa2_identity/predicted",
+        "kappa2_identity_error",
+        "m_max",
+        "m_median",
+        "m_min",
+        "sample_covariance/K",
+        "sample_covariance/m",
+        "sample_covariance/measured/3",
+        "sample_covariance/measured/30",
+        "sample_covariance/measured/4.28",
+        "sample_covariance/measured/5",
+        "sample_covariance/measured/8",
+        "sample_covariance/measured/inf",
+        "sample_covariance/predicted",
+        "sample_excess_ratio",
+        "sample_ratio_at_nu428",
+        "serial_multiplier",
+        "serial_tail/K",
+        "serial_tail/c",
+        "serial_tail/inflation",
+        "serial_tail/m",
+        "serial_tail/m_eff",
+        "serial_tail/phi",
+        "serial_tail/predicted",
+        "shortest_records/K",
+        "shortest_records/m",
+        "shortest_records/unit",
+        "tau_shift_median"
+      ]
+    },
+    {
+      "file": "xjtu_conditions.json",
+      "keys": 10,
+      "read": 10,
+      "unread": []
+    },
+    {
+      "file": "xjtu_trust.json",
+      "keys": 6,
+      "read": 2,
+      "unread": [
+        "n",
+        "signal",
+        "tau0.10",
+        "units"
+      ]
+    }
+  ],
+  "siblings": [
+    {
+      "file": "audit_directions.json",
+      "parent": "",
+      "read": [
+        "n_checked",
+        "n_failed",
+        "nuisance_tightest"
+      ],
+      "unread": [
+        "eta_down",
+        "eta_up",
+        "etasign_bad",
+        "etasign_pairs",
+        "rob_margins"
+      ]
+    },
+    {
+      "file": "bandwidth_optimum.json",
+      "parent": "",
+      "read": [
+        "best_frac",
+        "falls_both_sides",
+        "loss_at_8",
+        "plateau",
+        "wide_side_monotone"
+      ],
+      "unread": [
+        "best_ratio",
+        "ratio_at_8",
+        "ratio_max",
+        "ratio_min"
+      ]
+    },
+    {
+      "file": "bandwidth_sweep.json",
+      "parent": "",
+      "read": [
+        "all_positive",
+        "gap_min"
+      ],
+      "unread": [
+        "gap_max",
+        "local_bw",
+        "qstar",
+        "trend_bw"
+      ]
+    },
+    {
+      "file": "battery_diagnosis.json",
+      "parent": "",
+      "read": [
+        "n_cell",
+        "obs_median",
+        "obs_slope",
+        "pred_median",
+        "pred_slope",
+        "tail_kurtosis",
+        "tail_median_sd"
+      ],
+      "unread": [
+        "tail_median_robust"
+      ]
+    },
+    {
+      "file": "bayesian_floor.json",
+      "parent": "",
+      "read": [
+        "levels_beating_unbiased",
+        "map_over_bayes_median",
+        "mcse",
+        "prior_sd",
+        "tightest_fleet"
+      ],
+      "unread": [
+        "crossover",
+        "cv_working",
+        "map_over_bayes_max",
+        "map_over_bayes_min"
+      ]
+    },
+    {
+      "file": "censoring_validate.json",
+      "parent": "",
+      "read": [
+        "ratio_max",
+        "ratio_median",
+        "ratio_min"
+      ],
+      "unread": [
+        "levels",
+        "reps"
+      ]
+    },
+    {
+      "file": "certificate_resolution.json",
+      "parent": "",
+      "read": [
+        "longest_undecidable",
+        "n_certified",
+        "n_records",
+        "n_refused",
+        "n_resolved",
+        "n_undecidable",
+        "spread_at_2400",
+        "spread_at_700"
+      ],
+      "unread": [
+        "long_records",
+        "median_z_resolved",
+        "n_certified_undecidable"
+      ]
+    },
+    {
+      "file": "channel_corr.json",
+      "parent": "",
+      "read": [
+        "units"
+      ],
+      "unread": [
+        "kept_max",
+        "kept_median",
+        "kept_min"
+      ]
+    },
+    {
+      "file": "contrast_identity.json",
+      "parent": "",
+      "read": [
+        "identity_trials",
+        "identity_worst",
+        "margin_median",
+        "n_bearings",
+        "n_survive",
+        "overcharge_median"
+      ],
+      "unread": [
+        "contrast_max",
+        "margin_min"
+      ]
+    },
+    {
+      "file": "decision_value.json",
+      "parent": "",
+      "read": [
+        "prior"
+      ],
+      "unread": [
+        "ratios",
+        "sigma_oracle",
+        "sigma_ridge",
+        "sigmas"
+      ]
+    },
+    {
+      "file": "delay_measured.json",
+      "parent": "",
+      "read": [
+        "curves"
+      ],
+      "unread": [
+        "powerlaw_pred"
+      ]
+    },
+    {
+      "file": "derivative_bias.json",
+      "parent": "",
+      "read": [
+        "eta_cells",
+        "eta_err_median",
+        "eta_err_worst",
+        "eta_up",
+        "formula_gap_max",
+        "gap_corr",
+        "gap_raw",
+        "q1_worst",
+        "real_median",
+        "real_mid_min",
+        "real_q4_max",
+        "sweep_spread_median",
+        "window_pairs",
+        "window_shift_median",
+        "window_shift_p95"
+      ],
+      "unread": [
+        "q4_worst",
+        "real_last_quarter",
+        "real_mid_all_negative",
+        "real_q4_all_positive",
+        "real_worst",
+        "window_shift_worst"
+      ]
+    },
+    {
+      "file": "epsilon_certificate.json",
+      "parent": "",
+      "read": [
+        "err_at_large_eps",
+        "err_at_small_eps",
+        "excess_at_measured_max",
+        "excess_large_eps",
+        "excess_small_eps"
+      ],
+      "unread": [
+        "eps_max_of_corrections",
+        "max_excess",
+        "worst_search_over_step"
+      ]
+    },
+    {
+      "file": "estimated_correction.json",
+      "parent": "",
+      "read": [
+        "bias_bound",
+        "bias_scaling",
+        "bias_when_equal",
+        "bias_when_unequal",
+        "noise_worst_sd",
+        "sd_scaling"
+      ],
+      "unread": [
+        "bias_ratio_median",
+        "pred_ratio_median",
+        "worst_correction",
+        "worst_diff"
+      ]
+    },
+    {
+      "file": "eta_standard_error.json",
+      "parent": "",
+      "read": [
+        "boot_ratio_median",
+        "n_resolvable_pooled",
+        "n_resolvable_single",
+        "ratio_median",
+        "se_median",
+        "se_of_median"
+      ],
+      "unread": [
+        "boot_ratio_max",
+        "n_records",
+        "ratio_max",
+        "ratio_min",
+        "se_max",
+        "se_min"
+      ]
+    },
+    {
+      "file": "exponent_measure.json",
+      "parent": "",
+      "read": [
+        "delay_at_median",
+        "frac_single_exponent",
+        "pooled_beta",
+        "r_at_median",
+        "spread_median"
+      ],
+      "unread": [
+        "beta_q1",
+        "beta_q3",
+        "delay_range"
+      ]
+    },
+    {
+      "file": "feasibility.json",
+      "parent": "",
+      "read": [
+        "ratio"
+      ],
+      "unread": [
+        "G",
+        "age",
+        "edge_hits",
+        "noise",
+        "oracle",
+        "predicted"
+      ]
+    },
+    {
+      "file": "figdistort.json",
+      "parent": "",
+      "read": [
+        "cells",
+        "derivative_contrast_in_results_file",
+        "derivative_contrast_recomputed",
+        "edge_budget_below_1pct",
+        "edge_budget_max",
+        "edge_budget_median",
+        "edge_samples_median"
+      ],
+      "unread": [
+        "extreme_share_of_budget",
+        "extreme_share_of_samples",
+        "n_bearings",
+        "n_survive",
+        "overcharge_median",
+        "panel_a_levels"
+      ]
+    },
+    {
+      "file": "figmodel.json",
+      "parent": "",
+      "read": [
+        "agreement_with_results_file",
+        "span_max",
+        "span_min"
+      ],
+      "unread": [
+        "displacement_early",
+        "displacement_late",
+        "displacement_tau",
+        "drawn_channel",
+        "drawn_scale_span",
+        "drawn_scale_unit",
+        "drawn_units",
+        "schematic_peak",
+        "schematic_rise",
+        "shift_median",
+        "span_median"
+      ]
+    },
+    {
+      "file": "fleet_identifiability.json",
+      "parent": "",
+      "read": [
+        "difference_shift",
+        "eff_at_1",
+        "eff_at_2",
+        "eff_spread_beyond_two",
+        "level_shift"
+      ],
+      "unread": [
+        "eff_at_32"
+      ]
+    },
+    {
+      "file": "floor_calibration.json",
+      "parent": "",
+      "read": [
+        "cal_excess_max",
+        "cal_excess_median",
+        "null_median",
+        "null_worst"
+      ],
+      "unread": [
+        "cal_excess_min",
+        "null_worst_p90",
+        "reps"
+      ]
+    },
+    {
+      "file": "floor_constant.json",
+      "parent": "",
+      "read": [
+        "chi2_kurtosis",
+        "closed_form",
+        "d_kurtosis",
+        "median_chi2_1",
+        "pipeline_surrogate",
+        "spread_across_cases",
+        "surrogate_over_median"
+      ],
+      "unread": [
+        "gap_to_closed",
+        "pipeline_median_floor",
+        "quadrature"
+      ]
+    },
+    {
+      "file": "fusion_ranksafe.json",
+      "parent": "",
+      "read": [
+        "joint_rescues",
+        "worst_pair_cond"
+      ],
+      "unread": [
+        "cond_max",
+        "units"
+      ]
+    },
+    {
+      "file": "gap_standard_error.json",
+      "parent": "",
+      "read": [
+        "gap_in_se",
+        "gap_median",
+        "gap_spread",
+        "pair_gap_hi",
+        "pair_gap_lo",
+        "pair_lo_in_se",
+        "se_of_median_gap",
+        "share_within",
+        "within_independent"
+      ],
+      "unread": [
+        "var_real",
+        "var_total",
+        "var_within",
+        "within_excluding_degenerate"
+      ]
+    },
+    {
+      "file": "identifiable_part.json",
+      "parent": "",
+      "read": [
+        "gap_raw",
+        "gap_surviving",
+        "kappa_amount",
+        "kappa_distribution",
+        "kappa_max",
+        "kappa_min",
+        "kappa_spread",
+        "ordering_holds"
+      ],
+      "unread": [
+        "gap_change"
+      ]
+    },
+    {
+      "file": "length_screen.json",
+      "parent": "",
+      "read": [
+        "bw_at_42",
+        "bw_at_60",
+        "floor_binds_scale",
+        "floor_binds_trend"
+      ],
+      "unread": [
+        "derived_screen",
+        "long_records",
+        "typical_log_contrast"
+      ]
+    },
+    {
+      "file": "linear_transfer_paired.json",
+      "parent": "",
+      "read": [
+        "censored",
+        "own_gap",
+        "own_wins",
+        "transfer_earlier_than_own",
+        "transfer_gap",
+        "transfer_gap_finite",
+        "transfer_wins",
+        "transfer_wins_finite"
+      ],
+      "unread": [
+        "n",
+        "transfer_earlier_units",
+        "transfer_finite"
+      ]
+    },
+    {
+      "file": "linearisation_radius.json",
+      "parent": "",
+      "read": [
+        "heavy_tail",
+        "powerlaw_check",
+        "radius_median",
+        "radius_practical",
+        "radius_q1",
+        "radius_q3"
+      ],
+      "unread": [
+        "at_zero"
+      ]
+    },
+    {
+      "file": "mechanism_test.json",
+      "parent": "",
+      "read": [
+        "amount_ex_kurt_onset",
+        "kurt_onset",
+        "onset_distribution",
+        "paired_clean_median",
+        "paired_clean_n",
+        "paired_clean_worse",
+        "paired_onset_median",
+        "paired_onset_p_signed_rank",
+        "paired_onset_wins",
+        "timing_significant"
+      ],
+      "unread": [
+        "clean_amount",
+        "clean_distribution",
+        "clean_ratio",
+        "onset_amount",
+        "onset_gap",
+        "paired_clean_p",
+        "paired_clean_p_signed_rank",
+        "paired_onset_n",
+        "paired_onset_p"
+      ]
+    },
+    {
+      "file": "monotone_distortion.json",
+      "parent": "",
+      "read": [
+        "share_derivative",
+        "share_serial",
+        "split_predicted",
+        "w_down",
+        "w_unsigned",
+        "w_up",
+        "worst_F_violation",
+        "worst_eta_violation",
+        "worst_tau_violation"
+      ],
+      "unread": [
+        "trials"
+      ]
+    },
+    {
+      "file": "multivariate_attained.json",
+      "parent": "",
+      "read": [
+        "vs_built_median",
+        "vs_exact_max",
+        "vs_exact_median",
+        "vs_exact_min"
+      ],
+      "unread": [
+        "reps",
+        "vs_built_max",
+        "vs_built_min"
+      ]
+    },
+    {
+      "file": "nonparametric_nuisance.json",
+      "parent": "",
+      "read": [
+        "bandwidth_max",
+        "bandwidth_monotone",
+        "prop10_reference",
+        "retained_median",
+        "slope_in_median",
+        "slope_oof_median"
+      ],
+      "unread": [
+        "bandwidth_gain",
+        "retained_at_08",
+        "retained_at_90"
+      ]
+    },
+    {
+      "file": "odds_bound.json",
+      "parent": "",
+      "read": [
+        "max_violation",
+        "sharpness_worst_gap",
+        "width_times_g",
+        "width_times_g_closed",
+        "width_times_g_spread"
+      ],
+      "unread": [
+        "age_width_max",
+        "age_width_min",
+        "age_width_monotone",
+        "age_width_ratio"
+      ]
+    },
+    {
+      "file": "oof_attrition.json",
+      "parent": "",
+      "read": [
+        "kept_frac",
+        "rig"
+      ],
+      "unread": [
+        "bearings",
+        "kept",
+        "lost_max",
+        "lost_min",
+        "shortest",
+        "total"
+      ]
+    },
+    {
+      "file": "oof_cost.json",
+      "parent": "",
+      "read": [
+        "G_ratio_median",
+        "cells_moved",
+        "cells_total",
+        "scale_ratio_median",
+        "tau_shift_median",
+        "tau_shift_q75abs",
+        "tau_shift_worst"
+      ],
+      "unread": [
+        "cells",
+        "scale_ratio_q1",
+        "scale_ratio_q3",
+        "tau_shift_q1",
+        "tau_shift_q3"
+      ]
+    },
+    {
+      "file": "optimal_indicator.json",
+      "parent": "",
+      "read": [
+        "cos_median",
+        "erank_median",
+        "share_median",
+        "share_q1",
+        "share_q3",
+        "tau_rms",
+        "tau_transferred"
+      ],
+      "unread": [
+        "common_channels",
+        "tau_best_single",
+        "tau_own",
+        "units"
+      ]
+    },
+    {
+      "file": "oracle_vs_model.json",
+      "parent": "",
+      "read": [
+        "G",
+        "oracle",
+        "ridge"
+      ],
+      "unread": [
+        "baseline",
+        "level"
+      ]
+    },
+    {
+      "file": "ordering_census.json",
+      "parent": "",
+      "read": [
+        "PRONOSTIA_reversed",
+        "XJTU_SY_reversed",
+        "reversed_total",
+        "usable_total"
+      ],
+      "unread": [
+        "PRONOSTIA_ordered",
+        "PRONOSTIA_total",
+        "PRONOSTIA_unusable",
+        "XJTU_SY_ordered",
+        "XJTU_SY_total",
+        "XJTU_SY_unusable",
+        "worst_reversal_margin",
+        "worst_reversal_samples",
+        "worst_reversal_unit"
+      ]
+    },
+    {
+      "file": "price_of_flexibility.json",
+      "parent": "",
+      "read": [
+        "kappa_parametric",
+        "kappa_poly12",
+        "kappa_smoother",
+        "ladder_monotone",
+        "parametric_over_smoother",
+        "prop10_closed_form"
+      ],
+      "unread": [
+        "ladder_span"
+      ]
+    },
+    {
+      "file": "prior_radius.json",
+      "parent": "",
+      "read": [
+        "margin_bearings",
+        "margin_turbofan",
+        "prior_in_oracle_radii",
+        "prior_in_practical_radii",
+        "radius_oracle",
+        "radius_practical"
+      ],
+      "unread": [
+        "G_bearings_median",
+        "G_turbofan",
+        "prior_sd"
+      ]
+    },
+    {
+      "file": "ranking_margin.json",
+      "parent": "",
+      "read": [
+        "M_max",
+        "M_median",
+        "M_min",
+        "all_inside",
+        "n_ordered",
+        "n_total",
+        "slack_median"
+      ],
+      "unread": [
+        "largest_correction_M"
+      ]
+    },
+    {
+      "file": "ratio_control.json",
+      "parent": "",
+      "read": [
+        "indicator",
+        "tau"
+      ],
+      "unread": [
+        "kind",
+        "signal",
+        "units"
+      ]
+    },
+    {
+      "file": "retention_null.json",
+      "parent": "",
+      "read": [
+        "eff_corrected",
+        "pieces",
+        "pieces_null"
+      ],
+      "unread": [
+        "eff",
+        "eff_null",
+        "indicator",
+        "units",
+        "w"
+      ]
+    },
+    {
+      "file": "reversal_resolution.json",
+      "parent": "",
+      "read": [
+        "max_z",
+        "n_above_two_sd"
+      ],
+      "unread": [
+        "long_records",
+        "spread_at_150",
+        "spread_at_300"
+      ]
+    },
+    {
+      "file": "score_mechanism.json",
+      "parent": "",
+      "read": [
+        "chance_level",
+        "cos_a_score",
+        "transfer_entropy",
+        "transfer_score"
+      ],
+      "unread": [
+        "cos_a_entropy",
+        "cos_score_entropy",
+        "ref_age"
+      ]
+    },
+    {
+      "file": "se_formula_check.json",
+      "parent": "",
+      "read": [
+        "ratio_max"
+      ],
+      "unread": [
+        "boot",
+        "min_blocks",
+        "ratio_median",
+        "ratio_min"
+      ]
+    },
+    {
+      "file": "se_scaling.json",
+      "parent": "",
+      "read": [
+        "prod_spread_median",
+        "product_tighter",
+        "se_spread_median",
+        "sign_test_p"
+      ],
+      "unread": [
+        "boot",
+        "cases",
+        "qs"
+      ]
+    },
+    {
+      "file": "sensitivity_theory.json",
+      "parent": "",
+      "read": [
+        "error_tracks_eps"
+      ],
+      "unread": [
+        "eps_scaling_median",
+        "eta_corr_median",
+        "w_corr_median",
+        "worst_error_at_smallest_eps"
+      ]
+    },
+    {
+      "file": "shape_drift.json",
+      "parent": "",
+      "read": [
+        "bound_share_of_kappa_drift"
+      ],
+      "unread": [
+        "ineff_drift_amount",
+        "ineff_drift_distribution",
+        "ineff_drift_median",
+        "ineff_share_of_drift",
+        "kappa2_drift_median",
+        "over_drift_amount",
+        "over_drift_distribution",
+        "over_drift_max",
+        "over_drift_median",
+        "over_drift_min",
+        "over_hi",
+        "over_lo",
+        "reproduce_error",
+        "rms_inefficiency",
+        "rms_n",
+        "rms_overstatement",
+        "whole_inefficiency",
+        "whole_n",
+        "whole_overstatement"
+      ]
+    },
+    {
+      "file": "shape_vs_level.json",
+      "parent": "",
+      "read": [
+        "absolute",
+        "band",
+        "diff",
+        "fraction"
+      ],
+      "unread": [
+        "units"
+      ]
+    },
+    {
+      "file": "shared_ellipse.json",
+      "parent": "",
+      "read": [
+        "reach_max",
+        "real_ratio_median",
+        "real_rho_median",
+        "real_rho_min",
+        "worst_outside"
+      ],
+      "unread": [
+        "ratio_max",
+        "ratio_median",
+        "reach_min"
+      ]
+    },
+    {
+      "file": "skill_local.json",
+      "parent": "",
+      "read": [
+        "best_gain_percent",
+        "separable",
+        "spearman",
+        "spearman_p",
+        "spread_across_channels",
+        "typical_scatter"
+      ],
+      "unread": [
+        "best_sigma",
+        "radius_used",
+        "sigmas"
+      ]
+    },
+    {
+      "file": "span_qr.json",
+      "parent": "",
+      "read": [
+        "bearings",
+        "tightness",
+        "transfer_heldout",
+        "transfer_own",
+        "violations"
+      ],
+      "unread": [
+        "qstar"
+      ]
+    },
+    {
+      "file": "submodularity.json",
+      "parent": "",
+      "read": [
+        "counter_alone",
+        "counter_with",
+        "greedy_median",
+        "greedy_worst",
+        "random_ratio_median",
+        "random_violation_rate"
+      ],
+      "unread": [
+        "counter_ratio",
+        "random_ratio_p95"
+      ]
+    },
+    {
+      "file": "submodularity_ratio.json",
+      "parent": "",
+      "read": [
+        "bound_at_cap",
+        "ceiling",
+        "closed_form_error",
+        "gamma_at_cap",
+        "rho_at_cap"
+      ],
+      "unread": [
+        "cap"
+      ]
+    },
+    {
+      "file": "tail_drift.json",
+      "parent": "",
+      "read": [
+        "cells_moved",
+        "cells_total",
+        "drift_median"
+      ],
+      "unread": [
+        "cells",
+        "drift_q1",
+        "drift_q3",
+        "nw",
+        "worst_gap_change"
+      ]
+    },
+    {
+      "file": "tau_fleet_ci.json",
+      "parent": "",
+      "read": [
+        "min_n"
+      ],
+      "unread": [
+        "boot"
+      ]
+    },
+    {
+      "file": "tightness2.json",
+      "parent": "",
+      "read": [
+        "edge",
+        "excess",
+        "signal_frac"
+      ],
+      "unread": [
+        "G",
+        "achieved",
+        "age",
+        "n",
+        "noise",
+        "predicted"
+      ]
+    },
+    {
+      "file": "trimmed_certificate.json",
+      "parent": "",
+      "read": [
+        "best_alpha_median",
+        "bound_checks",
+        "cauchy_schwarz_worst",
+        "cells_exact_below_linear",
+        "charge_best_median",
+        "charge_contrast_median",
+        "charge_energy_median",
+        "charge_essential_median",
+        "charge_range_median",
+        "energy_cells",
+        "energy_exceedances",
+        "energy_worst_ratio",
+        "eps_max",
+        "eps_median",
+        "n_bearings",
+        "n_best",
+        "n_contrast",
+        "n_energy",
+        "n_essential",
+        "n_range",
+        "reproduces_contrast",
+        "worst_contrast_over_bound"
+      ],
+      "unread": [
+        "certified_share_rig_one_300",
+        "certified_share_rig_one_60",
+        "contrast_over_energy_max",
+        "contrast_over_energy_rig_two_60",
+        "eps_max_rig_two_60",
+        "exceedance_from_jensen",
+        "monotonicity_violations",
+        "ordering_holds_at_both_screens",
+        "replicates_energy_holds",
+        "replicates_ordering",
+        "reproduces_tolerated",
+        "screen_added_records_rig_one",
+        "screen_added_records_rig_two",
+        "screen_contrast_rig_one_60",
+        "screen_contrast_rig_two_60",
+        "xjtu_eps_max",
+        "xjtu_n",
+        "xjtu_n_best",
+        "xjtu_n_contrast",
+        "xjtu_n_energy",
+        "xjtu_n_range"
+      ]
+    },
+    {
+      "file": "trust_table.json",
+      "parent": "",
+      "read": [
+        "indicator",
+        "n",
+        "signal_frac",
+        "tau_0.35"
+      ],
+      "unread": [
+        "tau_0.10",
+        "units"
+      ]
+    },
+    {
+      "file": "turbofan_distribution.json",
+      "parent": "",
+      "read": [
+        "measures_dropped"
+      ],
+      "unread": [
+        "min_n",
+        "qstar"
+      ]
+    },
+    {
+      "file": "window_signlaw.json",
+      "parent": "",
+      "read": [
+        "analytic_exact",
+        "analytic_pairs",
+        "best_rate",
+        "gap_agree",
+        "gap_disagree",
+        "late_minus_early_agree",
+        "monotone",
+        "rate_pointwise",
+        "step_agree",
+        "step_disagree"
+      ],
+      "unread": [
+        "best_half",
+        "gap_ratio",
+        "n_disagree",
+        "rate_at_1",
+        "rate_smoothed",
+        "step_ratio"
+      ]
+    },
+    {
+      "file": "window_validate.json",
+      "parent": "",
+      "read": [
+        "falls_count",
+        "sign_law_ok",
+        "sign_law_pairs"
+      ],
+      "unread": [
+        "disagree",
+        "fracs",
+        "qstar",
+        "units"
+      ]
+    },
+    {
+      "file": "wishart_tails.json",
+      "parent": "",
+      "read": [
+        "c_combined",
+        "c_combined_predicted",
+        "c_gaussian",
+        "c_hybrid_hi",
+        "c_hybrid_lo",
+        "c_serial_free",
+        "hybrid_at_nu428",
+        "hybrid_excess_ratio",
+        "hybrid_short_excess_ratio",
+        "shortest_K",
+        "shortest_combined_ratio",
+        "shortest_m",
+        "shortest_ratio",
+        "tau_shift_max"
+      ],
+      "unread": [
+        "K_max",
+        "c_combined_error",
+        "c_hybrid",
+        "c_sample",
+        "gaussian_control_error",
+        "hybrid_ratio_at_nu428",
+        "hybrid_short_at_nu428",
+        "hybrid_short_ratio",
+        "iat_at_max_phi",
+        "kappa2_identity_error",
+        "m_max",
+        "m_median",
+        "m_min",
+        "sample_excess_ratio",
+        "sample_ratio_at_nu428",
+        "serial_multiplier",
+        "tau_shift_median"
+      ]
+    },
+    {
+      "file": "xjtu_trust.json",
+      "parent": "",
+      "read": [
+        "indicator",
+        "tau0.35"
+      ],
+      "unread": [
+        "n",
+        "signal",
+        "tau0.10",
+        "units"
+      ]
+    }
+  ],
+  "sibling_groups": 65,
+  "sibling_quantities": 273
+}

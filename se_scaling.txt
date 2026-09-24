@@ -1,0 +1,93 @@
+﻿does the standard error scale as the reciprocal of the density?
+
+one bootstrap of 40 replicates per record, read at every demand
+
+record       measure                q     tau          g       se     se x g
+----------------------------------------------------------------------------
+Bearing1_1   total power         0.10   0.948   3.84e+08   0.2988   1.15e+08
+Bearing1_1   total power         0.20   0.965   6.62e+08   0.1506   9.97e+07
+Bearing1_1   total power         0.35   0.974   7.55e+08   0.0184   1.38e+07
+Bearing1_1   total power         0.50   0.981    8.5e+08   0.0036   3.04e+06
+Bearing1_1   total power         0.70   0.990      1e+09   0.0020   1.99e+06
+Bearing1_1   peak band power     0.10   0.960   4.73e+08   0.1488   7.04e+07
+Bearing1_1   peak band power     0.20   0.968   5.27e+08   0.0039   2.05e+06
+Bearing1_1   peak band power     0.35   0.976   5.94e+08   0.0034   2.03e+06
+Bearing1_1   peak band power     0.50   0.983   6.63e+08   0.0031   2.06e+06
+Bearing1_1   peak band power     0.70   0.991   7.65e+08   0.0022   1.65e+06
+Bearing1_1   high/low ratio      0.10   0.298   5.71e+06   0.1508   8.61e+05
+Bearing1_1   high/low ratio      0.20   0.491    7.9e+06   0.1626   1.28e+06
+Bearing1_1   high/low ratio      0.35   0.695   3.07e+06   0.1822    5.6e+05
+Bearing1_1   high/low ratio      0.50   0.870   5.15e+07   0.1141   5.87e+06
+Bearing1_1   high/low ratio      0.70   0.890   5.25e+07   0.0284   1.49e+06
+Bearing1_2   total power         0.10   0.945    3.9e+07   0.1462    5.7e+06
+Bearing1_2   total power         0.20   0.958   4.63e+07   0.0060   2.78e+05
+Bearing1_2   total power         0.35   0.971    5.3e+07   0.0049   2.58e+05
+Bearing1_2   total power         0.50   0.980   5.58e+07   0.0042   2.33e+05
+Bearing1_2   total power         0.70   0.991   5.84e+07   0.0020   1.18e+05
+Bearing1_2   peak band power     0.10   0.013   6.16e+07   0.4154   2.56e+07
+Bearing1_2   peak band power     0.35   0.941   1.77e+07   0.4038   7.13e+06
+Bearing1_2   peak band power     0.50   0.954   1.89e+07   0.3261   6.16e+06
+Bearing1_2   peak band power     0.70   0.969   1.97e+07   0.1480   2.91e+06
+Bearing1_2   high/low ratio      0.10   0.317   1.46e+05   0.2769   4.03e+04
+Bearing1_2   high/low ratio      0.20   0.808   7.89e+05   0.2656    2.1e+05
+Bearing1_2   high/low ratio      0.35   0.921   2.54e+06   0.1936   4.93e+05
+Bearing1_2   high/low ratio      0.50   0.940   2.89e+06   0.1120   3.23e+05
+Bearing1_2   high/low ratio      0.70   0.951   2.88e+06   0.0132   3.81e+04
+Bearing1_3   total power         0.10   0.960   1.18e+09   0.0184   2.16e+07
+Bearing1_3   total power         0.20   0.967    1.3e+09   0.0022   2.81e+06
+Bearing1_3   total power         0.35   0.975   1.46e+09   0.0015   2.14e+06
+Bearing1_3   total power         0.50   0.981   1.62e+09   0.0014   2.19e+06
+Bearing1_3   total power         0.70   0.989   1.85e+09   0.0011   2.11e+06
+Bearing1_3   peak band power     0.10   0.960   8.16e+08   0.0546   4.46e+07
+Bearing1_3   peak band power     0.20   0.966   8.86e+08   0.0370   3.28e+07
+Bearing1_3   peak band power     0.35   0.974    9.8e+08   0.0052    5.1e+06
+Bearing1_3   peak band power     0.50   0.980   1.09e+09   0.0038   4.16e+06
+Bearing1_3   peak band power     0.70   0.988   1.25e+09   0.0027   3.44e+06
+Bearing1_3   high/low ratio      0.10   0.008   1.75e+07   0.1022   1.79e+06
+Bearing1_3   high/low ratio      0.20   0.016   1.49e+07   0.2310   3.44e+06
+Bearing1_3   high/low ratio      0.35   0.039   1.08e+07   0.3009   3.26e+06
+Bearing1_3   high/low ratio      0.50   0.124   9.54e+05   0.3455    3.3e+05
+Bearing1_3   high/low ratio      0.70   0.441    3.3e+05   0.3676   1.21e+05
+Bearing1_5   total power         0.10   0.964   4.19e+09   0.0030   1.24e+07
+Bearing1_5   total power         0.20   0.971    4.6e+09   0.0031   1.45e+07
+Bearing1_5   total power         0.35   0.978   5.12e+09   0.0029   1.48e+07
+Bearing1_5   total power         0.50   0.984   5.67e+09   0.0023   1.29e+07
+Bearing1_5   total power         0.70   0.991   6.47e+09   0.0016   1.01e+07
+Bearing1_5   peak band power     0.10   0.968   1.44e+09   0.0015   2.17e+06
+Bearing1_5   peak band power     0.20   0.974   1.59e+09   0.0015   2.38e+06
+Bearing1_5   peak band power     0.35   0.981   1.77e+09   0.0013   2.23e+06
+Bearing1_5   peak band power     0.50   0.986   1.94e+09   0.0011   2.06e+06
+Bearing1_5   peak band power     0.70   0.992   2.19e+09   0.0007   1.64e+06
+Bearing1_5   high/low ratio      0.10   0.003   5.82e+07   0.0009   5.21e+04
+Bearing1_5   high/low ratio      0.20   0.007   5.45e+07   0.0017   9.34e+04
+Bearing1_5   high/low ratio      0.35   0.013   4.92e+07   0.0030   1.47e+05
+Bearing1_5   high/low ratio      0.50   0.020   4.39e+07   0.0044   1.93e+05
+Bearing1_5   high/low ratio      0.70   0.035   3.55e+07   0.0539   1.91e+06
+----------------------------------------------------------------------------
+(762s)
+
+spread within each record and measure, over the five demands
+
+record       measure             se: max/min   se x g: max/min   tighter
+--------------------------------------------------------------------------
+Bearing1_1   high/low ratio              6.4              10.5        se
+Bearing1_1   peak band power            69.1              42.7   product
+Bearing1_1   total power               150.3              57.7   product
+Bearing1_2   high/low ratio             20.9              12.9   product
+Bearing1_2   peak band power             2.8               8.8        se
+Bearing1_2   total power                72.2              48.1   product
+Bearing1_3   high/low ratio              3.6              28.4        se
+Bearing1_3   peak band power            19.9              13.0   product
+Bearing1_3   total power                16.1              10.2   product
+Bearing1_5   high/low ratio             60.2              36.8   product
+Bearing1_5   peak band power             2.0               1.5   product
+Bearing1_5   total power                 2.0               1.5   product
+--------------------------------------------------------------------------
+
+the product is the tighter quantity in 9 of 12 cases
+median spread of se across demands 18.0, of the product 12.9
+
+Multiplying by the density removes most of the variation of the
+standard error across demands, so the proposition carries the
+dependence it claims: the age is determined to a precision set by
+the density where it is read.

@@ -1,0 +1,15 @@
+﻿FD001: 100 units used, 0 skipped for length (114s)
+FD004: 249 units used, 0 skipped for length (255s)
+
+fleet      units  median life  distribution   amount     gap
+------------------------------------------------------------
+FD001        100          199         0.465    0.861   0.397
+FD004        249          234         0.251    0.319   0.068
+------------------------------------------------------------
+  FD001: 95% interval [+0.350, +0.484], excludes zero: yes
+  FD004: 95% interval [+0.019, +0.108], excludes zero: yes
+
+Distribution before amount holds in a domain with no spectrum in it,
+on heterogeneous sensors, with only order-invariant functionals
+admitted.  The principle is therefore about how an indicator is
+built and not about vibration.

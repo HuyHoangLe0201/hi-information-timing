@@ -1,0 +1,116 @@
+{
+  "prop10_closed_form": 0.00046769674692592294,
+  "kappa_parametric": 0.0004676912437563138,
+  "kappa_smoother": 8.930358039300451e-12,
+  "ladder": [
+    {
+      "beta": 2.3,
+      "nuisance": "amplitude and exponent (Prop 10)",
+      "dof": 2,
+      "kappa": 0.0022333994059406488,
+      "vs_par": 1.0
+    },
+    {
+      "beta": 2.3,
+      "nuisance": "polynomial of degree 3",
+      "dof": 4,
+      "kappa": 7.0474404306097765e-06,
+      "vs_par": 0.0031554769880676944
+    },
+    {
+      "beta": 2.3,
+      "nuisance": "polynomial of degree 6",
+      "dof": 7,
+      "kappa": 1.0210177933845145e-07,
+      "vs_par": 4.571586213682585e-05
+    },
+    {
+      "beta": 2.3,
+      "nuisance": "polynomial of degree 12",
+      "dof": 13,
+      "kappa": 9.611530576051735e-10,
+      "vs_par": 4.3035430879429344e-07
+    },
+    {
+      "beta": 2.3,
+      "nuisance": "local quadratic, 8 per cent",
+      "dof": 25,
+      "kappa": 1.095753389535349e-09,
+      "vs_par": 4.906213311514009e-07
+    },
+    {
+      "beta": 3.4,
+      "nuisance": "amplitude and exponent (Prop 10)",
+      "dof": 2,
+      "kappa": 0.0004676912437563138,
+      "vs_par": 1.0
+    },
+    {
+      "beta": 3.4,
+      "nuisance": "polynomial of degree 3",
+      "dof": 4,
+      "kappa": 2.4082187313424287e-06,
+      "vs_par": 0.005149163606315471
+    },
+    {
+      "beta": 3.4,
+      "nuisance": "polynomial of degree 6",
+      "dof": 7,
+      "kappa": 1.548991737451801e-09,
+      "vs_par": 3.3119964466533583e-06
+    },
+    {
+      "beta": 3.4,
+      "nuisance": "polynomial of degree 12",
+      "dof": 13,
+      "kappa": 8.534000338404499e-13,
+      "vs_par": 1.8247081706860137e-09
+    },
+    {
+      "beta": 3.4,
+      "nuisance": "local quadratic, 8 per cent",
+      "dof": 25,
+      "kappa": 8.930358039300451e-12,
+      "vs_par": 1.909455898206538e-08
+    },
+    {
+      "beta": 5.7,
+      "nuisance": "amplitude and exponent (Prop 10)",
+      "dof": 2,
+      "kappa": 5.920604183306225e-05,
+      "vs_par": 1.0
+    },
+    {
+      "beta": 5.7,
+      "nuisance": "polynomial of degree 3",
+      "dof": 4,
+      "kappa": 0.0009688207602186782,
+      "vs_par": 16.363545513655037
+    },
+    {
+      "beta": 5.7,
+      "nuisance": "polynomial of degree 6",
+      "dof": 7,
+      "kappa": 4.8482317449751e-11,
+      "vs_par": 8.188744923440764e-07
+    },
+    {
+      "beta": 5.7,
+      "nuisance": "polynomial of degree 12",
+      "dof": 13,
+      "kappa": 2.098027031645844e-17,
+      "vs_par": 3.5436029274874597e-13
+    },
+    {
+      "beta": 5.7,
+      "nuisance": "local quadratic, 8 per cent",
+      "dof": 25,
+      "kappa": 2.4173146383012566e-10,
+      "vs_par": 4.082885062840602e-06
+    }
+  ],
+  "ladder_monotone": false,
+  "ladder_span": 548032839.4781297,
+  "kappa_poly12": 8.534000338404499e-13,
+  "parametric_over_smoother": 52370939.854607426
+}

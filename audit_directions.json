@@ -1,0 +1,209 @@
+{
+  "eta_up": 0.20459660369636734,
+  "eta_down": -0.008419613320838681,
+  "etasign_pairs": 1600,
+  "etasign_bad": 0,
+  "rob_margins": [
+    [
+      3.0,
+      0.8573484021064426
+    ],
+    [
+      4.28,
+      0.8637572015343234
+    ],
+    [
+      6.0,
+      0.8802738111336469
+    ],
+    [
+      12.0,
+      0.9214525038301914
+    ],
+    [
+      30.0,
+      0.96255688794325
+    ],
+    [
+      100.0,
+      0.9877491487491471
+    ],
+    [
+      1000.0,
+      0.998729378100974
+    ]
+  ],
+  "nuisance_tightest": 7.944255142611212e-09,
+  "results": [
+    {
+      "claim": "sign of dw*/dtau_0 follows early minus late",
+      "where": "Prop 2",
+      "verdict": "holds",
+      "detail": "0 disagreements on analytic densities"
+    },
+    {
+      "claim": "adding a channel cannot make tau_min later",
+      "where": "Prop 3",
+      "verdict": "holds",
+      "detail": "largest increase -0.2687"
+    },
+    {
+      "claim": "adding a channel cannot widen w*",
+      "where": "Prop 3",
+      "verdict": "holds",
+      "detail": "largest increase -0.05075"
+    },
+    {
+      "claim": "eta is NOT monotone in the set, as now stated",
+      "where": "Prop 3",
+      "verdict": "holds",
+      "detail": "eta moved +0.2046 and -0.0084, so a monotonicity claim would be false"
+    },
+    {
+      "claim": "eq (9) gives the sign of the change in eta",
+      "where": "Prop 3",
+      "verdict": "holds",
+      "detail": "0 of 1600 random instances disagree"
+    },
+    {
+      "claim": "a prior alone suffices when epsilon >= s",
+      "where": "Prop 4",
+      "verdict": "holds",
+      "detail": "G=0 gives bound 0.1600 against target 0.2500"
+    },
+    {
+      "claim": "least-squares inefficiency grows as tails thicken",
+      "where": "Prop 6",
+      "verdict": "holds",
+      "detail": "values 1.006, 1.058, 1.250, 2.000, 3.182"
+    },
+    {
+      "claim": "positive serial correlation reduces information",
+      "where": "Prop 8",
+      "verdict": "holds",
+      "detail": "iat at phi=0.4 is 2.333"
+    },
+    {
+      "claim": "the leverages of a rank-K design sum to K",
+      "where": "Prop 14",
+      "verdict": "holds",
+      "detail": "worst deviation 1.78e-15"
+    },
+    {
+      "claim": "the worst case multiplies the odds by M^2, not divides",
+      "where": "Prop 16",
+      "verdict": "holds",
+      "detail": "ratio 6.2500 against M^2 = 6.2500"
+    },
+    {
+      "claim": "a falling w raises F and a rising w lowers it",
+      "where": "Prop 17",
+      "verdict": "holds",
+      "detail": "0 and 0 violations in 600 trials each"
+    },
+    {
+      "claim": "w*(tau_min) = tau_min, joining (ii) and (iii)",
+      "where": "Prop 1",
+      "verdict": "holds",
+      "detail": "at most 0.0005 of the budget lies before the window"
+    },
+    {
+      "claim": "w* meets its defining equation exactly",
+      "where": "Prop 1",
+      "verdict": "holds",
+      "detail": "worst relative miss 0.00131"
+    },
+    {
+      "claim": "a harder target never moves tau_min earlier",
+      "where": "Prop 1",
+      "verdict": "holds",
+      "detail": "largest backward step 0"
+    },
+    {
+      "claim": "over-estimating G moves tau_min earlier",
+      "where": "Prop 5",
+      "verdict": "holds",
+      "detail": "shifts -0.0070 at +0.02, +0.0072 at -0.02"
+    },
+    {
+      "claim": "the first-order size of that shift is |dG|/g",
+      "where": "Prop 5",
+      "verdict": "holds",
+      "detail": "observed 0.0070 against predicted 0.0071"
+    },
+    {
+      "claim": "I_f sigma^2 >= 1, so G_2 <= G_*: the least-squares benchmark sits at or above the Cramer-Rao floor",
+      "where": "Prop 7",
+      "verdict": "holds",
+      "detail": "checked over nu 3 to 1000"
+    },
+    {
+      "claim": "the robust curve exceeds G_* throughout nu > 2: its benchmark sits below the Cramer-Rao floor",
+      "where": "Prop 7",
+      "verdict": "holds",
+      "detail": "sigma_rob^2 I_f at nu=1000 is 0.99873"
+    },
+    {
+      "claim": "(12) is the stationary point of (11)",
+      "where": "Prop 9",
+      "verdict": "holds",
+      "detail": "largest |dC/du| at the solution 3.08e-10"
+    },
+    {
+      "claim": "costlier discarded life means a later threshold",
+      "where": "Prop 9",
+      "verdict": "holds",
+      "detail": "u non-decreasing in c_p/c_f"
+    },
+    {
+      "claim": "all three nuisance fractions lie in (0,1]",
+      "where": "Prop 10",
+      "verdict": "holds",
+      "detail": "swept beta from 0.501 to 30"
+    },
+    {
+      "claim": "profiling more parameters leaves less",
+      "where": "Prop 10",
+      "verdict": "holds",
+      "detail": "tightest margin 7.94e-09, reached as beta approaches 1/2"
+    },
+    {
+      "claim": "r_Abeta equals r_A squared",
+      "where": "Prop 10",
+      "verdict": "holds",
+      "detail": "worst deviation 2.22e-16"
+    },
+    {
+      "claim": "bias can only raise the error above the floor",
+      "where": "Prop 11",
+      "verdict": "holds",
+      "detail": "ratios 1.000, 1.000, 1.000, 1.006, 1.098"
+    },
+    {
+      "claim": "lambda_max <= tr(Sigma^-1 M)",
+      "where": "Prop 12",
+      "verdict": "holds",
+      "detail": "worst violation 0"
+    },
+    {
+      "claim": "equality when M has rank one",
+      "where": "Prop 12",
+      "verdict": "holds",
+      "detail": "worst gap 1.33e-15"
+    },
+    {
+      "claim": "the span ratio lies in [0,1]",
+      "where": "Prop 13",
+      "verdict": "holds",
+      "detail": "worst excursion 0"
+    },
+    {
+      "claim": "the span ratio is non-decreasing in c",
+      "where": "Prop 13",
+      "verdict": "holds",
+      "detail": "worst decrease 0"
+    }
+  ],
+  "n_checked": 28,
+  "n_failed": 0
+}

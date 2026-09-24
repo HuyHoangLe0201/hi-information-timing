@@ -1,0 +1,173 @@
+{
+  "min_blocks": 4,
+  "boot": 25,
+  "checked": [
+    {
+      "unit": "Bearing1_1",
+      "measure": "total power",
+      "kind": "amount",
+      "tau": 0.9711023902961113,
+      "blocks": 12,
+      "formula": 0.014474473328562474,
+      "boot": 0.023165158303821716,
+      "ratio": 0.6248380925665645
+    },
+    {
+      "unit": "Bearing1_1",
+      "measure": "peak band power",
+      "kind": "amount",
+      "tau": 0.9732429539778809,
+      "blocks": 12,
+      "formula": 0.009786035080618738,
+      "boot": 0.0025685112458621777,
+      "ratio": 3.810002816372267
+    },
+    {
+      "unit": "Bearing1_1",
+      "measure": "high-band power",
+      "kind": "amount",
+      "tau": 0.8751337852301107,
+      "blocks": 10,
+      "formula": 0.03877018424031207,
+      "boot": 0.003958649807116339,
+      "ratio": 9.793789834760362
+    },
+    {
+      "unit": "Bearing1_1",
+      "measure": "high/low ratio",
+      "kind": "distribution",
+      "tau": 0.7631109525508384,
+      "blocks": 9,
+      "formula": 0.045079112697203244,
+      "boot": 0.12425376362358868,
+      "ratio": 0.36279877069772154
+    },
+    {
+      "unit": "Bearing1_2",
+      "measure": "total power",
+      "kind": "amount",
+      "tau": 0.9253731343283582,
+      "blocks": 11,
+      "formula": 0.07582542118626961,
+      "boot": 0.003806104352296394,
+      "ratio": 19.922055248044032
+    },
+    {
+      "unit": "Bearing1_2",
+      "measure": "high-band power",
+      "kind": "amount",
+      "tau": 0.9621125143513203,
+      "blocks": 12,
+      "formula": 0.012634217190516592,
+      "boot": 0.003539940629115096,
+      "ratio": 3.5690477649832384
+    },
+    {
+      "unit": "Bearing1_3",
+      "measure": "total power",
+      "kind": "amount",
+      "tau": 0.9789473684210527,
+      "blocks": 12,
+      "formula": 0.005177307199794514,
+      "boot": 0.0038179824309481367,
+      "ratio": 1.3560322221044925
+    },
+    {
+      "unit": "Bearing1_3",
+      "measure": "peak band power",
+      "kind": "amount",
+      "tau": 0.9810526315789474,
+      "blocks": 12,
+      "formula": 0.004294424154065889,
+      "boot": 0.004351126195478031,
+      "ratio": 0.9869684217683528
+    },
+    {
+      "unit": "Bearing1_3",
+      "measure": "high-band power",
+      "kind": "amount",
+      "tau": 0.968842105263158,
+      "blocks": 12,
+      "formula": 0.014641931219971345,
+      "boot": 0.0011497641172833759,
+      "ratio": 12.7347261928532
+    },
+    {
+      "unit": "Bearing1_3",
+      "measure": "log total power",
+      "kind": "amount",
+      "tau": 0.9717894736842105,
+      "blocks": 12,
+      "formula": 0.00906438683598078,
+      "boot": 0.0021719950107838277,
+      "ratio": 4.173300026462599
+    },
+    {
+      "unit": "Bearing1_3",
+      "measure": "spectral entropy",
+      "kind": "distribution",
+      "tau": 0.3738947368421053,
+      "blocks": 4,
+      "formula": 0.1879286868988878,
+      "boot": 0.12953875871426904,
+      "ratio": 1.450752568298209
+    },
+    {
+      "unit": "Bearing1_3",
+      "measure": "high/low ratio",
+      "kind": "distribution",
+      "tau": 0.6981052631578948,
+      "blocks": 8,
+      "formula": 0.25146426651684284,
+      "boot": 0.348998648186245,
+      "ratio": 0.720530775186979
+    }
+  ],
+  "unreachable": [
+    {
+      "unit": "Bearing1_1",
+      "measure": "log total power",
+      "kind": "amount",
+      "tau": 0.0328219764537995,
+      "blocks": 0
+    },
+    {
+      "unit": "Bearing1_1",
+      "measure": "spectral entropy",
+      "kind": "distribution",
+      "tau": 0.018194791295041028,
+      "blocks": 0
+    },
+    {
+      "unit": "Bearing1_2",
+      "measure": "peak band power",
+      "kind": "amount",
+      "tau": 0.013777267508610792,
+      "blocks": 0
+    },
+    {
+      "unit": "Bearing1_2",
+      "measure": "log total power",
+      "kind": "amount",
+      "tau": 0.03444316877152698,
+      "blocks": 0
+    },
+    {
+      "unit": "Bearing1_2",
+      "measure": "spectral entropy",
+      "kind": "distribution",
+      "tau": 0.012629161882893225,
+      "blocks": 0
+    },
+    {
+      "unit": "Bearing1_2",
+      "measure": "high/low ratio",
+      "kind": "distribution",
+      "tau": 0.14925373134328357,
+      "blocks": 1
+    }
+  ],
+  "ratio_median": 2.5099001666407235,
+  "ratio_min": 0.36279877069772154,
+  "ratio_max": 19.922055248044032
+}

@@ -1,0 +1,46 @@
+{
+  "trials": 3000,
+  "worst_F_violation": 0.0,
+  "worst_eta_violation": 0.0,
+  "worst_tau_violation": 0.0,
+  "w_up": 2022,
+  "w_down": 660,
+  "w_example_up": {
+    "delta": 0.34175,
+    "density": "bimodal",
+    "tau0": 0.9474714711970162,
+    "before": 0.32347147119701625,
+    "after": 0.6652214711970162
+  },
+  "w_example_down": {
+    "delta": -0.29875,
+    "density": "peaked late",
+    "tau0": 0.7395110730036174,
+    "before": 0.7365110730036174,
+    "after": 0.4377610730036174
+  },
+  "w_unsigned": true,
+  "real": [
+    {
+      "distortion": "serial",
+      "share": 0.7457404338435278,
+      "falling": true,
+      "observed": "12 of 12"
+    },
+    {
+      "distortion": "tail",
+      "share": 0.7629664127019199,
+      "falling": true,
+      "observed": "not reported"
+    },
+    {
+      "distortion": "derivative",
+      "share": 0.6176324502553697,
+      "falling": false,
+      "observed": "8 of 12"
+    }
+  ],
+  "share_serial": 0.7457404338435278,
+  "share_derivative": 0.6176324502553697,
+  "split_predicted": true
+}

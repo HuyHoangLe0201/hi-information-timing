@@ -1,0 +1,86 @@
+{
+  "rows": [
+    {
+      "channel": "kurt",
+      "family": "amount",
+      "onset": 0.4391304347826087,
+      "clean": 87.29375231494382,
+      "records": 17
+    },
+    {
+      "channel": "peak",
+      "family": "amount",
+      "onset": 0.5806451612903226,
+      "clean": 78.5804235137179,
+      "records": 17
+    },
+    {
+      "channel": "rms",
+      "family": "amount",
+      "onset": 0.7338144935393512,
+      "clean": 117.28828935425831,
+      "records": 16
+    },
+    {
+      "channel": "b0_1",
+      "family": "distribution",
+      "onset": 0.29963459196102316,
+      "clean": 46.82012356003587,
+      "records": 15
+    },
+    {
+      "channel": "b1_2",
+      "family": "distribution",
+      "onset": 0.43067226890756305,
+      "clean": 32.42623497987199,
+      "records": 13
+    },
+    {
+      "channel": "b2_4",
+      "family": "distribution",
+      "onset": 0.3299579055882479,
+      "clean": 39.89262720782788,
+      "records": 10
+    },
+    {
+      "channel": "b4_6",
+      "family": "distribution",
+      "onset": 0.4762105263157895,
+      "clean": 40.50346152252317,
+      "records": 11
+    },
+    {
+      "channel": "b6_8",
+      "family": "distribution",
+      "onset": 0.42571789201552945,
+      "clean": 39.187500979138456,
+      "records": 14
+    },
+    {
+      "channel": "b8_10",
+      "family": "distribution",
+      "onset": 0.33557894736842103,
+      "clean": 36.48480198672769,
+      "records": 13
+    }
+  ],
+  "onset_amount": 0.5806451612903226,
+  "onset_distribution": 0.38064841969197527,
+  "clean_amount": 87.29375231494382,
+  "clean_distribution": 39.54006409348317,
+  "onset_gap": 0.19999674159834735,
+  "clean_ratio": 0.45295411234962235,
+  "paired_onset_median": 0.11067961165048545,
+  "paired_onset_wins": 11,
+  "paired_onset_n": 17,
+  "paired_onset_p": 0.332305908203125,
+  "paired_clean_median": 0.503372874114161,
+  "paired_clean_worse": 16,
+  "paired_clean_n": 17,
+  "paired_clean_p": 0.000274658203125,
+  "paired_onset_p_signed_rank": 0.1593780517578125,
+  "paired_clean_p_signed_rank": 3.0517578125e-05,
+  "timing_significant": false,
+  "kurt_onset": 0.4391304347826087,
+  "amount_ex_kurt_onset": 0.6572298274148369
+}

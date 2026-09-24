@@ -1,0 +1,38 @@
+[
+  {
+    "indicator": "spectral entropy",
+    "kind": "distribution",
+    "dyn": 1.407905417917514,
+    "across": 1.5033958225427368
+  },
+  {
+    "indicator": "spectral centroid",
+    "kind": "distribution",
+    "dyn": 2.3587285993357527,
+    "across": 3.9792756297314473
+  },
+  {
+    "indicator": "high/low ratio",
+    "kind": "distribution",
+    "dyn": 27.02724866644551,
+    "across": 26.089538315084702
+  },
+  {
+    "indicator": "total power",
+    "kind": "amount",
+    "dyn": 8.943951925866989,
+    "across": 31.481152187040678
+  },
+  {
+    "indicator": "peak band power",
+    "kind": "amount",
+    "dyn": 17.205958655714426,
+    "across": 53.704439487671834
+  },
+  {
+    "indicator": "log total power",
+    "kind": "amount",
+    "dyn": 1.1758064162962187,
+    "across": 1.2749070348075433
+  }
+]

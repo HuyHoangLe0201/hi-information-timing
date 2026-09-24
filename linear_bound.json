@@ -1,0 +1,525 @@
+{
+  "bearings": 16,
+  "qstar": 0.35,
+  "per_unit": [
+    {
+      "unit": "Bearing1_1",
+      "K": 31,
+      "tau_lin": 0.01,
+      "lam": 0.7189247851459404,
+      "best_shape": 0.018194791295041028,
+      "which": "spectral entropy",
+      "which_linear": false,
+      "beats": false,
+      "per": {
+        "spectral entropy": {
+          "linear": false,
+          "floored": 0.018194791295041028,
+          "unfloored": 0.018194791295041028
+        },
+        "spectral centroid": {
+          "linear": true,
+          "floored": 0.5005351409204424,
+          "unfloored": 0.49910809846592935
+        },
+        "spectral spread": {
+          "linear": false,
+          "floored": 0.030324652158401712,
+          "unfloored": 0.030324652158401712
+        },
+        "high/low ratio": {
+          "linear": false,
+          "floored": 0.7627541919372102,
+          "unfloored": 0.7620406707099536
+        }
+      }
+    },
+    {
+      "unit": "Bearing1_2",
+      "K": 32,
+      "tau_lin": 0.01,
+      "lam": 0.6990803934655646,
+      "best_shape": 0.012629161882893225,
+      "which": "spectral entropy",
+      "which_linear": false,
+      "beats": false,
+      "per": {
+        "spectral entropy": {
+          "linear": false,
+          "floored": 0.012629161882893225,
+          "unfloored": 0.012629161882893225
+        },
+        "spectral centroid": {
+          "linear": true,
+          "floored": 0.8254879448909299,
+          "unfloored": 0.8208955223880597
+        },
+        "spectral spread": {
+          "linear": false,
+          "floored": 0.018369690011481057,
+          "unfloored": 0.018369690011481057
+        },
+        "high/low ratio": {
+          "linear": false,
+          "floored": 0.14925373134328357,
+          "unfloored": 0.1515499425947187
+        }
+      }
+    },
+    {
+      "unit": "Bearing1_3",
+      "K": 21,
+      "tau_lin": 0.01,
+      "lam": 0.4327269771231707,
+      "best_shape": 0.02526315789473684,
+      "which": "spectral spread",
+      "which_linear": false,
+      "beats": false,
+      "per": {
+        "spectral entropy": {
+          "linear": false,
+          "floored": 0.3738947368421053,
+          "unfloored": 0.3738947368421053
+        },
+        "spectral centroid": {
+          "linear": true,
+          "floored": 0.6223157894736842,
+          "unfloored": 0.6202105263157894
+        },
+        "spectral spread": {
+          "linear": false,
+          "floored": 0.024842105263157895,
+          "unfloored": 0.02526315789473684
+        },
+        "high/low ratio": {
+          "linear": false,
+          "floored": 0.6972631578947368,
+          "unfloored": 0.6938947368421052
+        }
+      }
+    },
+    {
+      "unit": "Bearing1_5",
+      "K": 32,
+      "tau_lin": 0.01,
+      "lam": 0.6352368781168045,
+      "best_shape": 0.0097442143727162,
+      "which": "high/low ratio",
+      "which_linear": false,
+      "beats": true,
+      "per": {
+        "spectral entropy": {
+          "linear": false,
+          "floored": 0.014210312626877792,
+          "unfloored": 0.014616321559074299
+        },
+        "spectral centroid": {
+          "linear": true,
+          "floored": 0.010556232237109216,
+          "unfloored": 0.010556232237109216
+        },
+        "spectral spread": {
+          "linear": false,
+          "floored": 0.011774259033698742,
+          "unfloored": 0.011774259033698742
+        },
+        "high/low ratio": {
+          "linear": false,
+          "floored": 0.00933820544051969,
+          "unfloored": 0.0097442143727162
+        }
+      }
+    },
+    {
+      "unit": "Bearing1_6",
+      "K": 32,
+      "tau_lin": 0.01,
+      "lam": 0.49046301587215546,
+      "best_shape": 0.20179738562091504,
+      "which": "spectral spread",
+      "which_linear": false,
+      "beats": false,
+      "per": {
+        "spectral entropy": {
+          "linear": false,
+          "floored": 0.9754901960784313,
+          "unfloored": 0.9746732026143791
+        },
+        "spectral centroid": {
+          "linear": true,
+          "floored": 0.9673202614379085,
+          "unfloored": 0.9665032679738562
+        },
+        "spectral spread": {
+          "linear": false,
+          "floored": 0.19812091503267973,
+          "unfloored": 0.20179738562091504
+        },
+        "high/low ratio": {
+          "linear": false,
+          "floored": 0.9750816993464052,
+          "unfloored": 0.9746732026143791
+        }
+      }
+    },
+    {
+      "unit": "Bearing1_7",
+      "K": 32,
+      "tau_lin": 0.01,
+      "lam": 0.5709370266681275,
+      "best_shape": 0.38778220451527223,
+      "which": "spectral spread",
+      "which_linear": false,
+      "beats": false,
+      "per": {
+        "spectral entropy": {
+          "linear": false,
+          "floored": 0.48871181938911024,
+          "unfloored": 0.4878264718902169
+        },
+        "spectral centroid": {
+          "linear": true,
+          "floored": 0.41478530323151835,
+          "unfloored": 0.41478530323151835
+        },
+        "spectral spread": {
+          "linear": false,
+          "floored": 0.38778220451527223,
+          "unfloored": 0.38778220451527223
+        },
+        "high/low ratio": {
+          "linear": false,
+          "floored": 0.40017706949977866,
+          "unfloored": 0.40017706949977866
+        }
+      }
+    },
+    {
+      "unit": "Bearing2_1",
+      "K": 30,
+      "tau_lin": 0.01,
+      "lam": 0.6597595997866552,
+      "best_shape": 0.04610318331503842,
+      "which": "high/low ratio",
+      "which_linear": false,
+      "beats": false,
+      "per": {
+        "spectral entropy": {
+          "linear": false,
+          "floored": 0.14709110867178923,
+          "unfloored": 0.14818880351262348
+        },
+        "spectral centroid": {
+          "linear": true,
+          "floored": 0.15148188803512624,
+          "unfloored": 0.15148188803512624
+        },
+        "spectral spread": {
+          "linear": false,
+          "floored": 0.13172338090010977,
+          "unfloored": 0.132821075740944
+        },
+        "high/low ratio": {
+          "linear": false,
+          "floored": 0.04610318331503842,
+          "unfloored": 0.04610318331503842
+        }
+      }
+    },
+    {
+      "unit": "Bearing2_2",
+      "K": 31,
+      "tau_lin": 0.01,
+      "lam": 0.5973176924994703,
+      "best_shape": 0.2233375156838143,
+      "which": "high/low ratio",
+      "which_linear": false,
+      "beats": false,
+      "per": {
+        "spectral entropy": {
+          "linear": false,
+          "floored": 0.26097867001254704,
+          "unfloored": 0.26097867001254704
+        },
+        "spectral centroid": {
+          "linear": true,
+          "floored": 0.24717691342534504,
+          "unfloored": 0.24717691342534504
+        },
+        "spectral spread": {
+          "linear": false,
+          "floored": 0.2245922208281054,
+          "unfloored": 0.2245922208281054
+        },
+        "high/low ratio": {
+          "linear": false,
+          "floored": 0.2233375156838143,
+          "unfloored": 0.2233375156838143
+        }
+      }
+    },
+    {
+      "unit": "Bearing2_3",
+      "K": 24,
+      "tau_lin": 0.01,
+      "lam": 0.41543981170484445,
+      "best_shape": 0.018925831202046037,
+      "which": "spectral centroid",
+      "which_linear": true,
+      "beats": false,
+      "per": {
+        "spectral entropy": {
+          "linear": false,
+          "floored": 0.9728900255754476,
+          "unfloored": 0.972378516624041
+        },
+        "spectral centroid": {
+          "linear": true,
+          "floored": 0.018925831202046037,
+          "unfloored": 0.018925831202046037
+        },
+        "spectral spread": {
+          "linear": false,
+          "floored": 0.25626598465473144,
+          "unfloored": 0.25626598465473144
+        },
+        "high/low ratio": {
+          "linear": false,
+          "floored": 0.11508951406649616,
+          "unfloored": 0.11508951406649616
+        }
+      }
+    },
+    {
+      "unit": "Bearing2_4",
+      "K": 32,
+      "tau_lin": 0.01,
+      "lam": 0.5780141937529404,
+      "best_shape": 0.17709720372836218,
+      "which": "high/low ratio",
+      "which_linear": false,
+      "beats": false,
+      "per": {
+        "spectral entropy": {
+          "linear": false,
+          "floored": 0.9840213049267643,
+          "unfloored": 0.9826897470039947
+        },
+        "spectral centroid": {
+          "linear": true,
+          "floored": 0.5619174434087882,
+          "unfloored": 0.559254327563249
+        },
+        "spectral spread": {
+          "linear": false,
+          "floored": 0.2969374167776298,
+          "unfloored": 0.2982689747003995
+        },
+        "high/low ratio": {
+          "linear": false,
+          "floored": 0.170439414114514,
+          "unfloored": 0.17709720372836218
+        }
+      }
+    },
+    {
+      "unit": "Bearing2_5",
+      "K": 31,
+      "tau_lin": 0.01,
+      "lam": 0.3675128857331195,
+      "best_shape": 0.08308091735179576,
+      "which": "high/low ratio",
+      "which_linear": false,
+      "beats": false,
+      "per": {
+        "spectral entropy": {
+          "linear": false,
+          "floored": 0.14971873647771528,
+          "unfloored": 0.1518823020337516
+        },
+        "spectral centroid": {
+          "linear": true,
+          "floored": 0.10298572046733016,
+          "unfloored": 0.10341843357853743
+        },
+        "spectral spread": {
+          "linear": false,
+          "floored": 0.0839463435742103,
+          "unfloored": 0.08481176979662484
+        },
+        "high/low ratio": {
+          "linear": false,
+          "floored": 0.08308091735179576,
+          "unfloored": 0.08308091735179576
+        }
+      }
+    },
+    {
+      "unit": "Bearing2_6",
+      "K": 30,
+      "tau_lin": 0.01,
+      "lam": 0.5136632330008033,
+      "best_shape": 0.11554921540656206,
+      "which": "spectral spread",
+      "which_linear": false,
+      "beats": false,
+      "per": {
+        "spectral entropy": {
+          "linear": false,
+          "floored": 0.3181169757489301,
+          "unfloored": 0.3181169757489301
+        },
+        "spectral centroid": {
+          "linear": true,
+          "floored": 0.16262482168330955,
+          "unfloored": 0.16547788873038516
+        },
+        "spectral spread": {
+          "linear": false,
+          "floored": 0.11126961483594865,
+          "unfloored": 0.11554921540656206
+        },
+        "high/low ratio": {
+          "linear": false,
+          "floored": 0.18687589158345222,
+          "unfloored": 0.18830242510699002
+        }
+      }
+    },
+    {
+      "unit": "Bearing2_7",
+      "K": 19,
+      "tau_lin": 0.01,
+      "lam": 0.3796656220522715,
+      "best_shape": 0.9695652173913043,
+      "which": "spectral entropy",
+      "which_linear": false,
+      "beats": false,
+      "per": {
+        "spectral entropy": {
+          "linear": false,
+          "floored": 0.9695652173913043,
+          "unfloored": 0.9695652173913043
+        },
+        "spectral centroid": {
+          "linear": true,
+          "floored": 0.9695652173913043,
+          "unfloored": 0.9695652173913043
+        },
+        "spectral spread": {
+          "linear": false,
+          "floored": 0.9739130434782609,
+          "unfloored": 0.9739130434782609
+        },
+        "high/low ratio": {
+          "linear": false,
+          "floored": 0.9739130434782609,
+          "unfloored": 0.9695652173913043
+        }
+      }
+    },
+    {
+      "unit": "Bearing3_1",
+      "K": 19,
+      "tau_lin": 0.01,
+      "lam": 0.4499684239365241,
+      "best_shape": 0.09902912621359224,
+      "which": "spectral entropy",
+      "which_linear": false,
+      "beats": false,
+      "per": {
+        "spectral entropy": {
+          "linear": false,
+          "floored": 0.09902912621359224,
+          "unfloored": 0.09902912621359224
+        },
+        "spectral centroid": {
+          "linear": true,
+          "floored": 0.9689320388349515,
+          "unfloored": 0.9689320388349515
+        },
+        "spectral spread": {
+          "linear": false,
+          "floored": 0.1262135922330097,
+          "unfloored": 0.1262135922330097
+        },
+        "high/low ratio": {
+          "linear": false,
+          "floored": 0.9592233009708738,
+          "unfloored": 0.9592233009708738
+        }
+      }
+    },
+    {
+      "unit": "Bearing3_2",
+      "K": 31,
+      "tau_lin": 0.01,
+      "lam": 0.6290736066602369,
+      "best_shape": 0.855222968845449,
+      "which": "high/low ratio",
+      "which_linear": false,
+      "beats": false,
+      "per": {
+        "spectral entropy": {
+          "linear": false,
+          "floored": 0.8607208307880269,
+          "unfloored": 0.8601099572388515
+        },
+        "spectral centroid": {
+          "linear": true,
+          "floored": 0.8668295662797801,
+          "unfloored": 0.8668295662797801
+        },
+        "spectral spread": {
+          "linear": false,
+          "floored": 0.8607208307880269,
+          "unfloored": 0.8607208307880269
+        },
+        "high/low ratio": {
+          "linear": false,
+          "floored": 0.8564447159437997,
+          "unfloored": 0.855222968845449
+        }
+      }
+    },
+    {
+      "unit": "Bearing3_3",
+      "K": 32,
+      "tau_lin": 0.01,
+      "lam": 0.5549262135945774,
+      "best_shape": 0.17050691244239632,
+      "which": "spectral spread",
+      "which_linear": false,
+      "beats": false,
+      "per": {
+        "spectral entropy": {
+          "linear": false,
+          "floored": 0.7672811059907834,
+          "unfloored": 0.7649769585253456
+        },
+        "spectral centroid": {
+          "linear": true,
+          "floored": 0.9516129032258065,
+          "unfloored": 0.9516129032258065
+        },
+        "spectral spread": {
+          "linear": false,
+          "floored": 0.17050691244239632,
+          "unfloored": 0.17050691244239632
+        },
+        "high/low ratio": {
+          "linear": false,
+          "floored": 0.7073732718894009,
+          "unfloored": 0.7073732718894009
+        }
+      }
+    }
+  ],
+  "tau_lin_median": 0.01,
+  "best_shape_median": 0.10728917081007715,
+  "beaten": 1,
+  "gap": -0.09728917081007715,
+  "wins_by_linear_statistic": 0,
+  "centroid_violations": 0,
+  "centroid_n": 16
+}

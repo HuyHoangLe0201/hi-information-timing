@@ -1,0 +1,18 @@
+﻿regime normalisation, with FD001 as the control that must not move
+
+fleet     regimes  units   gap, as before   gap, normalised   change
+--------------------------------------------------------------------
+FD001           1    100            0.397             0.397   +0.000
+        (183s)  regime sizes [20631]
+FD004           6    249            0.068             0.225   +0.158
+        (732s)  regime sizes [9238, 15395, 9139, 10683, 7632, 9162]
+--------------------------------------------------------------------
+  FD001: before [+0.350, +0.482], after [+0.350, +0.482]
+  FD004: before [+0.019, +0.107], after [+0.146, +0.294]
+
+control: FD001 has one regime and moves by 0.000
+FD004 recovers from 0.068 to 0.225.
+The regimes were the cause, so the explanation offered for the
+weak turbofan gap is confirmed rather than merely plausible, and
+the remedy is a recipe: normalise within regime before reading
+the curve.

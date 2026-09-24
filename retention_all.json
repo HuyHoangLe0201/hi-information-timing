@@ -1,0 +1,170 @@
+[
+  {
+    "group": "bearing RMS",
+    "w": 0.1,
+    "units": 16,
+    "efficiency": 0.017785179829384847,
+    "inflation": 6.560609178843384,
+    "unreachable": 0
+  },
+  {
+    "group": "bearing RMS",
+    "w": 0.2,
+    "units": 16,
+    "efficiency": 0.06082559552444852,
+    "inflation": 3.421327433628319,
+    "unreachable": 0
+  },
+  {
+    "group": "bearing RMS",
+    "w": 0.3,
+    "units": 16,
+    "efficiency": 0.1714118196424742,
+    "inflation": 2.3171878901373284,
+    "unreachable": 0
+  },
+  {
+    "group": "bearing 0-2 kHz",
+    "w": 0.1,
+    "units": 12,
+    "efficiency": 0.04009180907028966,
+    "inflation": 6.22360248447205,
+    "unreachable": 0
+  },
+  {
+    "group": "bearing 0-2 kHz",
+    "w": 0.2,
+    "units": 12,
+    "efficiency": 0.0831088464396007,
+    "inflation": 3.395030046406193,
+    "unreachable": 0
+  },
+  {
+    "group": "bearing 0-2 kHz",
+    "w": 0.3,
+    "units": 12,
+    "efficiency": 0.15047003115737495,
+    "inflation": 2.3196357260656137,
+    "unreachable": 0
+  },
+  {
+    "group": "bearing 4-10 kHz",
+    "w": 0.1,
+    "units": 15,
+    "efficiency": 0.01002840163356152,
+    "inflation": 6.435714285714286,
+    "unreachable": 0
+  },
+  {
+    "group": "bearing 4-10 kHz",
+    "w": 0.2,
+    "units": 15,
+    "efficiency": 0.035073244295176796,
+    "inflation": 3.3689839572192515,
+    "unreachable": 0
+  },
+  {
+    "group": "bearing 4-10 kHz",
+    "w": 0.3,
+    "units": 15,
+    "efficiency": 0.0998769892133694,
+    "inflation": 2.2963464140730716,
+    "unreachable": 0
+  },
+  {
+    "group": "turbofan FD001 s11",
+    "w": 0.1,
+    "units": 100,
+    "efficiency": 0.32958184281758707,
+    "inflation": 3.658333333333333,
+    "unreachable": 0
+  },
+  {
+    "group": "turbofan FD001 s11",
+    "w": 0.2,
+    "units": 100,
+    "efficiency": 0.4091792556818886,
+    "inflation": 2.75,
+    "unreachable": 0
+  },
+  {
+    "group": "turbofan FD001 s11",
+    "w": 0.3,
+    "units": 100,
+    "efficiency": 0.49842778217539296,
+    "inflation": 2.1818064182194616,
+    "unreachable": 0
+  },
+  {
+    "group": "turbofan FD004 s11",
+    "w": 0.1,
+    "units": 249,
+    "efficiency": 0.24889160554544815,
+    "inflation": 4.055555555555555,
+    "unreachable": 0
+  },
+  {
+    "group": "turbofan FD004 s11",
+    "w": 0.2,
+    "units": 249,
+    "efficiency": 0.3769153383602708,
+    "inflation": 2.9166666666666665,
+    "unreachable": 0
+  },
+  {
+    "group": "turbofan FD004 s11",
+    "w": 0.3,
+    "units": 249,
+    "efficiency": 0.4588044179315432,
+    "inflation": 2.2586206896551726,
+    "unreachable": 0
+  },
+  {
+    "group": "battery cap",
+    "w": 0.1,
+    "units": 4,
+    "efficiency": 0.41584978161467084,
+    "inflation": 1.7,
+    "unreachable": 0
+  },
+  {
+    "group": "battery cap",
+    "w": 0.2,
+    "units": 4,
+    "efficiency": 0.6656868554284039,
+    "inflation": 1.5583333333333333,
+    "unreachable": 0
+  },
+  {
+    "group": "battery cap",
+    "w": 0.3,
+    "units": 4,
+    "efficiency": 0.7522753619678408,
+    "inflation": 1.5624123422159888,
+    "unreachable": 0
+  },
+  {
+    "group": "battery Re",
+    "w": 0.1,
+    "units": 4,
+    "efficiency": 0.07782835399655001,
+    "inflation": 3.916666666666667,
+    "unreachable": 0
+  },
+  {
+    "group": "battery Re",
+    "w": 0.2,
+    "units": 4,
+    "efficiency": 0.13059261913937975,
+    "inflation": 2.203333333333333,
+    "unreachable": 0
+  },
+  {
+    "group": "battery Re",
+    "w": 0.3,
+    "units": 4,
+    "efficiency": 0.2676854277550683,
+    "inflation": 1.802207130730051,
+    "unreachable": 0
+  }
+]

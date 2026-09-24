@@ -1,0 +1,47 @@
+[
+  {
+    "indicator": "bearing RMS",
+    "units": 17,
+    "s_local": 0.45357534450981213,
+    "s_family": 1.073728614136354,
+    "ratio": 2.5257422841795267,
+    "acorr_local": 2.0,
+    "acorr_family": 19.0
+  },
+  {
+    "indicator": "bearing 0--2 kHz",
+    "units": 17,
+    "s_local": 0.4792162927961719,
+    "s_family": 0.7848422668687121,
+    "ratio": 1.3436023191805555,
+    "acorr_local": 1.0,
+    "acorr_family": 32.0
+  },
+  {
+    "indicator": "bearing 4--10 kHz",
+    "units": 17,
+    "s_local": 0.5325016753753229,
+    "s_family": 1.0000000000317837,
+    "ratio": 1.8779283638806563,
+    "acorr_local": 1.0,
+    "acorr_family": 105.0
+  },
+  {
+    "indicator": "turbofan s4",
+    "units": 60,
+    "s_local": 0.6105330317892781,
+    "s_family": 0.566559632730645,
+    "ratio": 0.9273403407924924,
+    "acorr_local": 1.0,
+    "acorr_family": 1.0
+  },
+  {
+    "indicator": "turbofan s11",
+    "units": 60,
+    "s_local": 0.5743940094290039,
+    "s_family": 0.516678920952076,
+    "ratio": 0.9078298587169179,
+    "acorr_local": 1.0,
+    "acorr_family": 1.0
+  }
+]

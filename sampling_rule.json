@@ -1,0 +1,270 @@
+{
+  "measurements": [
+    {
+      "channel": "rms",
+      "step": 1,
+      "rate": 1.0,
+      "n": 1428,
+      "signal": 0.9930870582394671,
+      "tau": 0.9714693295292439,
+      "usable": true,
+      "units": 17
+    },
+    {
+      "channel": "rms",
+      "step": 2,
+      "rate": 0.5,
+      "n": 714,
+      "signal": 0.9908551418273402,
+      "tau": 0.9757785467128027,
+      "usable": true,
+      "units": 17
+    },
+    {
+      "channel": "rms",
+      "step": 3,
+      "rate": 0.3333333333333333,
+      "n": 476,
+      "signal": 0.9877451921507777,
+      "tau": 0.974025974025974,
+      "usable": true,
+      "units": 17
+    },
+    {
+      "channel": "rms",
+      "step": 4,
+      "rate": 0.25,
+      "n": 383,
+      "signal": 0.988298943434851,
+      "tau": 0.9726375598086124,
+      "usable": true,
+      "units": 16
+    },
+    {
+      "channel": "rms",
+      "step": 6,
+      "rate": 0.16666666666666666,
+      "n": 255,
+      "signal": 0.9818768225712997,
+      "tau": 0.9763115237253168,
+      "usable": true,
+      "units": 16
+    },
+    {
+      "channel": "rms",
+      "step": 8,
+      "rate": 0.125,
+      "n": 205,
+      "signal": 0.9935327470908701,
+      "tau": 0.9797979797979798,
+      "usable": true,
+      "units": 15
+    },
+    {
+      "channel": "0--2 kHz",
+      "step": 1,
+      "rate": 1.0,
+      "n": 1428,
+      "signal": 0.984524670177503,
+      "tau": 0.5936842105263158,
+      "usable": true,
+      "units": 17
+    },
+    {
+      "channel": "0--2 kHz",
+      "step": 2,
+      "rate": 0.5,
+      "n": 714,
+      "signal": 0.9710421545223372,
+      "tau": 0.6035353535353535,
+      "usable": true,
+      "units": 17
+    },
+    {
+      "channel": "0--2 kHz",
+      "step": 3,
+      "rate": 0.3333333333333333,
+      "n": 476,
+      "signal": 0.9634274158896068,
+      "tau": 0.5639097744360902,
+      "usable": true,
+      "units": 17
+    },
+    {
+      "channel": "0--2 kHz",
+      "step": 4,
+      "rate": 0.25,
+      "n": 383,
+      "signal": 0.9612779537995213,
+      "tau": 0.6163973063973064,
+      "usable": true,
+      "units": 16
+    },
+    {
+      "channel": "0--2 kHz",
+      "step": 6,
+      "rate": 0.16666666666666666,
+      "n": 255,
+      "signal": 0.9554758889970039,
+      "tau": 0.47462406015037595,
+      "usable": true,
+      "units": 16
+    },
+    {
+      "channel": "0--2 kHz",
+      "step": 8,
+      "rate": 0.125,
+      "n": 205,
+      "signal": 0.9312024274747135,
+      "tau": 0.8,
+      "usable": true,
+      "units": 15
+    },
+    {
+      "channel": "2--4 kHz",
+      "step": 1,
+      "rate": 1.0,
+      "n": 1428,
+      "signal": 0.9872970646109804,
+      "tau": 0.3378640776699029,
+      "usable": true,
+      "units": 17
+    },
+    {
+      "channel": "2--4 kHz",
+      "step": 2,
+      "rate": 0.5,
+      "n": 714,
+      "signal": 0.9730657308859022,
+      "tau": 0.39095744680851063,
+      "usable": true,
+      "units": 17
+    },
+    {
+      "channel": "2--4 kHz",
+      "step": 3,
+      "rate": 0.3333333333333333,
+      "n": 476,
+      "signal": 0.982675574224982,
+      "tau": 0.306951871657754,
+      "usable": true,
+      "units": 17
+    },
+    {
+      "channel": "2--4 kHz",
+      "step": 4,
+      "rate": 0.25,
+      "n": 383,
+      "signal": 0.9739076240333866,
+      "tau": 0.31988623670327027,
+      "usable": true,
+      "units": 16
+    },
+    {
+      "channel": "2--4 kHz",
+      "step": 6,
+      "rate": 0.16666666666666666,
+      "n": 255,
+      "signal": 0.9609103756130697,
+      "tau": 0.48359681254418097,
+      "usable": true,
+      "units": 16
+    },
+    {
+      "channel": "2--4 kHz",
+      "step": 8,
+      "rate": 0.125,
+      "n": 205,
+      "signal": 0.9629151182958595,
+      "tau": 0.46808510638297873,
+      "usable": true,
+      "units": 15
+    },
+    {
+      "channel": "4--10 kHz",
+      "step": 1,
+      "rate": 1.0,
+      "n": 1428,
+      "signal": 0.9887098815151594,
+      "tau": 0.24116930572472595,
+      "usable": true,
+      "units": 17
+    },
+    {
+      "channel": "4--10 kHz",
+      "step": 2,
+      "rate": 0.5,
+      "n": 714,
+      "signal": 0.9801604154228593,
+      "tau": 0.40852130325814534,
+      "usable": true,
+      "units": 17
+    },
+    {
+      "channel": "4--10 kHz",
+      "step": 3,
+      "rate": 0.3333333333333333,
+      "n": 476,
+      "signal": 0.9739063714204291,
+      "tau": 0.243605359317905,
+      "usable": true,
+      "units": 17
+    },
+    {
+      "channel": "4--10 kHz",
+      "step": 4,
+      "rate": 0.25,
+      "n": 383,
+      "signal": 0.9546507286916848,
+      "tau": 0.515203081232493,
+      "usable": true,
+      "units": 16
+    },
+    {
+      "channel": "4--10 kHz",
+      "step": 6,
+      "rate": 0.16666666666666666,
+      "n": 255,
+      "signal": 0.9644233449604827,
+      "tau": 0.23681656014018632,
+      "usable": true,
+      "units": 16
+    },
+    {
+      "channel": "4--10 kHz",
+      "step": 8,
+      "rate": 0.125,
+      "n": 205,
+      "signal": 0.9572356392519071,
+      "tau": 0.30701754385964913,
+      "usable": true,
+      "units": 15
+    }
+  ],
+  "rule": [
+    {
+      "channel": "rms",
+      "slope": -0.0030438980105860383,
+      "factor": 3154077587871553.0,
+      "n_points": 6
+    },
+    {
+      "channel": "0--2 kHz",
+      "slope": -0.04740533782608282,
+      "factor": 48.95704743136269,
+      "n_points": 6
+    },
+    {
+      "channel": "2--4 kHz",
+      "slope": -0.1543004014898591,
+      "factor": 9.7223005131578,
+      "n_points": 6
+    },
+    {
+      "channel": "4--10 kHz",
+      "slope": -0.03947049930048108,
+      "factor": 780812.1189778815,
+      "n_points": 6
+    }
+  ]
+}

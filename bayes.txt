@@ -1,0 +1,77 @@
+﻿fleet spread of life, and the prior it implies on the clock
+
+fleet                   units  median life    spread      CV   s at tau=0.5
+---------------------------------------------------------------------------
+PRONOSTIA                  17         1428     12.2x    0.59          0.294
+XJTU-SY                    15          161     60.4x    1.39          0.695
+---------------------------------------------------------------------------
+The tightest fleet is PRONOSTIA, coefficient of variation 0.59,
+so the prior standard deviation at mid-life is s = 0.294 of a
+lifetime.  It is used throughout because it makes the prior least
+helpful; the looser fleet (XJTU-SY, s = 0.695) only strengthens what follows.
+
+the demand the record must still supply, after the prior
+
+A target epsilon needs G >= epsilon^-2 - s^-2 rather than G >= epsilon^-2.
+
+  target eps   unbiased demand   after the prior   share removed
+------------------------------------------------------------------
+        0.30                11       none needed            100%
+        0.20                25                13             46%
+        0.10               100                88             12%
+        0.05               400               388              3%
+        0.02              2500              2488              0%
+        0.01             10000              9988              0%
+------------------------------------------------------------------
+The crossover is at epsilon = s = 0.294: a demand looser than the
+fleet's own spread is met at age zero, which the unbiased bound cannot
+express since it asks for G >= epsilon^-2 regardless.
+
+a shrinkage estimator against both floors
+
+The estimator is delta_hat_MAP = G/(G + s^-2) * delta_hat_ML, the
+posterior mean under the Gaussian prior.  It must sit above the
+Bayesian floor everywhere; it may sit below the unbiased one.
+
+          G   unbiased floor   Bayes floor        ML       MAP   MAP/Bayes   MAP/unbiased
+-----------------------------------------------------------------------------------------
+      1e+00           1.0000        0.2824    0.9986    0.2823       1.000          0.282
+      1e+01           0.3162        0.2155    0.3165    0.2155       1.000          0.681
+      4e+01           0.1581        0.1393    0.1582    0.1393       1.000          0.881
+      1e+02           0.1000        0.0947    0.1000    0.0946       1.000          0.946
+      4e+02           0.0500        0.0493    0.0500    0.0493       1.001          0.987
+      1e+03           0.0316        0.0314    0.0316    0.0314       1.000          0.994
+      1e+04           0.0100        0.0100    0.0100    0.0100       1.000          0.999
+-----------------------------------------------------------------------------------------
+MAP against the Bayesian floor: median 0.9999, range 0.9996 to 1.0011
+Monte Carlo standard error on each ratio 0.0011, so the departures
+are 0.1 standard errors and the floor is not merely
+respected but ATTAINED: for a Gaussian prior and Gaussian noise the
+posterior mean achieves the van Trees bound exactly, so unlike the
+unbiased floor of Section 5 its tightness needs no measurement.
+
+the unbiased floor is beaten at 6 of 7 information
+levels, by up to 3.5 times, and only where the prior
+carries a comparable share of the total information.
+
+So Proposition 1 is not the floor a deployed model faces; it is the floor
+a model faces that declines to use what the fleet already implies.  The
+Bayesian floor is the one that covers every estimator, and it differs from
+the unbiased floor by the additive constant s^-2 = 11.5, which is
+negligible against the information these records carry late in life and
+dominant early.
+censoring efficiency, with and without the prior
+
+  record carries G(1)   G(c)/G(1)   with prior   recovered
+----------------------------------------------------------
+                1e+01        0.50         0.77       +0.27
+                1e+02        0.50         0.55       +0.05
+                1e+03        0.50         0.51       +0.01
+                1e+04        0.50         0.50       +0.00
+----------------------------------------------------------
+A record censored at half its information keeps half of it in the
+unbiased account and more once the fleet prior is included, the
+difference vanishing as the record's own information grows.  This is the
+direction that matters for Section 10: truncation is less costly than the
+unbiased form implies, which is consistent with the retention null found
+there rather than in tension with it.

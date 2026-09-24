@@ -1,0 +1,102 @@
+{
+  "analytic": [
+    {
+      "curve": "rising density, g = 2t",
+      "pairs": 160,
+      "agree_eq7": 160,
+      "agree_late_minus_early": 0
+    },
+    {
+      "curve": "falling density, g = 2-2t",
+      "pairs": 219,
+      "agree_eq7": 219,
+      "agree_late_minus_early": 0
+    }
+  ],
+  "analytic_exact": true,
+  "late_minus_early_agree": 0,
+  "analytic_pairs": 379,
+  "smoothing": [
+    {
+      "half": 0,
+      "ok": 250,
+      "n": 267,
+      "rate": 0.9363295880149812
+    },
+    {
+      "half": 2,
+      "ok": 250,
+      "n": 267,
+      "rate": 0.9363295880149812
+    },
+    {
+      "half": 5,
+      "ok": 251,
+      "n": 267,
+      "rate": 0.9400749063670412
+    },
+    {
+      "half": 10,
+      "ok": 250,
+      "n": 267,
+      "rate": 0.9363295880149812
+    },
+    {
+      "half": 20,
+      "ok": 253,
+      "n": 267,
+      "rate": 0.947565543071161
+    },
+    {
+      "half": 40,
+      "ok": 252,
+      "n": 267,
+      "rate": 0.9438202247191011
+    }
+  ],
+  "rate_pointwise": 0.9363295880149812,
+  "rate_smoothed": 0.9438202247191011,
+  "best_rate": 0.947565543071161,
+  "best_half": 20,
+  "gap_agree": 5.597326791511435,
+  "gap_disagree": 0.5901783232288155,
+  "step_agree": 43.094063926940635,
+  "step_disagree": 64.32968036529675,
+  "n_disagree": 17,
+  "step_ratio": 0.6698939538053127,
+  "gap_ratio": 9.484128052838226,
+  "threshold": [
+    {
+      "threshold": 0.0,
+      "rate": 0.9363295880149812,
+      "kept": 267
+    },
+    {
+      "threshold": 0.25,
+      "rate": 0.9429657794676806,
+      "kept": 263
+    },
+    {
+      "threshold": 0.5,
+      "rate": 0.9606299212598425,
+      "kept": 254
+    },
+    {
+      "threshold": 1.0,
+      "rate": 0.9793388429752066,
+      "kept": 242
+    },
+    {
+      "threshold": 2.0,
+      "rate": 0.9826839826839827,
+      "kept": 231
+    },
+    {
+      "threshold": 3.0,
+      "rate": 0.9899497487437185,
+      "kept": 199
+    }
+  ],
+  "rate_at_1": 0.9793388429752066,
+  "monotone": true
+}

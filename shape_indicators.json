@@ -1,0 +1,666 @@
+{
+  "PRONOSTIA": [
+    {
+      "rig": "PRONOSTIA",
+      "column": "h_rms",
+      "channel": "h",
+      "base": "rms",
+      "kind": "level",
+      "tau": 0.9728958630527818,
+      "signal": 0.9915688080325143,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "h_peak",
+      "channel": "h",
+      "base": "peak",
+      "kind": "level",
+      "tau": 0.9761606022584692,
+      "signal": 0.9724417019636843,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "h_p2p",
+      "channel": "h",
+      "base": "p2p",
+      "kind": "level",
+      "tau": 0.9753835176596504,
+      "signal": 0.9788377856248474,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "h_kurtosis",
+      "channel": "h",
+      "base": "kurtosis",
+      "kind": "shape (time)",
+      "tau": 0.9223300970873787,
+      "signal": 0.9107676059689547,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "h_skewness",
+      "channel": "h",
+      "base": "skewness",
+      "kind": "shape (time)",
+      "tau": 0.7352941176470589,
+      "signal": 0.8399543545173318,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "h_crest",
+      "channel": "h",
+      "base": "crest",
+      "kind": "shape (time)",
+      "tau": 0.7483660130718954,
+      "signal": 0.8926313093067417,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "h_shape",
+      "channel": "h",
+      "base": "shape",
+      "kind": "shape (time)",
+      "tau": 0.9720372836218375,
+      "signal": 0.9622776440994786,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "h_impulse",
+      "channel": "h",
+      "base": "impulse",
+      "kind": "shape (time)",
+      "tau": 0.7334736842105263,
+      "signal": 0.9103720548024152,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "h_clearance",
+      "channel": "h",
+      "base": "clearance",
+      "kind": "shape (time)",
+      "tau": 0.7478991596638656,
+      "signal": 0.9197389657383209,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "h_energy_op",
+      "channel": "h",
+      "base": "energy_op",
+      "kind": "level",
+      "tau": 0.9700460829493087,
+      "signal": 0.993964478110129,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "h_sk_max",
+      "channel": "h",
+      "base": "sk_max",
+      "kind": "shape (spectral)",
+      "tau": 0.920388349514563,
+      "signal": 0.9558670880413762,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "h_spec_centroid",
+      "channel": "h",
+      "base": "spec_centroid",
+      "kind": "shape (spectral)",
+      "tau": 0.6937416777629827,
+      "signal": 0.9864486347037862,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "h_spec_spread",
+      "channel": "h",
+      "base": "spec_spread",
+      "kind": "shape (spectral)",
+      "tau": 0.1690450054884742,
+      "signal": 0.9936585153083577,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "h_spec_entropy",
+      "channel": "h",
+      "base": "spec_entropy",
+      "kind": "shape (spectral)",
+      "tau": 0.8011204481792717,
+      "signal": 0.977598122974504,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "h_band_hi",
+      "channel": "h",
+      "base": "band_hi",
+      "kind": "shape (spectral)",
+      "tau": 0.9739130434782609,
+      "signal": 0.9965094483165353,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "h_hilbert_rms",
+      "channel": "h",
+      "base": "hilbert_rms",
+      "kind": "level",
+      "tau": 0.9721115537848606,
+      "signal": 0.9942802499150679,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "v_rms",
+      "channel": "v",
+      "base": "rms",
+      "kind": "level",
+      "tau": 0.9657631954350927,
+      "signal": 0.9919030549403353,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "v_peak",
+      "channel": "v",
+      "base": "peak",
+      "kind": "level",
+      "tau": 0.9774236387782205,
+      "signal": 0.9750939722697707,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "v_p2p",
+      "channel": "v",
+      "base": "p2p",
+      "kind": "level",
+      "tau": 0.9769585253456221,
+      "signal": 0.9796991974923301,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "v_kurtosis",
+      "channel": "v",
+      "base": "kurtosis",
+      "kind": "shape (time)",
+      "tau": 0.7570028011204482,
+      "signal": 0.9628714018946312,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "v_skewness",
+      "channel": "v",
+      "base": "skewness",
+      "kind": "shape (time)",
+      "tau": 0.8729575163398693,
+      "signal": 0.9088013315794524,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "v_crest",
+      "channel": "v",
+      "base": "crest",
+      "kind": "shape (time)",
+      "tau": 0.7471988795518207,
+      "signal": 0.890963621419972,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "v_shape",
+      "channel": "v",
+      "base": "shape",
+      "kind": "shape (time)",
+      "tau": 0.9335006273525721,
+      "signal": 0.9571090314620767,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "v_impulse",
+      "channel": "v",
+      "base": "impulse",
+      "kind": "shape (time)",
+      "tau": 0.7478991596638656,
+      "signal": 0.8955583068948119,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "v_clearance",
+      "channel": "v",
+      "base": "clearance",
+      "kind": "shape (time)",
+      "tau": 0.7485994397759104,
+      "signal": 0.9052822260386708,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "v_energy_op",
+      "channel": "v",
+      "base": "energy_op",
+      "kind": "level",
+      "tau": 0.9652173913043478,
+      "signal": 0.9954113202653847,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "v_sk_max",
+      "channel": "v",
+      "base": "sk_max",
+      "kind": "shape (spectral)",
+      "tau": 0.6034236804564908,
+      "signal": 0.9592464026082507,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "v_spec_centroid",
+      "channel": "v",
+      "base": "spec_centroid",
+      "kind": "shape (spectral)",
+      "tau": 0.7396313364055299,
+      "signal": 0.9881248826587046,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "v_spec_spread",
+      "channel": "v",
+      "base": "spec_spread",
+      "kind": "shape (spectral)",
+      "tau": 0.7345701034605779,
+      "signal": 0.9854525966133736,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "v_spec_entropy",
+      "channel": "v",
+      "base": "spec_entropy",
+      "kind": "shape (spectral)",
+      "tau": 0.150384193194292,
+      "signal": 0.9902092923581646,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "v_band_hi",
+      "channel": "v",
+      "base": "band_hi",
+      "kind": "shape (spectral)",
+      "tau": 0.9739130434782609,
+      "signal": 0.9933826021237715,
+      "units": 17
+    },
+    {
+      "rig": "PRONOSTIA",
+      "column": "v_hilbert_rms",
+      "channel": "v",
+      "base": "hilbert_rms",
+      "kind": "level",
+      "tau": 0.9738822487826472,
+      "signal": 0.9941963957448069,
+      "units": 17
+    }
+  ],
+  "XJTU": [
+    {
+      "rig": "XJTU",
+      "column": "h_rms",
+      "channel": "h",
+      "base": "rms",
+      "kind": "level",
+      "tau": 0.9056603773584906,
+      "signal": 0.9876310481595165,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "h_peak",
+      "channel": "h",
+      "base": "peak",
+      "kind": "level",
+      "tau": 0.6260162601626016,
+      "signal": 0.9656082495391223,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "h_p2p",
+      "channel": "h",
+      "base": "p2p",
+      "kind": "level",
+      "tau": 0.8130081300813008,
+      "signal": 0.968652798791303,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "h_kurtosis",
+      "channel": "h",
+      "base": "kurtosis",
+      "kind": "shape (time)",
+      "tau": 0.858573717948718,
+      "signal": 0.960682067507181,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "h_skewness",
+      "channel": "h",
+      "base": "skewness",
+      "kind": "shape (time)",
+      "tau": 0.6770186335403726,
+      "signal": 0.9496662630758478,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "h_crest",
+      "channel": "h",
+      "base": "crest",
+      "kind": "shape (time)",
+      "tau": 0.5759493670886076,
+      "signal": 0.8995083610875457,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "h_shape",
+      "channel": "h",
+      "base": "shape",
+      "kind": "shape (time)",
+      "tau": 0.7088607594936709,
+      "signal": 0.9673333855114036,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "h_impulse",
+      "channel": "h",
+      "base": "impulse",
+      "kind": "shape (time)",
+      "tau": 0.5632911392405063,
+      "signal": 0.9190089767590061,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "h_clearance",
+      "channel": "h",
+      "base": "clearance",
+      "kind": "shape (time)",
+      "tau": 0.624765478424015,
+      "signal": 0.909536478197609,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "h_energy_op",
+      "channel": "h",
+      "base": "energy_op",
+      "kind": "level",
+      "tau": 0.9137466307277629,
+      "signal": 0.98951573876247,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "h_sk_max",
+      "channel": "h",
+      "base": "sk_max",
+      "kind": "shape (spectral)",
+      "tau": 0.5663716814159292,
+      "signal": 0.9634274681223803,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "h_spec_centroid",
+      "channel": "h",
+      "base": "spec_centroid",
+      "kind": "shape (spectral)",
+      "tau": 0.4649122807017544,
+      "signal": 0.9881112511782618,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "h_spec_spread",
+      "channel": "h",
+      "base": "spec_spread",
+      "kind": "shape (spectral)",
+      "tau": 0.5031055900621118,
+      "signal": 0.9744779019391796,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "h_spec_entropy",
+      "channel": "h",
+      "base": "spec_entropy",
+      "kind": "shape (spectral)",
+      "tau": 0.5872420262664165,
+      "signal": 0.9857759973943551,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "h_band_hi",
+      "channel": "h",
+      "base": "band_hi",
+      "kind": "shape (spectral)",
+      "tau": 0.5217391304347826,
+      "signal": 0.994198217821724,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "h_hilbert_rms",
+      "channel": "h",
+      "base": "hilbert_rms",
+      "kind": "level",
+      "tau": 0.46033653846153844,
+      "signal": 0.9873532159952912,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "v_rms",
+      "channel": "v",
+      "base": "rms",
+      "kind": "level",
+      "tau": 0.782608695652174,
+      "signal": 0.9918820270023262,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "v_peak",
+      "channel": "v",
+      "base": "peak",
+      "kind": "level",
+      "tau": 0.9177215189873418,
+      "signal": 0.9748170007689682,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "v_p2p",
+      "channel": "v",
+      "base": "p2p",
+      "kind": "level",
+      "tau": 0.9083557951482479,
+      "signal": 0.9736680435321752,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "v_kurtosis",
+      "channel": "v",
+      "base": "kurtosis",
+      "kind": "shape (time)",
+      "tau": 0.7392120075046904,
+      "signal": 0.9708175014424962,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "v_skewness",
+      "channel": "v",
+      "base": "skewness",
+      "kind": "shape (time)",
+      "tau": 0.6097560975609756,
+      "signal": 0.9796041288174152,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "v_crest",
+      "channel": "v",
+      "base": "crest",
+      "kind": "shape (time)",
+      "tau": 0.6645569620253164,
+      "signal": 0.8741800779184367,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "v_shape",
+      "channel": "v",
+      "base": "shape",
+      "kind": "shape (time)",
+      "tau": 0.6604127579737336,
+      "signal": 0.967459206504286,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "v_impulse",
+      "channel": "v",
+      "base": "impulse",
+      "kind": "shape (time)",
+      "tau": 0.6582278481012658,
+      "signal": 0.8955648384861896,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "v_clearance",
+      "channel": "v",
+      "base": "clearance",
+      "kind": "shape (time)",
+      "tau": 0.6582278481012658,
+      "signal": 0.903862605495778,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "v_energy_op",
+      "channel": "v",
+      "base": "energy_op",
+      "kind": "level",
+      "tau": 0.780448717948718,
+      "signal": 0.9931400044401059,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "v_sk_max",
+      "channel": "v",
+      "base": "sk_max",
+      "kind": "shape (spectral)",
+      "tau": 0.569620253164557,
+      "signal": 0.9078958342130836,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "v_spec_centroid",
+      "channel": "v",
+      "base": "spec_centroid",
+      "kind": "shape (spectral)",
+      "tau": 0.5403726708074534,
+      "signal": 0.9809422159275468,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "v_spec_spread",
+      "channel": "v",
+      "base": "spec_spread",
+      "kind": "shape (spectral)",
+      "tau": 0.46732673267326735,
+      "signal": 0.9854960529523444,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "v_spec_entropy",
+      "channel": "v",
+      "base": "spec_entropy",
+      "kind": "shape (spectral)",
+      "tau": 0.6956521739130435,
+      "signal": 0.9820180283693843,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "v_band_hi",
+      "channel": "v",
+      "base": "band_hi",
+      "kind": "shape (spectral)",
+      "tau": 0.8417721518987342,
+      "signal": 0.9926533637600118,
+      "units": 13
+    },
+    {
+      "rig": "XJTU",
+      "column": "v_hilbert_rms",
+      "channel": "v",
+      "base": "hilbert_rms",
+      "kind": "level",
+      "tau": 0.528023598820059,
+      "signal": 0.9905379340338265,
+      "units": 13
+    }
+  ],
+  "by_kind": [
+    {
+      "kind": "level",
+      "pronostia": 0.9733890559177145,
+      "xjtu": 0.7978084128667373,
+      "n": 10
+    },
+    {
+      "kind": "shape (time)",
+      "pronostia": 0.8149801587301587,
+      "xjtu": 0.6604127579737336,
+      "n": 8
+    },
+    {
+      "kind": "shape (spectral)",
+      "pronostia": 0.7371007199330539,
+      "xjtu": 0.5533721761116913,
+      "n": 10
+    }
+  ]
+}

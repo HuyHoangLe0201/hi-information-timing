@@ -1,0 +1,63 @@
+{
+  "pointwise": [
+    {
+      "case": "distributional set, add an amount channel",
+      "holds": 17,
+      "records": 17
+    },
+    {
+      "case": "amount set, add a distributional channel",
+      "holds": 17,
+      "records": 17
+    }
+  ],
+  "rows": [
+    {
+      "case": "distributional set, add an amount channel",
+      "cut": 0.3,
+      "change": -0.3374352058948209,
+      "records": 17,
+      "down": 16
+    },
+    {
+      "case": "distributional set, add an amount channel",
+      "cut": 0.5,
+      "change": -0.3460127764686441,
+      "records": 17,
+      "down": 16
+    },
+    {
+      "case": "distributional set, add an amount channel",
+      "cut": 0.7,
+      "change": -0.40560560425574355,
+      "records": 17,
+      "down": 16
+    },
+    {
+      "case": "amount set, add a distributional channel",
+      "cut": 0.3,
+      "change": 0.005122131774372285,
+      "records": 17,
+      "down": 0
+    },
+    {
+      "case": "amount set, add a distributional channel",
+      "cut": 0.5,
+      "change": 0.005560928366430448,
+      "records": 17,
+      "down": 0
+    },
+    {
+      "case": "amount set, add a distributional channel",
+      "cut": 0.7,
+      "change": 0.005756847385350673,
+      "records": 17,
+      "down": 0
+    }
+  ],
+  "amount_added_median": -0.3460127764686441,
+  "distrib_added_median": 0.005560928366430448,
+  "amount_added_worst": -0.40560560425574355,
+  "distrib_added_best": 0.005756847385350673,
+  "signs_as_predicted": true
+}

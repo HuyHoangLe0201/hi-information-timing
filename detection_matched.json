@@ -1,0 +1,84 @@
+{
+  "PRONOSTIA": {
+    "per": {
+      "spectral entropy": {
+        "kind": "distribution",
+        "k": 6.5183471679687495,
+        "fa": 0.0859375,
+        "detected": 3,
+        "units": 16,
+        "age": 0.7288619336425258
+      },
+      "spectral centroid": {
+        "kind": "distribution",
+        "k": 12.6375,
+        "fa": 0.1328125,
+        "detected": 6,
+        "units": 16,
+        "age": 0.6146994204441834
+      },
+      "spectral spread": {
+        "kind": "distribution",
+        "k": 10.24473876953125,
+        "fa": 0.1171875,
+        "detected": 1,
+        "units": 16,
+        "age": 0.2245922208281054
+      },
+      "high/low ratio": {
+        "kind": "distribution",
+        "k": 27.71068115234375,
+        "fa": 0.078125,
+        "detected": 6,
+        "units": 16,
+        "age": 0.6205735175019329
+      },
+      "log total power": {
+        "kind": "amount",
+        "k": 13.88125,
+        "fa": 0.140625,
+        "detected": 7,
+        "units": 16,
+        "age": 0.9711023902961113
+      }
+    },
+    "pairs": []
+  },
+  "XJTU": {
+    "per": {
+      "spectral entropy": {
+        "kind": "distribution",
+        "k": 25.4490966796875,
+        "fa": 0.07692307692307693,
+        "detected": 6,
+        "units": 15,
+        "age": 0.6374058945068516
+      },
+      "spectral centroid": {
+        "kind": "distribution",
+        "k": 10.11842041015625,
+        "fa": 0.10576923076923077,
+        "detected": 5,
+        "units": 15,
+        "age": 0.5279503105590062
+      },
+      "spectral spread": {
+        "kind": "distribution",
+        "k": 11.01722412109375,
+        "fa": 0.1346153846153846,
+        "detected": 7,
+        "units": 15,
+        "age": 0.5279503105590062
+      },
+      "high/low ratio": {
+        "kind": "distribution",
+        "k": 11.160546875000001,
+        "fa": 0.15384615384615385,
+        "detected": 5,
+        "units": 15,
+        "age": 0.4672131147540984
+      }
+    },
+    "pairs": []
+  }
+}

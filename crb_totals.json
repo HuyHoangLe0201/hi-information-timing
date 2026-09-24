@@ -1,0 +1,29 @@
+{
+ "per_domain": {
+  "bearing": {
+   "units": 17,
+   "series": 43,
+   "cells": 4300
+  },
+  "turbofan_FD001": {
+   "units": 100,
+   "series": 290,
+   "cells": 27446
+  },
+  "turbofan_FD004": {
+   "units": 249,
+   "series": 723,
+   "cells": 69803
+  },
+  "battery": {
+   "units": 4,
+   "series": 12,
+   "cells": 915
+  }
+ },
+ "total_units": 370,
+ "total_series": 1068,
+ "total_cells": 102464,
+ "cells_per_series": 95.94007490636704,
+ "battery_channels_per_cell": 3.0
+}

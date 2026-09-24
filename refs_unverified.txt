@@ -1,0 +1,121 @@
+# Bibliography entries not yet confirmed against the publisher's record.
+#
+# Delete a line once the entry's authors, title, journal, volume, issue, year
+# and page range have been checked against the article itself or the
+# publisher's page.  audit_refs.py reports what is left.
+#
+# NOTHING IS LEFT.  All 47 entries have now been checked.  What each was
+# checked against is recorded below, so the claim can be re-tested rather than
+# taken on trust.  Add a key back to this list if an entry is edited, and
+# re-check it.
+#
+# Six were confirmed against Crossref when they were added: zhou2022,
+# antoni2016, acuna2018, sovljanski2024, yan2022, and le2026 against its arXiv
+# listing.
+#
+# ---------------------------------------------------------------------------
+# ONE ERROR WAS FOUND IN 41 ENTRIES.
+#
+#   lei2018   printed 799--836; Elsevier's own deposit (10.1016/j.ymssp.2017.
+#             11.016) and OpenAlex independently give 799--834.  Corrected.
+#             It is the paper's most-cited reference and the end page was
+#             wrong by two.
+#
+# ---------------------------------------------------------------------------
+# THE ELEVEN WRITTEN FROM MEMORY.  All eleven were correct as printed.
+#
+#   huber1981      Crossref monograph 10.1002/0471725250: Huber, Wiley, 1981.
+#   hampel1986     Open Library (Wiley, first published 1986); author order
+#                  cross-checked against Crossref's 2005 reissue
+#                  (10.1002/9781118186435), which lists the same four.
+#   white1982      The article itself.  The JSTOR header on the scan reads
+#                  "Econometrica, Vol. 50, No. 1. (Jan., 1982), pp. 1-25",
+#                  settling a disagreement between catalogues, some of which
+#                  give 1-26.  Crossref and OpenAlex carry only the first page
+#                  for JSTOR-deposited records and cannot decide it.
+#   fortunati2017  Crossref 10.1109/msp.2017.2738017.
+#   serfling1980   Crossref monograph 10.1002/9780470316481; Open Library.
+#   nemhauser1978  Crossref 10.1007/bf01588971.  A different 1978 paper of
+#                  nearly the same title sits in Mathematical Programming
+#                  Studies; ours is the journal article.
+#   krause2008     JMLR's own listing, jmlr.org/papers/v9/krause08a.html.  JMLR
+#                  deposits no DOI for volume 9, so Crossref returns the 2005
+#                  and 2006 conference papers instead.
+#   joshi2009      Crossref 10.1109/tsp.2008.2007095.
+#   neyman1948     Crossref 10.2307/1914288; page range 1-32 from the indexed
+#                  record of the same DOI.
+#   murphy2000     DOI 10.2307/2669386.  Crossref's nearest hit is the authors'
+#                  rejoinder, a different article at page 482 of that issue.
+#   bickel1993     Open Library, ISBN 9780801845413.  The 1998 Springer reprint
+#                  is a different edition.
+#
+# ---------------------------------------------------------------------------
+# THE OTHER THIRTY.  Nineteen matched Crossref field for field on the first
+# query: javed2015, si2011, jardine2006, heng2009, sikorska2011, lee2014,
+# antoni2006, antoni2006b, antoni2007, randall2011, li2018, guo2017, wang2018,
+# mcfadden1984, antoni2009, qiu2006, gebraeel2005, savitzky1964, wang2020.
+# The rest needed a source Crossref could not give:
+#
+#   lei2018        see above; the one error.
+#   ye2015         Crossref 10.1002/asmb.2063: online 2014, print 2015, vol
+#                  31(1), pp. 16-32.  Ours cites the print year, which is right.
+#   ramasso2014    IJPHM 5(2) 2014, pages 1-15.  The publisher's page states no
+#                  page range and Crossref's date is the 2020 deposit, not the
+#                  publication; the DOI itself carries the year.
+#   kay1993        Open Library: Kay, Prentice Hall, 1993.  Crossref returns a
+#                  Technometrics review of the book, not the book.
+#   vantrees1968   Open Library: Van Trees, Part I, Wiley, 1968.  Crossref
+#                  returns Part III (2001).
+#   meeker1998     Open Library: Meeker and Escobar, Wiley, 1998.  Crossref
+#                  returns a Technometrics review.
+#   coble2009      PHM Society proceedings, papers.phmsociety.org/index.php/
+#                  phmconf/article/view/1404: Coble and Hines, 2009.
+#   nectoux2012    HAL and the conference record: all seven authors in our
+#                  order, IEEE International Conference on PHM, Denver, 2012.
+#   saxena2008     Crossref 10.1109/phm.2008.4711414, pp. 1-9.
+#   saxena2008b    Crossref 10.1109/phm.2008.4711436, pp. 1-17.
+#   saha2007       NASA Ames Prognostics Data Repository, NASA Ames Research
+#                  Center, Moffett Field, CA, 2007, as the repository states it.
+#
+# The four conference papers carry no page range in our entries.  The ranges
+# are known (saxena2008 1-9, saxena2008b 1-17, nectoux2012 1-8) and could be
+# added; leaving them out is consistent across all four and is not an error.
+#
+# ---------------------------------------------------------------------------
+# THE MSSP GUIDE PASS (DOIs, abbreviated journal names, six entries added).
+#
+# The Guide asks for DOIs where they exist and for journal names abbreviated
+# by the ISSN List of Title Word Abbreviations.  Thirty-six DOIs were found by
+# a Crossref bibliographic query accepted only at a normalised title match of
+# 0.90 (ref_dois.py -> ref_dois.json, curated in ref_dois_final.json), and
+# every one was then re-read from Crossref and its volume, issue, year and
+# first and last page compared with the printed entry: all agree except
+# ramasso2014, whose Crossref year is the 2020 deposit (see above).  Books,
+# coble2009, nectoux2012, krause2008 and the data set carry no DOI; saha2007
+# is marked [dataset] as the Guide asks.
+#
+#   le2026         now cited as published: Meas. Sci. Technol. 37 (22) (2026)
+#                  226203, Crossref 10.1088/1361-6501/ae7109, title and both
+#                  authors as printed.  It replaces the arXiv listing.
+#
+# Six MSSP indicator papers were added to the Introduction.  Each was taken
+# field for field from its Crossref record (authors, title, volume, article
+# number, print year) and is characterised in the text only as far as its
+# abstract (wang2020swnse, chen2023) or its title (the other four) states:
+#   wang2020swnse  10.1016/j.ymssp.2020.106725   140 (2020) 106725
+#   hou2022        10.1016/j.ymssp.2021.108751   169 (2022) 108751
+#   chen2023       10.1016/j.ymssp.2022.109998   188 (2023) 109998
+#   zhang2023      10.1016/j.ymssp.2023.110460   198 (2023) 110460
+#   yan2023        10.1016/j.ymssp.2023.110461   198 (2023) 110461
+#   antoni2024     10.1016/j.ymssp.2024.111518   218 (2024) 111518
+#
+# ---------------------------------------------------------------------------
+# TWELFTH REVIEWER READ: two entries added for the novelty paragraph, each
+# taken field for field from its Crossref record.
+#   knapp1976   10.1109/tassp.1976.1162830  IEEE Trans. Acoust. Speech Signal
+#               Process. 24 (4) (1976) 320-327; C. Knapp, G. Carter.
+#   ramsay1998  10.1111/1467-9868.00129  J. R. Stat. Soc. Ser. B Stat.
+#               Methodol. 60 (2) (1998) 351-363; J. O. Ramsay, X. Li.
+#   burman1994  10.1093/biomet/81.2.351  Biometrika 81 (2) (1994)
+#               351-358; P. Burman, E. Chow, D. Nolan.  Added at the
+#               fourteenth reviewer read for the h-block purge.

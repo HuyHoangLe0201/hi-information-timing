@@ -1,0 +1,196 @@
+{
+ "per_measure": {
+  "PRONOSTIA": [
+   {
+    "measure": "spectral entropy",
+    "kind": "distribution",
+    "causal": 0.40441031320179893,
+    "causal_record_floor": 0.3856803809863155,
+    "centred": 0.3460058562955177
+   },
+   {
+    "measure": "spectral centroid",
+    "kind": "distribution",
+    "causal": 0.6954928828152589,
+    "causal_record_floor": 0.6759750871780603,
+    "centred": 0.5312262921646154
+   },
+   {
+    "measure": "spectral spread",
+    "kind": "distribution",
+    "causal": 0.27901211829513317,
+    "causal_record_floor": 0.2743454860147808,
+    "centred": 0.15111514667125303
+   },
+   {
+    "measure": "spectral Gini",
+    "kind": "distribution",
+    "causal": 0.3918654116282674,
+    "causal_record_floor": 0.39031605350520404,
+    "centred": 0.28812128935720077
+   },
+   {
+    "measure": "top-8-band share",
+    "kind": "distribution",
+    "causal": 0.3524810381598378,
+    "causal_record_floor": 0.3433870818135516,
+    "centred": 0.35972971693768085
+   },
+   {
+    "measure": "high/low band ratio",
+    "kind": "distribution",
+    "causal": 0.42593410361800865,
+    "causal_record_floor": 0.42532509021971393,
+    "centred": 0.31175729259179646
+   },
+   {
+    "measure": "total power",
+    "kind": "amount",
+    "causal": 0.9854137447405329,
+    "causal_record_floor": 0.984261671007814,
+    "centred": 0.9707323147967933
+   },
+   {
+    "measure": "peak band power",
+    "kind": "amount",
+    "causal": 0.9888301865003752,
+    "causal_record_floor": 0.9888301865003752,
+    "centred": 0.9717919063824774
+   },
+   {
+    "measure": "high-band power",
+    "kind": "amount",
+    "causal": 0.9358676037116959,
+    "causal_record_floor": 0.9358676037116959,
+    "centred": 0.9632245881314376
+   },
+   {
+    "measure": "log total power",
+    "kind": "amount",
+    "causal": 0.7593601746301237,
+    "causal_record_floor": 0.7549507640067912,
+    "centred": 0.9685034324942792
+   }
+  ],
+  "XJTU": [
+   {
+    "measure": "spectral entropy",
+    "kind": "distribution",
+    "causal": 0.6504065040650406,
+    "causal_record_floor": 0.6504065040650406,
+    "centred": 0.662046204620462
+   },
+   {
+    "measure": "spectral centroid",
+    "kind": "distribution",
+    "causal": 0.6491228070175439,
+    "causal_record_floor": 0.6491228070175439,
+    "centred": 0.5093167701863354
+   },
+   {
+    "measure": "spectral spread",
+    "kind": "distribution",
+    "causal": 0.6403508771929824,
+    "causal_record_floor": 0.6403508771929824,
+    "centred": 0.4631268436578171
+   },
+   {
+    "measure": "spectral Gini",
+    "kind": "distribution",
+    "causal": 0.6224188790560472,
+    "causal_record_floor": 0.6224188790560472,
+    "centred": 0.5633423180592992
+   },
+   {
+    "measure": "top-8-band share",
+    "kind": "distribution",
+    "causal": 0.6585365853658537,
+    "causal_record_floor": 0.6585365853658537,
+    "centred": 0.4906832298136646
+   },
+   {
+    "measure": "high/low band ratio",
+    "kind": "distribution",
+    "causal": 0.5093167701863354,
+    "causal_record_floor": 0.4936708860759494,
+    "centred": 0.6016260162601627
+   },
+   {
+    "measure": "total power",
+    "kind": "amount",
+    "causal": 0.6962025316455697,
+    "causal_record_floor": 0.6962025316455697,
+    "centred": 0.906832298136646
+   },
+   {
+    "measure": "peak band power",
+    "kind": "amount",
+    "causal": 0.7658227848101266,
+    "causal_record_floor": 0.7658227848101266,
+    "centred": 0.9002695417789758
+   },
+   {
+    "measure": "high-band power",
+    "kind": "amount",
+    "causal": 0.6178861788617886,
+    "causal_record_floor": 0.6178861788617886,
+    "centred": 0.6139240506329114
+   },
+   {
+    "measure": "log total power",
+    "kind": "amount",
+    "causal": 0.6504065040650406,
+    "causal_record_floor": 0.6422764227642277,
+    "centred": 0.8859649122807017
+   }
+  ]
+ },
+ "summary": {
+  "PRONOSTIA": {
+   "centred": {
+    "median": {
+     "distribution": 0.32888157444365707,
+     "amount": 0.9696178736455363
+    },
+    "gap": 0.6407362992018792
+   },
+   "causal": {
+    "median": {
+     "distribution": 0.39813786241503313,
+     "amount": 0.9606406742261144
+    },
+    "gap": 0.5625028118110813
+   },
+   "causal_record_floor": {
+    "median": {
+     "distribution": 0.3879982172457598,
+     "amount": 0.960064637359755
+    },
+    "gap": 0.5720664201139952
+   }
+  },
+  "XJTU": {
+   "centred": {
+    "median": {
+     "distribution": 0.5363295441228173,
+     "amount": 0.8931172270298388
+    },
+    "gap": 0.35678768290702145
+   },
+   "causal": {
+    "median": {
+     "distribution": 0.6447368421052632,
+     "amount": 0.6733045178553052
+    },
+    "gap": 0.028567675750042043
+   },
+   "causal_record_floor": {
+    "median": {
+     "distribution": 0.6447368421052632,
+     "amount": 0.6692394772048986
+    },
+    "gap": 0.02450263509963546
+   }
+  }
+ }
+}

@@ -1,0 +1,646 @@
+{
+  "bound_checks": 6840,
+  "worst_contrast_over_bound": 0.9571096064284175,
+  "monotonicity_violations": 1635,
+  "n_bearings": 16,
+  "per_bearing": [
+    {
+      "unit": "Bearing1_1",
+      "tolerated": 1.206159284678498,
+      "worst_contrast": 2.797912023806075,
+      "worst_M2": 25.0,
+      "charge": {
+        "0.0": 11.567864223778932,
+        "0.0001": 7.717731530008962,
+        "0.001": 5.747701518457008,
+        "0.01": 4.357871035995405,
+        "0.05": 4.328517590342138,
+        "0.1": 5.153690680208783,
+        "0.25": 7.653250681860988,
+        "1.0": 25.0
+      },
+      "best_alpha": 0.05,
+      "best_charge": 4.328517590342138,
+      "worst_energy": 2.845240936888175,
+      "max_eps": 0.46046931330975965,
+      "contrast_over_energy": 0.9833655869109407
+    },
+    {
+      "unit": "Bearing1_2",
+      "tolerated": 1.4559347166779628,
+      "worst_contrast": 5.009952452230235,
+      "worst_M2": 155.83487421805535,
+      "charge": {
+        "0.0": 11.873180539685668,
+        "0.0001": 11.887576709053505,
+        "0.001": 12.017142233364037,
+        "0.01": 13.312797476469363,
+        "0.05": 19.07126522360415,
+        "0.1": 26.26934990752264,
+        "0.25": 47.13327317283899,
+        "1.0": 155.83487421805535
+      },
+      "best_alpha": 0.0,
+      "best_charge": 11.873180539685668,
+      "worst_energy": 5.345768242315852,
+      "max_eps": 0.8072407866152171,
+      "contrast_over_energy": 0.9818600256218178
+    },
+    {
+      "unit": "Bearing2_1",
+      "tolerated": 1.758415338572549,
+      "worst_contrast": 2.7241250083016064,
+      "worst_M2": 104.33457924270283,
+      "charge": {
+        "0.0": 12.303874194402505,
+        "0.0001": 12.313077264907333,
+        "0.001": 12.395904899450805,
+        "0.01": 13.224181244885509,
+        "0.05": 16.905409446817522,
+        "0.1": 21.506944699232534,
+        "0.25": 35.31155045647758,
+        "1.0": 104.33457924270283
+      },
+      "best_alpha": 0.0,
+      "best_charge": 12.303874194402505,
+      "worst_energy": 70.47900230463725,
+      "max_eps": 0.7093557230152974,
+      "contrast_over_energy": 0.9401147888018403
+    },
+    {
+      "unit": "Bearing2_2",
+      "tolerated": 2.7983598974278068,
+      "worst_contrast": 2.875162417342238,
+      "worst_M2": 25.0,
+      "charge": {
+        "0.0": 19.561418201371385,
+        "0.0001": 10.0621163853848,
+        "0.001": 8.007494821424547,
+        "0.01": 6.224695664398366,
+        "0.05": 6.561331085999506,
+        "0.1": 6.84432904137265,
+        "0.25": 6.731182183354706,
+        "1.0": 25.0
+      },
+      "best_alpha": 0.01,
+      "best_charge": 6.224695664398366,
+      "worst_energy": 3.521916597066645,
+      "max_eps": 0.4935249172434233,
+      "contrast_over_energy": 0.957471256571403
+    },
+    {
+      "unit": "Bearing3_1",
+      "tolerated": 5.040797864812908,
+      "worst_contrast": 6.5068669253682945,
+      "worst_M2": 15338.373773288578,
+      "charge": {
+        "0.0": 47.659870816264565,
+        "0.0001": 48.161383906961134,
+        "0.001": 52.2262716999316,
+        "0.01": 84.32956243589344,
+        "0.05": 280.7728890352438,
+        "0.1": 554.3164437634562,
+        "0.25": 1390.5077445440409,
+        "1.0": 15338.373773288578
+      },
+      "best_alpha": 0.0,
+      "best_charge": 47.659870816264565,
+      "worst_energy": 27.4813057995988,
+      "max_eps": 0.9018126085332131,
+      "contrast_over_energy": 0.9450137113115155
+    },
+    {
+      "unit": "Bearing3_2",
+      "tolerated": 24.19611604285913,
+      "worst_contrast": 4.903879764167005,
+      "worst_M2": 72.54816735503866,
+      "charge": {
+        "0.0": 13.528395658468668,
+        "0.0001": 10.829040342487382,
+        "0.001": 10.884593112075637,
+        "0.01": 11.075644871527729,
+        "0.05": 11.697975394209704,
+        "0.1": 12.76065469113869,
+        "0.25": 21.424967816292202,
+        "1.0": 72.54816735503866
+      },
+      "best_alpha": 0.0001,
+      "best_charge": 10.829040342487382,
+      "worst_energy": 6.125399415359582,
+      "max_eps": 0.2596832016324789,
+      "contrast_over_energy": 0.9847433743198014
+    },
+    {
+      "unit": "Bearing1_3",
+      "tolerated": 2.6709747470809067,
+      "worst_contrast": 2.259584664601257,
+      "worst_M2": 58.14358931550023,
+      "charge": {
+        "0.0": 6.485084510031034,
+        "0.0001": 6.4650869806786355,
+        "0.001": 6.511341835217166,
+        "0.01": 6.973916047650485,
+        "0.05": 9.030366211641356,
+        "0.1": 11.602226314736718,
+        "0.25": 19.326467595682782,
+        "1.0": 58.14358931550023
+      },
+      "best_alpha": 0.0001,
+      "best_charge": 6.4650869806786355,
+      "worst_energy": 7.885968275949359,
+      "max_eps": 0.5157362776693684,
+      "contrast_over_energy": 0.9169091104340472
+    },
+    {
+      "unit": "Bearing1_4",
+      "tolerated": 3.3237744403331915,
+      "worst_contrast": 2.0201599492911524,
+      "worst_M2": 25.0,
+      "charge": {
+        "0.0": 8.046494077861302,
+        "0.0001": 7.809940653357679,
+        "0.001": 5.241095318843032,
+        "0.01": 4.082907406848922,
+        "0.05": 3.3385314762289946,
+        "0.1": 3.736231109433936,
+        "0.25": 3.916515967238739,
+        "1.0": 25.0
+      },
+      "best_alpha": 0.05,
+      "best_charge": 3.3385314762289946,
+      "worst_energy": 2.162473664433489,
+      "max_eps": 0.3747489885166971,
+      "contrast_over_energy": 0.9493525175512004
+    },
+    {
+      "unit": "Bearing1_5",
+      "tolerated": 11.674081283193754,
+      "worst_contrast": 1.2714100405098827,
+      "worst_M2": 25.0,
+      "charge": {
+        "0.0": 1.7511059254569725,
+        "0.0001": 1.6759735235881743,
+        "0.001": 1.6766293647383694,
+        "0.01": 1.6706343613736288,
+        "0.05": 1.6204580765733863,
+        "0.1": 1.8412236169036962,
+        "0.25": 2.687904260321031,
+        "1.0": 25.0
+      },
+      "best_alpha": 0.05,
+      "best_charge": 1.6204580765733863,
+      "worst_energy": 1.3128830704060765,
+      "max_eps": 0.1019369907858841,
+      "contrast_over_energy": 0.9684107207785335
+    },
+    {
+      "unit": "Bearing1_6",
+      "tolerated": 16.978696962536986,
+      "worst_contrast": 2.810415425059879,
+      "worst_M2": 139.83202284948968,
+      "charge": {
+        "0.0": 14.097710709298548,
+        "0.0001": 12.644120621211867,
+        "0.001": 12.173582383989338,
+        "0.01": 8.880454359216394,
+        "0.05": 12.36469693893643,
+        "0.1": 16.86347353318827,
+        "0.25": 31.40519732908526,
+        "1.0": 139.83202284948968
+      },
+      "best_alpha": 0.01,
+      "best_charge": 8.880454359216394,
+      "worst_energy": 3.3847676072155215,
+      "max_eps": 0.5077343470012089,
+      "contrast_over_energy": 0.9080022713357745
+    },
+    {
+      "unit": "Bearing1_7",
+      "tolerated": 5.099493473782508,
+      "worst_contrast": 3.165762366509318,
+      "worst_M2": 295.3233590728156,
+      "charge": {
+        "0.0": 20.199525010027255,
+        "0.0001": 20.225814876392114,
+        "0.001": 20.46242367367585,
+        "0.01": 14.705652172799237,
+        "0.05": 16.81098037522804,
+        "0.1": 22.539484630235624,
+        "0.25": 41.642167249237254,
+        "1.0": 295.3233590728156
+      },
+      "best_alpha": 0.01,
+      "best_charge": 14.705652172799237,
+      "worst_energy": 6.854026035405091,
+      "max_eps": 0.38112860089595446,
+      "contrast_over_energy": 0.9929068439367777
+    },
+    {
+      "unit": "Bearing2_3",
+      "tolerated": 3.769365649623878,
+      "worst_contrast": 2.4222124233053055,
+      "worst_M2": 25.0,
+      "charge": {
+        "0.0": 16.056686310667605,
+        "0.0001": 16.057580642036537,
+        "0.001": 9.873837384034873,
+        "0.01": 4.17236822558103,
+        "0.05": 3.3540093422177324,
+        "0.1": 3.7830052883341936,
+        "0.25": 5.0305095235266455,
+        "1.0": 25.0
+      },
+      "best_alpha": 0.05,
+      "best_charge": 3.3540093422177324,
+      "worst_energy": 2.634146984564187,
+      "max_eps": 0.4672552626786389,
+      "contrast_over_energy": 0.951377140929978
+    },
+    {
+      "unit": "Bearing2_4",
+      "tolerated": 2.8252564243515224,
+      "worst_contrast": 2.4760828559535404,
+      "worst_M2": 25.0,
+      "charge": {
+        "0.0": 4.4813118545809525,
+        "0.0001": 4.482233808920825,
+        "0.001": 4.289634498586895,
+        "0.01": 3.252174200720533,
+        "0.05": 3.2970914678639747,
+        "0.1": 3.3532380517932774,
+        "0.25": 3.5216778035811838,
+        "1.0": 25.0
+      },
+      "best_alpha": 0.01,
+      "best_charge": 3.252174200720533,
+      "worst_energy": 2.8981514832809845,
+      "max_eps": 0.4824773869707185,
+      "contrast_over_energy": 0.9433166003702634
+    },
+    {
+      "unit": "Bearing2_5",
+      "tolerated": 3.962261836027721,
+      "worst_contrast": 1.866887186010833,
+      "worst_M2": 150.209418184551,
+      "charge": {
+        "0.0": 16.535448059117872,
+        "0.0001": 13.100989869330318,
+        "0.001": 12.728606403311083,
+        "0.01": 11.614020118290902,
+        "0.05": 13.413256281051863,
+        "0.1": 16.81918279722568,
+        "0.25": 34.531325367972016,
+        "1.0": 150.209418184551
+      },
+      "best_alpha": 0.01,
+      "best_charge": 11.614020118290902,
+      "worst_energy": 5.087616199776944,
+      "max_eps": 0.40879241649172704,
+      "contrast_over_energy": 0.98627652048509
+    },
+    {
+      "unit": "Bearing2_6",
+      "tolerated": 4.709531237690921,
+      "worst_contrast": 1.8546510532504654,
+      "worst_M2": 25.0,
+      "charge": {
+        "0.0": 4.8713016073313655,
+        "0.0001": 2.7353101547737353,
+        "0.001": 2.7435685385231343,
+        "0.01": 2.1886698118933294,
+        "0.05": 2.2112283210118293,
+        "0.1": 2.2280884565674963,
+        "0.25": 2.9679459832735944,
+        "1.0": 25.0
+      },
+      "best_alpha": 0.01,
+      "best_charge": 2.1886698118933294,
+      "worst_energy": 1.8956741221331999,
+      "max_eps": 0.293484664627087,
+      "contrast_over_energy": 0.9783596408244624
+    },
+    {
+      "unit": "Bearing3_3",
+      "tolerated": 14.180494865177621,
+      "worst_contrast": 3.813267331933631,
+      "worst_M2": 30.587568952062576,
+      "charge": {
+        "0.0": 10.075458297203113,
+        "0.0001": 9.227005820354336,
+        "0.001": 9.246232249815819,
+        "0.01": 8.204440653216412,
+        "0.05": 7.49144620473208,
+        "0.1": 8.38903076394944,
+        "0.25": 10.203205852205675,
+        "1.0": 30.587568952062576
+      },
+      "best_alpha": 0.05,
+      "best_charge": 7.49144620473208,
+      "worst_energy": 97.46793280756302,
+      "max_eps": 0.715980544611598,
+      "contrast_over_energy": 0.8588146432688077
+    }
+  ],
+  "charge_range_median": 44.3655791337814,
+  "n_range": 0,
+  "charge_essential_median": 12.088527367044087,
+  "n_essential": 4,
+  "charge_best_median": 6.978266592705358,
+  "n_best": 6,
+  "best_alpha_median": 0.01,
+  "charge_energy_median": 4.304766398421794,
+  "n_energy": 6,
+  "charge_contrast_median": 2.7610185160538405,
+  "n_contrast": 11,
+  "eps_max": 0.9018126085332131,
+  "eps_median": 0.4748663248246787,
+  "contrast_over_energy_max": 0.9929068439367777,
+  "ladder": [
+    {
+      "alpha": 0.0,
+      "median_charge": 12.088527367044087,
+      "certified": 4
+    },
+    {
+      "alpha": 0.0001,
+      "median_charge": 10.44557836393609,
+      "certified": 5
+    },
+    {
+      "alpha": 0.001,
+      "median_charge": 9.560034816925345,
+      "certified": 5
+    },
+    {
+      "alpha": 0.01,
+      "median_charge": 7.589178350433449,
+      "certified": 5
+    },
+    {
+      "alpha": 0.05,
+      "median_charge": 8.260906208186718,
+      "certified": 6
+    },
+    {
+      "alpha": 0.1,
+      "median_charge": 9.99562853934308,
+      "certified": 5
+    },
+    {
+      "alpha": 0.25,
+      "median_charge": 14.764836723944228,
+      "certified": 4
+    },
+    {
+      "alpha": 1.0,
+      "median_charge": 44.3655791337814,
+      "certified": 0
+    }
+  ],
+  "by_rig": {
+    "PRONOSTIA": {
+      "rig": "PRONOSTIA",
+      "n_bearings": 16,
+      "charge_range_median": 44.3655791337814,
+      "n_range": 0,
+      "charge_essential_median": 12.088527367044087,
+      "n_essential": 4,
+      "charge_best_median": 6.978266592705358,
+      "n_best": 6,
+      "best_alpha_median": 0.01,
+      "charge_energy_median": 4.304766398421794,
+      "n_energy": 6,
+      "charge_contrast_median": 2.7610185160538405,
+      "n_contrast": 11,
+      "eps_max": 0.9018126085332131,
+      "eps_median": 0.4748663248246787,
+      "contrast_over_energy_max": 0.9929068439367777,
+      "ladder": [
+        {
+          "alpha": 0.0,
+          "median_charge": 12.088527367044087,
+          "certified": 4
+        },
+        {
+          "alpha": 0.0001,
+          "median_charge": 10.44557836393609,
+          "certified": 5
+        },
+        {
+          "alpha": 0.001,
+          "median_charge": 9.560034816925345,
+          "certified": 5
+        },
+        {
+          "alpha": 0.01,
+          "median_charge": 7.589178350433449,
+          "certified": 5
+        },
+        {
+          "alpha": 0.05,
+          "median_charge": 8.260906208186718,
+          "certified": 6
+        },
+        {
+          "alpha": 0.1,
+          "median_charge": 9.99562853934308,
+          "certified": 5
+        },
+        {
+          "alpha": 0.25,
+          "median_charge": 14.764836723944228,
+          "certified": 4
+        },
+        {
+          "alpha": 1.0,
+          "median_charge": 44.3655791337814,
+          "certified": 0
+        }
+      ],
+      "energy_below_trimmed": 0.8125,
+      "contrast_below_energy": 1.0
+    },
+    "XJTU-SY": {
+      "rig": "XJTU-SY",
+      "n_bearings": 7,
+      "charge_range_median": 377.6986461514682,
+      "n_range": 0,
+      "charge_essential_median": 30.833519323144927,
+      "n_essential": 0,
+      "charge_best_median": 28.28461776809887,
+      "n_best": 0,
+      "best_alpha_median": 0.0001,
+      "charge_energy_median": 10.998078611815927,
+      "n_energy": 1,
+      "charge_contrast_median": 5.4893796467547755,
+      "n_contrast": 3,
+      "eps_max": 1.0671648805130642,
+      "eps_median": 0.8355884342607848,
+      "contrast_over_energy_max": 1.0007687061044641,
+      "ladder": [
+        {
+          "alpha": 0.0,
+          "median_charge": 30.833519323144927,
+          "certified": 0
+        },
+        {
+          "alpha": 0.0001,
+          "median_charge": 30.86820583582776,
+          "certified": 0
+        },
+        {
+          "alpha": 0.001,
+          "median_charge": 31.18038444997325,
+          "certified": 0
+        },
+        {
+          "alpha": 0.01,
+          "median_charge": 33.894639542069186,
+          "certified": 0
+        },
+        {
+          "alpha": 0.05,
+          "median_charge": 28.28461776809887,
+          "certified": 0
+        },
+        {
+          "alpha": 0.1,
+          "median_charge": 35.76260407665509,
+          "certified": 0
+        },
+        {
+          "alpha": 0.25,
+          "median_charge": 69.41636417595493,
+          "certified": 0
+        },
+        {
+          "alpha": 1.0,
+          "median_charge": 377.6986461514682,
+          "certified": 0
+        }
+      ],
+      "energy_below_trimmed": 0.42857142857142855,
+      "contrast_below_energy": 1.0
+    }
+  },
+  "reproduces_tolerated": 0.08039547938830793,
+  "reproduces_contrast": 0.010333161907838395,
+  "replicates_ordering": true,
+  "replicates_energy_holds": false,
+  "xjtu_eps_max": 1.0671648805130642,
+  "xjtu_n": 7,
+  "xjtu_n_range": 0,
+  "xjtu_n_best": 0,
+  "xjtu_n_energy": 1,
+  "xjtu_n_contrast": 3,
+  "energy_cells": 855,
+  "cauchy_schwarz_worst": 0.9989309835707831,
+  "cells_exact_below_linear": 560,
+  "energy_exceedances": 1,
+  "energy_worst_ratio": 1.0004274076681725,
+  "energy_worst_cell": {
+    "rig": "XJTU-SY",
+    "unit": "37.5Hz11kN__Bearing2_1",
+    "channel": "rms",
+    "distortion": "serial",
+    "cut": 0.7,
+    "eta": 0.030082850357231544,
+    "eps": 0.3070986888238614,
+    "L": 1.7904499477564657,
+    "C": 1.797840465840727,
+    "X": 1.7986088766419783,
+    "ratio": 1.0004274076681725
+  },
+  "exceedance_from_jensen": 10.617925818098835,
+  "screen_sensitivity": {
+    "PRONOSTIA@300": {
+      "rig": "PRONOSTIA",
+      "n_bearings": 16,
+      "charge_range_median": 44.3655791337814,
+      "n_range": 0,
+      "charge_essential_median": 12.088527367044087,
+      "n_essential": 4,
+      "charge_best_median": 6.978266592705358,
+      "n_best": 6,
+      "best_alpha_median": 0.01,
+      "charge_energy_median": 4.304766398421794,
+      "n_energy": 6,
+      "charge_contrast_median": 2.7610185160538405,
+      "n_contrast": 11,
+      "eps_max": 0.9018126085332131,
+      "eps_median": 0.4748663248246787,
+      "contrast_over_energy_max": 0.9929068439367777,
+      "energy_below_trimmed": 0.8125,
+      "contrast_below_energy": 1.0
+    },
+    "XJTU-SY@300": {
+      "rig": "XJTU-SY",
+      "n_bearings": 7,
+      "charge_range_median": 377.6986461514682,
+      "n_range": 0,
+      "charge_essential_median": 30.833519323144927,
+      "n_essential": 0,
+      "charge_best_median": 28.28461776809887,
+      "n_best": 0,
+      "best_alpha_median": 0.0001,
+      "charge_energy_median": 10.998078611815927,
+      "n_energy": 1,
+      "charge_contrast_median": 5.4893796467547755,
+      "n_contrast": 3,
+      "eps_max": 1.0671648805130642,
+      "eps_median": 0.8355884342607848,
+      "contrast_over_energy_max": 1.0007687061044641,
+      "energy_below_trimmed": 0.42857142857142855,
+      "contrast_below_energy": 1.0
+    },
+    "PRONOSTIA@60": {
+      "rig": "PRONOSTIA",
+      "n_bearings": 16,
+      "charge_range_median": 44.3655791337814,
+      "n_range": 0,
+      "charge_essential_median": 12.088527367044087,
+      "n_essential": 4,
+      "charge_best_median": 6.978266592705358,
+      "n_best": 6,
+      "best_alpha_median": 0.01,
+      "charge_energy_median": 4.296642251028642,
+      "n_energy": 6,
+      "charge_contrast_median": 2.76287123481215,
+      "n_contrast": 11,
+      "eps_max": 0.9082719136232694,
+      "eps_median": 0.4751781298750535,
+      "contrast_over_energy_max": 0.9928787082959912,
+      "energy_below_trimmed": 0.8125,
+      "contrast_below_energy": 1.0
+    },
+    "XJTU-SY@60": {
+      "rig": "XJTU-SY",
+      "n_bearings": 10,
+      "charge_range_median": 196.91710208343258,
+      "n_range": 0,
+      "charge_essential_median": 27.916759661572463,
+      "n_essential": 0,
+      "charge_best_median": 21.49062428286592,
+      "n_best": 0,
+      "best_alpha_median": 5e-05,
+      "charge_energy_median": 11.734948500620892,
+      "n_energy": 1,
+      "charge_contrast_median": 3.2407990834861184,
+      "n_contrast": 5,
+      "eps_max": 1.0675205825378768,
+      "eps_median": 0.8065994042152391,
+      "contrast_over_energy_max": 1.00076981000048,
+      "energy_below_trimmed": 0.4,
+      "contrast_below_energy": 1.0
+    }
+  },
+  "ordering_holds_at_both_screens": true,
+  "screen_added_records_rig_one": 0,
+  "screen_contrast_rig_one_60": 11,
+  "screen_added_records_rig_two": 3,
+  "screen_contrast_rig_two_60": 5,
+  "eps_max_rig_two_60": 1.0675205825378768,
+  "contrast_over_energy_rig_two_60": 1.00076981000048,
+  "certified_share_rig_one_300": 0.6875,
+  "certified_share_rig_one_60": 0.6875
+}

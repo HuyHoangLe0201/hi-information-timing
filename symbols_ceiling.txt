@@ -1,0 +1,23 @@
+6
+
+Redeclarations of a symbol the notation table already defines, at the last run
+that was accepted.  All six are the same symbol in the same sense, and each was
+read once:
+
+  sigma   prop:tail sharpens "local noise scale" to "the second moment of the
+          residual after local standardisation";
+  delta   the proof of prop:band lets the clock offset vary with age,
+          delta(tau); it is the same estimand;
+  G       "with G(1) the record's whole budget" restates the table;
+  Sigma   prop:best holds the covariance constant as a hypothesis;
+  h       prop:leverage defines h_k, which is the table's own entry;
+  C       the body says "C the information-weighted mean of D''/D'"
+          because prop:radius, which used to declare it there, moved to
+          an appendix; the appendix still declares it and the two agree.
+
+Raise this only after reading the printed list.  A rise means a symbol has been
+given a SECOND meaning, which is what this layer exists to catch: it was written
+after a reading found four such collisions at once -- varepsilon as both the
+observation noise and the precision demanded, sigma as both the noise scale and
+the standard error of an age, c as both the censoring age and the information
+demand, and D as both the degradation trend and the matrix of sensitivity rows.

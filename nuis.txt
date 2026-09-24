@@ -1,0 +1,63 @@
+﻿achievability of the nuisance cost, synthetic records
+
+n = 600 samples, 600 repetitions per cell, offsets at the truth
+
+  beta          G                  rung   predicted sd   measured sd   ratio
+----------------------------------------------------------------------------
+   1.5   6.09e+07           trend known         0.0001        0.0001    0.99
+   1.5   6.09e+07      amplitude fitted         0.0004        0.0004    1.01
+   1.5   6.09e+07amplitude and exponent         0.0012        0.0011    0.97
+   1.5   6.76e+08           trend known         0.0000        0.0000    0.99
+   1.5   6.76e+08      amplitude fitted         0.0001        0.0001    0.96
+   1.5   6.76e+08amplitude and exponent         0.0003        0.0004    1.01
+   1.5   6.09e+09           trend known         0.0000        0.0000    0.98
+   1.5   6.09e+09      amplitude fitted         0.0000        0.0000    1.00
+   1.5   6.09e+09amplitude and exponent         0.0001        0.0001    1.00
+
+   2.0   7.22e+07           trend known         0.0001        0.0001    0.95
+   2.0   7.22e+07      amplitude fitted         0.0005        0.0005    0.97
+   2.0   7.22e+07amplitude and exponent         0.0019        0.0019    1.00
+   2.0   8.02e+08           trend known         0.0000        0.0000    1.02
+   2.0   8.02e+08      amplitude fitted         0.0001        0.0001    0.99
+   2.0   8.02e+08amplitude and exponent         0.0006        0.0005    0.96
+   2.0   7.22e+09           trend known         0.0000        0.0000    1.04
+   2.0   7.22e+09      amplitude fitted         0.0000        0.0001    1.07
+   2.0   7.22e+09amplitude and exponent         0.0002        0.0002    0.98
+
+   3.0   9.76e+07           trend known         0.0001        0.0001    1.00
+   3.0   9.76e+07      amplitude fitted         0.0006        0.0006    1.06
+   3.0   9.76e+07amplitude and exponent         0.0036        0.0036    0.99
+   3.0   1.08e+09           trend known         0.0000        0.0000    1.02
+   3.0   1.08e+09      amplitude fitted         0.0002        0.0002    1.01
+   3.0   1.08e+09amplitude and exponent         0.0011        0.0011    1.03
+   3.0   9.76e+09           trend known         0.0000        0.0000    0.96
+   3.0   9.76e+09      amplitude fitted         0.0001        0.0001    1.05
+   3.0   9.76e+09amplitude and exponent         0.0004        0.0004    0.98
+
+   5.0   1.51e+08           trend known         0.0001        0.0001    0.96
+   5.0   1.51e+08      amplitude fitted         0.0008        0.0008    1.04
+   5.0   1.51e+08amplitude and exponent         0.0081        0.0080    0.99
+   5.0   1.68e+09           trend known         0.0000        0.0000    0.96
+   5.0   1.68e+09      amplitude fitted         0.0002        0.0002    0.99
+   5.0   1.68e+09amplitude and exponent         0.0024        0.0025    1.04
+   5.0   1.51e+10           trend known         0.0000        0.0000    1.04
+   5.0   1.51e+10      amplitude fitted         0.0001        0.0001    0.97
+   5.0   1.51e+10amplitude and exponent         0.0008        0.0008    0.99
+
+----------------------------------------------------------------------------
+trend known              measured over predicted: median 0.99, range 0.95 to 1.04
+amplitude fitted         measured over predicted: median 1.00, range 0.96 to 1.07
+amplitude and exponent   measured over predicted: median 0.99, range 0.96 to 1.04
+
+Every rung lands on its prediction, so Proposition 3 is achievable
+and not merely an information ratio: an estimator that must fit the
+trend loses exactly the factor the theorem names.
+
+At the exponent these records show, 8.3, the nuisance rung alone costs
+a factor 275 in error.  Section 6 measures the whole oracle-to-ridge gap
+at 34.  The nuisance term therefore does not merely contribute to that
+gap, it exceeds it, which says the two are not
+measured on the same quantity: Section 6 sweeps a fixed synthetic trend
+shape while beta = 8.3 is read off real bearings.  The honest statement
+is that the nuisance cost is large enough to account for a gap of that
+size, not that it has been shown to be its cause.

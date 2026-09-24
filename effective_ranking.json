@@ -1,0 +1,52 @@
+{
+  "rows": [
+    {
+      "indicator": "bearing RMS",
+      "nominal": 20031157.768992767,
+      "keep_nuisance": 0.43968299389908655,
+      "misfit_factor": 6.3793740860924135,
+      "corr_len": 19.0,
+      "effective": 72663.12122950391,
+      "discount": 275.6715845679827
+    },
+    {
+      "indicator": "bearing 0--2 kHz",
+      "nominal": 1821071.5271098125,
+      "keep_nuisance": 0.34702175353959297,
+      "misfit_factor": 1.8052671921073673,
+      "corr_len": 32.0,
+      "effective": 10939.368099871253,
+      "discount": 166.46953557868164
+    },
+    {
+      "indicator": "turbofan s4",
+      "nominal": 53552.01463504217,
+      "keep_nuisance": 0.25757063360577703,
+      "misfit_factor": 0.859960107661136,
+      "corr_len": 1.0,
+      "effective": 16039.611858192036,
+      "discount": 3.3387350709294834
+    },
+    {
+      "indicator": "turbofan s11",
+      "nominal": 56237.80011817509,
+      "keep_nuisance": 0.2745166980695544,
+      "misfit_factor": 0.8241550523779791,
+      "corr_len": 1.0,
+      "effective": 18732.173212543326,
+      "discount": 3.0022037208431036
+    }
+  ],
+  "rank_nominal": [
+    "bearing RMS",
+    "bearing 0--2 kHz",
+    "turbofan s11",
+    "turbofan s4"
+  ],
+  "rank_effective": [
+    "bearing RMS",
+    "turbofan s11",
+    "turbofan s4",
+    "bearing 0--2 kHz"
+  ]
+}

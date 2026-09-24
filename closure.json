@@ -1,0 +1,26 @@
+{
+  "qstar": 0.3499999999999999,
+  "rows": [
+    {
+      "name": "bearing RMS",
+      "beta": 23.473935237659646,
+      "predicted": 0.9774109287734529,
+      "measured": 0.9831629269391817,
+      "saturated": true
+    },
+    {
+      "name": "bearing 0-2 kHz",
+      "beta": 3.342656961977552,
+      "predicted": 0.8313909938305403,
+      "measured": 0.8405085308405585,
+      "saturated": false
+    },
+    {
+      "name": "bearing 4-10 kHz",
+      "beta": 0.6017379792016884,
+      "predicted": 0.005744912389682266,
+      "measured": 0.10294117647058823,
+      "saturated": false
+    }
+  ]
+}

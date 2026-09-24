@@ -1,0 +1,50 @@
+[
+  {
+    "runs": 9.0,
+    "med": 0.2723831600385893,
+    "earliest": 0.0,
+    "gini": 0.8152967777066487,
+    "label": "bearing RMS",
+    "units": 16
+  },
+  {
+    "runs": 11.0,
+    "med": 0.21894093686354377,
+    "earliest": 0.0,
+    "gini": 0.8593024006639165,
+    "label": "bearing 4-10 kHz",
+    "units": 15
+  },
+  {
+    "runs": 15.0,
+    "med": 0.5143884892086331,
+    "earliest": 0.0,
+    "gini": 0.6724740551810475,
+    "label": "turbofan s11",
+    "units": 100
+  },
+  {
+    "runs": 4.5,
+    "med": 0.739057239057239,
+    "earliest": 0.35984848484848486,
+    "gini": 0.4340798459312663,
+    "label": "battery cap",
+    "units": 4
+  },
+  {
+    "runs": 5.0,
+    "med": 0.856547619047619,
+    "earliest": 0.6988095238095238,
+    "gini": 0.6360656697097793,
+    "label": "synth power-law b=3",
+    "units": 15
+  },
+  {
+    "runs": 5.0,
+    "med": 0.14226190476190476,
+    "earliest": 0.0,
+    "gini": 0.3806191770064177,
+    "label": "synth exponential",
+    "units": 15
+  }
+]

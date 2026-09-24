@@ -1,0 +1,43 @@
+﻿how far a regime step moves the earliest usable age
+
+trend tau^3, noise 0.02 of the trend's rise, 30 repetitions
+
+ step / noise     rate 0.02      rate 0.1      rate 0.3
+-------------------------------------------------------
+         0.00         0.000         0.000         0.000
+         0.25         0.003         0.005         0.004
+         0.50         0.006         0.008         0.012
+         1.00         0.016         0.015         0.011
+         2.00         0.030         0.045         0.022
+         4.00         0.090         0.134         0.038
+         8.00         0.275         0.245         0.202
+-------------------------------------------------------
+Entries are the median ABSOLUTE error in the age, in lifetimes,
+against the same record without steps.
+
+the largest step a record tolerates before the age is wrong by 0.05
+
+    rate   tolerated step
+--------------------------
+    0.02     2.00 x noise
+    0.10     2.00 x noise
+    0.30     4.00 x noise
+--------------------------
+
+with the regimes GIVEN, does normalising restore the age?
+
+ step / noise   uncorrected   corrected    ratio
+--------------------------------------------------
+         1.00         0.011       0.003     0.31
+         2.00         0.037       0.004     0.11
+         4.00         0.062       0.003     0.05
+         8.00         0.275       0.006     0.02
+--------------------------------------------------
+
+With the regimes known the correction is essentially complete: the
+residual error stays under 0.006 of a lifetime where the
+uncorrected error reaches 0.275.  On the turbofan the repair
+was only partial, and the difference is that there the regimes had to
+be recovered by clustering rather than given -- which locates the
+remaining half of that shortfall in the regime assignment, not in the
+method.

@@ -1,0 +1,52 @@
+﻿  PRONOSTIA 1/16  n=2803  (23s)
+  PRONOSTIA 2/16  n=871  (30s)
+  PRONOSTIA 3/16  n=2375  (48s)
+  PRONOSTIA 4/16  n=2463  (68s)
+  PRONOSTIA 5/16  n=2448  (88s)
+  PRONOSTIA 6/16  n=2259  (105s)
+  PRONOSTIA 7/16  n=911  (112s)
+  PRONOSTIA 8/16  n=797  (118s)
+  PRONOSTIA 9/16  n=1955  (133s)
+  PRONOSTIA 10/16  n=751  (139s)
+  PRONOSTIA 11/16  n=2311  (158s)
+  PRONOSTIA 12/16  n=701  (162s)
+  PRONOSTIA 13/16  n=230  (164s)
+  PRONOSTIA 14/16  n=515  (167s)
+  PRONOSTIA 15/16  n=1637  (178s)
+  PRONOSTIA 16/16  n=434  (181s)
+  XJTU 1/15  n=123  (182s)
+  XJTU 2/15  n=161  (183s)
+  XJTU 3/15  n=158  (184s)
+  XJTU 4/15  n=122  (185s)
+  XJTU 5/15  n=52  (185s)
+  XJTU 6/15  n=491  (187s)
+  XJTU 7/15  n=161  (188s)
+  XJTU 8/15  n=533  (192s)
+  XJTU 9/15  n=42  (192s)
+  XJTU 10/15  n=339  (193s)
+  XJTU 11/15  n=2538  (211s)
+  XJTU 12/15  n=2496  (228s)
+  XJTU 13/15  n=371  (230s)
+  XJTU 14/15  n=1515  (240s)
+  XJTU 15/15  n=114  (241s)
+
+PRONOSTIA: 16 bearings, lives 230 to 2803, 0 missing cells of 128
+XJTU: 15 bearings, lives 42 to 2538, 16 missing cells of 120
+
+the distribution-minus-amount gap, bearings resampled
+
+rig           units      gap         95% interval   excludes zero
+-----------------------------------------------------------------
+PRONOSTIA        16    0.641     [+0.223, +0.814]             yes
+XJTU             15    0.338     [+0.049, +0.417]             yes
+-----------------------------------------------------------------
+A positive gap means the distributional indicators are usable earlier.
+The interval resamples bearings and rebuilds the paper's own statistic,
+so it answers the question the claim invites: would another draw of
+bearings from the same rig have shown the same thing?
+
+The separation survives on both rigs.  The headline result is not an
+artefact of which bearings happened to be tested.
+
+PRONOSTIA: distribution 0.329, amount 0.970, gap 0.641
+XJTU: distribution 0.555, amount 0.893, gap 0.338

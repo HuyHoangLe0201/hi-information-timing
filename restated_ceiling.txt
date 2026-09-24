@@ -1,0 +1,6 @@
+0
+
+Numbers in the discussion and the conclusion that appear nowhere
+else in the paper, at the last run that was accepted.  Those are the
+ones those sections compute for themselves; a rise means one of their
+restatements no longer matches what it restates.

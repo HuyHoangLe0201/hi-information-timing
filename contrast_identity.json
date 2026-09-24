@@ -1,0 +1,147 @@
+{
+  "identity_trials": 4000,
+  "identity_worst": 2.1374079117217665e-13,
+  "corrections": [
+    {
+      "correction": "serial",
+      "contrast": 1.6206789305027534,
+      "M": 2.9202521708582374,
+      "charged": 8.527872741402248,
+      "ratio": 5.26191374546765
+    },
+    {
+      "correction": "tail",
+      "contrast": 1.4723917321102196,
+      "M": 4.470562927251041,
+      "charged": 19.9859328865114,
+      "ratio": 13.573787770369863
+    },
+    {
+      "correction": "derivative",
+      "contrast": 1.059912119634231,
+      "M": 5.0,
+      "charged": 25.0,
+      "ratio": 23.586861152816464
+    }
+  ],
+  "contrast_max": 1.6206789305027534,
+  "overcharge_median": 13.573787770369863,
+  "per_bearing": [
+    {
+      "unit": "Bearing1_1",
+      "tolerated": 1.2062955084391045,
+      "worst_contrast": 2.798144209783341,
+      "survives": false,
+      "margin": 0.4311055535384673
+    },
+    {
+      "unit": "Bearing1_2",
+      "tolerated": 1.4572518091142928,
+      "worst_contrast": 5.0092456380821835,
+      "survives": false,
+      "margin": 0.29091242761898367
+    },
+    {
+      "unit": "Bearing2_1",
+      "tolerated": 1.7561164390586241,
+      "worst_contrast": 2.734458170209445,
+      "survives": false,
+      "margin": 0.6422173351161978
+    },
+    {
+      "unit": "Bearing2_2",
+      "tolerated": 2.8001624379133574,
+      "worst_contrast": 2.8740985597131052,
+      "survives": false,
+      "margin": 0.9742750221456816
+    },
+    {
+      "unit": "Bearing3_1",
+      "tolerated": 5.035326628154585,
+      "worst_contrast": 6.501913008961323,
+      "survives": false,
+      "margin": 0.7744377110574377
+    },
+    {
+      "unit": "Bearing3_2",
+      "tolerated": 24.181303863956234,
+      "worst_contrast": 4.904197264770303,
+      "survives": true,
+      "margin": 4.930736379155174
+    },
+    {
+      "unit": "Bearing1_3",
+      "tolerated": 2.6815642692011927,
+      "worst_contrast": 2.2607811010434347,
+      "survives": true,
+      "margin": 1.1861229147587755
+    },
+    {
+      "unit": "Bearing1_4",
+      "tolerated": 3.3267509522288297,
+      "worst_contrast": 2.0203697951264,
+      "survives": true,
+      "margin": 1.6466049731359693
+    },
+    {
+      "unit": "Bearing1_5",
+      "tolerated": 11.675161430097038,
+      "worst_contrast": 1.2713862288873385,
+      "survives": true,
+      "margin": 9.18301706029538
+    },
+    {
+      "unit": "Bearing1_6",
+      "tolerated": 17.01423324779964,
+      "worst_contrast": 2.8050911750081715,
+      "survives": true,
+      "margin": 6.065483146996132
+    },
+    {
+      "unit": "Bearing1_7",
+      "tolerated": 5.103788561186048,
+      "worst_contrast": 3.1751854156851724,
+      "survives": true,
+      "margin": 1.6073985903228591
+    },
+    {
+      "unit": "Bearing2_3",
+      "tolerated": 3.7776047916890367,
+      "worst_contrast": 2.423172632334747,
+      "survives": true,
+      "margin": 1.5589499242772824
+    },
+    {
+      "unit": "Bearing2_4",
+      "tolerated": 2.8291385465267047,
+      "worst_contrast": 2.4753898074666703,
+      "survives": true,
+      "margin": 1.142906276010752
+    },
+    {
+      "unit": "Bearing2_5",
+      "tolerated": 3.954289873041429,
+      "worst_contrast": 1.8668177238983568,
+      "survives": true,
+      "margin": 2.118198162798635
+    },
+    {
+      "unit": "Bearing2_6",
+      "tolerated": 4.7614113245732685,
+      "worst_contrast": 1.8503703952269843,
+      "survives": true,
+      "margin": 2.5732206572561314
+    },
+    {
+      "unit": "Bearing3_3",
+      "tolerated": 14.100099385789314,
+      "worst_contrast": 3.8110594035584455,
+      "survives": true,
+      "margin": 3.6997847298375435
+    }
+  ],
+  "n_survive": 11,
+  "n_bearings": 16,
+  "margin_min": 0.29091242761898367,
+  "margin_median": 1.5831742573000707
+}

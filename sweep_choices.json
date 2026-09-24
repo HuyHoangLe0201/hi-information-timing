@@ -1,0 +1,137 @@
+{
+  "rank_guard": [
+    {
+      "guard": 100.0,
+      "kept": 9.0,
+      "tau": 0.9138668295662797,
+      "rms": 0.9827368421052631
+    },
+    {
+      "guard": 1000.0,
+      "kept": 9.0,
+      "tau": 0.9138668295662797,
+      "rms": 0.9827368421052631
+    },
+    {
+      "guard": 10000.0,
+      "kept": 9.0,
+      "tau": 0.9138668295662797,
+      "rms": 0.9827368421052631
+    },
+    {
+      "guard": 100000.0,
+      "kept": 9.0,
+      "tau": 0.9138668295662797,
+      "rms": 0.9827368421052631
+    },
+    {
+      "guard": 1000000.0,
+      "kept": 10.0,
+      "tau": 0.03513174404015056,
+      "rms": 0.9827368421052631
+    },
+    {
+      "guard": Infinity,
+      "kept": 10.0,
+      "tau": 0.02929427430093209,
+      "rms": 0.9827368421052631
+    }
+  ],
+  "signal_threshold": [
+    {
+      "threshold": 0.7,
+      "cleared": 15,
+      "total": 15,
+      "dropped": []
+    },
+    {
+      "threshold": 0.8,
+      "cleared": 11,
+      "total": 15,
+      "dropped": [
+        "turbofan s4",
+        "turbofan s20",
+        "turbofan s11",
+        "turbofan s15"
+      ]
+    },
+    {
+      "threshold": 0.85,
+      "cleared": 10,
+      "total": 15,
+      "dropped": [
+        "turbofan s9",
+        "turbofan s4",
+        "turbofan s20",
+        "turbofan s11",
+        "turbofan s15"
+      ]
+    },
+    {
+      "threshold": 0.9,
+      "cleared": 10,
+      "total": 15,
+      "dropped": [
+        "turbofan s9",
+        "turbofan s4",
+        "turbofan s20",
+        "turbofan s11",
+        "turbofan s15"
+      ]
+    },
+    {
+      "threshold": 0.95,
+      "cleared": 9,
+      "total": 15,
+      "dropped": [
+        "bearing kurt",
+        "turbofan s9",
+        "turbofan s4",
+        "turbofan s20",
+        "turbofan s11",
+        "turbofan s15"
+      ]
+    },
+    {
+      "threshold": 0.98,
+      "cleared": 8,
+      "total": 15,
+      "dropped": [
+        "cell R_e",
+        "bearing kurt",
+        "turbofan s9",
+        "turbofan s4",
+        "turbofan s20",
+        "turbofan s11",
+        "turbofan s15"
+      ]
+    }
+  ],
+  "signal_stable_85_to_90": true,
+  "folds": [
+    {
+      "folds": 4,
+      "scale": 0.4532801950107025,
+      "records": 12,
+      "ratio": 1.017884069539156
+    },
+    {
+      "folds": 10,
+      "scale": 0.44531613036828815,
+      "records": 12,
+      "ratio": 1.0
+    },
+    {
+      "folds": 20,
+      "scale": 0.4480295617822294,
+      "records": 12,
+      "ratio": 1.0060932699915837
+    },
+    {
+      "folds": 40,
+      "scale": 0.4500938526925986,
+      "records": 12,
+      "ratio": 1.0107288328414223
+    }
+  ]
+}

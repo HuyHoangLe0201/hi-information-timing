@@ -1,0 +1,114 @@
+{
+  "PRONOSTIA": [
+    {
+      "measure": "spectral entropy",
+      "kind": "distribution",
+      "early": 0.04453548972890742,
+      "late": 0.00611125209732355
+    },
+    {
+      "measure": "spectral centroid",
+      "kind": "distribution",
+      "early": -0.07316889296186524,
+      "late": 0.03649685555291571
+    },
+    {
+      "measure": "spectral spread",
+      "kind": "distribution",
+      "early": 0.004056338517489877,
+      "late": -0.00472335000780455
+    },
+    {
+      "measure": "spectral Gini",
+      "kind": "distribution",
+      "early": 0.013743242469156591,
+      "late": 0.032675275326997766
+    },
+    {
+      "measure": "high/low ratio",
+      "kind": "distribution",
+      "early": -1.2737774468835088,
+      "late": -0.3585763394153527
+    },
+    {
+      "measure": "total power",
+      "kind": "amount",
+      "early": -0.05891407236193613,
+      "late": -2.358488762562105
+    },
+    {
+      "measure": "peak band power",
+      "kind": "amount",
+      "early": -0.09881555827623756,
+      "late": -7.243139125246431
+    },
+    {
+      "measure": "high-band power",
+      "kind": "amount",
+      "early": -1.1663485206048785,
+      "late": -0.05260758352304751
+    },
+    {
+      "measure": "log total power",
+      "kind": "amount",
+      "early": -0.05871569276193611,
+      "late": -0.15675690816552668
+    }
+  ],
+  "XJTU": [
+    {
+      "measure": "spectral entropy",
+      "kind": "distribution",
+      "early": -0.02285002381185075,
+      "late": -0.4037256247323251
+    },
+    {
+      "measure": "spectral centroid",
+      "kind": "distribution",
+      "early": -0.979966933674447,
+      "late": -0.20379690156478358
+    },
+    {
+      "measure": "spectral spread",
+      "kind": "distribution",
+      "early": -0.12123474096542419,
+      "late": -0.0027373965310337756
+    },
+    {
+      "measure": "spectral Gini",
+      "kind": "distribution",
+      "early": -0.03931830308119877,
+      "late": -0.1300683364433377
+    },
+    {
+      "measure": "high/low ratio",
+      "kind": "distribution",
+      "early": -0.02731065044006531,
+      "late": -0.12580905374039353
+    },
+    {
+      "measure": "total power",
+      "kind": "amount",
+      "early": -12.47343967421256,
+      "late": -0.7494045164055672
+    },
+    {
+      "measure": "peak band power",
+      "kind": "amount",
+      "early": -10.28976717566757,
+      "late": -0.1248838297021111
+    },
+    {
+      "measure": "high-band power",
+      "kind": "amount",
+      "early": 0.029239346216192175,
+      "late": -0.22929589820316743
+    },
+    {
+      "measure": "log total power",
+      "kind": "amount",
+      "early": -3.0546362599085732,
+      "late": -1.1061104506437145
+    }
+  ]
+}

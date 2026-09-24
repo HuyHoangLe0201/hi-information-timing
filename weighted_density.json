@@ -1,0 +1,79 @@
+[
+  {
+    "channel": "rms",
+    "units": 16,
+    "span": 3.5923377290396736,
+    "beta_unweighted": 29.99999490236994,
+    "beta_weighted": 16.028061930349665,
+    "tmin_unweighted": 0.9831629269391817,
+    "tmin_weighted": 0.9687203947316911,
+    "closure_unweighted": 0.001960677575429226,
+    "closure_weighted": 0.0032993684652600774
+  },
+  {
+    "channel": "peak",
+    "units": 17,
+    "span": 3.782660164393939,
+    "beta_unweighted": 29.999992863376892,
+    "beta_weighted": 20.46567538000774,
+    "tmin_unweighted": 0.983178397521027,
+    "tmin_weighted": 0.9760970388869069,
+    "closure_unweighted": 0.001657531963578096,
+    "closure_weighted": 0.0023643881366702812
+  },
+  {
+    "channel": "kurt",
+    "units": 12,
+    "span": 5.232513348440479,
+    "beta_unweighted": 23.30303307972767,
+    "beta_weighted": 6.717475198206019,
+    "tmin_unweighted": 0.9782341548373,
+    "tmin_weighted": 0.9429226689251952,
+    "closure_unweighted": 0.0015288088431050229,
+    "closure_weighted": 0.011902211846310129
+  },
+  {
+    "channel": "0--2 kHz",
+    "units": 12,
+    "span": 1.9813583577290252,
+    "beta_unweighted": 2.917557826215477,
+    "beta_weighted": 1.6347817528295023,
+    "tmin_unweighted": 0.8405085308405585,
+    "tmin_weighted": 0.575837690097414,
+    "closure_unweighted": 0.019957758714880536,
+    "closure_weighted": 0.04402107957123541
+  },
+  {
+    "channel": "2--4 kHz",
+    "units": 16,
+    "span": 2.7194079863860776,
+    "beta_unweighted": 0.8415948589394586,
+    "beta_weighted": 1.1874495022467157,
+    "tmin_unweighted": 0.15005146483600362,
+    "tmin_weighted": 0.3250234495864346,
+    "closure_unweighted": 0.05692292399445462,
+    "closure_weighted": 0.062462228270244224
+  },
+  {
+    "channel": "4--10 kHz",
+    "units": 15,
+    "span": 3.3708506422622087,
+    "beta_unweighted": 0.7359066241061063,
+    "beta_weighted": 1.0704221689555629,
+    "tmin_unweighted": 0.10294117647058823,
+    "tmin_weighted": 0.24198132358911897,
+    "closure_unweighted": 0.04235908932453964,
+    "closure_weighted": 0.07935978784851638
+  },
+  {
+    "channel": "10--12.8 kHz",
+    "units": 13,
+    "span": 5.083751357203698,
+    "beta_unweighted": 2.506309073455155,
+    "beta_weighted": 0.8483615028058432,
+    "tmin_unweighted": 0.7217391304347827,
+    "tmin_weighted": 0.21968616262482168,
+    "closure_unweighted": 0.04805650412741502,
+    "closure_weighted": 0.0821031391412621
+  }
+]

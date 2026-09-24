@@ -1,0 +1,79 @@
+{
+  "units": 17,
+  "cond_max": 1000.0,
+  "sets": [
+    {
+      "set": "RMS",
+      "K": 1,
+      "feasible": 17,
+      "units": 17,
+      "naive": 0.9827368421052631,
+      "safe": 0.9827368421052631
+    },
+    {
+      "set": "RMS + peak",
+      "K": 2,
+      "feasible": 17,
+      "units": 17,
+      "naive": 0.9800796812749004,
+      "safe": 0.9800796812749004
+    },
+    {
+      "set": "RMS + peak + kurt",
+      "K": 3,
+      "feasible": 17,
+      "units": 17,
+      "naive": 0.9740154283394235,
+      "safe": 0.9740154283394235
+    },
+    {
+      "set": "three bands",
+      "K": 3,
+      "feasible": 5,
+      "units": 17,
+      "naive": 0.15707485936823887,
+      "safe": 0.15707485936823887
+    },
+    {
+      "set": "RMS + three bands",
+      "K": 4,
+      "feasible": 17,
+      "units": 17,
+      "naive": 0.9758986928104575,
+      "safe": 0.9758986928104575
+    },
+    {
+      "set": "six bands",
+      "K": 6,
+      "feasible": 7,
+      "units": 17,
+      "naive": 0.0912621359223301,
+      "safe": 0.0912621359223301
+    },
+    {
+      "set": "everything",
+      "K": 10,
+      "feasible": 17,
+      "units": 17,
+      "naive": 0.02929427430093209,
+      "safe": 0.9138668295662797
+    }
+  ],
+  "monotone_published": {
+    "tests": 80,
+    "pass_": 80
+  },
+  "monotone_ranksafe": {
+    "tests": 80,
+    "pass_": 80
+  },
+  "joint_rescues": 5,
+  "worst_pair_cond": 30.444869773457867,
+  "headline": {
+    "units": 17,
+    "fusion": 0.9138668295662797,
+    "rms": 0.9827368421052631,
+    "gain": 0.02608695652173909,
+    "earlier_on": 17
+  }
+}

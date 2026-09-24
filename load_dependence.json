@@ -1,0 +1,200 @@
+[
+  {
+    "rig": "PRONOSTIA",
+    "cond": "1",
+    "channel": "rms",
+    "units": 7,
+    "mean_life": 2092.4285714285716,
+    "tau": 0.9760956175298805,
+    "signal": 0.9958071000867125,
+    "rpm": 1800,
+    "load_N": 4000
+  },
+  {
+    "rig": "PRONOSTIA",
+    "cond": "1",
+    "channel": "0--2 kHz",
+    "units": 7,
+    "mean_life": 2092.4285714285716,
+    "tau": 0.5936842105263158,
+    "signal": 0.9860095710457412,
+    "rpm": 1800,
+    "load_N": 4000
+  },
+  {
+    "rig": "PRONOSTIA",
+    "cond": "1",
+    "channel": "4--10 kHz",
+    "units": 7,
+    "mean_life": 2092.4285714285716,
+    "tau": 0.24116930572472595,
+    "signal": 0.9910658740317075,
+    "rpm": 1800,
+    "load_N": 4000
+  },
+  {
+    "rig": "PRONOSTIA",
+    "cond": "2",
+    "channel": "rms",
+    "units": 7,
+    "mean_life": 1093.7142857142858,
+    "tau": 0.9714693295292439,
+    "signal": 0.9929087161442753,
+    "rpm": 1650,
+    "load_N": 4200
+  },
+  {
+    "rig": "PRONOSTIA",
+    "cond": "2",
+    "channel": "0--2 kHz",
+    "units": 7,
+    "mean_life": 1093.7142857142858,
+    "tau": 0.45773874862788144,
+    "signal": 0.9791222640662125,
+    "rpm": 1650,
+    "load_N": 4200
+  },
+  {
+    "rig": "PRONOSTIA",
+    "cond": "2",
+    "channel": "4--10 kHz",
+    "units": 7,
+    "mean_life": 1093.7142857142858,
+    "tau": 0.34127979924717694,
+    "signal": 0.984619905819179,
+    "rpm": 1650,
+    "load_N": 4200
+  },
+  {
+    "rig": "PRONOSTIA",
+    "cond": "3",
+    "channel": "rms",
+    "units": 3,
+    "mean_life": 862.0,
+    "tau": 0.9300970873786408,
+    "signal": 0.9874415452625547,
+    "rpm": 1500,
+    "load_N": 5000
+  },
+  {
+    "rig": "PRONOSTIA",
+    "cond": "3",
+    "channel": "0--2 kHz",
+    "units": 3,
+    "mean_life": 862.0,
+    "tau": 0.9475728155339805,
+    "signal": 0.9902660884455953,
+    "rpm": 1500,
+    "load_N": 5000
+  },
+  {
+    "rig": "PRONOSTIA",
+    "cond": "3",
+    "channel": "4--10 kHz",
+    "units": 3,
+    "mean_life": 862.0,
+    "tau": 0.07373271889400922,
+    "signal": 0.9918259194768498,
+    "rpm": 1500,
+    "load_N": 5000
+  },
+  {
+    "rig": "XJTU",
+    "cond": "35Hz12kN",
+    "channel": "rms",
+    "units": 5,
+    "mean_life": 123.2,
+    "tau": 0.7893382731295667,
+    "signal": 0.991595356635343,
+    "rpm": 2100,
+    "load_N": 12000
+  },
+  {
+    "rig": "XJTU",
+    "cond": "35Hz12kN",
+    "channel": "0--2 kHz",
+    "units": 5,
+    "mean_life": 123.2,
+    "tau": 0.5220421148310862,
+    "signal": 0.974969687246888,
+    "rpm": 2100,
+    "load_N": 12000
+  },
+  {
+    "rig": "XJTU",
+    "cond": "35Hz12kN",
+    "channel": "4--10 kHz",
+    "units": 5,
+    "mean_life": 123.2,
+    "tau": 0.5447406958541635,
+    "signal": 0.9853341795552027,
+    "rpm": 2100,
+    "load_N": 12000
+  },
+  {
+    "rig": "XJTU",
+    "cond": "37.5Hz11kN",
+    "channel": "rms",
+    "units": 5,
+    "mean_life": 313.2,
+    "tau": 0.6572663815505809,
+    "signal": 0.9772025964643396,
+    "rpm": 2250,
+    "load_N": 11000
+  },
+  {
+    "rig": "XJTU",
+    "cond": "37.5Hz11kN",
+    "channel": "0--2 kHz",
+    "units": 5,
+    "mean_life": 313.2,
+    "tau": 0.4676678455007831,
+    "signal": 0.9848821695122947,
+    "rpm": 2250,
+    "load_N": 11000
+  },
+  {
+    "rig": "XJTU",
+    "cond": "37.5Hz11kN",
+    "channel": "4--10 kHz",
+    "units": 5,
+    "mean_life": 313.2,
+    "tau": 0.2996148034999751,
+    "signal": 0.9886145652281393,
+    "rpm": 2250,
+    "load_N": 11000
+  },
+  {
+    "rig": "XJTU",
+    "cond": "40Hz10kN",
+    "channel": "rms",
+    "units": 5,
+    "mean_life": 1406.8,
+    "tau": 0.9419141914191419,
+    "signal": 0.9822264307081043,
+    "rpm": 2400,
+    "load_N": 10000
+  },
+  {
+    "rig": "XJTU",
+    "cond": "40Hz10kN",
+    "channel": "0--2 kHz",
+    "units": 5,
+    "mean_life": 1406.8,
+    "tau": 0.47368421052631576,
+    "signal": 0.9894379840582005,
+    "rpm": 2400,
+    "load_N": 10000
+  },
+  {
+    "rig": "XJTU",
+    "cond": "40Hz10kN",
+    "channel": "4--10 kHz",
+    "units": 5,
+    "mean_life": 1406.8,
+    "tau": 0.3508771929824561,
+    "signal": 0.9916420300894851,
+    "rpm": 2400,
+    "load_N": 10000
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "domain": "bearing RMS",
+    "units": 15,
+    "beta": 29.99999999999994,
+    "sd_logA": 0.27292863659372607,
+    "sd_beta": 10.82037499116931,
+    "retained_fleet": 0.43968299389908655,
+    "retained_none": 7.714891972491673e-08,
+    "retained_known": 1.0
+  },
+  {
+    "domain": "bearing 0--2 kHz",
+    "units": 14,
+    "beta": 0.6520859950311249,
+    "sd_logA": 0.8946570131315393,
+    "sd_beta": 7.851676150386379,
+    "retained_fleet": 0.34702175353959297,
+    "retained_none": 0.3469327577520781,
+    "retained_known": 1.0
+  },
+  {
+    "domain": "turbofan s4",
+    "units": 100,
+    "beta": 3.0485965661133196,
+    "sd_logA": 0.09432752212065348,
+    "sd_beta": 0.7738649985693905,
+    "retained_fleet": 0.25757063360577703,
+    "retained_none": 0.0007235683103226146,
+    "retained_known": 1.0
+  },
+  {
+    "domain": "turbofan s11",
+    "units": 100,
+    "beta": 3.113988240837678,
+    "sd_logA": 0.0815798983781761,
+    "sd_beta": 0.6617209630641865,
+    "retained_fleet": 0.2745166980695544,
+    "retained_none": 0.0006646782387394805,
+    "retained_known": 1.0
+  },
+  {
+    "domain": "cell capacity",
+    "units": 4,
+    "beta": 1.2433963219252528,
+    "sd_logA": 0.08593979212526716,
+    "sd_beta": 0.3628034289316959,
+    "retained_fleet": 0.2603340463213879,
+    "retained_none": 0.026149708251111632,
+    "retained_known": 1.0
+  }
+]

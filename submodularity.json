@@ -1,0 +1,30 @@
+{
+  "counter_alone": 0.0,
+  "counter_with": 9.256410256410252,
+  "counter_ratio": Infinity,
+  "random_violation_rate": 0.6425095006333755,
+  "random_ratio_median": 2.1332585228215692,
+  "random_ratio_p95": 111.71280433524934,
+  "greedy": [
+    {
+      "size": 2,
+      "ratio_median": 1.0,
+      "ratio_min": 1.0,
+      "bearings": 17
+    },
+    {
+      "size": 3,
+      "ratio_median": 1.0,
+      "ratio_min": 0.8923601164183761,
+      "bearings": 17
+    },
+    {
+      "size": 4,
+      "ratio_median": 0.9999999999999998,
+      "ratio_min": 0.8308183681835042,
+      "bearings": 17
+    }
+  ],
+  "greedy_median": 1.0,
+  "greedy_worst": 0.8308183681835042
+}

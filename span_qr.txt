@@ -1,0 +1,110 @@
+﻿16 bearings, span bound by the QR route
+
+bearing         K  rank   H^-1(q)   tau_lin  holds   ratio  shuffled
+--------------------------------------------------------------------
+Bearing1_1     31    31    0.0032    0.0032    yes    1.00    0.1570
+Bearing1_2     32    32    0.0046    0.0046    yes    1.00    0.1573
+Bearing1_3     21    21    0.0080    0.0080    yes    1.00    0.1120
+Bearing1_5     32    32    0.0032    0.0037    yes    1.12    0.1121
+Bearing1_6     32    32    0.0065    0.0065    yes    1.00    0.1389
+Bearing1_7     32    32    0.0049    0.0053    yes    1.09    0.1005
+Bearing2_1     30    30    0.0044    0.0044    yes    1.00    0.0373
+Bearing2_2     31    31    0.0050    0.0050    yes    1.00    0.1092
+Bearing2_3     24    24    0.0082    0.0087    yes    1.06    0.1463
+Bearing2_4     32    32    0.0067    0.0067    yes    1.00    0.0679
+Bearing2_5     31    31    0.0091    0.0095    yes    1.05    0.2012
+Bearing2_6     30    30    0.0057    0.0071    yes    1.25    0.0171
+Bearing2_7     19    19    0.0087    0.0087    yes    1.00    0.0783
+Bearing3_1     19    19    0.0078    0.0078    yes    1.00    0.0777
+Bearing3_2     31    31    0.0043    0.0043    yes    1.00    0.1277
+Bearing3_3     32    32    0.0046    0.0069    yes    1.50    0.0737
+--------------------------------------------------------------------
+the inequality holds on 16 of 16 bearings
+
+median leverage bound H^-1(q) : 0.0054
+median span bound tau_lin     : 0.0066
+median tau_lin after shuffling: 0.1106
+median q/K                    : 0.0113
+
+tau_lin sits a median factor 1.00 above its leverage bound,
+so on real records the bound is not merely valid but attained.
+
+Two exact bounds bracket the exchangeable case.  The largest of K
+non-negative eigenvalues is at least their mean and at most their sum, so
+H(c)/K <= lambda_max <= H(c), and with E[H(c)] = cK under exchangeability
+the null must satisfy q/K <= tau_lin <= q, here 0.0113 to 0.35.
+The shuffled record gives 0.1106, inside the bracket and well above
+its lower end; the real record gives 0.0066, sitting ON the lower end.
+That is the whole difference, and it is a statement about concentration
+rather than about amount, which the next table measures directly.
+
+how the early leverage is distributed across the K directions
+
+               H at tau_lin  lambda_max  share in one
+-----------------------------------------------------
+real record           0.385       0.379         0.974
+shuffled                 --          --         0.467
+-----------------------------------------------------
+Both rows are read at the SAME early sample count, the one at which the
+real record reaches the bound.  There the real record puts 97% of the
+leverage it has spent into a single direction against 47% for the shuffled
+one.  The shuffled figure is not small because the window holds fewer
+samples than there are channels, so its Gram matrix is rank-deficient and
+its mass cannot spread over K directions however unstructured it is; the
+comparison that matters is the factor of two between the two rows.
+
+The early advantage of the linear span is therefore a statement about
+where the leverage points, not about how much of it there is; the next
+table gives the amount for comparison.
+
+share of the K leverages already spent, by age
+
+     age      real   shuffled   exchangeable
+--------------------------------------------
+    0.01     0.020      0.010          0.010
+    0.02     0.032      0.017          0.020
+    0.05     0.052      0.050          0.050
+    0.10     0.099      0.099          0.100
+    0.25     0.217      0.253          0.250
+    0.50     0.389      0.499          0.500
+--------------------------------------------
+Exchangeability spends the budget uniformly, at rate c; the shuffled
+column reproduces that and the real column front-loads it -- but only
+mildly: 2 per cent by age 0.01 against 1, a factor of two, against the
+factor 2.1 by which the real record concentrates that
+spending into one direction.  Amount is the small effect; direction is
+the large one.
+
+Leverage is large where the sensitivity points somewhere the rest of the
+record does not, so what the span bound finds early is the part of a
+bearing's early life least like its own later life.  A linear combination
+can be aimed at that; the direction is specific to the record, which the
+transfer test below measures.
+
+the direction attaining the bound, applied to other bearings
+
+scored on the leading 19 directions every bearing retains
+
+fitted on          own   held-out median
+----------------------------------------
+Bearing1_1      0.0043            0.9667
+Bearing1_2      0.0046            0.9646
+Bearing1_3      0.0084            0.9640
+Bearing1_5      0.0049            0.9660
+Bearing1_6      0.0074            0.9659
+Bearing1_7      0.0071            0.9676
+Bearing2_1      0.0055            0.9636
+Bearing2_2      0.0063            0.9663
+Bearing2_3      0.0097            0.9664
+Bearing2_4      0.0067            0.9597
+Bearing2_5      0.0147            0.9681
+Bearing2_6      0.0071            0.9640
+Bearing2_7      0.0087            0.9693
+Bearing3_1      0.0078            0.9522
+Bearing3_2      0.0055            0.9714
+Bearing3_3      0.0092            0.9572
+----------------------------------------
+median own 0.0071, held out 0.9659, a factor 136
+
+So the bound is exact, attained, and attained by a direction that is
+specific to the record: it bounds an oracle, in the sense of Section 6.

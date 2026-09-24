@@ -1,0 +1,48 @@
+﻿PRONOSTIA: 16 bearings, XJTU: 15 bearings
+
+sweeping the trend bandwidth, local scale held at 0.08
+
+  trend bwrig           distribution   amount     gap
+------------------------------------------------------
+      0.04PRONOSTIA            0.298    0.989   0.691
+      0.04XJTU                 0.575    0.942   0.367
+          (256s)
+      0.06PRONOSTIA            0.342    0.982   0.639
+      0.06XJTU                 0.471    0.937   0.466
+          (468s)
+      0.08PRONOSTIA            0.329    0.970   0.641
+      0.08XJTU                 0.555    0.893   0.338
+          (654s)
+      0.12PRONOSTIA            0.299    0.949   0.650
+      0.12XJTU                 0.472    0.638   0.166
+          (834s)
+      0.16PRONOSTIA            0.302    0.925   0.623
+      0.16XJTU                 0.375    0.618   0.243
+          (1012s)
+------------------------------------------------------
+
+sweeping the local-scale bandwidth, trend held at 0.08
+
+  local bwrig           distribution   amount     gap
+------------------------------------------------------
+      0.04PRONOSTIA            0.293    0.961   0.668
+      0.04XJTU                 0.488    0.902   0.414
+          (1177s)
+      0.08PRONOSTIA            0.329    0.970   0.641
+      0.08XJTU                 0.555    0.893   0.338
+          (1351s)
+      0.16PRONOSTIA            0.376    0.979   0.603
+      0.16XJTU                 0.566    0.908   0.342
+          (1544s)
+------------------------------------------------------
+
+trend bandwidth: gap runs 0.166 to 0.691 over 10 rig-settings, all positive: True
+local bandwidth: gap runs 0.338 to 0.668 over 6 rig-settings, all positive: True
+
+The sign of the applied result does not depend on either bandwidth.
+Its size does, which it must: a wider trend window smooths away early
+structure and a narrower one admits noise into the derivative, so the
+ages move.  What matters is that no defensible setting brings the gap
+to zero or reverses it.
+  PRONOSTIA: working setting gives 0.641, the sweep 0.603 to 0.691
+  XJTU: working setting gives 0.338, the sweep 0.166 to 0.466

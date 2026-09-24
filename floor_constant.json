@@ -1,0 +1,63 @@
+{
+  "median_chi2_1": 0.454936423119572,
+  "closed_form": 0.7012058706959547,
+  "quadrature": 0.7012058706959545,
+  "rows": [
+    {
+      "case": "chi2_1 drawn directly",
+      "value": 0.7014662338045601
+    },
+    {
+      "case": "constant noise, n=300",
+      "value": 0.6847367308310618,
+      "value_median_floor": 0.7354640103065183
+    },
+    {
+      "case": "constant noise, n=800",
+      "value": 0.7192007064335547,
+      "value_median_floor": 0.7170544002567534
+    },
+    {
+      "case": "constant noise, n=2500",
+      "value": 0.751481938792713,
+      "value_median_floor": 0.7447172362189474
+    },
+    {
+      "case": "rising noise, n=300",
+      "value": 0.6704358282090492,
+      "value_median_floor": 0.7562124471629792
+    },
+    {
+      "case": "rising noise, n=800",
+      "value": 0.6825895128203978,
+      "value_median_floor": 0.7439739503205169
+    },
+    {
+      "case": "rising noise, n=2500",
+      "value": 0.6833481433256203,
+      "value_median_floor": 0.7225939493511558
+    },
+    {
+      "case": "falling noise, n=300",
+      "value": 0.678191476228243,
+      "value_median_floor": 0.7590105481870889
+    },
+    {
+      "case": "falling noise, n=800",
+      "value": 0.6619053160385044,
+      "value_median_floor": 0.7466214266227352
+    },
+    {
+      "case": "falling noise, n=2500",
+      "value": 0.6681882609528401,
+      "value_median_floor": 0.7449390847696443
+    }
+  ],
+  "pipeline_median_floor": 0.7447172362189474,
+  "pipeline_surrogate": 0.6825895128203978,
+  "spread_across_cases": 0.08957662275420852,
+  "gap_to_closed": 0.018616357875556933,
+  "surrogate_over_median": 1.0715709833972913,
+  "d_kurtosis": 21.687110426148838,
+  "chi2_kurtosis": 15.0
+}

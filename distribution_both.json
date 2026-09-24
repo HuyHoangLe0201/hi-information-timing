@@ -1,0 +1,182 @@
+{
+  "rigs": {
+    "PRONOSTIA": [
+      {
+        "measure": "spectral entropy",
+        "kind": "distribution",
+        "tau": 0.3467191230572866,
+        "signal": 0.9913507277974223,
+        "units": 16
+      },
+      {
+        "measure": "spectral centroid",
+        "kind": "distribution",
+        "tau": 0.5314046724714294,
+        "signal": 0.989865937000499,
+        "units": 16
+      },
+      {
+        "measure": "spectral spread",
+        "kind": "distribution",
+        "tau": 0.15111514667125303,
+        "signal": 0.9971112941279265,
+        "units": 16
+      },
+      {
+        "measure": "spectral Gini",
+        "kind": "distribution",
+        "tau": 0.28812128935720077,
+        "signal": 0.992472447170732,
+        "units": 16
+      },
+      {
+        "measure": "top-8-band share",
+        "kind": "distribution",
+        "tau": 0.35972971693768085,
+        "signal": 0.9935488834852986,
+        "units": 16
+      },
+      {
+        "measure": "high/low band ratio",
+        "kind": "distribution",
+        "tau": 0.31175729259179646,
+        "signal": 0.9846583110635474,
+        "units": 16
+      },
+      {
+        "measure": "total power",
+        "kind": "amount",
+        "tau": 0.9707323147967933,
+        "signal": 0.9915237327973179,
+        "units": 16
+      },
+      {
+        "measure": "peak band power",
+        "kind": "amount",
+        "tau": 0.9717919063824774,
+        "signal": 0.9954529102636376,
+        "units": 16
+      },
+      {
+        "measure": "high-band power",
+        "kind": "amount",
+        "tau": 0.9632245881314376,
+        "signal": 0.994863155768328,
+        "units": 16
+      },
+      {
+        "measure": "log total power",
+        "kind": "amount",
+        "tau": 0.9685034324942792,
+        "signal": 0.9946593788932816,
+        "units": 16
+      }
+    ],
+    "XJTU": [
+      {
+        "measure": "spectral entropy",
+        "kind": "distribution",
+        "tau": 0.6613861386138614,
+        "signal": 0.9766984018351262,
+        "units": 13
+      },
+      {
+        "measure": "spectral centroid",
+        "kind": "distribution",
+        "tau": 0.5093167701863354,
+        "signal": 0.9814533601049545,
+        "units": 13
+      },
+      {
+        "measure": "spectral spread",
+        "kind": "distribution",
+        "tau": 0.4631268436578171,
+        "signal": 0.9799434962974423,
+        "units": 13
+      },
+      {
+        "measure": "spectral Gini",
+        "kind": "distribution",
+        "tau": 0.5606469002695418,
+        "signal": 0.9826332876351999,
+        "units": 13
+      },
+      {
+        "measure": "top-8-band share",
+        "kind": "distribution",
+        "tau": 0.4906832298136646,
+        "signal": 0.9851729404240694,
+        "units": 13
+      },
+      {
+        "measure": "high/low band ratio",
+        "kind": "distribution",
+        "tau": 0.6016260162601627,
+        "signal": 0.9757924165389427,
+        "units": 13
+      },
+      {
+        "measure": "total power",
+        "kind": "amount",
+        "tau": 0.906832298136646,
+        "signal": 0.9810278752668404,
+        "units": 13
+      },
+      {
+        "measure": "peak band power",
+        "kind": "amount",
+        "tau": 0.9002695417789758,
+        "signal": 0.9862156401394865,
+        "units": 13
+      },
+      {
+        "measure": "high-band power",
+        "kind": "amount",
+        "tau": 0.6139240506329114,
+        "signal": 0.9864711943578496,
+        "units": 13
+      },
+      {
+        "measure": "log total power",
+        "kind": "amount",
+        "tau": 0.8859649122807017,
+        "signal": 0.9888684953201659,
+        "units": 13
+      }
+    ]
+  },
+  "summary": {
+    "distribution": {
+      "median": [
+        0.3292382078245415,
+        0.5349818352279385
+      ],
+      "span": [
+        [
+          0.15111514667125303,
+          0.5314046724714294
+        ],
+        [
+          0.4631268436578171,
+          0.6613861386138614
+        ]
+      ]
+    },
+    "amount": {
+      "median": [
+        0.9696178736455363,
+        0.8931172270298388
+      ],
+      "span": [
+        [
+          0.9632245881314376,
+          0.9717919063824774
+        ],
+        [
+          0.6139240506329114,
+          0.906832298136646
+        ]
+      ]
+    }
+  }
+}

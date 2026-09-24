@@ -1,0 +1,150 @@
+{
+  "channels": [
+    {
+      "channel": "kurt",
+      "family": "amount",
+      "kappa": 0.02308878152379578,
+      "overstatement": 43.31107724196615,
+      "records": 16
+    },
+    {
+      "channel": "peak",
+      "family": "amount",
+      "kappa": 0.0028713103697930527,
+      "overstatement": 348.2730430399533,
+      "records": 16
+    },
+    {
+      "channel": "rms",
+      "family": "amount",
+      "kappa": 0.0012991797887251337,
+      "overstatement": 769.716407750836,
+      "records": 16
+    },
+    {
+      "channel": "b0_1",
+      "family": "distribution",
+      "kappa": 0.008000695975258296,
+      "overstatement": 124.98912633256455,
+      "records": 16
+    },
+    {
+      "channel": "b1_2",
+      "family": "distribution",
+      "kappa": 0.01118827650844146,
+      "overstatement": 89.3792711724195,
+      "records": 16
+    },
+    {
+      "channel": "b2_4",
+      "family": "distribution",
+      "kappa": 0.01196908282481876,
+      "overstatement": 83.5485905341408,
+      "records": 16
+    },
+    {
+      "channel": "b4_6",
+      "family": "distribution",
+      "kappa": 0.013111698100644345,
+      "overstatement": 76.26777190292822,
+      "records": 16
+    },
+    {
+      "channel": "b6_8",
+      "family": "distribution",
+      "kappa": 0.01416584103994864,
+      "overstatement": 70.5923493832757,
+      "records": 16
+    },
+    {
+      "channel": "b8_10",
+      "family": "distribution",
+      "kappa": 0.010953804127525786,
+      "overstatement": 91.29248509082818,
+      "records": 16
+    }
+  ],
+  "kappa_amount": 0.0028713103697930527,
+  "kappa_distribution": 0.01157867966663011,
+  "kappa_min": 0.0012991797887251337,
+  "kappa_max": 0.02308878152379578,
+  "kappa_spread": 17.77181397383996,
+  "ages": [
+    {
+      "channel": "kurt",
+      "family": "amount",
+      "age_raw": 0.8344275493368869,
+      "age_surv": 0.6141209336801767,
+      "shift": -0.22030661565671017,
+      "records": 16
+    },
+    {
+      "channel": "peak",
+      "family": "amount",
+      "age_raw": 0.9767173822646544,
+      "age_surv": 0.9203586156968702,
+      "shift": -0.05635876656778427,
+      "records": 16
+    },
+    {
+      "channel": "rms",
+      "family": "amount",
+      "age_raw": 0.9725369148728003,
+      "age_surv": 0.9360907623984349,
+      "shift": -0.036446152474365334,
+      "records": 16
+    },
+    {
+      "channel": "b0_1",
+      "family": "distribution",
+      "age_raw": 0.46877706917093,
+      "age_surv": 0.7222227661592822,
+      "shift": 0.2534456969883522,
+      "records": 16
+    },
+    {
+      "channel": "b1_2",
+      "family": "distribution",
+      "age_raw": 0.4227247623153235,
+      "age_surv": 0.5899732922135986,
+      "shift": 0.1672485298982751,
+      "records": 16
+    },
+    {
+      "channel": "b2_4",
+      "family": "distribution",
+      "age_raw": 0.3289069447320656,
+      "age_surv": 0.5512730332572954,
+      "shift": 0.22236608852522977,
+      "records": 16
+    },
+    {
+      "channel": "b4_6",
+      "family": "distribution",
+      "age_raw": 0.2807024514890645,
+      "age_surv": 0.41758169260544575,
+      "shift": 0.13687924111638128,
+      "records": 16
+    },
+    {
+      "channel": "b6_8",
+      "family": "distribution",
+      "age_raw": 0.47443559096945553,
+      "age_surv": 0.4974329501275589,
+      "shift": 0.02299735915810336,
+      "records": 16
+    },
+    {
+      "channel": "b8_10",
+      "family": "distribution",
+      "age_raw": 0.18658973708953333,
+      "age_surv": 0.6311313408888488,
+      "shift": 0.4445416037993155,
+      "records": 16
+    }
+  ],
+  "gap_raw": 0.5967210613491056,
+  "gap_surviving": 0.34973545296142317,
+  "gap_change": -0.24698560838768246,
+  "ordering_holds": true
+}

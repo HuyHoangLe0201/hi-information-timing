@@ -1,0 +1,161 @@
+{
+  "qstar": 0.35,
+  "rows": [
+    {
+      "measure": "spectral entropy",
+      "kind": "distribution",
+      "rig": "PRONOSTIA",
+      "weight_cos": 0.8450494984421854,
+      "tau": 0.3460058562955177,
+      "iqr": 0.7528563143816063,
+      "units": 16
+    },
+    {
+      "measure": "spectral centroid",
+      "kind": "distribution",
+      "rig": "PRONOSTIA",
+      "weight_cos": 0.958760422270166,
+      "tau": 0.5312262921646154,
+      "iqr": 0.7281863122450231,
+      "units": 16
+    },
+    {
+      "measure": "spectral spread",
+      "kind": "distribution",
+      "rig": "PRONOSTIA",
+      "weight_cos": 0.8614159918742298,
+      "tau": 0.15111514667125303,
+      "iqr": 0.19589292196519786,
+      "units": 16
+    },
+    {
+      "measure": "high/low ratio",
+      "kind": "distribution",
+      "rig": "PRONOSTIA",
+      "weight_cos": 0.9740042049531397,
+      "tau": 0.31175729259179646,
+      "iqr": 0.6446030666954826,
+      "units": 16
+    },
+    {
+      "measure": "total power",
+      "kind": "amount",
+      "rig": "PRONOSTIA",
+      "weight_cos": 1.0,
+      "tau": 0.9707323147967933,
+      "iqr": 0.021948744799755948,
+      "units": 16
+    },
+    {
+      "measure": "peak band power",
+      "kind": "amount",
+      "rig": "PRONOSTIA",
+      "weight_cos": 0.0,
+      "tau": 0.9717919063824774,
+      "iqr": 0.09288024407489559,
+      "units": 16
+    },
+    {
+      "measure": "high-band power",
+      "kind": "amount",
+      "rig": "PRONOSTIA",
+      "weight_cos": 1.0,
+      "tau": 0.9632245881314376,
+      "iqr": 0.25978053488043995,
+      "units": 16
+    },
+    {
+      "measure": "log total power",
+      "kind": "amount",
+      "rig": "PRONOSTIA",
+      "weight_cos": 1.0,
+      "tau": 0.9685034324942792,
+      "iqr": 0.4662444912275274,
+      "units": 16
+    },
+    {
+      "measure": "spectral entropy",
+      "kind": "distribution",
+      "rig": "XJTU",
+      "weight_cos": 0.7846404222848018,
+      "tau": 0.662046204620462,
+      "iqr": 0.4346660949726659,
+      "units": 13
+    },
+    {
+      "measure": "spectral centroid",
+      "kind": "distribution",
+      "rig": "XJTU",
+      "weight_cos": 0.9598216218942336,
+      "tau": 0.5093167701863354,
+      "iqr": 0.44720384450808076,
+      "units": 13
+    },
+    {
+      "measure": "spectral spread",
+      "kind": "distribution",
+      "rig": "XJTU",
+      "weight_cos": 0.9157270456479741,
+      "tau": 0.4631268436578171,
+      "iqr": 0.2548681435213779,
+      "units": 13
+    },
+    {
+      "measure": "high/low ratio",
+      "kind": "distribution",
+      "rig": "XJTU",
+      "weight_cos": 0.9880056794385752,
+      "tau": 0.6016260162601627,
+      "iqr": 0.4126097477632028,
+      "units": 13
+    },
+    {
+      "measure": "total power",
+      "kind": "amount",
+      "rig": "XJTU",
+      "weight_cos": 1.0,
+      "tau": 0.906832298136646,
+      "iqr": 0.2802201567233945,
+      "units": 13
+    },
+    {
+      "measure": "peak band power",
+      "kind": "amount",
+      "rig": "XJTU",
+      "weight_cos": 1.0,
+      "tau": 0.9002695417789758,
+      "iqr": 0.4300765017693787,
+      "units": 13
+    },
+    {
+      "measure": "high-band power",
+      "kind": "amount",
+      "rig": "XJTU",
+      "weight_cos": 1.0,
+      "tau": 0.6139240506329114,
+      "iqr": 0.729662722369798,
+      "units": 13
+    },
+    {
+      "measure": "log total power",
+      "kind": "amount",
+      "rig": "XJTU",
+      "weight_cos": 1.0,
+      "tau": 0.8859649122807017,
+      "iqr": 0.36759732258404076,
+      "units": 13
+    }
+  ],
+  "by_rig": {
+    "PRONOSTIA": {
+      "n": 8,
+      "rho_stability": -0.07142857142857144,
+      "rho_earliness": 0.14285714285714288
+    },
+    "XJTU": {
+      "n": 8,
+      "rho_stability": 0.07142857142857144,
+      "rho_earliness": 0.5000000000000001
+    }
+  }
+}

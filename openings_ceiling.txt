@@ -1,0 +1,5 @@
+4
+
+Flags raised by the opening-sentence audit at the last run that
+was accepted.  It may be lowered by rewriting an opening and may not
+be raised.

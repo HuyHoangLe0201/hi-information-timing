@@ -1,0 +1,221 @@
+{
+ "corpus": {
+  "bearing": {
+   "series": 43,
+   "median": 0.006473429905712527,
+   "q75": 0.014475191015012781,
+   "q90": 0.03219152516628085
+  },
+  "turbofan_FD001": {
+   "series": 290,
+   "median": 0.0673773289433693,
+   "q75": 0.11555502266061139,
+   "q90": 0.16200544069047398
+  },
+  "turbofan_FD004": {
+   "series": 723,
+   "median": 0.053964764601569105,
+   "q75": 0.09839311243511187,
+   "q90": 0.157236676457612
+  },
+  "battery": {
+   "series": 12,
+   "median": 0.02706764701022981,
+   "q75": 0.10909800631223089,
+   "q90": 0.12134619757368179
+  }
+ },
+ "rigs": {
+  "PRONOSTIA": {
+   "rows": [
+    {
+     "measure": "spectral entropy",
+     "kind": "distribution",
+     "mean_only": 0.3467191230572866,
+     "with_scale": 0.3487772355281928,
+     "scale_share": 0.008082215303963488
+    },
+    {
+     "measure": "spectral centroid",
+     "kind": "distribution",
+     "mean_only": 0.5312262921646154,
+     "with_scale": 0.532665923375801,
+     "scale_share": 0.007250521922473831
+    },
+    {
+     "measure": "spectral spread",
+     "kind": "distribution",
+     "mean_only": 0.15111514667125303,
+     "with_scale": 0.15166399409167017,
+     "scale_share": 0.00668424190382633
+    },
+    {
+     "measure": "spectral Gini",
+     "kind": "distribution",
+     "mean_only": 0.28812128935720077,
+     "with_scale": 0.28874864192934635,
+     "scale_share": 0.006023377404826702
+    },
+    {
+     "measure": "top-8-band share",
+     "kind": "distribution",
+     "mean_only": 0.35972971693768085,
+     "with_scale": 0.36900472949555274,
+     "scale_share": 0.00853196421748512
+    },
+    {
+     "measure": "high/low band ratio",
+     "kind": "distribution",
+     "mean_only": 0.31175729259179646,
+     "with_scale": 0.31260598203866535,
+     "scale_share": 0.02078750379509512
+    },
+    {
+     "measure": "total power",
+     "kind": "amount",
+     "mean_only": 0.9707323147967933,
+     "with_scale": 0.9707323147967933,
+     "scale_share": 0.004113714704779491
+    },
+    {
+     "measure": "peak band power",
+     "kind": "amount",
+     "mean_only": 0.9717919063824774,
+     "with_scale": 0.9717919063824774,
+     "scale_share": 0.005524389232514078
+    },
+    {
+     "measure": "high-band power",
+     "kind": "amount",
+     "mean_only": 0.9632245881314376,
+     "with_scale": 0.9632245881314376,
+     "scale_share": 0.006264725100740229
+    },
+    {
+     "measure": "log total power",
+     "kind": "amount",
+     "mean_only": 0.9685034324942792,
+     "with_scale": 0.9682929061784897,
+     "scale_share": 0.002460324107880339
+    }
+   ],
+   "summary": {
+    "mean_only": {
+     "median": {
+      "distribution": 0.3292382078245415,
+      "amount": 0.9696178736455363
+     },
+     "gap": 0.6403796658209948
+    },
+    "with_scale": {
+     "median": {
+      "distribution": 0.33069160878342907,
+      "amount": 0.9695126104876415
+     },
+     "gap": 0.6388210017042124
+    }
+   },
+   "share": {
+    "distribution": 0.00766636861321866,
+    "amount": 0.004819051968646784
+   }
+  },
+  "XJTU": {
+   "rows": [
+    {
+     "measure": "spectral entropy",
+     "kind": "distribution",
+     "mean_only": 0.662046204620462,
+     "with_scale": 0.664026402640264,
+     "scale_share": 0.012576307936718397
+    },
+    {
+     "measure": "spectral centroid",
+     "kind": "distribution",
+     "mean_only": 0.5093167701863354,
+     "with_scale": 0.5093167701863354,
+     "scale_share": 0.010665329634174435
+    },
+    {
+     "measure": "spectral spread",
+     "kind": "distribution",
+     "mean_only": 0.4631268436578171,
+     "with_scale": 0.4631268436578171,
+     "scale_share": 0.012095551137056026
+    },
+    {
+     "measure": "spectral Gini",
+     "kind": "distribution",
+     "mean_only": 0.5606469002695418,
+     "with_scale": 0.5778611632270169,
+     "scale_share": 0.008237217360774
+    },
+    {
+     "measure": "top-8-band share",
+     "kind": "distribution",
+     "mean_only": 0.4906832298136646,
+     "with_scale": 0.4906832298136646,
+     "scale_share": 0.009059165084281942
+    },
+    {
+     "measure": "high/low band ratio",
+     "kind": "distribution",
+     "mean_only": 0.6016260162601627,
+     "with_scale": 0.6016260162601627,
+     "scale_share": 0.010794438980723029
+    },
+    {
+     "measure": "total power",
+     "kind": "amount",
+     "mean_only": 0.906832298136646,
+     "with_scale": 0.906832298136646,
+     "scale_share": 0.013691615609748858
+    },
+    {
+     "measure": "peak band power",
+     "kind": "amount",
+     "mean_only": 0.9002695417789758,
+     "with_scale": 0.8840970350404312,
+     "scale_share": 0.016697451549050297
+    },
+    {
+     "measure": "high-band power",
+     "kind": "amount",
+     "mean_only": 0.620253164556962,
+     "with_scale": 0.6392405063291139,
+     "scale_share": 0.012818024646266257
+    },
+    {
+     "measure": "log total power",
+     "kind": "amount",
+     "mean_only": 0.8859649122807017,
+     "with_scale": 0.8859649122807017,
+     "scale_share": 0.004088909277030901
+    }
+   ],
+   "summary": {
+    "mean_only": {
+     "median": {
+      "distribution": 0.5349818352279385,
+      "amount": 0.8931172270298388
+     },
+     "gap": 0.35813539180190024
+    },
+    "with_scale": {
+     "median": {
+      "distribution": 0.5435889667066761,
+      "amount": 0.8850309736605665
+     },
+     "gap": 0.3414420069538904
+    }
+   },
+   "share": {
+    "distribution": 0.010729884307448732,
+    "amount": 0.013254820128007556
+   }
+  }
+ },
+ "q": 0.35,
+ "reps": 8,
+ "seed": 20260923
+}

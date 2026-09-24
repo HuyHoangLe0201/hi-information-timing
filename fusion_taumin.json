@@ -1,0 +1,108 @@
+[
+  {
+    "title": "PRONOSTIA bearings, 10 channels",
+    "units": 17,
+    "rows": [
+      {
+        "set": "RMS",
+        "K": 1,
+        "feasible": 1,
+        "units": 17,
+        "tau_min": 0.9951130116065975,
+        "k_eff": 0.09738493868284127,
+        "overcount": 10.268528311721317
+      },
+      {
+        "set": "RMS + peak + kurt",
+        "K": 3,
+        "feasible": 4,
+        "units": 17,
+        "tau_min": 0.994871146917071,
+        "k_eff": 0.10440141020807903,
+        "overcount": 10.738627211644653
+      },
+      {
+        "set": "4--10 kHz",
+        "K": 3,
+        "feasible": 1,
+        "units": 17,
+        "tau_min": 0.9913457377758547,
+        "k_eff": 0.4667182187526392,
+        "overcount": 2.590046022126012
+      },
+      {
+        "set": "RMS + 4--10 kHz",
+        "K": 4,
+        "feasible": 7,
+        "units": 17,
+        "tau_min": 0.9918300653594772,
+        "k_eff": 0.12988609892733657,
+        "overcount": 7.728184322351838
+      },
+      {
+        "set": "six bands",
+        "K": 6,
+        "feasible": 4,
+        "units": 17,
+        "tau_min": 0.9677967134034182,
+        "k_eff": 0.7551285579348392,
+        "overcount": 2.637232634111332
+      },
+      {
+        "set": "everything",
+        "K": 10,
+        "feasible": 8,
+        "units": 17,
+        "tau_min": 0.9705939323153068,
+        "k_eff": 0.14481795807387973,
+        "overcount": 10.156383915798092
+      }
+    ],
+    "violations": 0,
+    "tests": 119
+  },
+  {
+    "title": "C-MAPSS FD001, 21 sensor channels",
+    "units": 0,
+    "rows": [
+      {
+        "set": "S11",
+        "K": 1,
+        "feasible": 0,
+        "units": 0,
+        "tau_min": NaN,
+        "k_eff": NaN,
+        "overcount": NaN
+      },
+      {
+        "set": "three standard",
+        "K": 3,
+        "feasible": 0,
+        "units": 0,
+        "tau_min": NaN,
+        "k_eff": NaN,
+        "overcount": NaN
+      },
+      {
+        "set": "eight informative",
+        "K": 8,
+        "feasible": 0,
+        "units": 0,
+        "tau_min": NaN,
+        "k_eff": NaN,
+        "overcount": NaN
+      },
+      {
+        "set": "all sensors",
+        "K": 21,
+        "feasible": 0,
+        "units": 0,
+        "tau_min": NaN,
+        "k_eff": NaN,
+        "overcount": NaN
+      }
+    ],
+    "violations": 0,
+    "tests": 0
+  }
+]

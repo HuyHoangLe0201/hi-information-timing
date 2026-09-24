@@ -1,0 +1,378 @@
+[
+ {
+  "key": "randall2011",
+  "year": "2011",
+  "score": 1.0,
+  "doi": "10.1016/j.ymssp.2010.07.017",
+  "container": "Mechanical Systems and Signal Processing",
+  "short": "Mechanical Systems and Signal Processing"
+ },
+ {
+  "key": "antoni2009",
+  "year": "2009",
+  "score": 1.0,
+  "doi": "10.1016/j.ymssp.2008.10.010",
+  "container": "Mechanical Systems and Signal Processing",
+  "short": "Mechanical Systems and Signal Processing"
+ },
+ {
+  "key": "jardine2006",
+  "year": "2006",
+  "score": 1.0,
+  "doi": "10.1016/j.ymssp.2005.09.012",
+  "container": "Mechanical Systems and Signal Processing",
+  "short": "Mechanical Systems and Signal Processing"
+ },
+ {
+  "key": "lee2014",
+  "year": "2014",
+  "score": 1.0,
+  "doi": "10.1016/j.ymssp.2013.06.004",
+  "container": "Mechanical Systems and Signal Processing",
+  "short": "Mechanical Systems and Signal Processing"
+ },
+ {
+  "key": "lei2018",
+  "year": "2018",
+  "score": 1.0,
+  "doi": "10.1016/j.ymssp.2017.11.016",
+  "container": "Mechanical Systems and Signal Processing",
+  "short": "Mechanical Systems and Signal Processing"
+ },
+ {
+  "key": "si2011",
+  "year": "2011",
+  "score": 1.0,
+  "doi": "10.1016/j.ejor.2010.11.018",
+  "container": "European Journal of Operational Research",
+  "short": "European Journal of Operational Research"
+ },
+ {
+  "key": "heng2009",
+  "year": "2009",
+  "score": 1.0,
+  "doi": "10.1016/j.ymssp.2008.06.009",
+  "container": "Mechanical Systems and Signal Processing",
+  "short": "Mechanical Systems and Signal Processing"
+ },
+ {
+  "key": "sikorska2011",
+  "year": "2011",
+  "score": 1.0,
+  "doi": "10.1016/j.ymssp.2010.11.018",
+  "container": "Mechanical Systems and Signal Processing",
+  "short": "Mechanical Systems and Signal Processing"
+ },
+ {
+  "key": "zhou2022",
+  "year": "2022",
+  "score": 0.01,
+  "doi": null,
+  "container": null,
+  "short": null
+ },
+ {
+  "key": "saxena2008b",
+  "year": "2008",
+  "score": 1.0,
+  "doi": "10.1109/phm.2008.4711436",
+  "container": "2008 International Conference on Prognostics and Health Management",
+  "short": ""
+ },
+ {
+  "key": "coble2009",
+  "year": "2009",
+  "score": 0.0,
+  "doi": null,
+  "container": null,
+  "short": null
+ },
+ {
+  "key": "javed2015",
+  "year": "2015",
+  "score": 1.0,
+  "doi": "10.1109/tie.2014.2327917",
+  "container": "IEEE Transactions on Industrial Electronics",
+  "short": "IEEE Trans. Ind. Electron."
+ },
+ {
+  "key": "qiu2006",
+  "year": "2006",
+  "score": 1.0,
+  "doi": "10.1016/j.jsv.2005.03.007",
+  "container": "Journal of Sound and Vibration",
+  "short": "Journal of Sound and Vibration"
+ },
+ {
+  "key": "antoni2006",
+  "year": "2006",
+  "score": 1.0,
+  "doi": "10.1016/j.ymssp.2004.09.001",
+  "container": "Mechanical Systems and Signal Processing",
+  "short": "Mechanical Systems and Signal Processing"
+ },
+ {
+  "key": "antoni2007",
+  "year": "2007",
+  "score": 1.0,
+  "doi": "10.1016/j.ymssp.2005.12.002",
+  "container": "Mechanical Systems and Signal Processing",
+  "short": "Mechanical Systems and Signal Processing"
+ },
+ {
+  "key": "antoni2016",
+  "year": "2016",
+  "score": 1.0,
+  "doi": "10.1016/j.ymssp.2015.04.034",
+  "container": "Mechanical Systems and Signal Processing",
+  "short": "Mechanical Systems and Signal Processing"
+ },
+ {
+  "key": "guo2017",
+  "year": "2017",
+  "score": 1.0,
+  "doi": "10.1016/j.neucom.2017.02.045",
+  "container": "Neurocomputing",
+  "short": "Neurocomputing"
+ },
+ {
+  "key": "li2018",
+  "year": "2018",
+  "score": 1.0,
+  "doi": "10.1016/j.ress.2017.11.021",
+  "container": "Reliability Engineering &amp; System Safety",
+  "short": "Reliability Engineering &amp; System Safety"
+ },
+ {
+  "key": "ye2015",
+  "year": "2015",
+  "score": 0.867,
+  "doi": null,
+  "container": null,
+  "short": null
+ },
+ {
+  "key": "gebraeel2005",
+  "year": "2005",
+  "score": 1.0,
+  "doi": "10.1080/07408170590929018",
+  "container": "IIE Transactions",
+  "short": "IIE Transactions"
+ },
+ {
+  "key": "acuna2018",
+  "year": "2018",
+  "score": 0.58,
+  "doi": null,
+  "container": null,
+  "short": null
+ },
+ {
+  "key": "sovljanski2024",
+  "year": "2024",
+  "score": 0.819,
+  "doi": null,
+  "container": null,
+  "short": null
+ },
+ {
+  "key": "yan2022",
+  "year": "2022",
+  "score": 0.949,
+  "doi": "10.1016/j.ymssp.2021.108053",
+  "container": "Mechanical Systems and Signal Processing",
+  "short": "Mechanical Systems and Signal Processing"
+ },
+ {
+  "key": "antoni2006b",
+  "year": "2006",
+  "score": 1.0,
+  "doi": "10.1016/j.ymssp.2004.09.002",
+  "container": "Mechanical Systems and Signal Processing",
+  "short": "Mechanical Systems and Signal Processing"
+ },
+ {
+  "key": "mcfadden1984",
+  "year": "1984",
+  "score": 1.0,
+  "doi": "10.1016/0301-679x(84)90076-8",
+  "container": "Tribology International",
+  "short": "Tribology International"
+ },
+ {
+  "key": "kay1993",
+  "year": "1993",
+  "score": 0.0,
+  "doi": null,
+  "container": null,
+  "short": null
+ },
+ {
+  "key": "vantrees1968",
+  "year": "1968",
+  "score": 0.671,
+  "doi": null,
+  "container": null,
+  "short": null
+ },
+ {
+  "key": "le2026",
+  "year": "2026",
+  "score": 1.0,
+  "doi": "10.1088/1361-6501/ae7109",
+  "container": "Measurement Science and Technology",
+  "short": "Meas. Sci. Technol."
+ },
+ {
+  "key": "ramasso2014",
+  "year": "2014",
+  "score": 0.191,
+  "doi": null,
+  "container": null,
+  "short": null
+ },
+ {
+  "key": "nectoux2012",
+  "year": "2012",
+  "score": 0.014,
+  "doi": null,
+  "container": null,
+  "short": null
+ },
+ {
+  "key": "wang2020",
+  "year": "2020",
+  "score": 1.0,
+  "doi": "10.1109/tr.2018.2882682",
+  "container": "IEEE Transactions on Reliability",
+  "short": "IEEE Trans. Rel."
+ },
+ {
+  "key": "saxena2008",
+  "year": "2008",
+  "score": 1.0,
+  "doi": "10.1109/phm.2008.4711414",
+  "container": "2008 International Conference on Prognostics and Health Management",
+  "short": ""
+ },
+ {
+  "key": "saha2007",
+  "year": "2007",
+  "score": 0.0,
+  "doi": null,
+  "container": null,
+  "short": null
+ },
+ {
+  "key": "nemhauser1978",
+  "year": "1978",
+  "score": 1.0,
+  "doi": "10.1007/bf01588971",
+  "container": "Mathematical Programming",
+  "short": "Mathematical Programming"
+ },
+ {
+  "key": "neyman1948",
+  "year": "1948",
+  "score": 1.0,
+  "doi": "10.2307/1914288",
+  "container": "Econometrica",
+  "short": "Econometrica"
+ },
+ {
+  "key": "savitzky1964",
+  "year": "1964",
+  "score": 1.0,
+  "doi": "10.1021/ac60214a047",
+  "container": "Analytical Chemistry",
+  "short": "Anal. Chem."
+ },
+ {
+  "key": "meeker1998",
+  "year": "1998",
+  "score": 1.0,
+  "doi": "10.2307/1271181",
+  "container": "Technometrics",
+  "short": "Technometrics"
+ },
+ {
+  "key": "wang2018",
+  "year": "2018",
+  "score": 1.0,
+  "doi": "10.1109/access.2017.2774261",
+  "container": "IEEE Access",
+  "short": "IEEE Access"
+ },
+ {
+  "key": "huber1981",
+  "year": "1981",
+  "score": 1.0,
+  "doi": "10.1002/0471725250",
+  "container": "Wiley Series in Probability and Statistics",
+  "short": ""
+ },
+ {
+  "key": "hampel1986",
+  "year": "1986",
+  "score": 1.0,
+  "doi": "10.2307/2987975",
+  "container": "The Statistician",
+  "short": "The Statistician"
+ },
+ {
+  "key": "white1982",
+  "year": "1982",
+  "score": 1.0,
+  "doi": "10.2307/1912526",
+  "container": "Econometrica",
+  "short": "Econometrica"
+ },
+ {
+  "key": "fortunati2017",
+  "year": "2017",
+  "score": 1.0,
+  "doi": "10.1109/msp.2017.2738017",
+  "container": "IEEE Signal Processing Magazine",
+  "short": "IEEE Signal Process. Mag."
+ },
+ {
+  "key": "murphy2000",
+  "year": "2000",
+  "score": 1.0,
+  "doi": "10.1080/01621459.2000.10474219",
+  "container": "Journal of the American Statistical Association",
+  "short": "Journal of the American Statistical Association"
+ },
+ {
+  "key": "bickel1993",
+  "year": "1993",
+  "score": 0.0,
+  "doi": null,
+  "container": null,
+  "short": null
+ },
+ {
+  "key": "serfling1980",
+  "year": "1980",
+  "score": 1.0,
+  "doi": "10.1002/9780470316481",
+  "container": "Wiley Series in Probability and Statistics",
+  "short": ""
+ },
+ {
+  "key": "krause2008",
+  "year": "2008",
+  "score": 0.0,
+  "doi": null,
+  "container": null,
+  "short": null
+ },
+ {
+  "key": "joshi2009",
+  "year": "2009",
+  "score": 1.0,
+  "doi": "10.1109/tsp.2008.2007095",
+  "container": "IEEE Transactions on Signal Processing",
+  "short": "IEEE Trans. Signal Process."
+ }
+]

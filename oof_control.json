@@ -1,0 +1,310 @@
+{
+  "qstar": 0.35,
+  "variants": {
+    "interleaved": {
+      "PRONOSTIA": {
+        "per": {
+          "spectral entropy": 0.3460058562955177,
+          "spectral centroid": 0.5312262921646154,
+          "spectral spread": 0.15111514667125303,
+          "spectral Gini": 0.28812128935720077,
+          "top-8-band share": 0.35972971693768085,
+          "high/low band ratio": 0.31175729259179646,
+          "total power": 0.9707323147967933,
+          "peak band power": 0.9717919063824774,
+          "high-band power": 0.9632245881314376,
+          "log total power": 0.9685034324942792
+        },
+        "dist": 0.32888157444365707,
+        "amount": 0.9696178736455363,
+        "gap": 0.6407362992018792
+      },
+      "XJTU": {
+        "per": {
+          "spectral entropy": 0.6613861386138614,
+          "spectral centroid": 0.5093167701863354,
+          "spectral spread": 0.4631268436578171,
+          "spectral Gini": 0.5660377358490566,
+          "top-8-band share": 0.4906832298136646,
+          "high/low band ratio": 0.6016260162601627,
+          "total power": 0.906832298136646,
+          "peak band power": 0.9002695417789758,
+          "high-band power": 0.6139240506329114,
+          "log total power": 0.8859649122807017
+        },
+        "dist": 0.537677253017696,
+        "amount": 0.8931172270298388,
+        "gap": 0.3554399740121428
+      }
+    },
+    "purged m=3": {
+      "PRONOSTIA": {
+        "per": {
+          "spectral entropy": 0.32617583902695396,
+          "spectral centroid": 0.4970097234675166,
+          "spectral spread": 0.1420588863060775,
+          "spectral Gini": 0.274629181828433,
+          "top-8-band share": 0.34974347334194106,
+          "high/low band ratio": 0.31046592939548096,
+          "total power": 0.9710346960385321,
+          "peak band power": 0.9687490605708546,
+          "high-band power": 0.9615196267100796,
+          "log total power": 0.9668192219679634
+        },
+        "dist": 0.31832088421121746,
+        "amount": 0.967784141269409,
+        "gap": 0.6494632570581915
+      },
+      "XJTU": {
+        "per": {
+          "spectral entropy": 0.5714285714285714,
+          "spectral centroid": 0.37888198757763975,
+          "spectral spread": 0.3924050632911392,
+          "spectral Gini": 0.5031055900621118,
+          "top-8-band share": 0.4873417721518987,
+          "high/low band ratio": 0.5703564727954972,
+          "total power": 0.9551155115511551,
+          "peak band power": 0.9266802443991853,
+          "high-band power": 0.8389423076923077,
+          "log total power": 0.7668269230769231
+        },
+        "dist": 0.4952236811070052,
+        "amount": 0.8828112760457465,
+        "gap": 0.3875875949387413
+      }
+    },
+    "purged m=10": {
+      "PRONOSTIA": {
+        "per": {
+          "spectral entropy": 0.2729922357134962,
+          "spectral centroid": 0.4139271984089645,
+          "spectral spread": 0.15951099465316385,
+          "spectral Gini": 0.2623318184991149,
+          "top-8-band share": 0.38088407438668304,
+          "high/low band ratio": 0.31172063453977206,
+          "total power": 0.9699440839787085,
+          "peak band power": 0.9697867664396127,
+          "high-band power": 0.9618403934440264,
+          "log total power": 0.9697818154516105
+        },
+        "dist": 0.2923564351266341,
+        "amount": 0.9697842909456116,
+        "gap": 0.6774278558189775
+      },
+      "XJTU": {
+        "per": {
+          "spectral entropy": 0.5217391304347826,
+          "spectral centroid": 0.6076696165191741,
+          "spectral spread": 0.2484472049689441,
+          "spectral Gini": 0.5162241887905604,
+          "top-8-band share": 0.575984990619137,
+          "high/low band ratio": 0.5031055900621118,
+          "total power": 0.9613034623217923,
+          "peak band power": 0.9504950495049505,
+          "high-band power": 0.49343339587242024,
+          "log total power": 0.5221238938053098
+        },
+        "dist": 0.5189816596126715,
+        "amount": 0.7363094716551302,
+        "gap": 0.21732781204245866
+      }
+    }
+  },
+  "scale_ratio": {
+    "purged m=3": {
+      "median": 1.039232622508861,
+      "p10": 1.0033895380433395,
+      "p90": 1.8467771174409349,
+      "cells": 290
+    },
+    "purged m=10": {
+      "median": 1.1303570098844071,
+      "p10": 1.0291714048923226,
+      "p90": 3.9906471273107966,
+      "cells": 290
+    }
+  },
+  "age_shift": {
+    "purged m=3": {
+      "median": 0.02312035994438663,
+      "max": 0.22501825705939626
+    },
+    "purged m=10": {
+      "median": 0.05234833595556049,
+      "max": 0.36384101847539196
+    }
+  },
+  "fallbacks": {
+    "purged m=3": {
+      "unfitted": 300,
+      "samples": 325830
+    },
+    "purged m=10": {
+      "unfitted": 720,
+      "samples": 325830
+    }
+  },
+  "unwidened": {
+    "m=3 PRONOSTIA": {
+      "unfitted": 0,
+      "samples": 23461,
+      "records_wholly_unfitted": []
+    },
+    "m=3 XJTU": {
+      "unfitted": 395,
+      "samples": 9122,
+      "records_wholly_unfitted": [
+        [
+          "35Hz12kN__Bearing1_1",
+          123
+        ],
+        [
+          "35Hz12kN__Bearing1_4",
+          122
+        ],
+        [
+          "40Hz10kN__Bearing3_5",
+          114
+        ]
+      ]
+    },
+    "m=10 PRONOSTIA": {
+      "unfitted": 230,
+      "samples": 23461,
+      "records_wholly_unfitted": [
+        [
+          "Bearing2_7",
+          230
+        ]
+      ]
+    },
+    "m=10 XJTU": {
+      "unfitted": 889,
+      "samples": 9122,
+      "records_wholly_unfitted": [
+        [
+          "35Hz12kN__Bearing1_1",
+          123
+        ],
+        [
+          "35Hz12kN__Bearing1_2",
+          161
+        ],
+        [
+          "35Hz12kN__Bearing1_3",
+          158
+        ],
+        [
+          "35Hz12kN__Bearing1_4",
+          122
+        ],
+        [
+          "37.5Hz11kN__Bearing2_2",
+          161
+        ],
+        [
+          "40Hz10kN__Bearing3_5",
+          114
+        ]
+      ]
+    }
+  },
+  "synthetic": [
+    {
+      "n": 120,
+      "phi": 0.0,
+      "interleaved": 1.0940664904733985,
+      "purged m=1": 1.154567722044026,
+      "purged m=3": 1.196815993197479,
+      "purged m=10": 1.559735543950235
+    },
+    {
+      "n": 120,
+      "phi": 0.2,
+      "interleaved": 1.0189983408596004,
+      "purged m=1": 1.118838669928186,
+      "purged m=3": 1.294415332147822,
+      "purged m=10": 1.6938720311711508
+    },
+    {
+      "n": 120,
+      "phi": 0.4,
+      "interleaved": 0.836489249544283,
+      "purged m=1": 1.1116483691626586,
+      "purged m=3": 1.3063058826785365,
+      "purged m=10": 1.74524540019388
+    },
+    {
+      "n": 240,
+      "phi": 0.0,
+      "interleaved": 1.0521956050562493,
+      "purged m=1": 1.0664087890426763,
+      "purged m=3": 1.115614985827437,
+      "purged m=10": 1.35374751913861
+    },
+    {
+      "n": 240,
+      "phi": 0.2,
+      "interleaved": 1.037680334169526,
+      "purged m=1": 1.1044384769549356,
+      "purged m=3": 1.1782501556799927,
+      "purged m=10": 1.4952733581814637
+    },
+    {
+      "n": 240,
+      "phi": 0.4,
+      "interleaved": 0.9657456738060887,
+      "purged m=1": 1.0907748204683654,
+      "purged m=3": 1.2516155145905907,
+      "purged m=10": 1.6050292792660994
+    },
+    {
+      "n": 800,
+      "phi": 0.0,
+      "interleaved": 1.0256020013728786,
+      "purged m=1": 1.0174725654888377,
+      "purged m=3": 1.0257787302605124,
+      "purged m=10": 1.0459410811925292
+    },
+    {
+      "n": 800,
+      "phi": 0.2,
+      "interleaved": 1.0139899673636281,
+      "purged m=1": 1.034369957092403,
+      "purged m=3": 1.0405861141778452,
+      "purged m=10": 1.0461050502157088
+    },
+    {
+      "n": 800,
+      "phi": 0.4,
+      "interleaved": 0.9865766337577502,
+      "purged m=1": 1.0175374260581995,
+      "purged m=3": 1.0401452440650552,
+      "purged m=10": 1.0732837617730302
+    },
+    {
+      "n": 2400,
+      "phi": 0.0,
+      "interleaved": 1.0100893592594893,
+      "purged m=1": 1.013641085362709,
+      "purged m=3": 1.0106031706848357,
+      "purged m=10": 1.0097680692946276
+    },
+    {
+      "n": 2400,
+      "phi": 0.2,
+      "interleaved": 1.0046447520385122,
+      "purged m=1": 1.0093972877030497,
+      "purged m=3": 1.00840196069888,
+      "purged m=10": 1.0120331660560966
+    },
+    {
+      "n": 2400,
+      "phi": 0.4,
+      "interleaved": 0.9910633979630221,
+      "purged m=1": 1.008478619100231,
+      "purged m=3": 1.013291180530104,
+      "purged m=10": 1.011438340712391
+    }
+  ]
+}

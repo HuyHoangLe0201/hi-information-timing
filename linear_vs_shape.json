@@ -1,0 +1,359 @@
+{
+  "bearings": 16,
+  "dropped_short": 0,
+  "per_unit": [
+    {
+      "unit": "Bearing1_1",
+      "K": 31,
+      "m": 2803,
+      "lin_own": 0.02104887620406707,
+      "lin_tr": 0.012486621476988941,
+      "best_shape": 0.018194791295041028,
+      "best_amount": 0.8751337852301107,
+      "shape": {
+        "spectral entropy": 0.018194791295041028,
+        "spectral centroid": 0.5005351409204424,
+        "spectral spread": 0.030324652158401712,
+        "high/low ratio": 0.7627541919372102
+      },
+      "amount": {
+        "total power": 0.9711023902961113,
+        "peak band power": 0.9732429539778809,
+        "high-band power": 0.8751337852301107
+      },
+      "lin_anchored": 0.026757046022119157
+    },
+    {
+      "unit": "Bearing1_2",
+      "K": 32,
+      "m": 871,
+      "lin_own": 0.9678530424799081,
+      "lin_tr": 0.9770378874856487,
+      "best_shape": 0.012629161882893225,
+      "best_amount": 0.013777267508610792,
+      "shape": {
+        "spectral entropy": 0.012629161882893225,
+        "spectral centroid": 0.8266360505166476,
+        "spectral spread": 0.018369690011481057,
+        "high/low ratio": 0.14925373134328357
+      },
+      "amount": {
+        "total power": 0.9253731343283582,
+        "peak band power": 0.013777267508610792,
+        "high-band power": 0.9621125143513203
+      },
+      "lin_anchored": 0.040183696900114814
+    },
+    {
+      "unit": "Bearing1_3",
+      "K": 21,
+      "m": 2375,
+      "lin_own": 0.9722105263157895,
+      "lin_tr": NaN,
+      "best_shape": 0.024842105263157895,
+      "best_amount": 0.968842105263158,
+      "shape": {
+        "spectral entropy": 0.3738947368421053,
+        "spectral centroid": 0.6223157894736842,
+        "spectral spread": 0.024842105263157895,
+        "high/low ratio": 0.6981052631578948
+      },
+      "amount": {
+        "total power": 0.9789473684210527,
+        "peak band power": 0.9810526315789474,
+        "high-band power": 0.968842105263158
+      },
+      "lin_anchored": 0.9768421052631578
+    },
+    {
+      "unit": "Bearing1_5",
+      "K": 32,
+      "m": 2463,
+      "lin_own": 0.9792935444579781,
+      "lin_tr": 0.9809175801867641,
+      "best_shape": 0.00933820544051969,
+      "best_amount": 0.976857490864799,
+      "shape": {
+        "spectral entropy": 0.014616321559074299,
+        "spectral centroid": 0.010556232237109216,
+        "spectral spread": 0.011774259033698742,
+        "high/low ratio": 0.00933820544051969
+      },
+      "amount": {
+        "total power": 0.976857490864799,
+        "peak band power": 0.978481526593585,
+        "high-band power": 0.9772634997969956
+      },
+      "lin_anchored": 0.9691433211530653
+    },
+    {
+      "unit": "Bearing1_6",
+      "K": 32,
+      "m": 2448,
+      "lin_own": 0.9775326797385621,
+      "lin_tr": 0.9799836601307189,
+      "best_shape": 0.1977124183006536,
+      "best_amount": 0.9750816993464052,
+      "shape": {
+        "spectral entropy": 0.9754901960784313,
+        "spectral centroid": 0.9673202614379085,
+        "spectral spread": 0.1977124183006536,
+        "high/low ratio": 0.9750816993464052
+      },
+      "amount": {
+        "total power": 0.9820261437908496,
+        "peak band power": 0.9836601307189542,
+        "high-band power": 0.9750816993464052
+      },
+      "lin_anchored": 0.9730392156862745
+    },
+    {
+      "unit": "Bearing1_7",
+      "K": 32,
+      "m": 2259,
+      "lin_own": 0.9703408587870739,
+      "lin_tr": 0.9738822487826472,
+      "best_shape": 0.38778220451527223,
+      "best_amount": 0.9676848162903939,
+      "shape": {
+        "spectral entropy": 0.48871181938911024,
+        "spectral centroid": 0.41478530323151835,
+        "spectral spread": 0.38778220451527223,
+        "high/low ratio": 0.40017706949977866
+      },
+      "amount": {
+        "total power": 0.9676848162903939,
+        "peak band power": 0.9703408587870739,
+        "high-band power": 0.9752102700309871
+      },
+      "lin_anchored": 0.9676848162903939
+    },
+    {
+      "unit": "Bearing2_1",
+      "K": 30,
+      "m": 911,
+      "lin_own": 0.9703622392974753,
+      "lin_tr": 0.964873765093304,
+      "best_shape": 0.04610318331503842,
+      "best_amount": 0.16575192096597147,
+      "shape": {
+        "spectral entropy": 0.14709110867178923,
+        "spectral centroid": 0.15148188803512624,
+        "spectral spread": 0.13172338090010977,
+        "high/low ratio": 0.04610318331503842
+      },
+      "amount": {
+        "total power": 0.9703622392974753,
+        "peak band power": 0.9813391877058177,
+        "high-band power": 0.16575192096597147
+      },
+      "lin_anchored": 0.9714599341383096
+    },
+    {
+      "unit": "Bearing2_2",
+      "K": 31,
+      "m": 797,
+      "lin_own": 0.972396486825596,
+      "lin_tr": 0.9711417816813049,
+      "best_shape": 0.2233375156838143,
+      "best_amount": 0.2371392722710163,
+      "shape": {
+        "spectral entropy": 0.26097867001254704,
+        "spectral centroid": 0.24717691342534504,
+        "spectral spread": 0.2245922208281054,
+        "high/low ratio": 0.2233375156838143
+      },
+      "amount": {
+        "total power": 0.946047678795483,
+        "peak band power": 0.5633626097867002,
+        "high-band power": 0.2371392722710163
+      },
+      "lin_anchored": 0.9761606022584692
+    },
+    {
+      "unit": "Bearing2_3",
+      "K": 24,
+      "m": 1955,
+      "lin_own": 0.9749360613810741,
+      "lin_tr": NaN,
+      "best_shape": 0.018925831202046037,
+      "best_amount": 0.9749360613810741,
+      "shape": {
+        "spectral entropy": 0.9728900255754476,
+        "spectral centroid": 0.018925831202046037,
+        "spectral spread": 0.25626598465473144,
+        "high/low ratio": 0.11508951406649616
+      },
+      "amount": {
+        "total power": 0.9749360613810741,
+        "peak band power": 0.9754475703324809,
+        "high-band power": 0.9790281329923274
+      },
+      "lin_anchored": 0.9754475703324809
+    },
+    {
+      "unit": "Bearing2_4",
+      "K": 32,
+      "m": 751,
+      "lin_own": 0.9760319573901465,
+      "lin_tr": 0.9786950732356857,
+      "best_shape": 0.17177097203728361,
+      "best_amount": 0.9747003994673769,
+      "shape": {
+        "spectral entropy": 0.9840213049267643,
+        "spectral centroid": 0.5619174434087882,
+        "spectral spread": 0.2969374167776298,
+        "high/low ratio": 0.17177097203728361
+      },
+      "amount": {
+        "total power": 0.9747003994673769,
+        "peak band power": 0.9747003994673769,
+        "high-band power": 0.9760319573901465
+      },
+      "lin_anchored": 0.9800266311584553
+    },
+    {
+      "unit": "Bearing2_5",
+      "K": 31,
+      "m": 2311,
+      "lin_own": 0.15015144958892254,
+      "lin_tr": 0.17395067070532236,
+      "best_shape": 0.08308091735179576,
+      "best_amount": 0.14842059714409347,
+      "shape": {
+        "spectral entropy": 0.14971873647771528,
+        "spectral centroid": 0.10298572046733016,
+        "spectral spread": 0.0839463435742103,
+        "high/low ratio": 0.08308091735179576
+      },
+      "amount": {
+        "total power": 0.9805279099956729,
+        "peak band power": 0.22414539160536565,
+        "high-band power": 0.14842059714409347
+      },
+      "lin_anchored": 0.149286023366508
+    },
+    {
+      "unit": "Bearing2_6",
+      "K": 30,
+      "m": 701,
+      "lin_own": 0.9657631954350927,
+      "lin_tr": 0.9757489300998573,
+      "best_shape": 0.11126961483594865,
+      "best_amount": 0.9643366619115549,
+      "shape": {
+        "spectral entropy": 0.3181169757489301,
+        "spectral centroid": 0.16262482168330955,
+        "spectral spread": 0.11126961483594865,
+        "high/low ratio": 0.18687589158345222
+      },
+      "amount": {
+        "total power": 0.9657631954350927,
+        "peak band power": 0.9643366619115549,
+        "high-band power": 0.9643366619115549
+      },
+      "lin_anchored": 0.9757489300998573
+    },
+    {
+      "unit": "Bearing2_7",
+      "K": 19,
+      "m": 230,
+      "lin_own": 0.9652173913043478,
+      "lin_tr": 0.8347826086956521,
+      "best_shape": 0.9695652173913043,
+      "best_amount": 0.9478260869565217,
+      "shape": {
+        "spectral entropy": 0.9695652173913043,
+        "spectral centroid": 0.9695652173913043,
+        "spectral spread": 0.9739130434782609,
+        "high/low ratio": 0.9739130434782609
+      },
+      "amount": {
+        "total power": 0.9521739130434783,
+        "peak band power": 0.9478260869565217,
+        "high-band power": 0.9478260869565217
+      },
+      "lin_anchored": 0.9608695652173913
+    },
+    {
+      "unit": "Bearing3_1",
+      "K": 19,
+      "m": 515,
+      "lin_own": 0.9514563106796117,
+      "lin_tr": 0.9320388349514563,
+      "best_shape": 0.09902912621359224,
+      "best_amount": 0.9242718446601942,
+      "shape": {
+        "spectral entropy": 0.09902912621359224,
+        "spectral centroid": 0.970873786407767,
+        "spectral spread": 0.1262135922330097,
+        "high/low ratio": 0.9592233009708738
+      },
+      "amount": {
+        "total power": 0.9262135922330097,
+        "peak band power": 0.9242718446601942,
+        "high-band power": 0.9320388349514563
+      },
+      "lin_anchored": 0.13980582524271845
+    },
+    {
+      "unit": "Bearing3_2",
+      "K": 31,
+      "m": 1637,
+      "lin_own": 0.9780085522296884,
+      "lin_tr": 0.9767868051313379,
+      "best_shape": 0.8564447159437997,
+      "best_amount": 0.9749541844838119,
+      "shape": {
+        "spectral entropy": 0.8607208307880269,
+        "spectral centroid": 0.8668295662797801,
+        "spectral spread": 0.8607208307880269,
+        "high/low ratio": 0.8564447159437997
+      },
+      "amount": {
+        "total power": 0.9749541844838119,
+        "peak band power": 0.9761759315821625,
+        "high-band power": 0.9798411728772144
+      },
+      "lin_anchored": 0.9798411728772144
+    },
+    {
+      "unit": "Bearing3_3",
+      "K": 32,
+      "m": 434,
+      "lin_own": 0.9746543778801844,
+      "lin_tr": 0.9769585253456221,
+      "best_shape": 0.17050691244239632,
+      "best_amount": 0.1889400921658986,
+      "shape": {
+        "spectral entropy": 0.7649769585253456,
+        "spectral centroid": 0.9516129032258065,
+        "spectral spread": 0.17050691244239632,
+        "high/low ratio": 0.7073732718894009
+      },
+      "amount": {
+        "total power": 0.9539170506912442,
+        "peak band power": 0.7626728110599078,
+        "high-band power": 0.1889400921658986
+      },
+      "lin_anchored": 0.9700460829493087
+    }
+  ],
+  "median": {
+    "lin_own": 0.9712863828066325,
+    "lin_tr": 0.9748155894412522,
+    "lin_anchored": 0.9707530085438092,
+    "best_shape": 0.10514937052477044,
+    "best_amount": 0.9560813744340383
+  },
+  "paired": {
+    "n": 16,
+    "shape_wins": 15,
+    "gap": 0.8042042253953254
+  },
+  "paired_anchored": {
+    "n": 16,
+    "shape_wins": 15,
+    "gap": 0.7640749419801379
+  }
+}

@@ -1,0 +1,38 @@
+﻿the tail factor kappa = sd / robust scale, on out-of-fold residuals
+
+domain            records  kappa, local         quartiles  kappa, global   kurtosis
+------------------------------------------------------------------------------------
+bearings               17         1.351    1.228 to 1.665          3.204       48.3
+battery                16         1.456    1.283 to 2.080          1.859        6.1
+FD001                  --   (file not present or too few records)
+FD004                  60         0.953    0.905 to 1.053          0.869        2.1
+------------------------------------------------------------------------------------
+A Gaussian residual gives kappa = 1 and kurtosis 3.  Everything above
+one is information the robust scale credits to the record and the
+estimator cannot collect.
+
+checking the proposition against numbers already in the paper
+
+battery : Section 5 gives 1.936 / 1.149 = 1.68 as the factor a
+          non-robust scale removes; kappa measures 1.46 (ratio 0.86)
+bearings: Section 6.6 measures the excess at zero offset as 1.35;
+          kappa measures 1.35 (ratio 1.00)
+
+The two checks are not of equal weight and should not be quoted as if
+they were.  The bearings agreement is DEFINITIONAL: Section 6.6 measured
+its factor as the standard deviation of the locally standardised
+residual, which is what kappa is, so the two must coincide and their
+agreement confirms only that no arithmetic slipped.  The battery is the
+independent test: its 1.68 comes from a separate experiment that
+substituted a non-robust scale and re-ran the attainment, and nothing in
+that experiment computed kappa.
+
+That independent prediction lands within 16 per cent, so the
+two scattered corrections are one quantity, computable from the
+record before any model is trained.
+
+A caveat the identity itself supplies: kappa must be formed with the
+scale the curve uses.  Taking a single global robust scale gives 3.20 on
+the bearings against 1.35 locally, because it charges the tails with the
+fourfold variation of the noise level over life as well.  The column
+above shows both so the difference cannot be lost.

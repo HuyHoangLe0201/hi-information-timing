@@ -1,0 +1,93 @@
+{
+  "sources": [
+    {
+      "source": "PRONOSTIA, ten channels",
+      "offered": 17,
+      "short": 0,
+      "no_scale": 0,
+      "no_curve": 0,
+      "entering": 17,
+      "min_n": 60
+    },
+    {
+      "source": "PRONOSTIA, 32-band spectra",
+      "offered": 16,
+      "short": 0,
+      "no_scale": 0,
+      "no_curve": 0,
+      "entering": 16,
+      "min_n": 60
+    },
+    {
+      "source": "XJTU-SY, 32-band spectra",
+      "offered": 15,
+      "short": 2,
+      "no_scale": 0,
+      "no_curve": 0,
+      "entering": 13,
+      "min_n": 60
+    },
+    {
+      "source": "Turbofan FD001",
+      "offered": 100,
+      "short": 0,
+      "no_scale": 0,
+      "no_curve": 0,
+      "entering": 100,
+      "min_n": 100
+    },
+    {
+      "source": "Turbofan FD004",
+      "offered": 249,
+      "short": 0,
+      "no_scale": 0,
+      "no_curve": 0,
+      "entering": 249,
+      "min_n": 100
+    }
+  ],
+  "recorded": [
+    {
+      "analysis": "turbofan, too short (FD001)",
+      "dropped": 0
+    },
+    {
+      "analysis": "turbofan, too short (FD004)",
+      "dropped": 0
+    },
+    {
+      "analysis": "mechanism replication, FD001",
+      "offered": 100,
+      "dropped": 0
+    },
+    {
+      "analysis": "mechanism replication, FD004",
+      "offered": 249,
+      "dropped": 0
+    },
+    {
+      "analysis": "linear span, too short",
+      "dropped": 0
+    }
+  ],
+  "distortion": [
+    {
+      "rig": "PRONOSTIA",
+      "offered": 17,
+      "short": 1,
+      "no_pair": 0,
+      "reversed": 0,
+      "entering": 16,
+      "reversed_below_screen": 1
+    },
+    {
+      "rig": "XJTU-SY",
+      "offered": 15,
+      "short": 8,
+      "no_pair": 0,
+      "reversed": 0,
+      "entering": 7,
+      "reversed_below_screen": 3
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "derivative_contrast_recomputed": 1.0600553754227087,
+  "derivative_contrast_in_results_file": 1.059912119634231,
+  "cells": 40,
+  "edge_budget_median": 2.4237008623818356e-05,
+  "edge_budget_max": 0.0030499599085018676,
+  "edge_samples_median": 0.030283157856911852,
+  "edge_budget_below_1pct": 1.0,
+  "panel_a": {
+    "unit": "Bearing2_6",
+    "channel": "b4_6",
+    "contrast": 1.0576970813067177,
+    "M": 5.0
+  },
+  "extreme_share_of_budget": 0.0,
+  "extreme_share_of_samples": 0.03566333808844508,
+  "panel_a_levels": [
+    1.0155212823325679,
+    0.9601248791175216
+  ],
+  "overcharge_median": 13.573787770369863,
+  "n_survive": 11,
+  "n_bearings": 16
+}

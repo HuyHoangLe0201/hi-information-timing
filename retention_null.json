@@ -1,0 +1,152 @@
+[
+  {
+    "indicator": "rms",
+    "w": 0.1,
+    "units": 16,
+    "eff": 0.9507655015869887,
+    "eff_null": 0.9623832644900663,
+    "eff_corrected": 0.9879281328637469,
+    "pieces": 6.0,
+    "pieces_null": 4.0
+  },
+  {
+    "indicator": "rms",
+    "w": 0.2,
+    "units": 16,
+    "eff": 0.9427843774374158,
+    "eff_null": 0.9541093030562237,
+    "eff_corrected": 0.988130368729734,
+    "pieces": 7.5,
+    "pieces_null": 11.0
+  },
+  {
+    "indicator": "rms",
+    "w": 0.3,
+    "units": 16,
+    "eff": 0.9490512139170796,
+    "eff_null": 0.9628516685966052,
+    "eff_corrected": 0.985667102078516,
+    "pieces": 14.0,
+    "pieces_null": 15.0
+  },
+  {
+    "indicator": "kurt",
+    "w": 0.1,
+    "units": 17,
+    "eff": 0.7516492349941811,
+    "eff_null": 0.8985974749820183,
+    "eff_corrected": 0.8364693379638334,
+    "pieces": 7.0,
+    "pieces_null": 8.0
+  },
+  {
+    "indicator": "kurt",
+    "w": 0.2,
+    "units": 14,
+    "eff": 0.9045979421636576,
+    "eff_null": 0.8990428918629455,
+    "eff_corrected": 1.0,
+    "pieces": 16.0,
+    "pieces_null": 16.0
+  },
+  {
+    "indicator": "kurt",
+    "w": 0.3,
+    "units": 14,
+    "eff": 0.9451698178285617,
+    "eff_null": 0.8972774839212809,
+    "eff_corrected": 1.0,
+    "pieces": 17.5,
+    "pieces_null": 24.0
+  },
+  {
+    "indicator": "0--2 kHz",
+    "w": 0.1,
+    "units": 15,
+    "eff": 0.7180350913138773,
+    "eff_null": 0.6598087913563508,
+    "eff_corrected": 1.0,
+    "pieces": 7.0,
+    "pieces_null": 5.0
+  },
+  {
+    "indicator": "0--2 kHz",
+    "w": 0.2,
+    "units": 13,
+    "eff": 0.7201908125190324,
+    "eff_null": 0.6514230218167117,
+    "eff_corrected": 1.0,
+    "pieces": 10.0,
+    "pieces_null": 10.5
+  },
+  {
+    "indicator": "0--2 kHz",
+    "w": 0.3,
+    "units": 12,
+    "eff": 0.7664895980417482,
+    "eff_null": 0.7417639255692898,
+    "eff_corrected": 1.0,
+    "pieces": 14.0,
+    "pieces_null": 13.0
+  },
+  {
+    "indicator": "4--10 kHz",
+    "w": 0.1,
+    "units": 14,
+    "eff": 0.7341547089661957,
+    "eff_null": 0.47041778492686637,
+    "eff_corrected": 1.0,
+    "pieces": 5.5,
+    "pieces_null": 5.5
+  },
+  {
+    "indicator": "4--10 kHz",
+    "w": 0.2,
+    "units": 9,
+    "eff": 0.6771440438924688,
+    "eff_null": 0.4522253403544917,
+    "eff_corrected": 1.0,
+    "pieces": 10.0,
+    "pieces_null": 11.0
+  },
+  {
+    "indicator": "4--10 kHz",
+    "w": 0.3,
+    "units": 8,
+    "eff": 0.724971672984933,
+    "eff_null": 0.4821510127520514,
+    "eff_corrected": 1.0,
+    "pieces": 18.5,
+    "pieces_null": 17.0
+  },
+  {
+    "indicator": "turbofan s11",
+    "w": 0.1,
+    "units": 36,
+    "eff": 0.3982058771789727,
+    "eff_null": 0.3445685821745438,
+    "eff_corrected": 1.0,
+    "pieces": 8.0,
+    "pieces_null": 7.0
+  },
+  {
+    "indicator": "turbofan s11",
+    "w": 0.2,
+    "units": 35,
+    "eff": 0.4753963502685337,
+    "eff_null": 0.4538172221286348,
+    "eff_corrected": 1.0,
+    "pieces": 14.0,
+    "pieces_null": 11.0
+  },
+  {
+    "indicator": "turbofan s11",
+    "w": 0.3,
+    "units": 35,
+    "eff": 0.6229698990514858,
+    "eff_null": 0.5564902357015961,
+    "eff_corrected": 1.0,
+    "pieces": 18.0,
+    "pieces_null": 15.0
+  }
+]

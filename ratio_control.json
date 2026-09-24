@@ -1,0 +1,65 @@
+[
+  {
+    "indicator": "h_rms (level, reference)",
+    "kind": "level",
+    "tau": 0.9728958630527818,
+    "signal": 0.9900975954547865,
+    "units": 17
+  },
+  {
+    "indicator": "h_rms / constant",
+    "kind": "control",
+    "tau": 0.9728958630527818,
+    "signal": 0.9913288278153559,
+    "units": 17
+  },
+  {
+    "indicator": "h_rms / slow(h_rms)",
+    "kind": "ratio, no spectrum",
+    "tau": 0.9764705882352941,
+    "signal": 0.9949882026294911,
+    "units": 17
+  },
+  {
+    "indicator": "h_rms / h_p2p",
+    "kind": "ratio, no spectrum",
+    "tau": 0.7917189460476788,
+    "signal": 0.8807446615567838,
+    "units": 17
+  },
+  {
+    "indicator": "h_rms / v_rms",
+    "kind": "ratio, no spectrum",
+    "tau": 0.5006273525721455,
+    "signal": 0.9939112165175297,
+    "units": 17
+  },
+  {
+    "indicator": "h_peak / h_rms (crest)",
+    "kind": "ratio, no spectrum",
+    "tau": 0.7487745098039216,
+    "signal": 0.8896173987962175,
+    "units": 17
+  },
+  {
+    "indicator": "h_spec_entropy",
+    "kind": "spectral shape",
+    "tau": 0.8011204481792717,
+    "signal": 0.9787513174177804,
+    "units": 17
+  },
+  {
+    "indicator": "v_spec_entropy",
+    "kind": "spectral shape",
+    "tau": 0.150384193194292,
+    "signal": 0.9891383854678589,
+    "units": 17
+  },
+  {
+    "indicator": "h_spec_spread",
+    "kind": "spectral shape",
+    "tau": 0.1690450054884742,
+    "signal": 0.9934405080597783,
+    "units": 17
+  }
+]

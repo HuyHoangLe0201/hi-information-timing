@@ -1,0 +1,32 @@
+PRONOSTIA: 16 bearings, 10 measures
+XJTU: 15 bearings, 10 measures
+
+measure                kind            centred    causal    shift
+------------------------------------------------------------------
+PRONOSTIA
+  spectral entropy     distribution      0.346     0.386   +0.040
+  spectral centroid    distribution      0.531     0.676   +0.145
+  spectral spread      distribution      0.151     0.274   +0.123
+  spectral Gini        distribution      0.288     0.390   +0.102
+  top-8-band share     distribution      0.360     0.343   -0.016
+  high/low band ratio  distribution      0.312     0.425   +0.114
+  total power          amount            0.971     0.984   +0.014
+  peak band power      amount            0.972     0.989   +0.017
+  high-band power      amount            0.963     0.936   -0.027
+  log total power      amount            0.969     0.755   -0.214
+                                     gap 0.641 (centred)  0.572 (causal)
+
+XJTU
+  spectral entropy     distribution      0.662     0.650   -0.012
+  spectral centroid    distribution      0.509     0.649   +0.140
+  spectral spread      distribution      0.463     0.640   +0.177
+  spectral Gini        distribution      0.563     0.622   +0.059
+  top-8-band share     distribution      0.491     0.659   +0.168
+  high/low band ratio  distribution      0.602     0.494   -0.108
+  total power          amount            0.907     0.696   -0.211
+  peak band power      amount            0.900     0.766   -0.134
+  high-band power      amount            0.614     0.618   +0.004
+  log total power      amount            0.886     0.642   -0.244
+                                     gap 0.357 (centred)  0.025 (causal)
+
+written to causal_check.json

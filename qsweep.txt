@@ -1,0 +1,65 @@
+﻿  PRONOSTIA 1/16  (12s)
+  PRONOSTIA 2/16  (15s)
+  PRONOSTIA 3/16  (27s)
+  PRONOSTIA 4/16  (41s)
+  PRONOSTIA 5/16  (54s)
+  PRONOSTIA 6/16  (66s)
+  PRONOSTIA 7/16  (70s)
+  PRONOSTIA 8/16  (74s)
+  PRONOSTIA 9/16  (85s)
+  PRONOSTIA 10/16  (89s)
+  PRONOSTIA 11/16  (105s)
+  PRONOSTIA 12/16  (110s)
+  PRONOSTIA 13/16  (111s)
+  PRONOSTIA 14/16  (114s)
+  PRONOSTIA 15/16  (125s)
+  PRONOSTIA 16/16  (128s)
+  XJTU 1/15  (128s)
+  XJTU 2/15  (129s)
+  XJTU 3/15  (130s)
+  XJTU 4/15  (131s)
+  XJTU 5/15  (131s)
+  XJTU 6/15  (134s)
+  XJTU 7/15  (135s)
+  XJTU 8/15  (138s)
+  XJTU 9/15  (138s)
+  XJTU 10/15  (141s)
+  XJTU 11/15  (159s)
+  XJTU 12/15  (176s)
+  XJTU 13/15  (178s)
+  XJTU 14/15  (188s)
+  XJTU 15/15  (189s)
+PRONOSTIA: 16 bearings, 128 cells
+XJTU: 13 bearings, 104 cells
+
+the gap across demands, with bearings resampled at each
+
+rig             q  distribution   amount     gap         95% interval   sign
+----------------------------------------------------------------------------
+PRONOSTIA    0.05         0.026    0.899   0.873     [+0.115, +0.936]    yes
+PRONOSTIA    0.10         0.050    0.944   0.895     [+0.141, +0.938]    yes
+PRONOSTIA    0.20         0.139    0.958   0.819     [+0.526, +0.876]    yes
+PRONOSTIA    0.35         0.330    0.970   0.640     [+0.228, +0.813]    yes
+PRONOSTIA    0.50         0.669    0.978   0.309     [+0.094, +0.744]    yes
+PRONOSTIA    0.65         0.771    0.983   0.212     [+0.017, +0.663]    yes
+PRONOSTIA    0.80         0.946    0.990   0.044     [+0.004, +0.302]    yes
+
+XJTU         0.05         0.033    0.285   0.253     [+0.035, +0.756]    yes
+XJTU         0.10         0.162    0.463   0.300     [+0.078, +0.783]    yes
+XJTU         0.20         0.319    0.579   0.260     [+0.079, +0.746]    yes
+XJTU         0.35         0.552    0.893   0.340     [+0.045, +0.412]    yes
+XJTU         0.50         0.655    0.911   0.256     [+0.026, +0.311]    yes
+XJTU         0.65         0.848    0.923   0.076     [+0.014, +0.171]    yes
+XJTU         0.80         0.933    0.968   0.034     [+0.016, +0.145]    yes
+
+----------------------------------------------------------------------------
+PRONOSTIA: gap positive and its interval clear of zero at 7 of 7 demands;
+  the gap itself runs 0.044 to 0.895 across them
+XJTU: gap positive and its interval clear of zero at 7 of 7 demands;
+  the gap itself runs 0.034 to 0.340 across them
+
+The sign of the effect does not depend on the demand: at every
+fraction tested, on both rigs, the distributional indicators become
+usable first.  Its SIZE does depend on the demand, which it must,
+since a demand near zero is met almost at once by anything and a
+demand near one by nothing until the end.

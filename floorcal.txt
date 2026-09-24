@@ -1,0 +1,59 @@
+﻿records with NO degradation; the signal fraction should be zero
+
+      n     constant       rising      falling     tracking
+-----------------------------------------------------------
+    200        0.711        0.625        0.677        0.583
+    500        0.710        0.675        0.671        0.630
+   1200        0.751        0.661        0.613        0.595
+   2500        0.734        0.690        0.669        0.595
+-----------------------------------------------------------
+pooled median 0.670, worst cell 0.751, worst 90th percentile 0.833
+
+This is the diagnostic's false-positive level: how much apparent signal
+the estimator credits to a record that has none.  It is what a reported
+signal fraction has to be read against.
+
+records with a known trend; estimated against true signal fraction
+
+the truth is 1 - (density of noise alone) / (density observed), both
+through the same pipeline
+
+    SNR     profile     true   estimated    ratio
+-------------------------------------------------
+      3    constant    0.897       0.964   +0.066
+      3      rising    0.825       0.910   +0.085
+      3     falling    0.967       0.985   +0.018
+      3    tracking    0.781       0.877   +0.096
+
+     10    constant    0.990       0.996   +0.006
+     10      rising    0.981       0.989   +0.008
+     10     falling    0.998       0.999   +0.001
+     10    tracking    0.976       0.985   +0.009
+
+     30    constant    0.999       1.000   +0.001
+     30      rising    0.997       0.999   +0.001
+     30     falling    1.000       1.000   +0.000
+     30    tracking    0.997       0.998   +0.001
+
+    100    constant    1.000       1.000   +0.000
+    100      rising    1.000       1.000   +0.000
+    100     falling    1.000       1.000   +0.000
+    100    tracking    1.000       1.000   +0.000
+
+-------------------------------------------------
+estimated minus true: median +0.001, range +0.000 to +0.096 over 16 cells
+
+The two halves say different things and both matter.
+
+On a record with no signal the diagnostic reads 0.67, not zero.
+That is a property of the estimator rather than a bug: the floor is a
+MEDIAN level subtracted from a density that is a squared quantity and
+therefore heavy-tailed, so about half the samples survive the
+subtraction and they carry most of the mass.  The consequence is that a
+signal fraction cannot be read as the share of the density that is real.
+
+Where there IS signal the estimate tracks the truth to +0.001, so the
+quantity is informative above its floor even though it is not a
+fraction.  The paper uses it as a threshold at 0.90, which sits well
+above the 0.67 null, so the diagnostic as USED is unaffected;
+what has to change is the description of what it measures.

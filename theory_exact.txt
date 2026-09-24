@@ -1,0 +1,134 @@
+﻿========================================================================
+RESULT 1  monotonicity under channel addition, noise correlated
+========================================================================
+
+ trial   K  median |rho|       G(K)     G(K+1)  increment  residual form
+------------------------------------------------------------------------
+     1   2          0.78      603.2     1717.2     1114.1         1114.1
+     2   2          0.79      343.7      579.1      235.5          235.5
+     3   4          0.54      861.5     1543.0      681.5          681.5
+     4   5          0.38      758.9     2653.5     1894.6         1894.6
+     5   2          0.20      223.0     2024.0     1800.9         1800.9
+     6   4          0.37      653.5     1420.7      767.2          767.2
+------------------------------------------------------------------------
+smallest increment                              235.5   (theorem: non-negative)
+increment against its residual form          7.00e-15   (relative)
+
+exactly redundant channel, g = d c, its noise likewise plus variance eps
+
+       eps    cond(Sigma)    naive increment    residual form
+-------------------------------------------------------------
+     1e-02        2.2e+04          -3.18e-11         1.71e-24
+     1e-04        2.1e+06           2.69e-09         1.71e-22
+     1e-06        2.1e+08           1.81e-08         1.71e-20
+     1e-08        2.1e+10           1.94e-05         1.71e-18
+     1e-10        2.1e+12           2.81e-03         1.71e-16
+-------------------------------------------------------------
+The increment is zero to machine precision in the residual form at every
+eps, as the corollary requires: a channel the existing set can reproduce
+contributes nothing, however large its own sensitivity.  The naive route
+does not see this, and its error grows as the redundancy sharpens.  The
+multi-channel estimator in this study inverts an ESTIMATED covariance, so
+the same degeneracy is reachable from finite samples alone; the Wishart
+inflation m/(m-K-1) corrects the bias of that inverse but not its
+conditioning, which is a separate reason to prefer channels that are not
+near-duplicates.
+
+========================================================================
+RESULT 2  exact nuisance cost, power-law class
+========================================================================
+
+surviving fraction of the information about the damage clock
+
+  beta          amplitude unknown           exponent unknown       both unknown
+          exact     quad     grid    exact     quad     grid     exact     quad
+-------------------------------------------------------------------------------
+   0.7   0.5102   0.5102   0.4912   0.2803   0.2803   0.2526  2.60e-01 2.60e-01
+   1.0   0.2500   0.2500   0.2498   0.1562   0.1563   0.1563  6.25e-02 6.25e-02
+   1.5   0.1111   0.1111   0.1111   0.2099   0.2099   0.2103  1.23e-02 1.23e-02
+   2.0   0.0625   0.0625   0.0625   0.2676   0.2676   0.2681  3.91e-03 3.91e-03
+   3.0   0.0278   0.0278   0.0278   0.3383   0.3383   0.3392  7.72e-04 7.72e-04
+   5.0   0.0100   0.0100   0.0100   0.4011   0.4011   0.4024  1.00e-04 1.00e-04
+   8.0   0.0039   0.0039   0.0039   0.4378   0.4378   0.4399  1.53e-05 1.53e-05
+  15.0   0.0011   0.0011   0.0011   0.4667   0.4667   0.4706  1.23e-06 1.23e-06
+  25.0   0.0004   0.0004   0.0004   0.4800   0.4800   0.4864  1.60e-07 1.60e-07
+-------------------------------------------------------------------------------
+exact against quadrature resolving the origin: max |difference| 1.2e-05
+
+The 'grid' column is the study's earlier tabulation.  It agrees to the
+fourth decimal everywhere except beta = 0.7, where it reads 0.4912
+against the exact 0.5102.  The discrepancy is the grid, not the
+formula: as beta approaches 1/2 the integrand tau^(2 beta - 2)
+concentrates at the origin and a uniform grid mis-resolves it, whereas
+the quadrature above reproduces the closed form to the precision on the
+line above.  The earlier table is therefore correct wherever it is used
+and imprecise only at its smallest exponent.
+
+-------------------------------------------------------------------------------
+Design consequence.  Within the power-law family G accumulates as
+tau^(2 beta - 1), so losing a factor 1/r of information moves the age at
+which a target is met by the ratio r^(-1/(2 beta - 1)), which is small
+even when 1/r is enormous.
+
+  beta  information retained         lost by    age ratio
+---------------------------------------------------------
+   1.0              6.25e-02             16x       16.00x
+   1.5              1.23e-02             81x        9.00x
+   2.0              3.91e-03            256x        6.35x
+   3.0              7.72e-04           1296x        4.19x
+   5.0              1.00e-04          10000x        2.78x
+   8.0              1.53e-05          65536x        2.09x
+---------------------------------------------------------
+
+That table invites the conclusion that a steep curve is forgiving, and
+the conclusion is false.  The ratio is only defined while the reduced
+demand still fits inside the record's budget, and a record carries one
+budget: a demand set at a fraction q of it survives a loss of at most
+1/q, whatever the curve looks like.  At the fraction of 0.35 this study
+works at, no loss beyond about threefold is survivable at any age.  The
+losses in the table are four to five orders of magnitude larger.
+
+So the gap between an oracle and an estimator that must also fit the
+trend does not show up as a later usable age.  It shows up as a demand
+that cannot be met at all.  delay_measured.py confirms this directly on
+the measured curves, which are not power laws: at a demand of 1e-2 a
+hundredfold loss already leaves 48 of 117 records infeasible and pushes
+the remainder to within 0.05 of the end of life.
+
+========================================================================
+RESULT 3  the nuisance factor separates from channel fusion
+========================================================================
+
+If K channels share the damage clock and the exponent but carry their
+own amplitudes, D_j(tau) = A_j tau^beta, then profiling out all K + 1
+trend parameters leaves
+
+    r  =  1 / (16 beta^4),
+
+independent of K and of the amplitudes.  Fusion multiplies the oracle
+information by the channels it adds; the unknown trend divides it by a
+factor that depends on the exponent alone, and the two act separately.
+A practical curve is therefore the oracle curve scaled by one number.
+
+  beta       K = 1       K = 2       K = 5      K = 20    1/(16 b^4)
+--------------------------------------------------------------------
+   0.7   2.603e-01   2.603e-01   2.603e-01   2.603e-01     2.603e-01
+   1.0   6.250e-02   6.250e-02   6.250e-02   6.250e-02     6.250e-02
+   2.0   3.906e-03   3.906e-03   3.906e-03   3.906e-03     3.906e-03
+   3.0   7.716e-04   7.716e-04   7.716e-04   7.716e-04     7.716e-04
+   5.0   1.000e-04   1.000e-04   1.000e-04   1.000e-04     1.000e-04
+   8.0   1.526e-05   1.526e-05   1.526e-05   1.526e-05     1.526e-05
+--------------------------------------------------------------------
+largest relative departure from 1/(16 beta^4): 6.6e-12
+The amplitudes were made unequal on purpose; the invariance is not an
+artefact of symmetry.
+
+Two further exact statements about the exponent term.  Setting the
+logarithmic derivative of (2b-1)(2b+1)^3 / b^4 to zero gives
+2/(2b-1) + 6/(2b+1) - 4/b = 0, which reduces to -4b + 4 = 0, so the cost
+of an unknown exponent is greatest at exactly beta = 1, where
+r_beta = 5/32 = 0.15625 (table: 0.15625).  As beta grows the
+ratio tends to 1/2 from below (beta = 25 gives 0.4800), so an
+unknown exponent never costs more than half the information, while an
+unknown amplitude costs without bound.  A linear trend is thus the
+hardest shape to distinguish from a shift of the clock.

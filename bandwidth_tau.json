@@ -1,0 +1,56 @@
+[
+  {
+    "width_bands": 1,
+    "width_kHz": 0.4,
+    "placements": 32,
+    "median": 0.9745358287262543,
+    "best": 0.9165578581309064,
+    "best_centre": 0.2,
+    "worst": 0.97997306166408
+  },
+  {
+    "width_bands": 2,
+    "width_kHz": 0.8,
+    "placements": 31,
+    "median": 0.9739783149457968,
+    "best": 0.9574840600028498,
+    "best_centre": 11.6,
+    "worst": 0.9795247693145726
+  },
+  {
+    "width_bands": 4,
+    "width_kHz": 1.6,
+    "placements": 15,
+    "median": 0.9736532578949325,
+    "best": 0.9573448460539398,
+    "best_centre": 11.2,
+    "worst": 0.9778264549857184
+  },
+  {
+    "width_bands": 8,
+    "width_kHz": 3.2,
+    "placements": 7,
+    "median": 0.9724398315826854,
+    "best": 0.9632245881314376,
+    "best_centre": 11.200000000000001,
+    "worst": 0.9762512728127203
+  },
+  {
+    "width_bands": 16,
+    "width_kHz": 6.4,
+    "placements": 3,
+    "median": 0.9700682881737824,
+    "best": 0.9670921240333359,
+    "best_centre": 9.6,
+    "worst": 0.9715710582540396
+  },
+  {
+    "width_bands": 32,
+    "width_kHz": 12.8,
+    "placements": 1,
+    "median": 0.9707323147967933,
+    "best": 0.9707323147967933,
+    "best_centre": 6.4,
+    "worst": 0.9707323147967933
+  }
+]

@@ -1,0 +1,86 @@
+﻿closed-form check: C = beta - 1/2 for a power law
+
+   beta   C, predicted   C, numeric
+-----------------------------------
+    1.5         1.0000       1.0000
+    2.0         1.5000       1.5000
+    3.0         2.5000       2.5000
+    5.0         4.5000       4.5000
+    8.0         7.5000       7.5000
+-----------------------------------
+largest departure 1.00e-06
+
+radius and curvature ratio, root-mean-square amplitude on each bearing
+
+bearing            n         C           G   delta_max
+------------------------------------------------------
+Bearing1_1      2803      12.4   3.312e+07      0.0053
+Bearing1_2       871      -0.4   4.625e+06      0.0499
+Bearing1_3      2375      23.9   2.183e+07      0.0042
+Bearing1_4      1428      16.7   2.617e+07      0.0048
+Bearing1_5      2463      31.3   8.315e+07      0.0026
+Bearing1_6      2448      29.4   2.709e+07      0.0036
+Bearing1_7      2259      29.3   4.769e+07      0.0031
+Bearing2_1       911      19.5   9.997e+06      0.0057
+Bearing2_2       797      11.1   8.120e+06      0.0080
+Bearing2_3      1955      39.5   1.421e+09      0.0012
+Bearing2_4       751      30.3   1.240e+07      0.0043
+Bearing2_5      2311      17.5   7.254e+06      0.0065
+Bearing2_6       701      36.0   2.003e+07      0.0035
+Bearing2_7       230      58.5   6.703e+06      0.0036
+Bearing3_1       515      10.8   1.037e+06      0.0135
+Bearing3_2      1637      29.5   7.327e+07      0.0028
+Bearing3_3       434      17.9   3.570e+06      0.0077
+------------------------------------------------------
+median radius 0.0043 of a lifetime, quartiles 0.0035 to 0.0065
+
+measured against predicted degradation of the floor
+
+The floor is built on a robust noise scale and the error follows the
+second moment, so on heavy-tailed residuals the two differ by a factor
+that is present at every offset including zero.  It is measured as the
+standard deviation of the standardised residual and divided out, and the
+raw column is kept so nothing is hidden.
+
+The last column is the median of the per-record ratio, not the ratio of
+the two medians: C spans two orders of magnitude across these bearings,
+so the two are different statistics and only the paired one is a test.
+
+  |delta|  units      raw  heavy tail  corrected  predicted   ratio
+-------------------------------------------------------------------
+    0.000     17     1.40        1.35       1.01       1.00    1.01
+    0.005     17     1.66        1.35       1.10       1.00    1.09
+    0.010     17     1.83        1.35       1.32       1.06    1.04
+    0.020     17     1.78        1.35       1.16       1.70    0.82
+    0.030     17     3.85        1.35       2.41       3.25    0.88
+    0.050     17    15.23        1.35       9.49       8.66    1.22
+    0.080     17    45.22        1.35      25.85      22.04    1.09
+    0.120     17    65.41        1.35      43.24      49.54    0.71
+-------------------------------------------------------------------
+paired agreement with the closed form, over every offset tested:
+  median 1.02, range 0.71 to 1.22 across 8 offsets
+  spanning |delta| from 0 to 0.12, that is 28 times the radius,
+  over which the error grows from the floor to 43 times it.
+The expansion was expected to fail well before the far end and does not,
+so the closed form is not merely a local approximation here.
+
+at delta = 0 the measured error is 1.01 times the floor,
+which is the attainment of Section 5 recovered in this setting.
+
+The radius scales as G^(-1/4), and Section 6.5 measures that an
+estimator which must also fit the trend holds only 1.32e-05 of the
+nominal information at the exponent these records show.  The radius
+that applies to such an estimator is therefore 17 times larger,
+0.072 of a lifetime rather than 0.0043.  The oracle figure is
+the conservative one and both are reported.
+
+the radius scales with the bandwidth, because D'' does
+
+  bandwidth  units   median radius    vs 8%
+-------------------------------------------
+       0.05     17          0.0028      nan
+       0.08     17          0.0043     1.00
+       0.12     17          0.0075     1.73
+-------------------------------------------
+The radius is a property of the trend model in use, not a universal
+constant, and should be quoted with the bandwidth that produced it.

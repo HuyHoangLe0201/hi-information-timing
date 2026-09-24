@@ -1,0 +1,82 @@
+﻿10 channels, 17 bearings; ages scored on [0.3, 0.9]
+
+refined error as a share of the prior error; below one is an improvement
+(the step is capped at three prior standard deviations, so a channel
+that carries nothing returns the prior rather than diverging)
+
+channel     tau_min    0.005    0.010    0.020    0.050    0.100    0.231
+-------------------------------------------------------------------------
+rms           0.971     1.52     1.30     1.03     1.00     0.99     1.00
+kurt          0.750     1.08     1.01     1.01     1.00     1.00     1.00
+peak          0.976     1.25     1.07     1.02     1.00     1.00     0.99
+b0_1          0.559     1.68     1.23     1.07     1.01     1.00     0.99
+b1_2          0.432     1.11     1.02     1.00     1.00     1.00     1.00
+b2_4          0.346     1.52     1.22     1.04     0.99     0.99     0.99
+b4_6          0.371     1.32     1.07     1.02     0.99     0.99     0.99
+b6_8          0.502     1.33     1.10     1.02     1.00     1.00     1.00
+b8_10         0.198     1.28     1.07     1.02     1.00     0.99     0.99
+b10_12.8      0.226     1.99     1.48     1.12     1.00     0.98     0.99
+-------------------------------------------------------------------------
+
+prior error  0.005:  0 of 10 channels improve on it, best 1.08
+prior error  0.010:  0 of 10 channels improve on it, best 1.01
+prior error  0.020:  0 of 10 channels improve on it, best 1.00
+prior error  0.050:  6 of 10 channels improve on it, best 0.99
+prior error  0.100:  9 of 10 channels improve on it, best 0.98
+prior error  0.231:  9 of 10 channels improve on it, best 0.99
+
+The practical linearisation radius of Section 6.6 is 0.072.
+Refinement helps at 1 scales inside the radius and 2 outside it,
+so the radius does not by itself separate the two regimes here.
+
+ordering test, at the prior error where most channels help (0.100):
+
+channel     tau_min  refined/prior
+----------------------------------
+b8_10         0.198           0.99
+b10_12.8      0.226           0.98
+b2_4          0.346           0.99
+b4_6          0.371           0.99
+b1_2          0.432           1.00
+b6_8          0.502           1.00
+b0_1          0.559           1.00
+kurt          0.750           1.00
+rms           0.971           0.99
+peak          0.976           1.00
+----------------------------------
+
+Spearman between tau_min and the refined-error ratio: +0.53
+The framework ranks a smaller tau_min as better and a smaller ratio is
+better, so a POSITIVE correlation is the prediction.
+
+repeatability of the ratios, under independent random draws
+
+channel       ratio   sd over seeds
+-----------------------------------
+b8_10         0.994           0.001
+b10_12.8      0.985           0.006
+b2_4          0.985           0.002
+b4_6          0.989           0.002
+b1_2          1.000           0.001
+b6_8          1.003           0.001
+b0_1          0.999           0.002
+kurt          0.998           0.001
+rms           0.995           0.002
+peak          0.996           0.001
+-----------------------------------
+
+spread across channels 0.006, typical scatter of one channel 0.001
+the spread is 4.2 times the scatter
+
+exact one-sided permutation p-value for rho = +0.53 with 10 channels: 0.061
+
+The spread exceeds the noise and the correlation is in the predicted
+direction, but with 10 channels it does not reach
+significance (p = 0.06).  The result is suggestive and is
+reported as suggestive.
+
+Either way the size of the effect settles its usefulness: the best
+channel improves on elapsed operating time by 1.5 per cent, and the
+whole spread across ten channels is 0.6 per cent.  Refinement from a
+single indicator is measurable here and not usable, which is the honest
+answer to the question Section 8.2 left open.

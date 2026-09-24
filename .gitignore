@@ -1,0 +1,5 @@
+# feature caches rebuilt from the public datasets by the extraction scripts
+*.npz
+__pycache__/
+*.pyc
+.backup/

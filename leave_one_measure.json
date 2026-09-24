@@ -1,0 +1,71 @@
+{
+  "base": {
+    "PRONOSTIA": 0.6403796658209948,
+    "XJTU": 0.3554399740121428
+  },
+  "deletions": [
+    {
+      "dropped": "spectral entropy",
+      "family": "distribution",
+      "PRONOSTIA": 0.6578605810537399,
+      "XJTU": 0.3838004568435034
+    },
+    {
+      "dropped": "spectral centroid",
+      "family": "distribution",
+      "PRONOSTIA": 0.6578605810537399,
+      "XJTU": 0.32707949118078217
+    },
+    {
+      "dropped": "spectral spread",
+      "family": "distribution",
+      "PRONOSTIA": 0.6228987505882497,
+      "XJTU": 0.32707949118078217
+    },
+    {
+      "dropped": "spectral Gini",
+      "family": "distribution",
+      "PRONOSTIA": 0.6228987505882497,
+      "XJTU": 0.3838004568435034
+    },
+    {
+      "dropped": "top-8-band share",
+      "family": "distribution",
+      "PRONOSTIA": 0.6578605810537399,
+      "XJTU": 0.32707949118078217
+    },
+    {
+      "dropped": "high/low band ratio",
+      "family": "distribution",
+      "PRONOSTIA": 0.6228987505882497,
+      "XJTU": 0.3838004568435034
+    },
+    {
+      "dropped": "total power",
+      "family": "amount",
+      "PRONOSTIA": 0.6392652246697377,
+      "XJTU": 0.34828765926300576
+    },
+    {
+      "dropped": "peak band power",
+      "family": "amount",
+      "PRONOSTIA": 0.6392652246697377,
+      "XJTU": 0.34828765926300576
+    },
+    {
+      "dropped": "high-band power",
+      "family": "amount",
+      "PRONOSTIA": 0.6414941069722518,
+      "XJTU": 0.3625922887612798
+    },
+    {
+      "dropped": "log total power",
+      "family": "amount",
+      "PRONOSTIA": 0.6414941069722518,
+      "XJTU": 0.3625922887612798
+    }
+  ],
+  "worst": 0.32707949118078217,
+  "best": 0.6578605810537399,
+  "all_positive": true
+}

@@ -1,0 +1,38 @@
+{
+  "synthetic": [
+    {
+      "case": "constant noise, beta=3",
+      "corr": 0.055715266475579756
+    },
+    {
+      "case": "constant noise, beta=8",
+      "corr": -0.09158436847699594
+    },
+    {
+      "case": "constant noise, beta=20",
+      "corr": 0.058703690439216555
+    },
+    {
+      "case": "constant, deliberate underfit",
+      "corr": 0.2367293469467195
+    },
+    {
+      "case": "constant, severe underfit",
+      "corr": 0.7368210228808214
+    },
+    {
+      "case": "multiplicative, sigma ~ D",
+      "corr": 0.8373243769669201
+    },
+    {
+      "case": "multiplicative, sigma ~ sqrt D",
+      "corr": 0.8064315123625743
+    }
+  ],
+  "real": {
+    "rms": 0.657,
+    "kurt": 0.693,
+    "0--2 kHz": 0.231,
+    "4--10 kHz": 0.447
+  }
+}

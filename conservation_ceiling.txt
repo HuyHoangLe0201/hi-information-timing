@@ -1,0 +1,239 @@
+1448  raised from 1438 at the declarations, written to the MSSP Guide for
+     Authors, against the printed list of ten: the placeholder paragraphs for
+     CRediT (now entered in the submission system), competing interest and
+     funding (now the Guide's own sentences, on the corresponding author's
+     answers), and the old generative-AI paragraph (rewritten to the Guide's
+     template and moved before the references).  No prose passage was lost.
+
+     Before that, at 1438: raised from 1434 by the sixteenth reviewer read, against the printed
+     list of four: the Appendix A.3 lines that opened on 'the pair is ordered on
+     all sixteen records these results admit'.  The paragraph now reads the
+     whole corpus at the common screen first and calls the empirical part a
+     resolution check of the theorem.  No prose passage was lost.
+
+     Before that, at 1434: raised from 1432 by the fifteenth reviewer read, against the printed
+     list of two: the S1 lines that justified the screen of three hundred as
+     where the family margin becomes resolvable, which S8's own decimation
+     contradicts (spread 0.217 at 301 samples).  The screen is now said to be
+     underived and the census is read at sixty.  No prose passage was lost.
+
+     Before that, at 1432: raised from 1421 by the fourteenth reviewer read, against the printed
+     list of eleven: the trim of defensive prose in Sections 8 to 10 the
+     reviewer asked for (restated caveats in 8.2, 9.2, 9.4 and 10.3-10.5:
+     the unusable absolute calibration, the instrument account, the two
+     turbofan statistics not transplanted, the oracle caveat, the factor of
+     136 told twice, two rhetorical closers) and one antecedent repaired in
+     8.3 ('converges only there').  Nothing measured was removed; the edge
+     cells of the feasibility split moved to S4.
+
+     Before that, at 1421: raised from 1415 by the thirteenth reviewer read, against the printed
+     list of six: the title of Proposition 3 and five lines that called the
+     robust-scale and second-moment quantities floors.  Only G_*^{-1/2} is the
+     Cramer-Rao floor now; the others are benchmarks above and below it.  No
+     prose passage was lost.
+
+     Before that, at 1415: raised from 1412 by the full read after the twelfth reviewer round,
+     against the printed list of three: the Section 7.2 sentence that said every
+     earlier check divided the tail factor out, which the attainment of Table 3
+     does not; it now says they reckon with it.  No prose passage was lost.
+
+     Before that, at 1412: raised from 1403 by the twelfth reviewer read, against the printed list
+     of nine: the statement of Proposition 2, rewritten with a local kappa_k and
+     its information-weighted mean kappa_eff (five lines, and the notation row);
+     the statement and proof of Proposition 3, which had the direction of the
+     floor backwards for the second-moment and robust curves (two lines); and the
+     S2.7 line that now closes on that ordering.  No prose passage was lost.
+
+     Before that, at 1403: raised from 1391 by the second full read of the typeset supplement,
+     against the printed list of twelve: antecedents restored in S3.5 (the four
+     ages, the finer grid), S3.7 (the figure the Wishart correction moves) and
+     S4.6; three wording repairs in S4.3; S5.8 concluding on the direction and
+     the size separately (three lines); the S6.3 decimation pointer; and S10.3,
+     which put a varying-offset proposition in a list of constant-offset ones
+     (two lines).  No prose passage was lost.
+
+     Before that, at 1391: raised from 1388 at the eleventh reviewer read, against the printed
+     list of three: the lines of Supplementary S5 that reported the bandwidth
+     sweep on eight of the ten measures (0.603-0.691, 0.166-0.466 against
+     0.338).  The sweep was rerun on all ten and the lines now carry its
+     numbers (0.599-0.745, 0.154-0.435 against 0.355).  No prose was lost.
+
+     Before that, at 1388: raised from 1384 by the second full read of the typeset manuscript,
+     against the printed list of four: the fragment "Its Bayesian companion is
+     (Appendix D)", Appendix A crediting Section 8 with advice it gives itself
+     (two lines), and Appendix D saying the definition of G asks for a demand
+     where Proposition 1(ii) does.  No prose passage was lost.
+
+     Before that, at 1384: raised from 1378 by the tenth reviewer read, against the printed list
+     of six: the three lines of Proposition 3 that said sigma_rob^2 I_f < 1 at
+     every finite nu (false at nu = 1, where it is 1.099; now nu > 2), the two
+     lines of the boundedness control that did not say which level, and the
+     Introduction sentence that said the floor belongs to the indicator (now the
+     observation model the indicator induces).  No prose passage was lost.
+
+     Before that, at 1378: raised from 1377 by the ninth reviewer read: the one line is the
+     statement of Proposition 2 about an age read at a demand, which admitted
+     the parse (age)/kappa^2 and now gives G^{-1}(b/kappa^2) explicitly.
+
+     Before that, at 1377: raised from 1323 by the full re-read of the supplement, against the
+     printed list of 54: the leave-one-out paragraph brought from the
+     eight-measure run to the ten-measure one, three sentences that narrated
+     the revision removed, the sixty-sample screen no longer called an untested
+     convention, the rank-guard paragraph that repeated Appendix B replaced by a
+     pointer to it, openings given their antecedents, pointers that named the
+     wrong section corrected, and two paragraphs moved to where the text that
+     cites them sends the reader (the t_nu simulation to S2, the actionable-
+     demonstration paragraph after the refinement result), which rewraps them.
+     No prose passage was lost.
+
+     Before that, at 1323: raised from 1316 by the full re-read after the table move, against the
+     printed list: the notation row for tau_lin, the dangling "The second"
+     after the eighth-read insertion, the sentence that now says how far the
+     reruns reproduce Table 7, the FD001 sentence given its antecedent, the
+     four-channel gap named as such in the supplement (two lines), and the
+     proof sentence in Appendix A that read "Equation Writing".  All seven
+     were rewritten on purpose; no prose passage was lost.
+
+     Before that, at 1316: raised from 1305 when four tables moved to the supplement at the
+     authors' request (tab:window, tab:censor, tab:feasible, tab:linspan),
+     against the printed list: all 11 are the sentences that pointed at those
+     tables, rewritten to point at the supplementary section instead (one of
+     them only rewrapped), and the two supplement sentences that said "this
+     table" now name the censoring table by its label.  The tables themselves moved
+     whole, with their labels, and no prose passage was lost.
+
+     Before that, at 1305: raised from 1279 by the MSSP Guide pass, against the printed list: 24
+     of the 26 are reference lines whose journal name is now abbreviated by
+     the ISSN title-word list and followed by a DOI, as the Guide asks (each
+     rewritten line was re-read against Crossref; refs_unverified.txt); the
+     other two are the statement of Proposition span, which called a budget
+     fraction "usable" and now says the combination has accumulated it.
+     No prose passage was lost.
+
+     Before that pass, at 1279: every line the report lists is one this rewrite replaced or dropped on
+     purpose.  Six kinds: section road maps that no longer describe the paper,
+     the roadmap figure and its caption, research-diary sentences the brief asked
+     to remove, paragraphs replaced by a summary whose original now sits in
+     the supplement, the captions of both documents cut from a mean of 77 words
+     to 42, and the two passes for sentence variety -- 85 lines in the first and
+     26 in the second, each a sentence rebuilt around a different joint with
+     every number left where it stood.
+     Every claim dropped from a caption was checked against the body first, and
+     the three the body did not carry were moved into it rather than deleted:
+     the table of feasibility's sensitivity to the edge cells, the two rigs'
+     transfer cosines, and the sweep behind the scope table.
+     audit_captions.py holds the captions to that shape and _cadence.py measures
+     the sentence shapes.
+     A few of the lines are formatting rather than prose -- the figures were
+     rescaled from \linewidth to 0.92\linewidth, and the layer compares whole
+     lines.  Raise this only against the printed list, never to make the layer
+     quiet: the list is what tells a lost passage from a rewritten one.  The
+     first variety pass did not raise it, and this layer had been failing from
+     that day until now.
+     The last two are the data section's opening, split so its forward
+     pointers no longer sit in the first sentence, and a sentence the first
+     variety pass had broken: it made "the indicators are recomputed"
+     active and left the "For" in front of it.
+     The last is the abstract, trimmed from 253 words to 241 because the
+     journal caps it at 250 and audit_journal.py now checks that.
+     The last four are the pass that brought the paper to the journal's
+     conventions: nine section titles now carry an MSSP-style functional
+     label in front of our own phrase, and five propositions moved from
+     the body into a new appendix, each replaced by the sentence that
+     states the result and points at the derivation.  Nothing left the
+     paper: the proposition count is still twenty-one.
+     The last seven are a reading of the typeset paper: the five demotion
+     sentences were left standing as one-sentence paragraphs where the
+     propositions had been, and two references pointed at an equation now
+     thirty pages away in Appendix E for something the sentence itself
+     could say.
+     The last one is not a rewrite at all but a correction: lei2018's end
+     page was 836 and is 834, which is what Elsevier's own deposit and
+     OpenAlex both give.  It is the only error found in checking all
+     forty-seven references against their publishers.
+     The last four are the four conference references, which now carry the
+     page ranges they always had: 1-9 and 1-17 from the two IEEE PHM 2008
+     papers' own Crossref records, 1-8 from the PRONOSTIA authors' HAL
+     deposit, and 1-11 counted off the Coble and Hines PDF itself.
+     The last one is from reading the supplement: five run-in headings there
+     repeated, word for word, the subsection heading immediately above them,
+     left behind when those paragraphs were promoted to subsections.  Four
+     had already been counted here; this is the fifth.
+     And one more from the same reading: a subsection of the supplement was
+     restating, word for word, two measurements the proofs section already
+     carries with their derivation.  The restatement is gone and the two
+     observations that were only there have stayed.
+     The last six are Table 3 and its caption, rebuilt after a reviewer read.
+     The table gained a Units column and a totals row so that 102464 cells
+     cannot be read as 102464 independent observations -- they come from
+     1068 unit-channel series and 370 physical units -- and the caption now
+     names the battery as the one domain where the floor is not attained.
+     The last two are the renaming of "signal fraction" to "surviving
+     fraction".  The old name said the quantity was the share of the density
+     that is signal, and Section 5.2 had to spend a paragraph explaining that
+     on a record with no degradation it reads 0.67.  A name a section argues
+     against is the wrong name; the new one is that section's own phrasing.
+     The last six are a second reviewer read: the four places that counted
+     six limits now count seven, the mechanism claim is scoped to the eight
+     statistics and two rigs it was measured on, and the availability
+     statement now says what is released instead of that it is released.
+     The seventh limit is a finding: causal_check.py rebuilt the applied
+     result with an estimator that sees nothing after the age it reports,
+     and the family gap falls from 0.641 to 0.572 on PRONOSTIA and from
+     0.357 to 0.025 on XJTU-SY.
+     The last one is the line that now expands RMS at its first use in prose.
+     audit_prose.py, repointed from the predecessor study to this manuscript,
+     reported the acronym as never defined; the expansion was in fact two
+     lines above, so the flag was the layer's pattern and not a defect, and
+     the parenthetical was added to make the definition explicit.
+     The title changed in the same pass and did not move this count: the
+     baseline predates the previous title too, so its line was already here.
+     The last thirty-two are the third reviewer read, and nearly all of them
+     are the abstract and the opening of the introduction rewritten around
+     one distinction the paper had been making without naming.  G with the
+     trend known is a Fisher information and G^-1/2 is a Cramer-Rao floor;
+     G with the trend estimated from the same record is a shape whose
+     absolute calibration the paper itself calls unusable.  Those are now
+     the known-trend budget and the estimated-trend profile, named apart in
+     Section 2 and kept apart everywhere after it, and what is measured is
+     the relative information age of Definition 1 rather than the "earliest
+     usable age", a name that promised an operational threshold the quantity
+     does not supply.  The old name survives for the theorem quantity it
+     does describe.  The convention remark left Appendix D for that
+     definition, which is where a reader meets the quantity.
+     The rest of the thirty-two are sentences rewritten where they carried
+     the old name or the old claim: the turbofan replication, the span
+     bound's oracle, the mechanism scoped to the rigs it was measured on,
+     and the battery slope reduced to what four cells can show.
+     The last three are from the same read, a day later: the sentence
+     reporting the demand sweep now gives the range the gap runs over and
+     not only its sign, the conclusions now say where the ordering stops
+     under a causal estimator, and the paragraph introducing the frozen
+     split lost a pointer to a section that comes after it.
+     The last ten are the conclusions rewritten into three tiers at the
+     fourth reviewer read -- the theorem, exact under a known trend and a
+     known noise law; the instrument, which estimates both from the record
+     and is therefore compared by relative shape; and deployment, where the
+     causal evidence covers long records only.  The material was already
+     there and interleaved; the lines counted here are the old orderings of
+     it, together with the introduction's "nothing here assumes" replaced
+     by a sentence that says what is in fact assumed.
+     The last twenty-four are a full re-read of the typeset paper, and most
+     of them are one defect: the rename to the relative information age had
+     left tau_min standing in Appendix A, where every quantity is read at
+     the fraction q and the symbol therefore contradicted Definition 1.
+     Eighteen occurrences there and sixteen in the supplement's standard-
+     error proposition now read tau_q.  The rest are leftovers of the same
+     kind: four places still said "signal fraction" for what Section 5.2
+     renamed the surviving fraction, one column heading with them, the data
+     statement still counted twenty-five audit layers, and a reference
+     printed as "Appendix Appendix C".
+     The last five are the eighth reviewer read, and each drops a word that
+     claimed one degree too much.  Proposition 4 and the three sentences that
+     paraphrase it said the information is divided by ell "exactly" while the
+     display carries 1 + O(1/n); they now say to leading order.  Proposition 3
+     said the second-moment curve is a floor "for every noise law" when it
+     needs a finite variance, which ten of sixteen battery channels lack.  And
+     the conclusions said the applied result "does not depend on the theory"
+     when it is measured through the estimated profile; what it does not
+     depend on is reading that profile as an absolutely calibrated bound.

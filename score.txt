@@ -1,0 +1,63 @@
+﻿does the fitted optimal direction match the multinomial score?
+
+weights read at age 0.6
+
+bearing        bands    cos(a, p/p)  cos(a, entropy)    cos(p/p, entropy)
+--------------------------------------------------------------------------
+Bearing1_1        31           0.07             0.09                 0.81
+Bearing1_2        32           0.14             0.01                 0.33
+Bearing1_3        21           0.09             0.09                 0.89
+Bearing1_5        32           0.04             0.07                 0.30
+Bearing1_6        32           0.20             0.04                 0.23
+Bearing1_7        32           0.25             0.07                 0.52
+Bearing2_1        30           0.17             0.09                 0.73
+Bearing2_2        31           0.20             0.06                 0.10
+Bearing2_3        24           0.07             0.01                 0.33
+Bearing2_4        32           0.13             0.08                 0.50
+Bearing2_5        31           0.11             0.15                 0.08
+Bearing2_6        30           0.09             0.12                 0.07
+Bearing2_7        19           0.05             0.14                 0.28
+Bearing3_1        19           0.19             0.12                 0.16
+Bearing3_2        31           0.10             0.02                 0.06
+Bearing3_3        32           0.10             0.06                 0.23
+--------------------------------------------------------------------------
+median |cosine| between the fitted direction and p'/p : 0.11
+median |cosine| between the fitted direction and entropy: 0.08
+median |cosine| between p'/p and entropy weights        : 0.29
+
+A random pair of directions in this many dimensions has expected
+|cosine| about 0.14,
+so that is the level against which these should be read.
+
+does the weight vector transfer between bearings?
+
+quantity                      pairs   median |cosine|           quartiles
+--------------------------------------------------------------------------
+score weights p/p                23              0.18        0.05 to 0.25
+entropy weights                  23              0.96        0.94 to 0.97
+--------------------------------------------------------------------------
+
+TWO SEPARATE VERDICTS, and they differ.
+
+REJECTED: the fitted optimum does not align with the multinomial
+score.  Its median |cosine| is 0.11 against a chance level of
+0.14 in this many dimensions -- indistinguishable from an
+arbitrary direction.  Whatever the fitted eigenvector is finding, it
+is not the score of a multinomial band model, and that hypothesis is
+reported as tested and discarded rather than quietly dropped.
+
+CONFIRMED, and independently of the above: weights derived from a
+unit's band profile transfer between bearings at 0.18, which is the
+chance level, while entropy's transfer at 0.96.
+
+The reason is visible in the two definitions.  Score weights are
+p'/p and depend on the DERIVATIVE of the band profile, which is how
+this particular bearing happens to be degrading.  Entropy's weights
+are -(1 + log p) and depend on the LEVEL of the profile, which is a
+property of the machine type and is shared.  A statistic whose
+weights read the level transfers; one whose weights read the
+derivative cannot, however optimal it is on the record it was fitted
+to.  That is a mechanism for the Section 9 paradox -- fitted linear
+rules beat entropy in sample and fail by a factor of 136 when moved --
+and it does not depend on the multinomial model that was just
+rejected.

@@ -1,0 +1,77 @@
+{
+  "channels": [
+    {
+      "channel": "rms",
+      "units": 16,
+      "span": 3.5923377290396736,
+      "tmin_unweighted": 0.9831629269391817,
+      "tmin_weighted": 0.9687203947316911,
+      "shift": 0.014442532207490588
+    },
+    {
+      "channel": "peak",
+      "units": 17,
+      "span": 3.782660164393939,
+      "tmin_unweighted": 0.983178397521027,
+      "tmin_weighted": 0.9760970388869069,
+      "shift": 0.007081358634120072
+    },
+    {
+      "channel": "kurt",
+      "units": 12,
+      "span": 5.232513348440479,
+      "tmin_unweighted": 0.9782341548373,
+      "tmin_weighted": 0.9429226689251952,
+      "shift": 0.03531148591210487
+    },
+    {
+      "channel": "0--2 kHz",
+      "units": 12,
+      "span": 1.9813583577290252,
+      "tmin_unweighted": 0.8405085308405585,
+      "tmin_weighted": 0.575837690097414,
+      "shift": 0.2646708407431445
+    },
+    {
+      "channel": "2--4 kHz",
+      "units": 16,
+      "span": 2.7194079863860776,
+      "tmin_unweighted": 0.15005146483600362,
+      "tmin_weighted": 0.3250234495864346,
+      "shift": 0.17497198475043096
+    },
+    {
+      "channel": "4--10 kHz",
+      "units": 15,
+      "span": 3.3708506422622087,
+      "tmin_unweighted": 0.10294117647058823,
+      "tmin_weighted": 0.24198132358911897,
+      "shift": 0.13904014711853074
+    },
+    {
+      "channel": "10--12.8 kHz",
+      "units": 13,
+      "span": 5.083751357203698,
+      "tmin_unweighted": 0.7217391304347827,
+      "tmin_weighted": 0.21968616262482168,
+      "shift": 0.502052967809961
+    }
+  ],
+  "span_min": 1.9813583577290252,
+  "span_max": 5.232513348440479,
+  "span_median": 3.5923377290396736,
+  "shift_median": 0.13904014711853074,
+  "drawn_channel": "4--10 kHz",
+  "drawn_units": 15,
+  "agreement_with_results_file": 0.0,
+  "displacement_early": 0.5909648421759901,
+  "displacement_late": 3.422626458700146,
+  "displacement_tau": [
+    0.3,
+    0.88
+  ],
+  "schematic_rise": 3.5923377290396736,
+  "schematic_peak": 0.728151919866444,
+  "drawn_scale_unit": "Bearing3_3",
+  "drawn_scale_span": 3.3708506422622087
+}

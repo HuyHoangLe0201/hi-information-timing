@@ -1,0 +1,1157 @@
+{
+  "checked": 191,
+  "stale": [
+    "spread_ceiling.json"
+  ],
+  "orphan": [
+    "RESULTS.json",
+    "battery_raw_meta.json",
+    "cmapss_profiles_FD001.json",
+    "cmapss_profiles_FD004.json",
+    "staleness.json",
+    "tau_percell.json",
+    "tau_percell_v2.json",
+    "weight_stability_cache.json",
+    "xjtu_profiles.json"
+  ],
+  "rows": [
+    {
+      "result": "RESULTS.json",
+      "producer": null,
+      "verdict": "no producer"
+    },
+    {
+      "result": "attrition.json",
+      "producer": "attrition.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "audit_directions.json",
+      "producer": "audit_directions.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "autocorrelation.json",
+      "producer": "autocorrelation.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "band_frequency.json",
+      "producer": "band_frequency.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "bandwidth_optimum.json",
+      "producer": "bandwidth_optimum.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "bandwidth_sweep.json",
+      "producer": "bandwidth_sweep.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "bandwidth_tau.json",
+      "producer": "bandwidth_tau.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "battery_class_fit.json",
+      "producer": "battery_class_fit.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "battery_diagnosis.json",
+      "producer": "battery_diagnosis.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "battery_profiles.json",
+      "producer": "battery_profiles.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "battery_raw_meta.json",
+      "producer": null,
+      "verdict": "no producer"
+    },
+    {
+      "result": "battery_tails.json",
+      "producer": "diag_battery_tails.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "bayesian_floor.json",
+      "producer": "bayesian_floor.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "beta_calibration.json",
+      "producer": "beta_calibration.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "beta_debias.json",
+      "producer": "beta_debias.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "calib_summary.json",
+      "producer": "fit_power_law.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "censoring_serial.json",
+      "producer": "censoring_serial.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "censoring_validate.json",
+      "producer": "censoring_validate.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "certificate_resolution.json",
+      "producer": "certificate_resolution.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "channel_corr.json",
+      "producer": "channel_corr.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "check_singular.json",
+      "producer": "check_singular.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "clock_band.json",
+      "producer": "clock_band.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "closure.json",
+      "producer": "closure.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "closure_meaning.json",
+      "producer": "closure_meaning.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "cmapss_profiles_FD001.json",
+      "producer": null,
+      "verdict": "no producer"
+    },
+    {
+      "result": "cmapss_profiles_FD004.json",
+      "producer": null,
+      "verdict": "no producer"
+    },
+    {
+      "result": "contrast_identity.json",
+      "producer": "contrast_identity.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "crb_all_domains.json",
+      "producer": "crb_all_domains.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "crb_full.json",
+      "producer": "crb_full.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "crb_results.json",
+      "producer": "crb_experiment.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "criteria_resolution.json",
+      "producer": "criteria_resolution.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "decision_value.json",
+      "producer": "decision_value.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "delay_measured.json",
+      "producer": "delay_measured.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "density_arbiter.json",
+      "producer": "density_arbiter.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "derivative_bias.json",
+      "producer": "derivative_bias.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "detection_final.json",
+      "producer": "detection_final.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "detection_matched.json",
+      "producer": "detection_matched.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "detection_time.json",
+      "producer": "detection_time.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "diag_slope.json",
+      "producer": "diag_slope.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "discount_scope.json",
+      "producer": "discount_scope.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "distribution_both.json",
+      "producer": "distribution_both.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "distribution_test.json",
+      "producer": "distribution_test.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "dynamic_range.json",
+      "producer": "_dyn.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "effective_ranking.json",
+      "producer": "effective_ranking.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "endtoend_real.json",
+      "producer": "endtoend_real.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "epsilon_certificate.json",
+      "producer": "epsilon_certificate.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "estimated_correction.json",
+      "producer": "estimated_correction.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "eta_monotone.json",
+      "producer": "eta_monotone.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "eta_standard_error.json",
+      "producer": "eta_standard_error.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "exponent_measure.json",
+      "producer": "exponent_measure.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "family_blame.json",
+      "producer": "family_blame.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "feasibility.json",
+      "producer": "feasibility.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "figdistort.json",
+      "producer": "figdistort.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "figmodel.json",
+      "producer": "figmodel.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "fineband_tau.json",
+      "producer": "fineband_tau.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "fisher_nongaussian.json",
+      "producer": "fisher_nongaussian.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "fleet_identifiability.json",
+      "producer": "fleet_identifiability.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "fleet_prior.json",
+      "producer": "fleet_prior.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "floor_calibration.json",
+      "producer": "floor_calibration.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "floor_check.json",
+      "producer": "floor_check.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "floor_constant.json",
+      "producer": "floor_constant.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "floor_sensitivity.json",
+      "producer": "floor_sensitivity.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "floor_serial.json",
+      "producer": "floor_serial.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "floor_shape.json",
+      "producer": "floor_shape.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "fusion_check.json",
+      "producer": "fusion_check.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "fusion_correlation.json",
+      "producer": "fusion_correlation.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "fusion_null.json",
+      "producer": "fusion_null.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "fusion_ranksafe.json",
+      "producer": "fusion_ranksafe.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "fusion_taumin.json",
+      "producer": "fusion_taumin.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "gap_standard_error.json",
+      "producer": "gap_standard_error.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "hetero_exponent.json",
+      "producer": "hetero_exponent.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "heterogeneity_sweep.json",
+      "producer": "heterogeneity_sweep.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "identifiable_part.json",
+      "producer": "identifiable_part.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "indicator_profiles.json",
+      "producer": "indicator_profiles.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "invariance_check.json",
+      "producer": "invariance_check.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "leakage_control.json",
+      "producer": "leakage_control.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "leave_one_measure.json",
+      "producer": "leave_one_measure.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "length_screen.json",
+      "producer": "length_screen.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "leverage_bound.json",
+      "producer": "leverage_bound.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "linear_bound.json",
+      "producer": "linear_bound.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "linear_bound_null.json",
+      "producer": "linear_bound_null.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "linear_transfer_paired.json",
+      "producer": "linear_transfer_paired.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "linear_vs_shape.json",
+      "producer": "linear_vs_shape.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "linearisation_radius.json",
+      "producer": "linearisation_radius.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "load_dependence.json",
+      "producer": "load_dependence.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "mechanism_test.json",
+      "producer": "mechanism_test.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "mechanism_turbofan.json",
+      "producer": "mechanism_turbofan.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "model_error.json",
+      "producer": "model_error.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "monotone_distortion.json",
+      "producer": "monotone_distortion.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "multivariate_attained.json",
+      "producer": "multivariate_attained.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "nonparam_indicators.json",
+      "producer": "nonparam_indicators.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "nonparam_validate.json",
+      "producer": "nonparam_validate.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "nonparametric_nuisance.json",
+      "producer": "nonparametric_nuisance.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "nuisance.json",
+      "producer": "nuisance.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "nuisance_achievable.json",
+      "producer": "nuisance_achievable.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "odds_bound.json",
+      "producer": "odds_bound.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "oof_attrition.json",
+      "producer": "oof_attrition.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "oof_cost.json",
+      "producer": "oof_cost.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "oof_leak.json",
+      "producer": "oof_leak.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "oof_results.json",
+      "producer": "oof_validate.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "optimal_indicator.json",
+      "producer": "optimal_indicator.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "oracle_vs_model.json",
+      "producer": "oracle_vs_model.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "order_stability.json",
+      "producer": "order_stability.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "ordering_census.json",
+      "producer": "ordering_census.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "powerlaw_adequacy.json",
+      "producer": "powerlaw_adequacy.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "predicts_rul.json",
+      "producer": "predicts_rul.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "predicts_rul2.json",
+      "producer": "predicts_rul2.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "predicts_sweep.json",
+      "producer": "predicts_sweep.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "predicts_synth.json",
+      "producer": "predicts_synth.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "price_of_flexibility.json",
+      "producer": "price_of_flexibility.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "prior_crossover.json",
+      "producer": "prior_crossover.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "prior_nongaussian.json",
+      "producer": "prior_nongaussian.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "prior_radius.json",
+      "producer": "prior_radius.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "qstar_sweep.json",
+      "producer": "qstar_sweep.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "rank_guard.json",
+      "producer": "rank_guard.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "rank_guard2.json",
+      "producer": "rank_guard2.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "rank_guard3.json",
+      "producer": "rank_guard3.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "rank_guard4.json",
+      "producer": "rank_guard4.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "rank_guard5.json",
+      "producer": "rank_guard5.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "rank_guard_data.json",
+      "producer": "rank_guard_data.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "ranking_margin.json",
+      "producer": "ranking_margin.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "ratio_control.json",
+      "producer": "ratio_control.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "regime_normalise.json",
+      "producer": "regime_normalise.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "regime_sensitivity.json",
+      "producer": "regime_sensitivity.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "retention.json",
+      "producer": "explore_retention.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "retention_all.json",
+      "producer": "retention_all.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "retention_debias.json",
+      "producer": "retention_debias.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "retention_final.json",
+      "producer": "retention_final.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "retention_nonparam.json",
+      "producer": "retention_nonparam.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "retention_null.json",
+      "producer": "retention_null.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "retention_operating.json",
+      "producer": "retention_operating.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "retention_runin.json",
+      "producer": "retention_runin.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "retention_shape.json",
+      "producer": "retention_shape.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "retention_validate.json",
+      "producer": "retention_validate.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "reversal_resolution.json",
+      "producer": "reversal_resolution.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "rul_by_kind.json",
+      "producer": "rul_by_kind.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "sampling_rule.json",
+      "producer": "sampling_rule.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "sampling_rule2.json",
+      "producer": "sampling_rule2.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "saturation_power.json",
+      "producer": "saturation_power.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "saturation_rate.json",
+      "producer": "saturation_rate.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "saturation_synth.json",
+      "producer": "saturation_synth.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "saturation_test.json",
+      "producer": "test_saturation.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "score_mechanism.json",
+      "producer": "score_mechanism.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "se_formula_check.json",
+      "producer": "se_formula_check.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "se_scaling.json",
+      "producer": "se_scaling.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "sensitivity.json",
+      "producer": "sensitivity.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "sensitivity_theory.json",
+      "producer": "sensitivity_theory.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "shape_drift.json",
+      "producer": "shape_drift.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "shape_indicators.json",
+      "producer": "shape_indicators.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "shape_vs_level.json",
+      "producer": "shape_vs_level.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "shared_ellipse.json",
+      "producer": "shared_ellipse.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "skill_local.json",
+      "producer": "skill_local.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "skill_vs_ranking.json",
+      "producer": "skill_vs_ranking.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "span_qr.json",
+      "producer": "span_qr.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "spatial_test.json",
+      "producer": "spatial_test.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "spread_ceiling.json",
+      "producer": "spread_ceiling.py",
+      "verdict": "STALE",
+      "lag_hours": 0.008554911745919122
+    },
+    {
+      "result": "spread_predicts.json",
+      "producer": "spread_predicts.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "staleness.json",
+      "producer": null,
+      "verdict": "no producer"
+    },
+    {
+      "result": "submodularity.json",
+      "producer": "submodularity.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "submodularity_ratio.json",
+      "producer": "submodularity_ratio.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "sweep_choices.json",
+      "producer": "sweep_choices.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "synth_groundtruth.json",
+      "producer": "synth_groundtruth.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "tail_drift.json",
+      "producer": "tail_drift.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "tail_factor.json",
+      "producer": "tail_factor.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "tau_fleet_ci.json",
+      "producer": "tau_fleet_ci.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "tau_percell.json",
+      "producer": null,
+      "verdict": "no producer"
+    },
+    {
+      "result": "tau_percell_v2.json",
+      "producer": null,
+      "verdict": "no producer"
+    },
+    {
+      "result": "tau_uncertainty.json",
+      "producer": "tau_uncertainty.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "theory_exact.json",
+      "producer": "theory_exact.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "tightness.json",
+      "producer": "tightness.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "tightness2.json",
+      "producer": "tightness2.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "trimmed_certificate.json",
+      "producer": "trimmed_certificate.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "trust_table.json",
+      "producer": "trust_table.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "turbofan_distribution.json",
+      "producer": "turbofan_distribution.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "two_bandwidth.json",
+      "producer": "two_bandwidth.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "validate.json",
+      "producer": "validate.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "vs_criteria.json",
+      "producer": "vs_criteria.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "weight_stability.json",
+      "producer": "weight_stability.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "weight_stability_cache.json",
+      "producer": null,
+      "verdict": "no producer"
+    },
+    {
+      "result": "weighted_calibration.json",
+      "producer": "weighted_calibration.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "weighted_density.json",
+      "producer": "weighted_density.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "why_no_test.json",
+      "producer": "why_no_test.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "window_serial.json",
+      "producer": "window_serial.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "window_signlaw.json",
+      "producer": "window_signlaw.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "window_validate.json",
+      "producer": "window_validate.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "wishart_tails.json",
+      "producer": "wishart_tails.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "worked_example.json",
+      "producer": "worked_example.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "xjtu_conditions.json",
+      "producer": "xjtu_conditions.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    },
+    {
+      "result": "xjtu_profiles.json",
+      "producer": null,
+      "verdict": "no producer"
+    },
+    {
+      "result": "xjtu_trust.json",
+      "producer": "xjtu_trust.py",
+      "verdict": "current",
+      "lag_hours": 0.0
+    }
+  ],
+  "generated": "2026-09-04 22:49:12"
+}

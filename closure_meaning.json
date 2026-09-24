@@ -1,0 +1,38 @@
+{
+  "synthetic": [
+    {
+      "case": "constant",
+      "span": 1.0,
+      "unweighted": 0.0039517306280474895,
+      "weighted": 0.0054325987370512085
+    },
+    {
+      "case": "rises 2x",
+      "span": 1.9983347210657787,
+      "unweighted": 0.0022452890735334963,
+      "weighted": 0.005002081342932341
+    },
+    {
+      "case": "rises 5x",
+      "span": 4.983388704318936,
+      "unweighted": 0.006254390079871941,
+      "weighted": 0.009924645238860608
+    },
+    {
+      "case": "rises 10x",
+      "span": 9.925558312655085,
+      "unweighted": 0.009029342157238884,
+      "weighted": 0.007752265206826758
+    },
+    {
+      "case": "tracks signal (t^3)",
+      "span": 10.999999936342594,
+      "unweighted": 0.00766912527144703,
+      "weighted": 0.015041932225053123
+    }
+  ],
+  "real": {
+    "unweighted": 0.02,
+    "weighted": 0.044
+  }
+}

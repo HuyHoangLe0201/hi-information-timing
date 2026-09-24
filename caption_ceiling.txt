@@ -1,0 +1,6 @@
+75  no caption may run longer than this.  The set was cut from a mean of 77
+    words and a longest of 140 to a mean of 42 and a longest of 71, and the
+    ceiling is set just above what a three-panel figure needs: an identification
+    and one clause per panel.  A caption that wants more is a caption carrying a
+    sentence the body should carry, which is the trim to make -- not a higher
+    ceiling.

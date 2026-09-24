@@ -1,0 +1,62 @@
+﻿standard error of the earliest usable age
+the first-order formula against a block bootstrap of the whole chain
+
+rig        record        measure                 tau   formula  bootstrap  ratio
+--------------------------------------------------------------------------------
+PRONOSTIA  Bearing1_1    total power           0.971    0.0150     0.0228   0.66
+PRONOSTIA  Bearing1_2    total power           0.927    0.0845     0.1477   0.57
+--------------------------------------------------------------------------------
+formula over bootstrap: median 0.61, range 0.57 to 0.66 over 2 cells (238s)
+
+Both estimate the same standard error, so agreement to a factor of a few
+is what a first-order formula can be asked for.  The bootstrap is used
+for every figure below; the formula's role is to say WHERE the age is
+well determined, and it says: wherever the density at that age is high.
+
+
+the distribution-minus-amount gap, with the fleet resampled
+
+  PRONOSTIA 1/16  (18s)
+  PRONOSTIA 2/16  (23s)
+  PRONOSTIA 3/16  (40s)
+  PRONOSTIA 4/16  (56s)
+  PRONOSTIA 5/16  (73s)
+  PRONOSTIA 6/16  (88s)
+  PRONOSTIA 7/16  (94s)
+  PRONOSTIA 8/16  (99s)
+  PRONOSTIA 9/16  (111s)
+  PRONOSTIA 10/16  (116s)
+  PRONOSTIA 11/16  (132s)
+  PRONOSTIA 12/16  (136s)
+  PRONOSTIA 13/16  (138s)
+  PRONOSTIA 14/16  (141s)
+  PRONOSTIA 15/16  (151s)
+  PRONOSTIA 16/16  (154s)
+  XJTU 1/15  (154s)
+  XJTU 2/15  (154s)
+  XJTU 3/15  (154s)
+  XJTU 4/15  (154s)
+  XJTU 5/15  (154s)
+  XJTU 6/15  (157s)
+  XJTU 7/15  (157s)
+  XJTU 8/15  (160s)
+  XJTU 9/15  (160s)
+  XJTU 10/15  (162s)
+  XJTU 11/15  (180s)
+  XJTU 12/15  (198s)
+  XJTU 13/15  (200s)
+  XJTU 14/15  (210s)
+  XJTU 15/15  (210s)
+
+rig           units      gap        95% interval   excludes zero
+----------------------------------------------------------------
+PRONOSTIA        16    0.437    [+0.281, +0.574]             yes
+XJTU              7    0.332    [+0.037, +0.445]             yes
+----------------------------------------------------------------
+The gap is amount minus distribution, so a positive value means the
+distributional indicators are usable earlier.  The interval is a
+percentile bootstrap over bearings, which is the source of uncertainty
+that matters for a claim about a fleet median.
+
+The separation survives resampling on both rigs, so the headline
+result is not an artefact of which bearings happened to be tested.

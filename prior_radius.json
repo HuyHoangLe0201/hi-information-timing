@@ -1,0 +1,60 @@
+{
+  "prior_sd": 0.2943781263324078,
+  "radius_oracle": 0.0043265449597657685,
+  "radius_practical": 0.07176375955560979,
+  "prior_in_oracle_radii": 68.04000168031187,
+  "prior_in_practical_radii": 4.102044376650779,
+  "threshold": [
+    {
+      "regime": "given the trend",
+      "radius": 0.0043265449597657685,
+      "G_needed": 53410.14244885155
+    },
+    {
+      "regime": "fitting the trend",
+      "radius": 0.07176375955560979,
+      "G_needed": 182.63380383950442
+    }
+  ],
+  "demands": [
+    {
+      "eps": 0.3,
+      "G": 0.0,
+      "post": 0.2943781263324078,
+      "inside_oracle": false,
+      "inside_practical": false
+    },
+    {
+      "eps": 0.2,
+      "G": 13.460448585922707,
+      "post": 0.2,
+      "inside_oracle": false,
+      "inside_practical": false
+    },
+    {
+      "eps": 0.1,
+      "G": 88.46044858592269,
+      "post": 0.1,
+      "inside_oracle": false,
+      "inside_practical": false
+    },
+    {
+      "eps": 0.05,
+      "G": 388.4604485859227,
+      "post": 0.05,
+      "inside_oracle": false,
+      "inside_practical": true
+    },
+    {
+      "eps": 0.01,
+      "G": 9988.460448585924,
+      "post": 0.01,
+      "inside_oracle": false,
+      "inside_practical": true
+    }
+  ],
+  "G_bearings_median": 19988707.643783852,
+  "G_turbofan": 139775.34229223494,
+  "margin_turbofan": 2.6170187137413348,
+  "margin_bearings": 374.24928538481475
+}

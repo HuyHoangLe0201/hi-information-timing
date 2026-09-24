@@ -1,0 +1,72 @@
+[
+  {
+    "domain": "bearing RMS",
+    "units": 17,
+    "life_cv": 0.5887562526648156,
+    "gamma_prior": 2.8848878535193223,
+    "gamma_record": 20031157.768992767,
+    "ratio": 6943478.840800147,
+    "crossing": 0.0007002801120448179,
+    "never": 0
+  },
+  {
+    "domain": "bearing 0--2 kHz",
+    "units": 17,
+    "life_cv": 0.5887562526648156,
+    "gamma_prior": 2.8848878535193223,
+    "gamma_record": 1821071.5271098125,
+    "ratio": 631245.1712423612,
+    "crossing": 0.0007002801120448179,
+    "never": 0
+  },
+  {
+    "domain": "bearing 4--10 kHz",
+    "units": 17,
+    "life_cv": 0.5887562526648156,
+    "gamma_prior": 2.8848878535193223,
+    "gamma_record": 1439157.2814171182,
+    "ratio": 498860.7372246607,
+    "crossing": 0.0007002801120448179,
+    "never": 0
+  },
+  {
+    "domain": "turbofan s4",
+    "units": 100,
+    "life_cv": 0.22462677139623527,
+    "gamma_prior": 19.8187824330832,
+    "gamma_record": 53552.01463504217,
+    "ratio": 2702.0839860297665,
+    "crossing": 0.005128205128205128,
+    "never": 0
+  },
+  {
+    "domain": "turbofan s11",
+    "units": 100,
+    "life_cv": 0.22462677139623527,
+    "gamma_prior": 19.8187824330832,
+    "gamma_record": 56237.80011817509,
+    "ratio": 2837.6011648575422,
+    "crossing": 0.005128205128205128,
+    "never": 0
+  },
+  {
+    "domain": "turbofan s15",
+    "units": 100,
+    "life_cv": 0.22462677139623527,
+    "gamma_prior": 19.8187824330832,
+    "gamma_record": 43828.60761179763,
+    "ratio": 2211.4682251435984,
+    "crossing": 0.005115122972265829,
+    "never": 0
+  },
+  {
+    "domain": "cell capacity",
+    "units": 4,
+    "life_cv": 0.308199897925646,
+    "gamma_prior": 10.527736803287326,
+    "gamma_record": 1703591.7627488286,
+    "ratio": 161819.37244260093,
+    "crossing": 0.01139546727782022,
+    "never": 0
+  }
+]

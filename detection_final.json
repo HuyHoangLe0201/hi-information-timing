@@ -1,0 +1,334 @@
+{
+  "PRONOSTIA": {
+    "per": {
+      "spectral entropy": {
+        "kind": "distribution",
+        "k": 2.55418701171875,
+        "fa": 0.125,
+        "detected": 6,
+        "units": 16,
+        "age": 0.4439158065309076
+      },
+      "spectral centroid": {
+        "kind": "distribution",
+        "k": 3.9958984375,
+        "fa": 0.1125,
+        "detected": 10,
+        "units": 16,
+        "age": 0.4799866731902798
+      },
+      "spectral spread": {
+        "kind": "distribution",
+        "k": 3.9375,
+        "fa": 0.15,
+        "detected": 10,
+        "units": 16,
+        "age": 0.6754277878251883
+      },
+      "high/low ratio": {
+        "kind": "distribution",
+        "k": 6.50338134765625,
+        "fa": 0.10625,
+        "detected": 8,
+        "units": 16,
+        "age": 0.4933876792718175
+      },
+      "total power": {
+        "kind": "amount",
+        "k": 3.1053222656249995,
+        "fa": 0.08125,
+        "detected": 13,
+        "units": 16,
+        "age": 0.7557603686635944
+      },
+      "peak band power": {
+        "kind": "amount",
+        "k": 2.7950805664062504,
+        "fa": 0.10625,
+        "detected": 9,
+        "units": 16,
+        "age": 0.7557603686635944
+      },
+      "high-band power": {
+        "kind": "amount",
+        "k": 11.0037109375,
+        "fa": 0.11875,
+        "detected": 11,
+        "units": 16,
+        "age": 0.8576349024110218
+      },
+      "log total power": {
+        "kind": "amount",
+        "k": 3.06517333984375,
+        "fa": 0.09375,
+        "detected": 14,
+        "units": 16,
+        "age": 0.6582044652996928
+      }
+    },
+    "pairs": [
+      {
+        "distribution": "spectral entropy",
+        "amount": "total power",
+        "units": 6,
+        "gain": 0.04963449893622822
+      },
+      {
+        "distribution": "spectral entropy",
+        "amount": "peak band power",
+        "units": 6,
+        "gain": 0.07386769814296715
+      },
+      {
+        "distribution": "spectral entropy",
+        "amount": "high-band power",
+        "units": 6,
+        "gain": 0.07806232452806777
+      },
+      {
+        "distribution": "spectral entropy",
+        "amount": "log total power",
+        "units": 6,
+        "gain": 0.06489708329174114
+      },
+      {
+        "distribution": "spectral centroid",
+        "amount": "total power",
+        "units": 10,
+        "gain": 0.153010033444816
+      },
+      {
+        "distribution": "spectral centroid",
+        "amount": "peak band power",
+        "units": 8,
+        "gain": 0.1987568264771262
+      },
+      {
+        "distribution": "spectral centroid",
+        "amount": "high-band power",
+        "units": 10,
+        "gain": 0.0
+      },
+      {
+        "distribution": "spectral centroid",
+        "amount": "log total power",
+        "units": 9,
+        "gain": 0.15652173913043477
+      },
+      {
+        "distribution": "spectral spread",
+        "amount": "total power",
+        "units": 10,
+        "gain": 0.08369518183200315
+      },
+      {
+        "distribution": "spectral spread",
+        "amount": "peak band power",
+        "units": 7,
+        "gain": 0.12981455064194009
+      },
+      {
+        "distribution": "spectral spread",
+        "amount": "high-band power",
+        "units": 9,
+        "gain": 0.0
+      },
+      {
+        "distribution": "spectral spread",
+        "amount": "log total power",
+        "units": 9,
+        "gain": 0.08030112923462987
+      },
+      {
+        "distribution": "high/low ratio",
+        "amount": "total power",
+        "units": 8,
+        "gain": 0.12915276537756687
+      },
+      {
+        "distribution": "high/low ratio",
+        "amount": "peak band power",
+        "units": 6,
+        "gain": 0.3545728465083304
+      },
+      {
+        "distribution": "high/low ratio",
+        "amount": "high-band power",
+        "units": 8,
+        "gain": 0.0009708737864077555
+      },
+      {
+        "distribution": "high/low ratio",
+        "amount": "log total power",
+        "units": 7,
+        "gain": 0.15384615384615385
+      }
+    ]
+  },
+  "XJTU": {
+    "per": {
+      "spectral entropy": {
+        "kind": "distribution",
+        "k": 2.9775756835937495,
+        "fa": 0.1,
+        "detected": 12,
+        "units": 15,
+        "age": 0.5553154265719873
+      },
+      "spectral centroid": {
+        "kind": "distribution",
+        "k": 4.1637939453125,
+        "fa": 0.1,
+        "detected": 12,
+        "units": 15,
+        "age": 0.6915605439240233
+      },
+      "spectral spread": {
+        "kind": "distribution",
+        "k": 4.324389648437499,
+        "fa": 0.11333333333333333,
+        "detected": 11,
+        "units": 15,
+        "age": 0.4180327868852459
+      },
+      "high/low ratio": {
+        "kind": "distribution",
+        "k": 4.44483642578125,
+        "fa": 0.07333333333333333,
+        "detected": 12,
+        "units": 15,
+        "age": 0.6050075545003237
+      },
+      "total power": {
+        "kind": "amount",
+        "k": 3.9302001953125,
+        "fa": 0.12666666666666668,
+        "detected": 13,
+        "units": 15,
+        "age": 0.6403508771929824
+      },
+      "peak band power": {
+        "kind": "amount",
+        "k": 3.4739624023437496,
+        "fa": 0.08,
+        "detected": 12,
+        "units": 15,
+        "age": 0.5670731707317074
+      },
+      "high-band power": {
+        "kind": "amount",
+        "k": 4.6017822265625,
+        "fa": 0.09333333333333334,
+        "detected": 13,
+        "units": 15,
+        "age": 0.4180327868852459
+      },
+      "log total power": {
+        "kind": "amount",
+        "k": 4.40833740234375,
+        "fa": 0.06666666666666667,
+        "detected": 12,
+        "units": 15,
+        "age": 0.5811802861963931
+      }
+    },
+    "pairs": [
+      {
+        "distribution": "spectral entropy",
+        "amount": "total power",
+        "units": 12,
+        "gain": 0.0
+      },
+      {
+        "distribution": "spectral entropy",
+        "amount": "peak band power",
+        "units": 11,
+        "gain": 0.0003940110323088497
+      },
+      {
+        "distribution": "spectral entropy",
+        "amount": "high-band power",
+        "units": 12,
+        "gain": 0.007258635007535458
+      },
+      {
+        "distribution": "spectral entropy",
+        "amount": "log total power",
+        "units": 12,
+        "gain": 0.0
+      },
+      {
+        "distribution": "spectral centroid",
+        "amount": "total power",
+        "units": 12,
+        "gain": -0.05832974601808008
+      },
+      {
+        "distribution": "spectral centroid",
+        "amount": "peak band power",
+        "units": 11,
+        "gain": -0.0020032051282050656
+      },
+      {
+        "distribution": "spectral centroid",
+        "amount": "high-band power",
+        "units": 12,
+        "gain": -0.042024466869763855
+      },
+      {
+        "distribution": "spectral centroid",
+        "amount": "log total power",
+        "units": 12,
+        "gain": -0.049661611730793365
+      },
+      {
+        "distribution": "spectral spread",
+        "amount": "total power",
+        "units": 11,
+        "gain": -0.0029498525073746173
+      },
+      {
+        "distribution": "spectral spread",
+        "amount": "peak band power",
+        "units": 10,
+        "gain": 0.03621619981491124
+      },
+      {
+        "distribution": "spectral spread",
+        "amount": "high-band power",
+        "units": 11,
+        "gain": 0.0
+      },
+      {
+        "distribution": "spectral spread",
+        "amount": "log total power",
+        "units": 11,
+        "gain": 0.050632911392405056
+      },
+      {
+        "distribution": "high/low ratio",
+        "amount": "total power",
+        "units": 12,
+        "gain": -0.0369206485865978
+      },
+      {
+        "distribution": "high/low ratio",
+        "amount": "peak band power",
+        "units": 11,
+        "gain": 0.0
+      },
+      {
+        "distribution": "high/low ratio",
+        "amount": "high-band power",
+        "units": 12,
+        "gain": -0.01644963745905545
+      },
+      {
+        "distribution": "high/low ratio",
+        "amount": "log total power",
+        "units": 12,
+        "gain": -0.021510632075865815
+      }
+    ]
+  }
+}

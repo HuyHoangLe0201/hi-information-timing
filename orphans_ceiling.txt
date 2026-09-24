@@ -1,0 +1,11 @@
+5
+
+The number of printed values with no stored match, at the
+last run that was accepted.  It may be lowered by accounting for
+a number and may not be raised: a rise means a sentence now quotes
+something the repository cannot produce.
+
+Lowered from seven to five.  crb_totals.py now computes the corpus at all
+three levels -- 370 units, 1068 unit-channel series, 102464 evaluation cells
+-- and writes them where the audits read from, so the two totals the paper
+prints are produced by the repository rather than only asserted by it.

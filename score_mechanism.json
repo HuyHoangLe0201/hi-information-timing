@@ -1,0 +1,123 @@
+{
+  "ref_age": 0.6,
+  "per_unit": [
+    {
+      "unit": "Bearing1_1",
+      "bands": 31,
+      "cos_a_score": 0.07236254826192602,
+      "cos_a_ent": 0.08536496687254433,
+      "cos_score_ent": 0.81270078331596
+    },
+    {
+      "unit": "Bearing1_2",
+      "bands": 32,
+      "cos_a_score": 0.1395637888383705,
+      "cos_a_ent": 0.009187013133054724,
+      "cos_score_ent": 0.3342281338714884
+    },
+    {
+      "unit": "Bearing1_3",
+      "bands": 21,
+      "cos_a_score": 0.09398299210376633,
+      "cos_a_ent": 0.08521873322336555,
+      "cos_score_ent": 0.8931742593733433
+    },
+    {
+      "unit": "Bearing1_5",
+      "bands": 32,
+      "cos_a_score": 0.039360003690089865,
+      "cos_a_ent": 0.06745418508116761,
+      "cos_score_ent": 0.29662328574216285
+    },
+    {
+      "unit": "Bearing1_6",
+      "bands": 32,
+      "cos_a_score": 0.1988652791037521,
+      "cos_a_ent": 0.04095326568812386,
+      "cos_score_ent": 0.22702681735834707
+    },
+    {
+      "unit": "Bearing1_7",
+      "bands": 32,
+      "cos_a_score": 0.2507394564143513,
+      "cos_a_ent": 0.07026405962896977,
+      "cos_score_ent": 0.5161825274105184
+    },
+    {
+      "unit": "Bearing2_1",
+      "bands": 30,
+      "cos_a_score": 0.17321636278995306,
+      "cos_a_ent": 0.08744943987566978,
+      "cos_score_ent": 0.7292782801964328
+    },
+    {
+      "unit": "Bearing2_2",
+      "bands": 31,
+      "cos_a_score": 0.20256319488420602,
+      "cos_a_ent": 0.06226681635038961,
+      "cos_score_ent": 0.1044063580994728
+    },
+    {
+      "unit": "Bearing2_3",
+      "bands": 24,
+      "cos_a_score": 0.06615961769732863,
+      "cos_a_ent": 0.008703683840625594,
+      "cos_score_ent": 0.33242496479729505
+    },
+    {
+      "unit": "Bearing2_4",
+      "bands": 32,
+      "cos_a_score": 0.13045419839201328,
+      "cos_a_ent": 0.0841979639919914,
+      "cos_score_ent": 0.49572729416496003
+    },
+    {
+      "unit": "Bearing2_5",
+      "bands": 31,
+      "cos_a_score": 0.11175204838792047,
+      "cos_a_ent": 0.15161024084006117,
+      "cos_score_ent": 0.08176651726247862
+    },
+    {
+      "unit": "Bearing2_6",
+      "bands": 30,
+      "cos_a_score": 0.09448824716566916,
+      "cos_a_ent": 0.12026612954856981,
+      "cos_score_ent": 0.0660698100758719
+    },
+    {
+      "unit": "Bearing2_7",
+      "bands": 19,
+      "cos_a_score": 0.050117593308640636,
+      "cos_a_ent": 0.13697274328928566,
+      "cos_score_ent": 0.278807380187803
+    },
+    {
+      "unit": "Bearing3_1",
+      "bands": 19,
+      "cos_a_score": 0.18578584336383328,
+      "cos_a_ent": 0.11958273958851559,
+      "cos_score_ent": 0.16347427133053538
+    },
+    {
+      "unit": "Bearing3_2",
+      "bands": 31,
+      "cos_a_score": 0.10346141409758444,
+      "cos_a_ent": 0.015679476197150103,
+      "cos_score_ent": 0.05696380515250565
+    },
+    {
+      "unit": "Bearing3_3",
+      "bands": 32,
+      "cos_a_score": 0.09656384299913419,
+      "cos_a_ent": 0.05521335937631987,
+      "cos_score_ent": 0.2253096952568825
+    }
+  ],
+  "cos_a_score": 0.10760673124275245,
+  "cos_a_entropy": 0.07723101181048059,
+  "cos_score_entropy": 0.2877153329649829,
+  "transfer_score": 0.1765758469838328,
+  "transfer_entropy": 0.9559281659371656,
+  "chance_level": 0.14330429752549928
+}

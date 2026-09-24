@@ -1,0 +1,23 @@
+[
+  {
+    "channel": "fine 4-10 kHz (power)",
+    "identity": 0.9741583208872693,
+    "sqrt (amplitude)": 0.9761900659577332,
+    "square": 0.9710323581194562,
+    "log": 0.9728644775008144
+  },
+  {
+    "channel": "fine full band (power)",
+    "identity": 0.9707323147967933,
+    "sqrt (amplitude)": 0.9725369148728003,
+    "square": 0.9664332285571506,
+    "log": 0.9685034324942792
+  },
+  {
+    "channel": "stored 4-10 kHz",
+    "identity": 0.24116930572472595,
+    "sqrt (amplitude)": 0.3450439146800502,
+    "square": 0.3989962358845671,
+    "log": 0.34880803011292344
+  }
+]
