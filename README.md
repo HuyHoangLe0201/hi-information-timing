@@ -124,3 +124,8 @@ Each ceiling file carries, in prose, the reason every unit under it is there.
 They are not thresholds tuned until the layer went quiet; raising one is meant
 to be a decision taken against a printed list, and the files record those
 decisions.
+
+## License
+
+The code is released under the MIT License (see `LICENSE`). The datasets it
+reads are not covered by it; each remains under the terms of its own source.

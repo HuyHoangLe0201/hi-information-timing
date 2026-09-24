@@ -1784,2587 +1784,2587 @@
   },
   {
    "value": "0.214",
-   "at": 132212,
+   "at": 131883,
    "context": "rection is firm on PRONOSTIA and the size is not: resampling units puts the gap at [+0.214,+0.829] on PRONOSTIA and [+0.055,+0.437"
   },
   {
    "value": "0.829",
-   "at": 132219,
+   "at": 131890,
    "context": "is firm on PRONOSTIA and the size is not: resampling units puts the gap at [+0.214,+0.829] on PRONOSTIA and [+0.055,+0.437] on XJ"
   },
   {
    "value": "0.055",
-   "at": 132245,
+   "at": 131916,
    "context": "the size is not: resampling units puts the gap at [+0.214,+0.829] on PRONOSTIA and [+0.055,+0.437] on XJTU-SY, and resampling the"
   },
   {
    "value": "0.437",
-   "at": 132252,
+   "at": 131923,
    "context": "e is not: resampling units puts the gap at [+0.214,+0.829] on PRONOSTIA and [+0.055,+0.437] on XJTU-SY, and resampling the measure"
   },
   {
    "value": "0.065",
-   "at": 132387,
+   "at": 132058,
    "context": "hin each family as well leaves PRONOSTIA's interval clear of zero while XJTU-SY's, [-0.065,+0.500], includes it, with 94.5\\% of re"
   },
   {
    "value": "0.500",
-   "at": 132394,
+   "at": 132065,
    "context": "h family as well leaves PRONOSTIA's interval clear of zero while XJTU-SY's, [-0.065,+0.500], includes it, with 94.5\\% of replicate"
   },
   {
    "value": "94.5",
-   "at": 132420,
-   "context": "ONOSTIA's interval clear of zero while XJTU-SY's, [-0.065,+0.500], includes it, with 94.5\\% of replicates positive. Five controls"
+   "at": 132091,
+   "context": "ONOSTIA's interval clear of zero while XJTU-SY's, [-0.065,+0.500], includes it, with 94.5\\% of replicates positive. The direction"
   },
   {
    "value": "14",
-   "at": 133636,
+   "at": 133073,
    "context": "tistic is earlier than the best transferable linear combination of the same bands on 14 of 16 bearings, and the directions that"
   },
   {
    "value": "16",
-   "at": 133642,
+   "at": 133079,
    "context": "is earlier than the best transferable linear combination of the same bands on 14 of 16 bearings, and the directions that reach"
   },
   {
    "value": "13",
-   "at": 138764,
+   "at": 138092,
    "context": "thing: it holds for distortions with no smoothness whatever, verified to 2\\times10^{-13} over four thousand random cases, inclu"
   },
   {
    "value": "38",
-   "at": 143561,
+   "at": 142889,
    "context": "ion, and its error grows with the distortion: on the largest of the three it reaches 38\\%. For one of the three quantities that"
   },
   {
    "value": "0.32",
-   "at": 146973,
+   "at": 146301,
    "context": "asing w finds w^\\ast widening in 2022 cases and narrowing in 660, the extremes being 0.32\\to0.67 and 0.74\\to0.44. \\end{proof} \\su"
   },
   {
    "value": "0.74",
-   "at": 146989,
+   "at": 146317,
    "context": "\\ast widening in 2022 cases and narrowing in 660, the extremes being 0.32\\to0.67 and 0.74\\to0.44. \\end{proof} \\subsection{A certi"
   },
   {
    "value": "26",
-   "at": 148539,
+   "at": 147867,
    "context": "ead against the whole corpus first. At the sixty-sample screen used everywhere else, 26 of the 30 records that yield a pair are"
   },
   {
    "value": "30",
-   "at": 148549,
+   "at": 147877,
    "context": "t the whole corpus first. At the sixty-sample screen used everywhere else, 26 of the 30 records that yield a pair are ordered."
   },
   {
    "value": "0.98",
-   "at": 148749,
+   "at": 148077,
    "context": "each lies within the sampling spread of the margin at its own length, the largest at 0.98 standard deviations, so at those length"
   },
   {
    "value": "1.97",
-   "at": 149951,
+   "at": 149279,
    "context": "es have medians of 2.9 for the serial weight and 4.5 for the tail factor, both above 1.97. The reason is that M is a supremum ove"
   },
   {
    "value": "30",
-   "at": 150206,
+   "at": 149534,
    "context": "{prop:sensitivity} measures that average and predicts these corrections to within 6, 30 and 38 per cent. A certificate that mus"
   },
   {
    "value": "38",
-   "at": 150213,
+   "at": 149541,
    "context": "ensitivity} measures that average and predicts these corrections to within 6, 30 and 38 per cent. A certificate that must hold"
   },
   {
    "value": "0.3",
-   "at": 151487,
+   "at": 150815,
    "context": "sed below the median absolute residual correlation is 0.24, two pairs in five exceed 0.3, and the individual curves therefore do"
   },
   {
    "value": "10",
-   "at": 154984,
+   "at": 154312,
    "context": ") is divided out, and the residual correlation matrix is required to condition below 10^{3}, channels being dropped until it do"
   },
   {
    "value": "0.029",
-   "at": 155300,
+   "at": 154628,
    "context": "ported without the guard the ten bearing channels appear to reach the target at \\tau=0.029 against \\tau=0.914 guarded --- an artef"
   },
   {
    "value": "0.914",
-   "at": 155319,
+   "at": 154647,
    "context": "guard the ten bearing channels appear to reach the target at \\tau=0.029 against \\tau=0.914 guarded --- an artefact thirty times th"
   },
   {
    "value": "32",
-   "at": 157155,
+   "at": 156483,
    "context": "{equation} r_A=\\frac{1}{4\\beta^{2}},\\qquad r_\\beta=1-\\frac{(2\\beta-1)(2\\beta+1)^{3}}{32\\beta^{4}},\\qquad r_{A\\beta}=\\frac{1}{16"
   },
   {
    "value": "16",
-   "at": 157195,
+   "at": 156523,
    "context": "ad r_\\beta=1-\\frac{(2\\beta-1)(2\\beta+1)^{3}}{32\\beta^{4}},\\qquad r_{A\\beta}=\\frac{1}{16\\beta^{4}}=r_A^{2}. \\label{eq:nuisance}"
   },
   {
    "value": "16",
-   "at": 157419,
+   "at": 156747,
    "context": "tudes A_j, profiling out all K+1 trend parameters still leaves exactly r_{A\\beta}=1/(16\\beta^{4}), independent of K and of the"
   },
   {
    "value": "32",
-   "at": 158020,
+   "at": 157348,
    "context": "reduces to -4\\beta+4=0, so its cost is greatest at exactly \\beta=1, where r_\\beta=5/32, and r_\\beta\\to1/2 as \\beta grows. A li"
   },
   {
    "value": "0.99",
-   "at": 158664,
+   "at": 157992,
    "context": "it the amplitude, and required to fit both land on (rG)^{-1/2} with median ratios of 0.99, 1.00 and 0.99. Applying that number to"
   },
   {
    "value": "1.00",
-   "at": 158670,
+   "at": 157998,
    "context": "amplitude, and required to fit both land on (rG)^{-1/2} with median ratios of 0.99, 1.00 and 0.99. Applying that number to these"
   },
   {
    "value": "0.99",
-   "at": 158679,
+   "at": 158007,
    "context": "e, and required to fit both land on (rG)^{-1/2} with median ratios of 0.99, 1.00 and 0.99. Applying that number to these records"
   },
   {
    "value": "8.3",
-   "at": 159174,
+   "at": 158502,
    "context": "ice, not a model of the data. It is enough to settle the question of scale. At \\beta=8.3 the retained fraction is 1.3\\times10^{-"
   },
   {
    "value": "0.35",
-   "at": 159554,
+   "at": 158882,
    "context": "t survives a loss of at most 1/q whatever the curve looks like, and at the working q=0.35 no loss beyond about threefold is survi"
   },
   {
    "value": "10",
-   "at": 159754,
+   "at": 159082,
    "context": "r law, the same conclusion appears. Dividing the information by ten at a demand of q=10^{-2} delays the information age by a me"
   },
   {
    "value": "0.35",
-   "at": 159902,
+   "at": 159230,
    "context": "ime; dividing it by a hundred leaves 48 of 117 records infeasible outright; and at q=0.35 every record is infeasible at every los"
   },
   {
    "value": "448",
-   "at": 161640,
+   "at": 160968,
    "context": "one: taking the \\emph{variance} of \\hat\\delta makes the out-of-fold estimator appear 448 times more informative than knowing the"
   },
   {
    "value": "30",
-   "at": 161880,
+   "at": 161208,
    "context": "ing nothing. There is no continuum from the parametric case. Across bandwidths of 8, 30 and 90 per cent of the record the retai"
   },
   {
    "value": "90",
-   "at": 161887,
+   "at": 161215,
    "context": "hing. There is no continuum from the parametric case. Across bandwidths of 8, 30 and 90 per cent of the record the retained inf"
   },
   {
    "value": "10",
-   "at": 162011,
+   "at": 161339,
    "context": "information reads 2\\times10^{-7}, 2\\times10^{-5} and 3\\times10^{-8}, all at or below 10^{-5} and not even monotone in the windo"
   },
   {
    "value": "16",
-   "at": 162464,
+   "at": 161792,
    "context": "unshifted record of a slightly different unit. Proposition~\\ref{prop:nuisance}'s 1/(16\\beta^{4}), which is 7.7\\times10^{-4} at"
   },
   {
    "value": "98",
-   "at": 163822,
+   "at": 163150,
    "context": "n-square channel to 0.0231 on kurtosis, a spread of 17.8: the smoother takes between 98 and 100 per cent of every channel's der"
   },
   {
    "value": "100",
-   "at": 163829,
+   "at": 163157,
    "context": "e channel to 0.0231 on kurtosis, a spread of 17.8: the smoother takes between 98 and 100 per cent of every channel's derivative"
   },
   {
    "value": "43",
-   "at": 163959,
+   "at": 163287,
    "context": "ergy, so G overstates the information realised against an estimated trend by between 43 and 770 times. That is the price of not"
   },
   {
    "value": "770",
-   "at": 163966,
+   "at": 163294,
    "context": "o G overstates the information realised against an estimated trend by between 43 and 770 times. That is the price of not knowing"
   },
   {
    "value": "0.08",
-   "at": 165657,
+   "at": 164985,
    "context": "s, with its half-efficiency point at f of order 1/h. \\end{proposition} Measured at h=0.08, the efficiency reads 0.004 at f=0, whi"
   },
   {
    "value": "0.30",
-   "at": 169309,
+   "at": 168637,
    "context": "st what these records carry late in life and decisive early: a demand of \\varepsilon=0.30 is already met by the prior at \\tau_0=0"
   },
   {
    "value": "0.05",
-   "at": 169440,
+   "at": 168768,
    "context": "one of 0.20 has 46\\% of its demand removed, one of 0.10 has 12\\%, and by \\varepsilon=0.05 the prior contributes 3\\%. The first of"
   },
   {
    "value": "0.0043",
-   "at": 169961,
+   "at": 169289,
    "context": "yes} is proved in the linearised model, and the linearisation has a radius: a median 0.0043 of a lifetime for an estimator handed t"
   },
   {
    "value": "3.5",
-   "at": 170708,
+   "at": 170036,
    "context": "t outperforms the \\emph{unbiased} floor at six of seven information levels, by up to 3.5 times. Proposition~\\ref{prop:main} is t"
   },
   {
    "value": "60",
-   "at": 177859,
+   "at": 177187,
    "context": "8\\% of a life and becomes 7/n; the noise-scale window does the same below n=63. At n=60 the effective trend bandwidth is 11.7\\%"
   },
   {
    "value": "0.217",
-   "at": 178265,
+   "at": 177593,
    "context": "ecomes resolvable: Section~\\ref{sec:census} finds the margin's sampling spread still 0.217 of a life at 301 samples, against 0.013"
   },
   {
    "value": "301",
-   "at": 178284,
+   "at": 177612,
    "context": "Section~\\ref{sec:census} finds the margin's sampling spread still 0.217 of a life at 301 samples, against 0.013 at 1205. Because"
   },
   {
    "value": "52",
-   "at": 178505,
+   "at": 177833,
    "context": "eens and reports the records it removes. On XJTU-SY two of the fifteen run to 42 and 52 snapshots, below that sixty, so thirtee"
   },
   {
    "value": "100",
-   "at": 178651,
+   "at": 177979,
    "context": "er screen leaves seven of those thirteen. On both turbofan fleets every unit enters, 100 and 249 respectively. No record is excl"
   },
   {
    "value": "249",
-   "at": 178659,
+   "at": 177987,
    "context": "n leaves seven of those thirteen. On both turbofan fleets every unit enters, 100 and 249 respectively. No record is excluded for"
   },
   {
    "value": "0.10",
-   "at": 179214,
+   "at": 178542,
    "context": "ring \\caption{Mean absolute quantile error, in fractions of life, over the quantiles 0.10 to 0.90, twenty records per shape. ``Re"
   },
   {
    "value": "0.90",
-   "at": 179222,
+   "at": 178550,
    "context": "ption{Mean absolute quantile error, in fractions of life, over the quantiles 0.10 to 0.90, twenty records per shape. ``Read'' tak"
   },
   {
    "value": "170",
-   "at": 179947,
+   "at": 179275,
    "context": "ate the scale. That justification requires a number rather than an assertion: across 170 record--channel cells the in-sample sca"
   },
   {
    "value": "2.4",
-   "at": 180008,
+   "at": 179336,
    "context": "an an assertion: across 170 record--channel cells the in-sample scale understates by 2.4\\%, inflating the budget by 1.1\\% since"
   },
   {
    "value": "1.1",
-   "at": 180039,
+   "at": 179367,
    "context": "ord--channel cells the in-sample scale understates by 2.4\\%, inflating the budget by 1.1\\% since G scales as \\sigma^{-2}, and mo"
   },
   {
    "value": "0.0005",
-   "at": 180120,
+   "at": 179448,
    "context": "by 1.1\\% since G scales as \\sigma^{-2}, and moving the information age by a median +0.0005 of a lifetime with three quarters of ce"
   },
   {
    "value": "0.008",
-   "at": 180177,
+   "at": 179505,
    "context": "nformation age by a median +0.0005 of a lifetime with three quarters of cells inside 0.008. The choice is a correct precaution and"
   },
   {
    "value": "36",
-   "at": 180294,
+   "at": 179622,
    "context": "recaution and not a correction any reported figure rests on, though it is not inert: 36 of the 170 cells move by more than 0.01"
   },
   {
    "value": "170",
-   "at": 180304,
+   "at": 179632,
    "context": "and not a correction any reported figure rests on, though it is not inert: 36 of the 170 cells move by more than 0.01 and one by"
   },
   {
    "value": "0.01",
-   "at": 180332,
+   "at": 179660,
    "context": "orted figure rests on, though it is not inert: 36 of the 170 cells move by more than 0.01 and one by 0.88. Out of fold is not the"
   },
   {
    "value": "0.88",
-   "at": 180348,
+   "at": 179676,
    "context": "ts on, though it is not inert: 36 of the 170 cells move by more than 0.01 and one by 0.88. Out of fold is not the same as tempora"
   },
   {
    "value": "0.399",
-   "at": 180510,
+   "at": 179838,
    "context": "s remove the sample and keep its neighbours, and with a lag-one correlation of up to 0.399 a neighbour carries part of the sample."
   },
   {
    "value": "120",
-   "at": 180962,
+   "at": 180290,
    "context": "ab:distribution}. The widening is not optional. At the working bandwidth a record of 120 samples has a half-window of four, a pu"
   },
   {
    "value": "300",
-   "at": 181198,
+   "at": 180526,
    "context": "that short; without the widening their residual would be identically zero. With it, 300 of the 325{,}830 fits over both rigs an"
   },
   {
    "value": "325",
-   "at": 181209,
+   "at": 180537,
    "context": "; without the widening their residual would be identically zero. With it, 300 of the 325{,}830 fits over both rigs and all ten m"
   },
   {
    "value": "830",
-   "at": 181215,
+   "at": 180543,
    "context": "out the widening their residual would be identically zero. With it, 300 of the 325{,}830 fits over both rigs and all ten measure"
   },
   {
    "value": "120",
-   "at": 181439,
+   "at": 180767,
    "context": "on synthetic records, a quadratic trend plus \\mathrm{AR}(1) noise of known scale, at 120, 240, 800 and 2400 samples and lag-one"
   },
   {
    "value": "240",
-   "at": 181444,
+   "at": 180772,
    "context": "nthetic records, a quadratic trend plus \\mathrm{AR}(1) noise of known scale, at 120, 240, 800 and 2400 samples and lag-one corre"
   },
   {
    "value": "800",
-   "at": 181449,
+   "at": 180777,
    "context": "ic records, a quadratic trend plus \\mathrm{AR}(1) noise of known scale, at 120, 240, 800 and 2400 samples and lag-one correlatio"
   },
   {
    "value": "2400",
-   "at": 181457,
+   "at": 180785,
    "context": "ds, a quadratic trend plus \\mathrm{AR}(1) noise of known scale, at 120, 240, 800 and 2400 samples and lag-one correlations of 0,"
   },
   {
    "value": "0.2",
-   "at": 181501,
+   "at": 180829,
    "context": "ise of known scale, at 120, 240, 800 and 2400 samples and lag-one correlations of 0, 0.2 and 0.4, forty records to a cell. The i"
   },
   {
    "value": "0.4",
-   "at": 181509,
+   "at": 180837,
    "context": "nown scale, at 120, 240, 800 and 2400 samples and lag-one correlations of 0, 0.2 and 0.4, forty records to a cell. The interleav"
   },
   {
    "value": "240",
-   "at": 181646,
+   "at": 180974,
    "context": "is at least as close to the truth as the purged one at m=3 in all twelve cells. From 240 samples on it errs by at most 5.2\\%, hi"
   },
   {
    "value": "5.2",
-   "at": 181680,
+   "at": 181008,
    "context": "as the purged one at m=3 in all twelve cells. From 240 samples on it errs by at most 5.2\\%, high at low correlation and low at h"
   },
   {
    "value": "25",
-   "at": 181764,
+   "at": 181092,
    "context": "5.2\\%, high at low correlation and low at high, while the purge overstates by up to 25\\% at 240 samples; the two agree to with"
   },
   {
    "value": "240",
-   "at": 181772,
+   "at": 181100,
    "context": "high at low correlation and low at high, while the purge overstates by up to 25\\% at 240 samples; the two agree to within 0.022"
   },
   {
    "value": "0.022",
-   "at": 181809,
+   "at": 181137,
    "context": "gh, while the purge overstates by up to 25\\% at 240 samples; the two agree to within 0.022 at 2400. At 120 samples and \\varphi=0.4"
   },
   {
    "value": "2400",
-   "at": 181818,
+   "at": 181146,
    "context": "the purge overstates by up to 25\\% at 240 samples; the two agree to within 0.022 at 2400. At 120 samples and \\varphi=0.4 the int"
   },
   {
    "value": "120",
-   "at": 181827,
+   "at": 181155,
    "context": "e overstates by up to 25\\% at 240 samples; the two agree to within 0.022 at 2400. At 120 samples and \\varphi=0.4 the interleaved"
   },
   {
    "value": "0.4",
-   "at": 181851,
+   "at": 181179,
    "context": "\\% at 240 samples; the two agree to within 0.022 at 2400. At 120 samples and \\varphi=0.4 the interleaved scheme understates by 1"
   },
   {
    "value": "16",
-   "at": 181893,
+   "at": 181221,
    "context": "0.022 at 2400. At 120 samples and \\varphi=0.4 the interleaved scheme understates by 16\\% and the purge at m=3 overstates by 31"
   },
   {
    "value": "31",
-   "at": 181933,
+   "at": 181261,
    "context": "hi=0.4 the interleaved scheme understates by 16\\% and the purge at m=3 overstates by 31\\%, at m=10 by 75\\%; a purge of one samp"
   },
   {
    "value": "10",
-   "at": 181944,
+   "at": 181272,
    "context": "interleaved scheme understates by 16\\% and the purge at m=3 overstates by 31\\%, at m=10 by 75\\%; a purge of one sample, at 11\\%"
   },
   {
    "value": "75",
-   "at": 181950,
+   "at": 181278,
    "context": "eaved scheme understates by 16\\% and the purge at m=3 overstates by 31\\%, at m=10 by 75\\%; a purge of one sample, at 11\\% high,"
   },
   {
    "value": "11",
-   "at": 181982,
+   "at": 181310,
    "context": "and the purge at m=3 overstates by 31\\%, at m=10 by 75\\%; a purge of one sample, at 11\\% high, is the closest there. The leak"
   },
   {
    "value": "3.9",
-   "at": 182217,
+   "at": 181545,
    "context": "e records themselves the purged scale at m=3 exceeds the interleaved one by a median 3.9\\%, 85\\% at the ninetieth percentile, ov"
   },
   {
    "value": "85",
-   "at": 182224,
+   "at": 181552,
    "context": "ds themselves the purged scale at m=3 exceeds the interleaved one by a median 3.9\\%, 85\\% at the ninetieth percentile, over 290"
   },
   {
    "value": "290",
-   "at": 182263,
+   "at": 181591,
    "context": "xceeds the interleaved one by a median 3.9\\%, 85\\% at the ninetieth percentile, over 290 record--measure cells, and a measure's"
   },
   {
    "value": "0.023",
-   "at": 182328,
+   "at": 181656,
    "context": "th percentile, over 290 record--measure cells, and a measure's age moves by a median 0.023; at m=10, by 13\\% and 0.052. The family"
   },
   {
    "value": "10",
-   "at": 182340,
+   "at": 181668,
    "context": "e, over 290 record--measure cells, and a measure's age moves by a median 0.023; at m=10, by 13\\% and 0.052. The family gap move"
   },
   {
    "value": "13",
-   "at": 182347,
+   "at": 181675,
    "context": "290 record--measure cells, and a measure's age moves by a median 0.023; at m=10, by 13\\% and 0.052. The family gap moves from"
   },
   {
    "value": "0.052",
-   "at": 182356,
+   "at": 181684,
    "context": "rd--measure cells, and a measure's age moves by a median 0.023; at m=10, by 13\\% and 0.052. The family gap moves from 0.641 to 0.6"
   },
   {
    "value": "0.641",
-   "at": 182389,
+   "at": 181717,
    "context": "s age moves by a median 0.023; at m=10, by 13\\% and 0.052. The family gap moves from 0.641 to 0.649 at m=3 and 0.677 at m=10 on PR"
   },
   {
    "value": "0.649",
-   "at": 182398,
+   "at": 181726,
    "context": "es by a median 0.023; at m=10, by 13\\% and 0.052. The family gap moves from 0.641 to 0.649 at m=3 and 0.677 at m=10 on PRONOSTIA,"
   },
   {
    "value": "0.677",
-   "at": 182415,
+   "at": 181743,
    "context": "023; at m=10, by 13\\% and 0.052. The family gap moves from 0.641 to 0.649 at m=3 and 0.677 at m=10 on PRONOSTIA, and from 0.355 to"
   },
   {
    "value": "10",
-   "at": 182426,
+   "at": 181754,
    "context": "0, by 13\\% and 0.052. The family gap moves from 0.641 to 0.649 at m=3 and 0.677 at m=10 on PRONOSTIA, and from 0.355 to 0.388 a"
   },
   {
    "value": "0.355",
-   "at": 182452,
+   "at": 181780,
    "context": "family gap moves from 0.641 to 0.649 at m=3 and 0.677 at m=10 on PRONOSTIA, and from 0.355 to 0.388 and 0.217 on XJTU-SY. Its sign"
   },
   {
    "value": "0.388",
-   "at": 182461,
+   "at": 181789,
    "context": "p moves from 0.641 to 0.649 at m=3 and 0.677 at m=10 on PRONOSTIA, and from 0.355 to 0.388 and 0.217 on XJTU-SY. Its sign holds un"
   },
   {
    "value": "0.217",
-   "at": 182471,
+   "at": 181799,
    "context": "om 0.641 to 0.649 at m=3 and 0.677 at m=10 on PRONOSTIA, and from 0.355 to 0.388 and 0.217 on XJTU-SY. Its sign holds under every"
   },
   {
    "value": "10",
-   "at": 182664,
+   "at": 181992,
    "context": "eparation at both depths; on the shorter one it widens it at m=3 and narrows it at m=10, where a record of 120 samples is fitte"
   },
   {
    "value": "120",
-   "at": 182686,
+   "at": 182014,
    "context": "hs; on the shorter one it widens it at m=3 and narrows it at m=10, where a record of 120 samples is fitted across a purged gap o"
   },
   {
    "value": "21",
-   "at": 182731,
+   "at": 182059,
    "context": "d narrows it at m=10, where a record of 120 samples is fitted across a purged gap of 21 samples, about a sixth of its life. The"
   },
   {
    "value": "0.701",
-   "at": 182991,
+   "at": 182319,
    "context": "{The noise-floor constant against the pipeline} Equation~\\eqref{eq:floorconst} gives 0.701 for Gaussian noise differentiated exact"
   },
   {
    "value": "0.67",
-   "at": 183097,
+   "at": 182425,
    "context": "ise differentiated exactly. Run through the pipeline the answer is 0.68, against the 0.67 measured on the records, and the small"
   },
   {
    "value": "0.368",
-   "at": 184003,
+   "at": 183331,
    "context": "nce is the first k with \\varphi^{k}<e^{-1}. That length is 1 for every \\varphi below 0.368, by which point \\ell has already reache"
   },
   {
    "value": "2.16",
-   "at": 184050,
+   "at": 183378,
    "context": "t length is 1 for every \\varphi below 0.368, by which point \\ell has already reached 2.16 and more than half the information is g"
   },
   {
    "value": "1.35",
-   "at": 184432,
+   "at": 183760,
    "context": "aper otherwise measures separately. Section~\\ref{sec:radius} divides out a factor of 1.35 at zero offset; that is \\kappa by const"
   },
   {
    "value": "1.936",
-   "at": 184645,
+   "at": 183973,
    "context": "reports that substituting a non-robust scale moves the battery attainment ratio from 1.936 to 1.149, a factor of 1.68 obtained wit"
   },
   {
    "value": "1.149",
-   "at": 184654,
+   "at": 183982,
    "context": "hat substituting a non-robust scale moves the battery attainment ratio from 1.936 to 1.149, a factor of 1.68 obtained without comp"
   },
   {
    "value": "30",
-   "at": 185598,
+   "at": 184926,
    "context": "urves, and simulation separates them. On records with t_\\nu noise at \\nu=3, 4, 5 and 30, least squares lands on G_{2}^{-1/2} to"
   },
   {
    "value": "1.1",
-   "at": 185648,
+   "at": 184976,
    "context": "ith t_\\nu noise at \\nu=3, 4, 5 and 30, least squares lands on G_{2}^{-1/2} to within 1.1\\%, which is Proposition~\\ref{prop:tail}"
   },
   {
    "value": "1.8",
-   "at": 185773,
+   "at": 185101,
    "context": "il} confirmed. An iterated t-likelihood estimator lands on G_{\\ast}^{-1/2} to within 1.8\\%, below the least-squares benchmark at"
   },
   {
    "value": "17",
-   "at": 186628,
+   "at": 185956,
    "context": "aption{Achieved standard deviation over the predicted floor for the joint estimator, 17 bearings per set. ``As built'' uses the"
   },
   {
    "value": "0.515",
-   "at": 187222,
+   "at": 186550,
    "context": "n which the bound is not attained} Cells give a median ratio of 1.936 and a slope of 0.515, and two controls separate the causes."
   },
   {
    "value": "89",
-   "at": 187460,
+   "at": 186788,
    "context": "with length: 0.86 at n=195, 0.62 at 98, 0.25 at 65. Read at the cells' own length of 89 that curve gives 0.520 against the 0.51"
   },
   {
    "value": "0.520",
-   "at": 187480,
+   "at": 186808,
    "context": "n=195, 0.62 at 98, 0.25 at 65. Read at the cells' own length of 89 that curve gives 0.520 against the 0.515 observed, so record l"
   },
   {
    "value": "0.515",
-   "at": 187498,
+   "at": 186826,
    "context": ", 0.25 at 65. Read at the cells' own length of 89 that curve gives 0.520 against the 0.515 observed, so record length accounts for"
   },
   {
    "value": "1.936",
-   "at": 187639,
+   "at": 186967,
    "context": "as far as four cells can show. The median ratio is not: length predicts 1.21 against 1.936 observed, and the cells' residuals are"
   },
   {
    "value": "255",
-   "at": 187727,
+   "at": 187055,
    "context": "36 observed, and the cells' residuals are heavy-tailed, with kurtosis between 62 and 255. Substituting a non-robust scale moves"
   },
   {
    "value": "84",
-   "at": 187805,
+   "at": 187133,
    "context": "62 and 255. Substituting a non-robust scale moves the ratio to 1.149, accounting for 84\\% of the excess. Below roughly one hund"
   },
   {
    "value": "47",
-   "at": 188097,
+   "at": 187425,
    "context": "tion~\\ref{sec:window} finds the sign law of Proposition~\\ref{prop:window} holding on 47 of 51 consecutive pairs. The shortfall"
   },
   {
    "value": "51",
-   "at": 188103,
+   "at": 187431,
    "context": "ref{sec:window} finds the sign law of Proposition~\\ref{prop:window} holding on 47 of 51 consecutive pairs. The shortfall deserv"
   },
   {
    "value": "5.60",
-   "at": 188971,
+   "at": 188299,
    "context": "two densities are close, a median 0.59 in |\\log g(\\tau_0)/g(\\tau_0-w^\\ast)| against 5.60 on the agreeing ones, so \\eqref{eq:wpri"
   },
   {
    "value": "17",
-   "at": 190925,
+   "at": 190253,
    "context": "n{table}[htbp] \\centering \\caption{The cost of truncation, predicted and measured on 17 bearings. The last column is the median"
   },
   {
    "value": "0.55",
-   "at": 191906,
+   "at": 191234,
    "context": "at the four ages at which Section~\\ref{sec:window} checks the window's monotonicity, 0.55, 0.70, 0.85 and 0.95, and at two more i"
   },
   {
    "value": "0.70",
-   "at": 191912,
+   "at": 191240,
    "context": "four ages at which Section~\\ref{sec:window} checks the window's monotonicity, 0.55, 0.70, 0.85 and 0.95, and at two more inside"
   },
   {
    "value": "0.85",
-   "at": 191918,
+   "at": 191246,
    "context": "ages at which Section~\\ref{sec:window} checks the window's monotonicity, 0.55, 0.70, 0.85 and 0.95, and at two more inside the re"
   },
   {
    "value": "0.95",
-   "at": 191927,
+   "at": 191255,
    "context": "hich Section~\\ref{sec:window} checks the window's monotonicity, 0.55, 0.70, 0.85 and 0.95, and at two more inside the record, w^\\"
   },
   {
    "value": "92",
-   "at": 192131,
+   "at": 191459,
    "context": "aw holds in 274 of 299 consecutive pairs before the correction and 297 of 335 after, 92 against 89 per cent, on a finer grid th"
   },
   {
    "value": "89",
-   "at": 192142,
+   "at": 191470,
    "context": "274 of 299 consecutive pairs before the correction and 297 of 335 after, 92 against 89 per cent, on a finer grid than Section~"
   },
   {
    "value": "0.102",
-   "at": 193309,
+   "at": 192637,
    "context": "one correlation drifts, and on the root-mean-square channel it drifts furthest: from 0.102 over the first quarter of life to 0.450"
   },
   {
    "value": "0.450",
-   "at": 193349,
+   "at": 192677,
    "context": "mean-square channel it drifts furthest: from 0.102 over the first quarter of life to 0.450 over the last, three to six times the d"
   },
   {
    "value": "0.015",
-   "at": 193899,
+   "at": 193227,
    "context": "larger than the 2\\% residual, and the median \\eta quoted in Table~\\ref{tab:censor}, 0.015 and 0.017, are the root-mean-square cha"
   },
   {
    "value": "0.017",
-   "at": 193909,
+   "at": 193237,
    "context": "an the 2\\% residual, and the median \\eta quoted in Table~\\ref{tab:censor}, 0.015 and 0.017, are the root-mean-square channel's own"
   },
   {
    "value": "0.2",
-   "at": 194824,
+   "at": 194152,
    "context": "e paper applies throughout moves the multivariate ratios of Table~\\ref{tab:multi} by 0.2\\%. What is usually said in defence of i"
   },
   {
    "value": "4.28",
-   "at": 195168,
+   "at": 194496,
    "context": "sition~\\ref{prop:scale} has denied for these residuals. Simulating at the fitted \\nu=4.28, with the hybrid covariance the pipelin"
   },
   {
    "value": "10",
-   "at": 195298,
+   "at": 194626,
    "context": "actually builds, not the textbook one, gives an inflation of 1.0244 at m=1400 and K=10 where the correction assumes 1.0079. As"
   },
   {
    "value": "0.79",
-   "at": 195420,
+   "at": 194748,
    "context": "9. As excesses over one, which is the quantity being removed, that is 2.44\\% against 0.79\\%, so the correction is short by a fact"
   },
   {
    "value": "3.08",
-   "at": 196585,
+   "at": 195913,
    "context": "n time would predict 7.18. The same simulation at \\varphi=0 returns 3.05 against the 3.08 measured without it, which is the contr"
   },
   {
    "value": "119",
-   "at": 198052,
+   "at": 197380,
    "context": "{Scaling of the error with the available information} The experiment sweeps G over a 119-fold range with everything else held fi"
   },
   {
    "value": "0.5",
-   "at": 198397,
+   "at": 197725,
    "context": "tion{Scaling of RUL error with available information. The floor predicts a slope of -0.5.} \\label{tab:scaling} \\small \\begin{tab"
   },
   {
    "value": "0.684",
-   "at": 198521,
+   "at": 197849,
    "context": "{tabular}{@{}lrl@{}} \\toprule Estimator & Slope & \\\\ \\midrule Oracle, trend known & -0.684 \\pm 0.244 & consistent with -0.5 \\\\ Rid"
   },
   {
    "value": "0.244",
-   "at": 198531,
+   "at": 197859,
    "context": "@{}lrl@{}} \\toprule Estimator & Slope & \\\\ \\midrule Oracle, trend known & -0.684 \\pm 0.244 & consistent with -0.5 \\\\ Ridge on wind"
   },
   {
    "value": "0.5",
-   "at": 198556,
+   "at": 197884,
    "context": "ator & Slope & \\\\ \\midrule Oracle, trend known & -0.684 \\pm 0.244 & consistent with -0.5 \\\\ Ridge on windows & -0.121 \\pm 0.041"
   },
   {
    "value": "0.121",
-   "at": 198583,
+   "at": 197911,
    "context": "Oracle, trend known & -0.684 \\pm 0.244 & consistent with -0.5 \\\\ Ridge on windows & -0.121 \\pm 0.041 & far from -0.5 \\\\ \\bottomrul"
   },
   {
    "value": "0.041",
-   "at": 198593,
+   "at": 197921,
    "context": "end known & -0.684 \\pm 0.244 & consistent with -0.5 \\\\ Ridge on windows & -0.121 \\pm 0.041 & far from -0.5 \\\\ \\bottomrule \\end{tab"
   },
   {
    "value": "0.5",
-   "at": 198611,
+   "at": 197939,
    "context": "\\pm 0.244 & consistent with -0.5 \\\\ Ridge on windows & -0.121 \\pm 0.041 & far from -0.5 \\\\ \\bottomrule \\end{tabular} \\end{table"
   },
   {
    "value": "0.141",
-   "at": 199052,
+   "at": 198380,
    "context": "d shape is not the cause: with every unit placed on an identical curve the slope is -0.141, no nearer -0.5 than before. The fleet'"
   },
   {
    "value": "0.5",
-   "at": 199070,
+   "at": 198398,
    "context": "cause: with every unit placed on an identical curve the slope is -0.141, no nearer -0.5 than before. The fleet's spread of life"
   },
   {
    "value": "0.06",
-   "at": 199156,
+   "at": 198484,
    "context": ".5 than before. The fleet's spread of life is not the cause either: slopes run from -0.06 to -0.11 at every spread from 0.02 to 0"
   },
   {
    "value": "0.11",
-   "at": 199165,
+   "at": 198493,
    "context": "efore. The fleet's spread of life is not the cause either: slopes run from -0.06 to -0.11 at every spread from 0.02 to 0.50. Nor"
   },
   {
    "value": "0.02",
-   "at": 199191,
+   "at": 198519,
    "context": "of life is not the cause either: slopes run from -0.06 to -0.11 at every spread from 0.02 to 0.50. Nor is the dataset: the end-to"
   },
   {
    "value": "0.50",
-   "at": 199199,
+   "at": 198527,
    "context": "is not the cause either: slopes run from -0.06 to -0.11 at every spread from 0.02 to 0.50. Nor is the dataset: the end-to-end tes"
   },
   {
    "value": "234",
-   "at": 199652,
+   "at": 198980,
    "context": "o public dataset offers both. Those statistics mislead. FD004 has a median record of 234 samples and a maximum of 543. Restricti"
   },
   {
    "value": "543",
-   "at": 199681,
+   "at": 199009,
    "context": "Those statistics mislead. FD004 has a median record of 234 samples and a maximum of 543. Restricting it to the units that are l"
   },
   {
    "value": "0.25",
-   "at": 199920,
+   "at": 199248,
    "context": "9 --- close to the sixty units of the synthetic study, and a tighter spread than the 0.25 it was built with. Relaxing to 250 samp"
   },
   {
    "value": "52",
-   "at": 200293,
+   "at": 199621,
    "context": "-one-unit-out ridge on windowed features has a slope of +0.011 against \\log G on the 52-unit fleet and +0.003 on the 106-unit o"
   },
   {
    "value": "106",
-   "at": 200325,
+   "at": 199653,
    "context": "features has a slope of +0.011 against \\log G on the 52-unit fleet and +0.003 on the 106-unit one, where an efficient estimator"
   },
   {
    "value": "0.5",
-   "at": 200380,
+   "at": 199708,
    "context": "-unit fleet and +0.003 on the 106-unit one, where an efficient estimator would show -0.5. It is flat. Its error is its own appro"
   },
   {
    "value": "0.33",
-   "at": 200868,
+   "at": 200196,
    "context": "ch flatters the oracle at low noise and penalises it at high; its measured slope of -0.33 is therefore not a test of the bound. A"
   },
   {
    "value": "1.40",
-   "at": 201178,
+   "at": 200506,
    "context": "nd the ratio saturates. Over the last fourfold of added noise G moves by a factor of 1.40, and the whole sweep spans a factor of"
   },
   {
    "value": "16",
-   "at": 201222,
+   "at": 200550,
    "context": "ld of added noise G moves by a factor of 1.40, and the whole sweep spans a factor of 16 rather than the two orders of magnitude"
   },
   {
    "value": "1.5",
-   "at": 202586,
+   "at": 201914,
    "context": "reference that predicts elapsed time and nothing else, the best channel improves by 1.5\\% and the whole spread across ten chann"
   },
   {
    "value": "0.6",
-   "at": 202636,
+   "at": 201964,
    "context": "else, the best channel improves by 1.5\\% and the whole spread across ten channels is 0.6\\%. Those differences are real. Repeatin"
   },
   {
    "value": "0.001",
-   "at": 202752,
+   "at": 202080,
    "context": "al. Repeating the computation under independent draws gives a per-channel scatter of 0.001 against a spread across channels of 0.0"
   },
   {
    "value": "0.006",
-   "at": 202794,
+   "at": 202122,
    "context": "ndent draws gives a per-channel scatter of 0.001 against a spread across channels of 0.006, a factor of four. They also run in the"
   },
   {
    "value": "0.53",
-   "at": 202926,
+   "at": 202254,
    "context": "redicted direction, the rank correlation between \\tau_q and the refined error being +0.53. With ten channels an exact permutation"
   },
   {
    "value": "0.06",
-   "at": 202991,
+   "at": 202319,
    "context": "efined error being +0.53. With ten channels an exact permutation test puts that at p=0.06 one-sided, the direction being predicte"
   },
   {
    "value": "0.11",
-   "at": 203042,
+   "at": 202370,
    "context": "t permutation test puts that at p=0.06 one-sided, the direction being predicted, and 0.11 two-sided. It is reported as suggestive"
   },
   {
    "value": "1.35",
-   "at": 203967,
+   "at": 203295,
    "context": "ows the second moment: on these heavy-tailed residuals the two differ by a factor of 1.35, present at every offset including zero"
   },
   {
    "value": "1.01",
-   "at": 204119,
+   "at": 203447,
    "context": "ard deviation of the standardised residual and divided out, the error at \\delta=0 is 1.01 times the floor, which recovers the att"
   },
   {
    "value": "0.05",
-   "at": 204499,
+   "at": 203827,
    "context": "regime steps of amplitude a times the noise scale, the information age stays within 0.05 of a lifetime up to a=2 and is wrong by"
   },
   {
    "value": "0.20",
-   "at": 204544,
+   "at": 203872,
    "context": "scale, the information age stays within 0.05 of a lifetime up to a=2 and is wrong by 0.20 to 0.28 at a=8. Rapid switching is the"
   },
   {
    "value": "0.28",
-   "at": 204552,
+   "at": 203880,
    "context": "he information age stays within 0.05 of a lifetime up to a=2 and is wrong by 0.20 to 0.28 at a=8. Rapid switching is the more tol"
   },
   {
    "value": "0.30",
-   "at": 204635,
+   "at": 203963,
    "context": "o 0.28 at a=8. Rapid switching is the more tolerant case: at a switch probability of 0.30 per sample the tolerance is a=4 rather"
   },
   {
    "value": "0.006",
-   "at": 204964,
+   "at": 204292,
    "context": "ormalising within them is a near-complete correction: the residual error stays under 0.006 of a lifetime where the uncorrected err"
   },
   {
    "value": "0.275",
-   "at": 205020,
+   "at": 204348,
    "context": "e residual error stays under 0.006 of a lifetime where the uncorrected error reaches 0.275. This is stated because on the turbofan"
   },
   {
    "value": "0.90",
-   "at": 206834,
+   "at": 206162,
    "context": "itions, and its limits} On XJTU-SY the ordering reproduces with a rank agreement of +0.90 across the five shared channels and a m"
   },
   {
    "value": "0.098",
-   "at": 206907,
+   "at": 206235,
    "context": "reement of +0.90 across the five shared channels and a median absolute difference of 0.098 of life; RMS sits at 0.903 against 0.97"
   },
   {
    "value": "0.903",
-   "at": 206934,
+   "at": 206262,
    "context": "five shared channels and a median absolute difference of 0.098 of life; RMS sits at 0.903 against 0.971. Splitting both rigs by o"
   },
   {
    "value": "0.971",
-   "at": 206948,
+   "at": 206276,
    "context": "hannels and a median absolute difference of 0.098 of life; RMS sits at 0.903 against 0.971. Splitting both rigs by operating condi"
   },
   {
    "value": "0.346",
-   "at": 207108,
+   "at": 206436,
    "context": "thirty-two bearings. The \\emph{values} are condition-specific, with spreads of up to 0.346 of life. A decimation control attribute"
   },
   {
    "value": "0.007",
-   "at": 207252,
+   "at": 206580,
    "context": "s to load rather than record length, since thinning the long condition moved \\tau by 0.007. The \\emph{ordering} nonetheless holds:"
   },
   {
    "value": "0.000",
-   "at": 208265,
+   "at": 207593,
    "context": "th their membership. \\emph{Scale.} Dividing an indicator by a constant moves \\tau by 0.000, as the invariance of D'^2/\\sigma^2 und"
   },
   {
    "value": "0.976",
-   "at": 208572,
+   "at": 207900,
    "context": "verage gives a bounded ratio containing nothing the level did not. It leaves \\tau at 0.976 against the level's 0.973. The logarith"
   },
   {
    "value": "0.973",
-   "at": 208598,
+   "at": 207926,
    "context": "io containing nothing the level did not. It leaves \\tau at 0.976 against the level's 0.973. The logarithm of total power, equally"
   },
   {
    "value": "0.969",
-   "at": 208670,
+   "at": 207998,
    "context": "the level's 0.973. The logarithm of total power, equally bounded in growth, sits at 0.969 with the amounts. \\emph{Ratio arithmeti"
   },
   {
    "value": "0.649",
-   "at": 208985,
+   "at": 208313,
    "context": "thin either channel, and it is early on both rigs: the spatial measures sit a median 0.649 and 0.345 of life ahead of their combin"
   },
   {
    "value": "0.345",
-   "at": 208995,
+   "at": 208323,
    "context": "r channel, and it is early on both rigs: the spatial measures sit a median 0.649 and 0.345 of life ahead of their combined power."
   },
   {
    "value": "0.623",
-   "at": 209489,
+   "at": 208817,
    "context": "in turn and rebuilding the statistic from the remaining nine leaves the gap between 0.623 and 0.658 on PRONOSTIA against a base o"
   },
   {
    "value": "0.658",
-   "at": 209499,
+   "at": 208827,
    "context": "nd rebuilding the statistic from the remaining nine leaves the gap between 0.623 and 0.658 on PRONOSTIA against a base of 0.640, a"
   },
   {
    "value": "0.640",
-   "at": 209536,
+   "at": 208864,
    "context": "remaining nine leaves the gap between 0.623 and 0.658 on PRONOSTIA against a base of 0.640, and between 0.327 and 0.384 on XJTU-SY"
   },
   {
    "value": "0.327",
-   "at": 209555,
+   "at": 208883,
    "context": "es the gap between 0.623 and 0.658 on PRONOSTIA against a base of 0.640, and between 0.327 and 0.384 on XJTU-SY against 0.355. The"
   },
   {
    "value": "0.384",
-   "at": 209565,
+   "at": 208893,
    "context": "between 0.623 and 0.658 on PRONOSTIA against a base of 0.640, and between 0.327 and 0.384 on XJTU-SY against 0.355. The weakest c"
   },
   {
    "value": "0.355",
-   "at": 209590,
+   "at": 208918,
    "context": "on PRONOSTIA against a base of 0.640, and between 0.327 and 0.384 on XJTU-SY against 0.355. The weakest case is 0.327. So this is"
   },
   {
    "value": "0.327",
-   "at": 209617,
+   "at": 208945,
    "context": "of 0.640, and between 0.327 and 0.384 on XJTU-SY against 0.355. The weakest case is 0.327. So this is a statement about the two f"
   },
   {
    "value": "0.829",
-   "at": 210047,
+   "at": 209375,
    "context": "an over the bearings drawn and the two medians then differenced. This gives [+0.214,+0.829] on PRONOSTIA over sixteen bearings and"
   },
   {
    "value": "0.055",
-   "at": 210095,
+   "at": 209423,
    "context": "hen differenced. This gives [+0.214,+0.829] on PRONOSTIA over sixteen bearings and [+0.055,+0.437] on XJTU-SY over thirteen of its"
   },
   {
    "value": "0.437",
-   "at": 210102,
+   "at": 209430,
    "context": "ferenced. This gives [+0.214,+0.829] on PRONOSTIA over sixteen bearings and [+0.055,+0.437] on XJTU-SY over thirteen of its fiftee"
   },
   {
    "value": "0.640",
-   "at": 210548,
+   "at": 209876,
    "context": "is independent of the one in the table and reproduces it to 0.640 and 0.355 against 0.640 and 0.358; the residual is the noise-fl"
   },
   {
    "value": "0.358",
-   "at": 210558,
+   "at": 209886,
    "context": "ndent of the one in the table and reproduces it to 0.640 and 0.355 against 0.640 and 0.358; the residual is the noise-floor estima"
   },
   {
    "value": "4000",
-   "at": 211025,
+   "at": 210353,
    "context": "bootstrap resamples bearings and then, within each family, the measures themselves, 4000 replicates. It gives [+0.182,+0.841] on"
   },
   {
    "value": "0.182",
-   "at": 211053,
+   "at": 210381,
    "context": "s and then, within each family, the measures themselves, 4000 replicates. It gives [+0.182,+0.841] on PRONOSTIA, clear of zero, an"
   },
   {
    "value": "0.841",
-   "at": 211060,
+   "at": 210388,
    "context": "hen, within each family, the measures themselves, 4000 replicates. It gives [+0.182,+0.841] on PRONOSTIA, clear of zero, and [-0.0"
   },
   {
    "value": "0.065",
-   "at": 211102,
+   "at": 210430,
    "context": "selves, 4000 replicates. It gives [+0.182,+0.841] on PRONOSTIA, clear of zero, and [-0.065,+0.500] on XJTU-SY, which is not; 94.5\\"
   },
   {
    "value": "0.500",
-   "at": 211109,
+   "at": 210437,
    "context": "4000 replicates. It gives [+0.182,+0.841] on PRONOSTIA, clear of zero, and [-0.065,+0.500] on XJTU-SY, which is not; 94.5\\% of th"
   },
   {
    "value": "94.5",
-   "at": 211142,
+   "at": 210470,
    "context": "2,+0.841] on PRONOSTIA, clear of zero, and [-0.065,+0.500] on XJTU-SY, which is not; 94.5\\% of the XJTU-SY replicates are positiv"
   },
   {
    "value": "0.35",
-   "at": 211488,
+   "at": 210816,
    "context": "le number hides is the demand it was read at. Every age in this paper is quoted at q=0.35, and the conclusion would carry little"
   },
   {
    "value": "0.05",
-   "at": 211602,
+   "at": 210930,
    "context": "d carry little weight if it were a property of that choice. Sweeping the demand from 0.05 to 0.80 (which costs nothing once the c"
   },
   {
    "value": "0.80",
-   "at": 211610,
+   "at": 210938,
    "context": "little weight if it were a property of that choice. Sweeping the demand from 0.05 to 0.80 (which costs nothing once the curves ra"
   },
   {
    "value": "0.895",
-   "at": 211854,
+   "at": 211182,
    "context": "both rigs (Figure~\\ref{fig:validation}(b)). Its \\emph{size} varies, as it must, from 0.895 down to 0.044 on PRONOSTIA and 0.340 to"
   },
   {
    "value": "0.044",
-   "at": 211868,
+   "at": 211196,
    "context": "ure~\\ref{fig:validation}(b)). Its \\emph{size} varies, as it must, from 0.895 down to 0.044 on PRONOSTIA and 0.340 to 0.034 on XJTU"
   },
   {
    "value": "0.340",
-   "at": 211891,
+   "at": 211219,
    "context": "}(b)). Its \\emph{size} varies, as it must, from 0.895 down to 0.044 on PRONOSTIA and 0.340 to 0.034 on XJTU-SY, since a demand nea"
   },
   {
    "value": "0.034",
-   "at": 211900,
+   "at": 211228,
    "context": "s \\emph{size} varies, as it must, from 0.895 down to 0.044 on PRONOSTIA and 0.340 to 0.034 on XJTU-SY, since a demand near zero is"
   },
   {
    "value": "0.10",
-   "at": 212075,
+   "at": 211403,
    "context": "near one by nothing until the end. The working value is not the flattering one: at q=0.10 the PRONOSTIA gap is 0.895 against 0.64"
   },
   {
    "value": "0.895",
-   "at": 212101,
+   "at": 211429,
    "context": "the end. The working value is not the flattering one: at q=0.10 the PRONOSTIA gap is 0.895 against 0.640 at q=0.35, so quoting the"
   },
   {
    "value": "0.640",
-   "at": 212115,
+   "at": 211443,
    "context": "orking value is not the flattering one: at q=0.10 the PRONOSTIA gap is 0.895 against 0.640 at q=0.35, so quoting the result at 0.3"
   },
   {
    "value": "0.35",
-   "at": 212126,
+   "at": 211454,
    "context": "e is not the flattering one: at q=0.10 the PRONOSTIA gap is 0.895 against 0.640 at q=0.35, so quoting the result at 0.35 understa"
   },
   {
    "value": "0.35",
-   "at": 212157,
+   "at": 211485,
    "context": "q=0.10 the PRONOSTIA gap is 0.895 against 0.640 at q=0.35, so quoting the result at 0.35 understates it relative to every lower"
   },
   {
    "value": "7632",
-   "at": 212708,
+   "at": 212036,
    "context": "far larger than degradation drift: clustering pooled rows into six returns groups of 7632 to 15395 samples, where clustering a si"
   },
   {
    "value": "15395",
-   "at": 212716,
+   "at": 212044,
    "context": "er than degradation drift: clustering pooled rows into six returns groups of 7632 to 15395 samples, where clustering a single unit"
   },
   {
    "value": "0.068",
-   "at": 212900,
+   "at": 212228,
    "context": "ach sensor within its own regime and rebuilding the statistic lifts FD004's gap from 0.068 to 0.225, its interval moving from [+0."
   },
   {
    "value": "0.225",
-   "at": 212909,
+   "at": 212237,
    "context": "r within its own regime and rebuilding the statistic lifts FD004's gap from 0.068 to 0.225, its interval moving from [+0.019,+0.10"
   },
   {
    "value": "0.019",
-   "at": 212943,
+   "at": 212271,
    "context": "ding the statistic lifts FD004's gap from 0.068 to 0.225, its interval moving from [+0.019,+0.108] to [+0.146,+0.294]. The control"
   },
   {
    "value": "0.108",
-   "at": 212950,
+   "at": 212278,
    "context": "e statistic lifts FD004's gap from 0.068 to 0.225, its interval moving from [+0.019,+0.108] to [+0.146,+0.294]. The control decide"
   },
   {
    "value": "0.146",
-   "at": 212962,
+   "at": 212290,
    "context": "lifts FD004's gap from 0.068 to 0.225, its interval moving from [+0.019,+0.108] to [+0.146,+0.294]. The control decides whether th"
   },
   {
    "value": "0.294",
-   "at": 212969,
+   "at": 212297,
    "context": "D004's gap from 0.068 to 0.225, its interval moving from [+0.019,+0.108] to [+0.146,+0.294]. The control decides whether that can"
   },
   {
    "value": "0.158",
-   "at": 213392,
+   "at": 212720,
    "context": "before reading the curve. It accounts for about half of the shortfall against FD001, 0.158 of 0.329. Section~\\ref{sec:opvar} shows"
   },
   {
    "value": "0.329",
-   "at": 213401,
+   "at": 212729,
    "context": "ading the curve. It accounts for about half of the shortfall against FD001, 0.158 of 0.329. Section~\\ref{sec:opvar} shows on synth"
   },
   {
    "value": "0.0065",
-   "at": 215096,
+   "at": 214424,
    "context": "divide by the clip. Over the whole validation corpus the neglected term is a median 0.0065 of the total on the bearings, 0.0674 on"
   },
   {
    "value": "0.0674",
-   "at": 215133,
+   "at": 214461,
    "context": "alidation corpus the neglected term is a median 0.0065 of the total on the bearings, 0.0674 on FD001, 0.0540 on FD004 and 0.0271 on"
   },
   {
    "value": "0.0540",
-   "at": 215150,
+   "at": 214478,
    "context": "the neglected term is a median 0.0065 of the total on the bearings, 0.0674 on FD001, 0.0540 on FD004 and 0.0271 on the cells, with"
   },
   {
    "value": "0.0271",
-   "at": 215170,
+   "at": 214498,
    "context": "s a median 0.0065 of the total on the bearings, 0.0674 on FD001, 0.0540 on FD004 and 0.0271 on the cells, with upper quartiles of 0"
   },
   {
    "value": "0.015",
-   "at": 215215,
+   "at": 214543,
    "context": "s, 0.0674 on FD001, 0.0540 on FD004 and 0.0271 on the cells, with upper quartiles of 0.015, 0.116, 0.098 and 0.109. An absolute bu"
   },
   {
    "value": "0.116",
-   "at": 215222,
+   "at": 214550,
    "context": "74 on FD001, 0.0540 on FD004 and 0.0271 on the cells, with upper quartiles of 0.015, 0.116, 0.098 and 0.109. An absolute budget is"
   },
   {
    "value": "0.098",
-   "at": 215229,
+   "at": 214557,
    "context": "D001, 0.0540 on FD004 and 0.0271 on the cells, with upper quartiles of 0.015, 0.116, 0.098 and 0.109. An absolute budget is theref"
   },
   {
    "value": "0.109",
-   "at": 215239,
+   "at": 214567,
    "context": "40 on FD004 and 0.0271 on the cells, with upper quartiles of 0.015, 0.116, 0.098 and 0.109. An absolute budget is therefore unders"
   },
   {
    "value": "0.6404",
-   "at": 215565,
+   "at": 214893,
    "context": "e is close to equal for the two families on both rigs, and the family gap moves from 0.6404 to 0.6388 on PRONOSTIA and from 0.3581"
   },
   {
    "value": "0.6388",
-   "at": 215575,
+   "at": 214903,
    "context": "to equal for the two families on both rigs, and the family gap moves from 0.6404 to 0.6388 on PRONOSTIA and from 0.3581 to 0.3414"
   },
   {
    "value": "0.3581",
-   "at": 215604,
+   "at": 214932,
    "context": "s on both rigs, and the family gap moves from 0.6404 to 0.6388 on PRONOSTIA and from 0.3581 to 0.3414 on XJTU-SY. The ordering ther"
   },
   {
    "value": "0.3414",
-   "at": 215614,
+   "at": 214942,
    "context": "rigs, and the family gap moves from 0.6404 to 0.6388 on PRONOSTIA and from 0.3581 to 0.3414 on XJTU-SY. The ordering therefore does"
   },
   {
    "value": "0.3292",
-   "at": 216177,
+   "at": 215505,
    "context": "ean term only & with the scale term & share \\\\ \\midrule PRONOSTIA & distributional & 0.3292 & 0.3307 & 0.0077 \\\\ & amount & 0.9696"
   },
   {
    "value": "0.3307",
-   "at": 216186,
+   "at": 215514,
    "context": "only & with the scale term & share \\\\ \\midrule PRONOSTIA & distributional & 0.3292 & 0.3307 & 0.0077 \\\\ & amount & 0.9696 & 0.9695"
   },
   {
    "value": "0.0077",
-   "at": 216195,
+   "at": 215523,
    "context": "th the scale term & share \\\\ \\midrule PRONOSTIA & distributional & 0.3292 & 0.3307 & 0.0077 \\\\ & amount & 0.9696 & 0.9695 & 0.0048"
   },
   {
    "value": "0.9696",
-   "at": 216216,
+   "at": 215544,
    "context": "hare \\\\ \\midrule PRONOSTIA & distributional & 0.3292 & 0.3307 & 0.0077 \\\\ & amount & 0.9696 & 0.9695 & 0.0048 \\\\ & gap & 0.6404 & 0"
   },
   {
    "value": "0.9695",
-   "at": 216225,
+   "at": 215553,
    "context": "midrule PRONOSTIA & distributional & 0.3292 & 0.3307 & 0.0077 \\\\ & amount & 0.9696 & 0.9695 & 0.0048 \\\\ & gap & 0.6404 & 0.6388 & \\"
   },
   {
    "value": "0.0048",
-   "at": 216234,
+   "at": 215562,
    "context": "RONOSTIA & distributional & 0.3292 & 0.3307 & 0.0077 \\\\ & amount & 0.9696 & 0.9695 & 0.0048 \\\\ & gap & 0.6404 & 0.6388 & \\\\ \\midrul"
   },
   {
    "value": "0.6404",
-   "at": 216252,
+   "at": 215580,
    "context": "utional & 0.3292 & 0.3307 & 0.0077 \\\\ & amount & 0.9696 & 0.9695 & 0.0048 \\\\ & gap & 0.6404 & 0.6388 & \\\\ \\midrule XJTU-SY & distri"
   },
   {
    "value": "0.6388",
-   "at": 216261,
+   "at": 215589,
    "context": "0.3292 & 0.3307 & 0.0077 \\\\ & amount & 0.9696 & 0.9695 & 0.0048 \\\\ & gap & 0.6404 & 0.6388 & \\\\ \\midrule XJTU-SY & distributional"
   },
   {
    "value": "0.5350",
-   "at": 216309,
+   "at": 215637,
    "context": "0.9695 & 0.0048 \\\\ & gap & 0.6404 & 0.6388 & \\\\ \\midrule XJTU-SY & distributional & 0.5350 & 0.5436 & 0.0107 \\\\ & amount & 0.8931"
   },
   {
    "value": "0.5436",
-   "at": 216318,
+   "at": 215646,
    "context": "0.0048 \\\\ & gap & 0.6404 & 0.6388 & \\\\ \\midrule XJTU-SY & distributional & 0.5350 & 0.5436 & 0.0107 \\\\ & amount & 0.8931 & 0.8850"
   },
   {
    "value": "0.0107",
-   "at": 216327,
+   "at": 215655,
    "context": "\\ & gap & 0.6404 & 0.6388 & \\\\ \\midrule XJTU-SY & distributional & 0.5350 & 0.5436 & 0.0107 \\\\ & amount & 0.8931 & 0.8850 & 0.0133"
   },
   {
    "value": "0.8931",
-   "at": 216348,
+   "at": 215676,
    "context": "6388 & \\\\ \\midrule XJTU-SY & distributional & 0.5350 & 0.5436 & 0.0107 \\\\ & amount & 0.8931 & 0.8850 & 0.0133 \\\\ & gap & 0.3581 & 0"
   },
   {
    "value": "0.8850",
-   "at": 216357,
+   "at": 215685,
    "context": "\\midrule XJTU-SY & distributional & 0.5350 & 0.5436 & 0.0107 \\\\ & amount & 0.8931 & 0.8850 & 0.0133 \\\\ & gap & 0.3581 & 0.3414 & \\"
   },
   {
    "value": "0.0133",
-   "at": 216366,
+   "at": 215694,
    "context": "XJTU-SY & distributional & 0.5350 & 0.5436 & 0.0107 \\\\ & amount & 0.8931 & 0.8850 & 0.0133 \\\\ & gap & 0.3581 & 0.3414 & \\\\ \\bottom"
   },
   {
    "value": "0.3581",
-   "at": 216384,
+   "at": 215712,
    "context": "utional & 0.5350 & 0.5436 & 0.0107 \\\\ & amount & 0.8931 & 0.8850 & 0.0133 \\\\ & gap & 0.3581 & 0.3414 & \\\\ \\bottomrule \\end{tabular}"
   },
   {
    "value": "0.3414",
-   "at": 216393,
+   "at": 215721,
    "context": "0.5350 & 0.5436 & 0.0107 \\\\ & amount & 0.8931 & 0.8850 & 0.0133 \\\\ & gap & 0.3581 & 0.3414 & \\\\ \\bottomrule \\end{tabular} \\end{tab"
   },
   {
    "value": "19",
-   "at": 216614,
+   "at": 215942,
    "context": "e --- the internal-resistance channels of three of the four cells --- carry a run of 19 identical consecutive values, where the"
   },
   {
    "value": "0.572",
-   "at": 218417,
+   "at": 217745,
    "context": "r level from the residuals of the whole record, which is not causal; it gave gaps of 0.572 and 0.025, against 0.563 and 0.029 with"
   },
   {
    "value": "0.025",
-   "at": 218427,
+   "at": 217755,
    "context": "om the residuals of the whole record, which is not causal; it gave gaps of 0.572 and 0.025, against 0.563 and 0.029 with the causa"
   },
   {
    "value": "0.563",
-   "at": 218442,
+   "at": 217770,
    "context": "s of the whole record, which is not causal; it gave gaps of 0.572 and 0.025, against 0.563 and 0.029 with the causal floor, so the"
   },
   {
    "value": "0.029",
-   "at": 218452,
+   "at": 217780,
    "context": "hole record, which is not causal; it gave gaps of 0.572 and 0.025, against 0.563 and 0.029 with the causal floor, so the floor is"
   },
   {
    "value": "0.641",
-   "at": 218610,
+   "at": 217938,
    "context": "s on. The centred arm, which keeps the paper's floor, reproduces the published gaps, 0.641 and 0.357 against the 0.640 and 0.358 o"
   },
   {
    "value": "0.357",
-   "at": 218620,
+   "at": 217948,
    "context": "centred arm, which keeps the paper's floor, reproduces the published gaps, 0.641 and 0.357 against the 0.640 and 0.358 of Section~"
   },
   {
    "value": "0.640",
-   "at": 218638,
+   "at": 217966,
    "context": "keeps the paper's floor, reproduces the published gaps, 0.641 and 0.357 against the 0.640 and 0.358 of Section~\\ref{sec:distribut"
   },
   {
    "value": "0.358",
-   "at": 218648,
+   "at": 217976,
    "context": "paper's floor, reproduces the published gaps, 0.641 and 0.357 against the 0.640 and 0.358 of Section~\\ref{sec:distribution}, so t"
   },
   {
    "value": "0.002",
-   "at": 219053,
+   "at": 218381,
    "context": "olumn is an independent rerun and agrees with Table~\\ref{tab:distribution} to within 0.002 per measure, the noise-floor surrogates"
   },
   {
    "value": "0.346",
-   "at": 219384,
+   "at": 218712,
    "context": "& centred & causal & centred & causal \\\\ \\midrule Spectral entropy & distribution & 0.346 & 0.404 & 0.662 & 0.650 \\\\ Spectral cen"
   },
   {
    "value": "0.404",
-   "at": 219392,
+   "at": 218720,
    "context": "ed & causal & centred & causal \\\\ \\midrule Spectral entropy & distribution & 0.346 & 0.404 & 0.662 & 0.650 \\\\ Spectral centroid &"
   },
   {
    "value": "0.662",
-   "at": 219400,
+   "at": 218728,
    "context": "sal & centred & causal \\\\ \\midrule Spectral entropy & distribution & 0.346 & 0.404 & 0.662 & 0.650 \\\\ Spectral centroid & distribu"
   },
   {
    "value": "0.650",
-   "at": 219408,
+   "at": 218736,
    "context": "ntred & causal \\\\ \\midrule Spectral entropy & distribution & 0.346 & 0.404 & 0.662 & 0.650 \\\\ Spectral centroid & distribution & 0"
   },
   {
    "value": "0.531",
-   "at": 219452,
+   "at": 218780,
    "context": "& distribution & 0.346 & 0.404 & 0.662 & 0.650 \\\\ Spectral centroid & distribution & 0.531 & 0.695 & 0.509 & 0.649 \\\\ Spectral spr"
   },
   {
    "value": "0.695",
-   "at": 219460,
+   "at": 218788,
    "context": "bution & 0.346 & 0.404 & 0.662 & 0.650 \\\\ Spectral centroid & distribution & 0.531 & 0.695 & 0.509 & 0.649 \\\\ Spectral spread & di"
   },
   {
    "value": "0.509",
-   "at": 219468,
+   "at": 218796,
    "context": "0.346 & 0.404 & 0.662 & 0.650 \\\\ Spectral centroid & distribution & 0.531 & 0.695 & 0.509 & 0.649 \\\\ Spectral spread & distributi"
   },
   {
    "value": "0.649",
-   "at": 219476,
+   "at": 218804,
    "context": "0.404 & 0.662 & 0.650 \\\\ Spectral centroid & distribution & 0.531 & 0.695 & 0.509 & 0.649 \\\\ Spectral spread & distribution & 0.1"
   },
   {
    "value": "0.151",
-   "at": 219518,
+   "at": 218846,
    "context": "d & distribution & 0.531 & 0.695 & 0.509 & 0.649 \\\\ Spectral spread & distribution & 0.151 & 0.279 & 0.463 & 0.640 \\\\ Spectral Gin"
   },
   {
    "value": "0.279",
-   "at": 219526,
+   "at": 218854,
    "context": "ribution & 0.531 & 0.695 & 0.509 & 0.649 \\\\ Spectral spread & distribution & 0.151 & 0.279 & 0.463 & 0.640 \\\\ Spectral Gini & dist"
   },
   {
    "value": "0.463",
-   "at": 219534,
+   "at": 218862,
    "context": "& 0.531 & 0.695 & 0.509 & 0.649 \\\\ Spectral spread & distribution & 0.151 & 0.279 & 0.463 & 0.640 \\\\ Spectral Gini & distribution"
   },
   {
    "value": "0.640",
-   "at": 219542,
+   "at": 218870,
    "context": "& 0.695 & 0.509 & 0.649 \\\\ Spectral spread & distribution & 0.151 & 0.279 & 0.463 & 0.640 \\\\ Spectral Gini & distribution & 0.288"
   },
   {
    "value": "0.288",
-   "at": 219582,
+   "at": 218910,
    "context": "ead & distribution & 0.151 & 0.279 & 0.463 & 0.640 \\\\ Spectral Gini & distribution & 0.288 & 0.392 & 0.563 & 0.622 \\\\ Top-8-band s"
   },
   {
    "value": "0.392",
-   "at": 219590,
+   "at": 218918,
    "context": "stribution & 0.151 & 0.279 & 0.463 & 0.640 \\\\ Spectral Gini & distribution & 0.288 & 0.392 & 0.563 & 0.622 \\\\ Top-8-band share & d"
   },
   {
    "value": "0.563",
-   "at": 219598,
+   "at": 218926,
    "context": "on & 0.151 & 0.279 & 0.463 & 0.640 \\\\ Spectral Gini & distribution & 0.288 & 0.392 & 0.563 & 0.622 \\\\ Top-8-band share & distribut"
   },
   {
    "value": "0.622",
-   "at": 219606,
+   "at": 218934,
    "context": "51 & 0.279 & 0.463 & 0.640 \\\\ Spectral Gini & distribution & 0.288 & 0.392 & 0.563 & 0.622 \\\\ Top-8-band share & distribution & 0."
   },
   {
    "value": "0.360",
-   "at": 219649,
+   "at": 218977,
    "context": "& distribution & 0.288 & 0.392 & 0.563 & 0.622 \\\\ Top-8-band share & distribution & 0.360 & 0.352 & 0.491 & 0.659 \\\\ High/low ban"
   },
   {
    "value": "0.352",
-   "at": 219657,
+   "at": 218985,
    "context": "ibution & 0.288 & 0.392 & 0.563 & 0.622 \\\\ Top-8-band share & distribution & 0.360 & 0.352 & 0.491 & 0.659 \\\\ High/low band ratio"
   },
   {
    "value": "0.491",
-   "at": 219665,
+   "at": 218993,
    "context": "& 0.288 & 0.392 & 0.563 & 0.622 \\\\ Top-8-band share & distribution & 0.360 & 0.352 & 0.491 & 0.659 \\\\ High/low band ratio & distri"
   },
   {
    "value": "0.659",
-   "at": 219673,
+   "at": 219001,
    "context": "& 0.392 & 0.563 & 0.622 \\\\ Top-8-band share & distribution & 0.360 & 0.352 & 0.491 & 0.659 \\\\ High/low band ratio & distribution &"
   },
   {
    "value": "0.312",
-   "at": 219719,
+   "at": 219047,
    "context": "distribution & 0.360 & 0.352 & 0.491 & 0.659 \\\\ High/low band ratio & distribution & 0.312 & 0.426 & 0.602 & 0.509 \\\\ Total power"
   },
   {
    "value": "0.426",
-   "at": 219727,
+   "at": 219055,
    "context": "tion & 0.360 & 0.352 & 0.491 & 0.659 \\\\ High/low band ratio & distribution & 0.312 & 0.426 & 0.602 & 0.509 \\\\ Total power & amount"
   },
   {
    "value": "0.602",
-   "at": 219735,
+   "at": 219063,
    "context": ".360 & 0.352 & 0.491 & 0.659 \\\\ High/low band ratio & distribution & 0.312 & 0.426 & 0.602 & 0.509 \\\\ Total power & amount & 0.971"
   },
   {
    "value": "0.509",
-   "at": 219743,
+   "at": 219071,
    "context": ".352 & 0.491 & 0.659 \\\\ High/low band ratio & distribution & 0.312 & 0.426 & 0.602 & 0.509 \\\\ Total power & amount & 0.971 & 0.985"
   },
   {
    "value": "0.971",
-   "at": 219775,
+   "at": 219103,
    "context": "band ratio & distribution & 0.312 & 0.426 & 0.602 & 0.509 \\\\ Total power & amount & 0.971 & 0.985 & 0.907 & 0.696 \\\\ Peak band po"
   },
   {
    "value": "0.985",
-   "at": 219783,
+   "at": 219111,
    "context": "tio & distribution & 0.312 & 0.426 & 0.602 & 0.509 \\\\ Total power & amount & 0.971 & 0.985 & 0.907 & 0.696 \\\\ Peak band power & am"
   },
   {
    "value": "0.907",
-   "at": 219791,
+   "at": 219119,
    "context": "stribution & 0.312 & 0.426 & 0.602 & 0.509 \\\\ Total power & amount & 0.971 & 0.985 & 0.907 & 0.696 \\\\ Peak band power & amount & 0"
   },
   {
    "value": "0.696",
-   "at": 219799,
+   "at": 219127,
    "context": "on & 0.312 & 0.426 & 0.602 & 0.509 \\\\ Total power & amount & 0.971 & 0.985 & 0.907 & 0.696 \\\\ Peak band power & amount & 0.972 & 0"
   },
   {
    "value": "0.972",
-   "at": 219835,
+   "at": 219163,
    "context": "\\ Total power & amount & 0.971 & 0.985 & 0.907 & 0.696 \\\\ Peak band power & amount & 0.972 & 0.989 & 0.900 & 0.766 \\\\ High-band po"
   },
   {
    "value": "0.989",
-   "at": 219843,
+   "at": 219171,
    "context": "power & amount & 0.971 & 0.985 & 0.907 & 0.696 \\\\ Peak band power & amount & 0.972 & 0.989 & 0.900 & 0.766 \\\\ High-band power & am"
   },
   {
    "value": "0.900",
-   "at": 219851,
+   "at": 219179,
    "context": "amount & 0.971 & 0.985 & 0.907 & 0.696 \\\\ Peak band power & amount & 0.972 & 0.989 & 0.900 & 0.766 \\\\ High-band power & amount & 0"
   },
   {
    "value": "0.766",
-   "at": 219859,
+   "at": 219187,
    "context": "0.971 & 0.985 & 0.907 & 0.696 \\\\ Peak band power & amount & 0.972 & 0.989 & 0.900 & 0.766 \\\\ High-band power & amount & 0.963 & 0"
   },
   {
    "value": "0.963",
-   "at": 219895,
+   "at": 219223,
    "context": "ak band power & amount & 0.972 & 0.989 & 0.900 & 0.766 \\\\ High-band power & amount & 0.963 & 0.936 & 0.614 & 0.618 \\\\ Log total po"
   },
   {
    "value": "0.936",
-   "at": 219903,
+   "at": 219231,
    "context": "power & amount & 0.972 & 0.989 & 0.900 & 0.766 \\\\ High-band power & amount & 0.963 & 0.936 & 0.614 & 0.618 \\\\ Log total power & am"
   },
   {
    "value": "0.614",
-   "at": 219911,
+   "at": 219239,
    "context": "amount & 0.972 & 0.989 & 0.900 & 0.766 \\\\ High-band power & amount & 0.963 & 0.936 & 0.614 & 0.618 \\\\ Log total power & amount & 0"
   },
   {
    "value": "0.618",
-   "at": 219919,
+   "at": 219247,
    "context": "0.972 & 0.989 & 0.900 & 0.766 \\\\ High-band power & amount & 0.963 & 0.936 & 0.614 & 0.618 \\\\ Log total power & amount & 0.969 & 0"
   },
   {
    "value": "0.969",
-   "at": 219955,
+   "at": 219283,
    "context": "gh-band power & amount & 0.963 & 0.936 & 0.614 & 0.618 \\\\ Log total power & amount & 0.969 & 0.759 & 0.886 & 0.650 \\\\ \\midrule Gap"
   },
   {
    "value": "0.759",
-   "at": 219963,
+   "at": 219291,
    "context": "power & amount & 0.963 & 0.936 & 0.614 & 0.618 \\\\ Log total power & amount & 0.969 & 0.759 & 0.886 & 0.650 \\\\ \\midrule Gap & & 0.6"
   },
   {
    "value": "0.886",
-   "at": 219971,
+   "at": 219299,
    "context": "amount & 0.963 & 0.936 & 0.614 & 0.618 \\\\ Log total power & amount & 0.969 & 0.759 & 0.886 & 0.650 \\\\ \\midrule Gap & & 0.641 & 0.5"
   },
   {
    "value": "0.650",
-   "at": 219979,
+   "at": 219307,
    "context": "0.963 & 0.936 & 0.614 & 0.618 \\\\ Log total power & amount & 0.969 & 0.759 & 0.886 & 0.650 \\\\ \\midrule Gap & & 0.641 & 0.563 & 0.3"
   },
   {
    "value": "0.641",
-   "at": 220005,
+   "at": 219333,
    "context": ".618 \\\\ Log total power & amount & 0.969 & 0.759 & 0.886 & 0.650 \\\\ \\midrule Gap & & 0.641 & 0.563 & 0.357 & 0.029 \\\\ \\bottomrule"
   },
   {
    "value": "0.563",
-   "at": 220013,
+   "at": 219341,
    "context": "Log total power & amount & 0.969 & 0.759 & 0.886 & 0.650 \\\\ \\midrule Gap & & 0.641 & 0.563 & 0.357 & 0.029 \\\\ \\bottomrule \\end{tab"
   },
   {
    "value": "0.357",
-   "at": 220021,
+   "at": 219349,
    "context": "l power & amount & 0.969 & 0.759 & 0.886 & 0.650 \\\\ \\midrule Gap & & 0.641 & 0.563 & 0.357 & 0.029 \\\\ \\bottomrule \\end{tabular} \\e"
   },
   {
    "value": "0.029",
-   "at": 220029,
+   "at": 219357,
    "context": "& amount & 0.969 & 0.759 & 0.886 & 0.650 \\\\ \\midrule Gap & & 0.641 & 0.563 & 0.357 & 0.029 \\\\ \\bottomrule \\end{tabular} \\end{table"
   },
   {
    "value": "0.209",
-   "at": 220227,
+   "at": 219555,
    "context": "d the amount family's median barely moves, although log total power moves earlier by 0.209; the gap narrows from 0.641 to 0.563 an"
   },
   {
    "value": "0.641",
-   "at": 220255,
+   "at": 219583,
    "context": "barely moves, although log total power moves earlier by 0.209; the gap narrows from 0.641 to 0.563 and the ordering is unchanged."
   },
   {
    "value": "0.563",
-   "at": 220264,
+   "at": 219592,
    "context": "oves, although log total power moves earlier by 0.209; the gap narrows from 0.641 to 0.563 and the ordering is unchanged. On XJTU-"
   },
   {
    "value": "0.029",
-   "at": 220347,
+   "at": 219675,
    "context": "o 0.563 and the ordering is unchanged. On XJTU-SY the gap closes almost entirely, to 0.029, and it closes from both ends: four of"
   },
   {
    "value": "161",
-   "at": 220737,
+   "at": 220065,
    "context": "rithmetic: the causal window is \\max(7,0.08n) samples, so XJTU-SY's median record of 161 samples gives a one-sided quadratic abo"
   },
   {
    "value": "1274",
-   "at": 220858,
+   "at": 220186,
    "context": "tic about thirteen samples wide against PRONOSTIA's hundred, its median record being 1274 samples, and a quadratic fitted on thir"
   },
   {
    "value": "0.641",
-   "at": 221978,
+   "at": 221306,
    "context": "ribution}. At the working setting it reproduces the gap the other reruns start from, 0.641 on PRONOSTIA and 0.355 on XJTU-SY. Swee"
   },
   {
    "value": "0.355",
-   "at": 222001,
+   "at": 221329,
    "context": "ng setting it reproduces the gap the other reruns start from, 0.641 on PRONOSTIA and 0.355 on XJTU-SY. Sweeping each from 4\\% to 1"
   },
   {
    "value": "16",
-   "at": 222045,
+   "at": 221373,
    "context": "eruns start from, 0.641 on PRONOSTIA and 0.355 on XJTU-SY. Sweeping each from 4\\% to 16\\% and rebuilding the gap from scratch,"
   },
   {
    "value": "0.599",
-   "at": 222395,
+   "at": 221723,
    "context": "ows is that the two rigs are not equally exposed. On PRONOSTIA the gap stays between 0.599 and 0.745 against a working value of 0."
   },
   {
    "value": "0.745",
-   "at": 222405,
+   "at": 221733,
    "context": "t the two rigs are not equally exposed. On PRONOSTIA the gap stays between 0.599 and 0.745 against a working value of 0.641, never"
   },
   {
    "value": "0.641",
-   "at": 222438,
+   "at": 221766,
    "context": "posed. On PRONOSTIA the gap stays between 0.599 and 0.745 against a working value of 0.641, never below nine tenths of it. On XJTU"
   },
   {
    "value": "0.154",
-   "at": 222495,
+   "at": 221823,
    "context": "against a working value of 0.641, never below nine tenths of it. On XJTU-SY it runs 0.154 to 0.435 against 0.355, so a defensible"
   },
   {
    "value": "0.435",
-   "at": 222504,
+   "at": 221832,
    "context": "a working value of 0.641, never below nine tenths of it. On XJTU-SY it runs 0.154 to 0.435 against 0.355, so a defensible choice o"
   },
   {
    "value": "0.355",
-   "at": 222518,
+   "at": 221846,
    "context": "e of 0.641, never below nine tenths of it. On XJTU-SY it runs 0.154 to 0.435 against 0.355, so a defensible choice of bandwidth mo"
   },
   {
    "value": "161",
-   "at": 222751,
+   "at": 222079,
    "context": "metry has a cause the paper has already named. XJTU-SY records have a median life of 161 snapshots, so a 12\\% window spans about"
   },
   {
    "value": "12",
-   "at": 222771,
+   "at": 222099,
    "context": "e paper has already named. XJTU-SY records have a median life of 161 snapshots, so a 12\\% window spans about nineteen samples a"
   },
   {
    "value": "1274",
-   "at": 222876,
+   "at": 222204,
    "context": "out nineteen samples and the smoother has little to work with; PRONOSTIA's median is 1274. This is the same record-length limit t"
   },
   {
    "value": "0.983",
-   "at": 223791,
+   "at": 223119,
    "context": "n sixteen bearings and applying it to the seventeenth moves the information age from 0.983 to 0.980. The directions transfer well,"
   },
   {
    "value": "0.980",
-   "at": 223800,
+   "at": 223128,
    "context": "bearings and applying it to the seventeenth moves the information age from 0.983 to 0.980. The directions transfer well, at a med"
   },
   {
    "value": "0.96",
-   "at": 223860,
+   "at": 223188,
    "context": "mation age from 0.983 to 0.980. The directions transfer well, at a median cosine of +0.96. Roughly twice the information of root-"
   },
   {
    "value": "0.003",
-   "at": 223947,
+   "at": 223275,
    "context": "96. Roughly twice the information of root-mean-square amplitude advances that age by 0.003 of a lifetime. The reason is that \\lamb"
   },
   {
    "value": "0.10",
-   "at": 224667,
+   "at": 223995,
    "context": "s a design choice rather than a fitted parameter. Anchoring does not rescue it. At c=0.10 it gains a paired median 0.943 of a lif"
   },
   {
    "value": "0.943",
-   "at": 224697,
+   "at": 224025,
    "context": "a fitted parameter. Anchoring does not rescue it. At c=0.10 it gains a paired median 0.943 of a lifetime on the bearings where it"
   },
   {
    "value": "14",
-   "at": 224784,
+   "at": 224112,
    "context": "943 of a lifetime on the bearings where it remains feasible, but it is infeasible on 14 of 17, because information moved toward"
   },
   {
    "value": "17",
-   "at": 224790,
+   "at": 224118,
    "context": "a lifetime on the bearings where it remains feasible, but it is infeasible on 14 of 17, because information moved towards earl"
   },
   {
    "value": "16",
-   "at": 225411,
+   "at": 224739,
    "context": "r-singular M(1) with a ridge returns eigenvalues that violate \\eqref{eq:lev} on 6 of 16 bearings. Through Q the inequality is m"
   },
   {
    "value": "16",
-   "at": 225478,
+   "at": 224806,
    "context": "f{eq:lev} on 6 of 16 bearings. Through Q the inequality is manifest and holds on all 16. \\subsection{The two comparators for th"
   },
   {
    "value": "14",
-   "at": 225681,
+   "at": 225009,
    "context": "istributional statistic against the best transferable linear combination: earlier on 14 of 16 bearings, by a paired median of a"
   },
   {
    "value": "16",
-   "at": 225687,
+   "at": 225015,
    "context": "utional statistic against the best transferable linear combination: earlier on 14 of 16 bearings, by a paired median of at leas"
   },
   {
    "value": "0.807",
-   "at": 225731,
+   "at": 225059,
    "context": "ble linear combination: earlier on 14 of 16 bearings, by a paired median of at least 0.807. Against the linear side fitted on the"
   },
   {
    "value": "0.003",
-   "at": 226065,
+   "at": 225393,
    "context": "record: \\emph{Bearing1\\_1}, where the shape statistic is earlier than the own fit by 0.003 of a life and later than the transferab"
   },
   {
    "value": "0.006",
-   "at": 226126,
+   "at": 225454,
    "context": "ier than the own fit by 0.003 of a life and later than the transferable direction by 0.006. Both are inside the sampling spread of"
   },
   {
    "value": "0.013",
-   "at": 226272,
+   "at": 225600,
    "context": "t any length in this fleet, which the decimation of Section~\\ref{sec:census} puts at 0.013 even at twelve hundred samples. Fifteen"
   },
   {
    "value": "0.764",
-   "at": 226471,
+   "at": 225799,
    "context": "t separates them is which comparator the sentence is entitled to name. The margin is 0.764 when the linear side is granted the anc"
   },
   {
    "value": "0.07",
-   "at": 227507,
+   "at": 226835,
    "context": "between gradient stability and the interquartile spread of \\tau across bearings is -0.07 on PRONOSTIA and +0.07 on XJTU-SY. This"
   },
   {
    "value": "0.07",
-   "at": 227530,
+   "at": 226858,
    "context": "lity and the interquartile spread of \\tau across bearings is -0.07 on PRONOSTIA and +0.07 on XJTU-SY. This is reported as inconcl"
   },
   {
    "value": "0.95",
-   "at": 227694,
+   "at": 227022,
    "context": "the test has little power. Five of the eight statistics have gradient cosines above 0.95, so the predictor is nearly constant, a"
   },
   {
    "value": "16",
-   "at": 228508,
+   "at": 227836,
    "context": "t produced them. \\begin{table}[htbp] \\centering \\caption{Relative information age on 16 PRONOSTIA bearings, every candidate bui"
   },
   {
    "value": "32",
-   "at": 228567,
+   "at": 227895,
    "context": "lative information age on 16 PRONOSTIA bearings, every candidate built from the same 32-band spectrum. Only the last two rows a"
   },
   {
    "value": "0.007",
-   "at": 228859,
+   "at": 228187,
    "context": "& Median \\tau & \\\\ \\midrule Span bound \\tau_{\\mathrm{lin}}, Prop.~\\ref{prop:span} & 0.007 & fitted \\\\ Best linear combination, in"
   },
   {
    "value": "16",
-   "at": 229695,
+   "at": 229023,
    "context": "level direction survives all three: the trend and noise-scale bandwidths from 4\\% to 16\\% of life (Section~\\ref{sec:bandwidth})"
   },
   {
    "value": "0.05",
-   "at": 229761,
+   "at": 229089,
    "context": "widths from 4\\% to 16\\% of life (Section~\\ref{sec:bandwidth}), and the demand from q=0.05 to 0.80. What survives is the sign of t"
   },
   {
    "value": "0.80",
-   "at": 229769,
+   "at": 229097,
    "context": "rom 4\\% to 16\\% of life (Section~\\ref{sec:bandwidth}), and the demand from q=0.05 to 0.80. What survives is the sign of the famil"
   },
   {
    "value": "10",
-   "at": 230041,
+   "at": 229369,
    "context": "turns out to be the least delicate of them. Set anywhere from a condition number of 10^{2} to 10^{5} it keeps nine of the ten"
   },
   {
    "value": "10",
-   "at": 230051,
+   "at": 229379,
    "context": "to be the least delicate of them. Set anywhere from a condition number of 10^{2} to 10^{5} it keeps nine of the ten channels a"
   },
   {
    "value": "10",
-   "at": 230218,
+   "at": 229546,
    "context": ".983 for root-mean-square amplitude alone, identically at all four settings. Only at 10^{6} does the degenerate direction retur"
   },
   {
    "value": "0.035",
-   "at": 230293,
+   "at": 229621,
    "context": ". Only at 10^{6} does the degenerate direction return, and the age then collapses to 0.035. The guard is therefore not a tuned par"
   },
   {
    "value": "0.85",
-   "at": 230497,
+   "at": 229825,
    "context": "agnitude. The surviving-fraction threshold is a real choice within a narrow band. At 0.85 and at 0.90 the admitted set is identic"
   },
   {
    "value": "0.90",
-   "at": 230509,
+   "at": 229837,
    "context": "e surviving-fraction threshold is a real choice within a narrow band. At 0.85 and at 0.90 the admitted set is identical, ten indi"
   },
   {
    "value": "195",
-   "at": 230635,
+   "at": 229963,
    "context": "ndicators of fifteen, and everything excluded is a turbofan channel excluded for its 195 samples rather than for its sensors. Lo"
   },
   {
    "value": "0.80",
-   "at": 230689,
+   "at": 230017,
    "context": "bofan channel excluded for its 195 samples rather than for its sensors. Loosening to 0.80 readmits one of those and tightening to"
   },
   {
    "value": "0.95",
-   "at": 230734,
+   "at": 230062,
    "context": "ther than for its sensors. Loosening to 0.80 readmits one of those and tightening to 0.95 costs a bearing channel instead, so the"
   },
   {
    "value": "0.85",
-   "at": 230844,
+   "at": 230172,
    "context": "nel instead, so the reported ordering does not depend on where the line sits between 0.85 and 0.90 and would change if it moved m"
   },
   {
    "value": "0.90",
-   "at": 230853,
+   "at": 230181,
    "context": "ad, so the reported ordering does not depend on where the line sits between 0.85 and 0.90 and would change if it moved much beyon"
   },
   {
    "value": "1.018",
-   "at": 231116,
+   "at": 230444,
    "context": "and across a tenfold range from four folds to forty that scale moves by a factor of 1.018. With ten folds a sample's near neighbo"
   },
   {
    "value": "10",
-   "at": 231727,
+   "at": 231055,
    "context": "reading its slope leaves the cubic term behind, so the estimate carries D'+h^{2}D'''/10 with h=0.04 of a lifetime. That is a bi"
   },
   {
    "value": "0.04",
-   "at": 231737,
+   "at": 231065,
    "context": "s slope leaves the cubic term behind, so the estimate carries D'+h^{2}D'''/10 with h=0.04 of a lifetime. That is a bias and not a"
   },
   {
    "value": "5.8",
-   "at": 231900,
+   "at": 231228,
    "context": "h does move it, by a factor of 4.6 across the range swept above where h^{2} predicts 5.8, but every setting errs in the same dir"
   },
   {
    "value": "1.003",
-   "at": 232191,
+   "at": 231519,
    "context": "pansion is exact on a linear and a quadratic trend, returns 1.003 against a measured 1.003 on an exponential, and departs by 0.118"
   },
   {
    "value": "10",
-   "at": 233074,
+   "at": 232402,
    "context": "m window are read. Removing the bias is exact rather than estimated, since h^{2}D'''/10 can be subtracted before squaring and n"
   },
   {
    "value": "1.06",
-   "at": 234766,
+   "at": 234094,
    "context": "harge of 13.6 at the median. A distortion whose range is five can have a contrast of 1.06, because the extremes that set a range"
   },
   {
    "value": "0.01",
-   "at": 235430,
+   "at": 234758,
    "context": ".0\\% of a record and carry a median 0.00002 of its budget, at most 0.0030, and below 0.01 on every cell. That is structural rathe"
   },
   {
    "value": "0.15",
-   "at": 240590,
+   "at": 239918,
    "context": "ion at any budget, confirmed to 10^{-15}. It is also the true worst case at \\epsilon=0.15, where a free optimisation over twenty-"
   },
   {
    "value": "0.40",
-   "at": 240687,
+   "at": 240015,
    "context": "a free optimisation over twenty-block distortions cannot beat it at all. At \\epsilon=0.40 it is beaten by up to 29\\%, and the mec"
   },
   {
    "value": "0.90",
-   "at": 241324,
+   "at": 240652,
    "context": "ound} is close to exact is therefore not the regime in which it is used: at \\epsilon=0.90 a free optimisation beats it by 137\\%."
   },
   {
    "value": "11",
-   "at": 244762,
+   "at": 244090,
    "context": "ng requires the direction (1,-1), in which the ellipse reaches \\epsilon\\sqrt{\\Gamma_{11}+\\Gamma_{22}-2\\Gamma_{12}} against the"
   },
   {
    "value": "22",
-   "at": 244774,
+   "at": 244102,
    "context": "the direction (1,-1), in which the ellipse reaches \\epsilon\\sqrt{\\Gamma_{11}+\\Gamma_{22}-2\\Gamma_{12}} against the bounding box"
   },
   {
    "value": "12",
-   "at": 244787,
+   "at": 244115,
    "context": "(1,-1), in which the ellipse reaches \\epsilon\\sqrt{\\Gamma_{11}+\\Gamma_{22}-2\\Gamma_{12}} against the bounding box's \\epsilon(\\"
   },
   {
    "value": "11",
-   "at": 244842,
+   "at": 244170,
    "context": "mma_{11}+\\Gamma_{22}-2\\Gamma_{12}} against the bounding box's \\epsilon(\\sqrt{\\Gamma_{11}}+\\sqrt{\\Gamma_{22}}). \\end{proposition"
   },
   {
    "value": "22",
-   "at": 244861,
+   "at": 244189,
    "context": "}-2\\Gamma_{12}} against the bounding box's \\epsilon(\\sqrt{\\Gamma_{11}}+\\sqrt{\\Gamma_{22}}). \\end{proposition} \\begin{proof} Eac"
   },
   {
    "value": "12",
-   "at": 245225,
+   "at": 244553,
    "context": "ction d is \\epsilon\\sqrt{d^{\\top}\\Gamma d}. \\end{proof} The correlation \\rho=\\Gamma_{12}/\\sqrt{\\Gamma_{11}\\Gamma_{22}} says how"
   },
   {
    "value": "11",
-   "at": 245243,
+   "at": 244571,
    "context": "n\\sqrt{d^{\\top}\\Gamma d}. \\end{proof} The correlation \\rho=\\Gamma_{12}/\\sqrt{\\Gamma_{11}\\Gamma_{22}} says how far the two indic"
   },
   {
    "value": "22",
-   "at": 245254,
+   "at": 244582,
    "context": "top}\\Gamma d}. \\end{proof} The correlation \\rho=\\Gamma_{12}/\\sqrt{\\Gamma_{11}\\Gamma_{22}} says how far the two indicators want"
   },
   {
    "value": "0.90",
-   "at": 245446,
+   "at": 244774,
    "context": "a reversal needs precisely when \\rho is large. On constructed pairs with \\rho above 0.90 the box overstates the reachable separa"
   },
   {
    "value": "0.06",
-   "at": 246216,
+   "at": 245544,
    "context": "t order in \\epsilon: aiming at the boundary overshoots it by up to 2.4\\% at \\epsilon=0.06, which is the same expansion error as e"
   },
   {
    "value": "500",
-   "at": 248072,
+   "at": 247400,
    "context": "moves \\log R by a standard deviation of only 0.129, and that falls by 4.2 between n=500 and n=8000 against the 4.0 that 1/\\sqrt"
   },
   {
    "value": "8000",
-   "at": 248082,
+   "at": 247410,
    "context": "g R by a standard deviation of only 0.129, and that falls by 4.2 between n=500 and n=8000 against the 4.0 that 1/\\sqrt n requires"
   },
   {
    "value": "4.0",
-   "at": 248099,
+   "at": 247427,
    "context": "deviation of only 0.129, and that falls by 4.2 between n=500 and n=8000 against the 4.0 that 1/\\sqrt n requires, the closed for"
   },
   {
    "value": "500",
-   "at": 248526,
+   "at": 247854,
    "context": "most 0.001; where it differs it reaches 0.055 and changes by a factor 0.97 between n=500 and n=8000, where a variance would fall"
   },
   {
    "value": "8000",
-   "at": 248536,
+   "at": 247864,
    "context": "; where it differs it reaches 0.055 and changes by a factor 0.97 between n=500 and n=8000, where a variance would fall by sixteen"
   },
   {
    "value": "0.3",
-   "at": 249089,
+   "at": 248417,
    "context": "e theory concerns covariances of errors. It is boundable all the same: at a generous 0.3 for each relative error the bias is at"
   },
   {
    "value": "1.06",
-   "at": 249183,
+   "at": 248511,
    "context": "ach relative error the bias is at most 0.008 of a log-contrast, against contrasts of 1.06 to 1.62 for the same corrections. Estim"
   },
   {
    "value": "1.62",
-   "at": 249191,
+   "at": 248519,
    "context": "tive error the bias is at most 0.008 of a log-contrast, against contrasts of 1.06 to 1.62 for the same corrections. Estimating a"
   },
   {
    "value": "301",
-   "at": 251545,
+   "at": 250873,
    "context": "th the record held fixed. That spread is 0.243 of a life at 150 samples and 0.217 at 301, against 0.013 at 1205. Every one of th"
   },
   {
    "value": "0.013",
-   "at": 251558,
+   "at": 250886,
    "context": "held fixed. That spread is 0.243 of a life at 150 samples and 0.217 at 301, against 0.013 at 1205. Every one of the four reversal"
   },
   {
    "value": "1205",
-   "at": 251567,
+   "at": 250895,
    "context": "ed. That spread is 0.243 of a life at 150 samples and 0.217 at 301, against 0.013 at 1205. Every one of the four reversals is ins"
   },
   {
    "value": "12",
-   "at": 254433,
+   "at": 253761,
    "context": "the product \\operatorname{se}\\cdot g should be the steadier quantity. It is, in 9 of 12 record--indicator cases, and the median"
   },
   {
    "value": "18.0",
-   "at": 254518,
+   "at": 253846,
    "context": "12 record--indicator cases, and the median spread across demands falls from a factor 18.0 to 12.9. That is the predicted directio"
   },
   {
    "value": "12.9",
-   "at": 254526,
+   "at": 253854,
    "context": "d--indicator cases, and the median spread across demands falls from a factor 18.0 to 12.9. That is the predicted direction and 28"
   },
   {
    "value": "28",
-   "at": 254568,
+   "at": 253896,
    "context": "across demands falls from a factor 18.0 to 12.9. That is the predicted direction and 28\\% narrower. With twelve cases an exact"
   },
   {
    "value": "0.07",
-   "at": 254628,
+   "at": 253956,
    "context": "predicted direction and 28\\% narrower. With twelve cases an exact sign test gives p=0.07 against the one-sided alternative the p"
   },
   {
    "value": "0.15",
-   "at": 254697,
+   "at": 254025,
    "context": "gn test gives p=0.07 against the one-sided alternative the proposition predicts, and 0.15 against the two-sided one. Equation~\\eq"
   },
   {
    "value": "0.2",
-   "at": 256469,
+   "at": 255797,
    "context": "t has a consequence for figures reported earlier. The three corrections move \\eta by 0.2\\%, 1.5\\% and 8.0\\%, which on the log-od"
   },
   {
    "value": "1.5",
-   "at": 256476,
+   "at": 255804,
    "context": "consequence for figures reported earlier. The three corrections move \\eta by 0.2\\%, 1.5\\% and 8.0\\%, which on the log-odds scal"
   },
   {
    "value": "8.0",
-   "at": 256486,
+   "at": 255814,
    "context": "ce for figures reported earlier. The three corrections move \\eta by 0.2\\%, 1.5\\% and 8.0\\%, which on the log-odds scale is 0.004"
   },
   {
    "value": "97",
-   "at": 257926,
+   "at": 257254,
    "context": "is 0.044. Measurement is therefore 2.6\\% of the observed variance and the remaining 97\\% is bearings genuinely differing: the"
   },
   {
    "value": "0.95",
-   "at": 259998,
+   "at": 259326,
    "context": "ounterexample survives at a realistic correlation and not only in the limit: at \\rho=0.95 a noise-cancelling reference goes from"
   },
   {
    "value": "10",
-   "at": 260714,
+   "at": 260042,
    "context": ", is divided out; and the residual correlation matrix is required to condition below 10^{3}, channels being dropped greedily un"
   },
   {
    "value": "1.3",
-   "at": 261050,
+   "at": 260378,
    "context": "o they sum to one up to spectral leakage; any set containing all seven conditions at 1.3\\times10^{5} against 3.8\\times10^{1} onc"
   },
   {
    "value": "3.8",
-   "at": 261074,
+   "at": 260402,
    "context": "spectral leakage; any set containing all seven conditions at 1.3\\times10^{5} against 3.8\\times10^{1} once one band is dropped. R"
   },
   {
    "value": "0.029",
-   "at": 261196,
+   "at": 260524,
    "context": "ped. Reported without the guard, the ten channels appear to reach the target at \\tau=0.029; guarded, they reach it at \\tau=0.914."
   },
   {
    "value": "91",
-   "at": 262333,
+   "at": 261661,
    "context": "used information as a sum over eigendirections, the smallest direction alone carries 91\\% of the total on the full set and 99.8"
   },
   {
    "value": "99.8",
-   "at": 262371,
+   "at": 261699,
    "context": "rections, the smallest direction alone carries 91\\% of the total on the full set and 99.8\\% on the band fractions by themselves."
   },
   {
    "value": "0.08",
-   "at": 262486,
+   "at": 261814,
    "context": "y themselves. The algebraic identity does its work: the estimated sensitivity places 0.08\\% of its energy in that direction again"
   },
   {
    "value": "10",
-   "at": 262533,
+   "at": 261861,
    "context": "ork: the estimated sensitivity places 0.08\\% of its energy in that direction against 10\\% for an unstructured vector, a suppres"
   },
   {
    "value": "2.6",
-   "at": 262635,
+   "at": 261963,
    "context": "uctured vector, a suppression of 126-fold. It is not enough. The eigenvalue there is 2.6\\times10^{-5}, an amplification of 38000"
   },
   {
    "value": "38000",
-   "at": 262673,
+   "at": 262001,
    "context": "old. It is not enough. The eigenvalue there is 2.6\\times10^{-5}, an amplification of 38000-fold, so the net factor is 302. A smoot"
   },
   {
    "value": "10",
-   "at": 262879,
+   "at": 262207,
    "context": "dentity the channels do; approximate orthogonality does not survive a denominator of 10^{-5}. This is also why the synthetic ex"
   },
   {
    "value": "91",
-   "at": 263415,
+   "at": 262743,
    "context": "n advance, and on these records separates the degenerate sets from the sound ones by 91\\% against 35\\%. On seventeen PRONOSTIA"
   },
   {
    "value": "35",
-   "at": 263428,
+   "at": 262756,
    "context": "d on these records separates the degenerate sets from the sound ones by 91\\% against 35\\%. On seventeen PRONOSTIA bearings carr"
   },
   {
    "value": "80",
-   "at": 263591,
+   "at": 262919,
    "context": "et held at one fixed absolute demand per unit and sets nested, monotonicity holds in 80 of 80 comparisons in which both sets ar"
   },
   {
    "value": "80",
-   "at": 263597,
+   "at": 262925,
    "context": "d at one fixed absolute demand per unit and sets nested, monotonicity holds in 80 of 80 comparisons in which both sets are feas"
   },
   {
    "value": "17",
-   "at": 263812,
+   "at": 263140,
    "context": "quare amplitude alone, a median gain of 0.026 of a lifetime, and is earlier on 17 of 17 bearings. The effect is real, and modes"
   },
   {
    "value": "30",
-   "at": 263992,
+   "at": 263320,
    "context": "lly infeasible meets the target jointly; the worst conditioning among those pairs is 30, far below the guard, so that result st"
   },
   {
    "value": "0.99",
-   "at": 264703,
+   "at": 264031,
    "context": "e levels the measured standard deviations land on (r G)^{-1/2} with median ratios of 0.99, 1.00 and 0.99 and nothing outside 0.95"
   },
   {
    "value": "1.00",
-   "at": 264709,
+   "at": 264037,
    "context": "ls the measured standard deviations land on (r G)^{-1/2} with median ratios of 0.99, 1.00 and 0.99 and nothing outside 0.95 to 1."
   },
   {
    "value": "0.99",
-   "at": 264718,
+   "at": 264046,
    "context": "asured standard deviations land on (r G)^{-1/2} with median ratios of 0.99, 1.00 and 0.99 and nothing outside 0.95 to 1.07. The n"
   },
   {
    "value": "0.95",
-   "at": 264743,
+   "at": 264071,
    "context": "s land on (r G)^{-1/2} with median ratios of 0.99, 1.00 and 0.99 and nothing outside 0.95 to 1.07. The nuisance cost is therefore"
   },
   {
    "value": "1.07",
-   "at": 264751,
+   "at": 264079,
    "context": "n (r G)^{-1/2} with median ratios of 0.99, 1.00 and 0.99 and nothing outside 0.95 to 1.07. The nuisance cost is therefore achieva"
   },
   {
    "value": "8.93",
-   "at": 268163,
+   "at": 267491,
    "context": "nty-five effective parameters and keeps more than a global polynomial with thirteen, 8.93\\times10^{-12} against 8.53\\times10^{-13"
   },
   {
    "value": "12",
-   "at": 268178,
+   "at": 267506,
    "context": "ive parameters and keeps more than a global polynomial with thirteen, 8.93\\times10^{-12} against 8.53\\times10^{-13}. A local ba"
   },
   {
    "value": "31",
-   "at": 268685,
+   "at": 268013,
    "context": "basis of degree two or more annihilates it exactly; the ladder then read 5\\times10^{-31} at every rung and appeared to span twe"
   },
   {
    "value": "12",
-   "at": 269326,
+   "at": 268654,
    "context": "ion~\\ref{prop:band} as interpolated, and for a reason. Read off the grid it would be 12, beside the window scale of 12.5, and t"
   },
   {
    "value": "0.00",
-   "at": 269655,
+   "at": 268983,
    "context": "fraction \\|(I-S)p\\|^{2}/\\|p\\|^{2} of a perturbation p behaves differently: it reads 0.00, 0.05, 1.38, 1.34 and 1.13 at f=6,12,25"
   },
   {
    "value": "0.05",
-   "at": 269661,
+   "at": 268989,
    "context": "ion \\|(I-S)p\\|^{2}/\\|p\\|^{2} of a perturbation p behaves differently: it reads 0.00, 0.05, 1.38, 1.34 and 1.13 at f=6,12,25,50,10"
   },
   {
    "value": "1.38",
-   "at": 269667,
+   "at": 268995,
    "context": "(I-S)p\\|^{2}/\\|p\\|^{2} of a perturbation p behaves differently: it reads 0.00, 0.05, 1.38, 1.34 and 1.13 at f=6,12,25,50,100, ove"
   },
   {
    "value": "1.34",
-   "at": 269673,
+   "at": 269001,
    "context": "\\|^{2}/\\|p\\|^{2} of a perturbation p behaves differently: it reads 0.00, 0.05, 1.38, 1.34 and 1.13 at f=6,12,25,50,100, overshoot"
   },
   {
    "value": "1.13",
-   "at": 269682,
+   "at": 269010,
    "context": "p\\|^{2} of a perturbation p behaves differently: it reads 0.00, 0.05, 1.38, 1.34 and 1.13 at f=6,12,25,50,100, overshooting one."
   },
   {
    "value": "12",
-   "at": 269694,
+   "at": 269022,
    "context": "perturbation p behaves differently: it reads 0.00, 0.05, 1.38, 1.34 and 1.13 at f=6,12,25,50,100, overshooting one. An out-of-"
   },
   {
    "value": "25",
-   "at": 269697,
+   "at": 269025,
    "context": "rturbation p behaves differently: it reads 0.00, 0.05, 1.38, 1.34 and 1.13 at f=6,12,25,50,100, overshooting one. An out-of-fol"
   },
   {
    "value": "50",
-   "at": 269700,
+   "at": 269028,
    "context": "rbation p behaves differently: it reads 0.00, 0.05, 1.38, 1.34 and 1.13 at f=6,12,25,50,100, overshooting one. An out-of-fold p"
   },
   {
    "value": "100",
-   "at": 269703,
+   "at": 269031,
    "context": "tion p behaves differently: it reads 0.00, 0.05, 1.38, 1.34 and 1.13 at f=6,12,25,50,100, overshooting one. An out-of-fold predi"
   },
   {
    "value": "0.26",
-   "at": 270700,
+   "at": 270028,
    "context": "ds, that ratio reads 5.3, 11.3, 11.5, 11.2, 7.9, 8.7, 7.3 and 2.3 at h=0.015 through 0.26. The optimum is interior and the ratio"
   },
   {
    "value": "0.08",
-   "at": 271251,
+   "at": 270579,
    "context": "is better determined than any point inside it. What can be said is that the paper's 0.08 sits just outside the plateau and deliv"
   },
   {
    "value": "0.30",
-   "at": 272126,
+   "at": 271454,
    "context": "s the first and none clears the second. In particular the statement that \\varepsilon=0.30 is met before the machine is switched o"
   },
   {
    "value": "2.0",
-   "at": 272552,
+   "at": 271880,
    "context": "hat point the records carry far more than the threshold. The bearings carry a median 2.0\\times10^{7}, clearing the stricter thre"
   },
   {
    "value": "1.4",
-   "at": 272642,
+   "at": 271970,
    "context": "imes10^{7}, clearing the stricter threshold by a factor of 374; the turbofan carries 1.4\\times10^{5} at 0.60 of life, clearing i"
   },
   {
    "value": "0.60",
-   "at": 272661,
+   "at": 271989,
    "context": "g the stricter threshold by a factor of 374; the turbofan carries 1.4\\times10^{5} at 0.60 of life, clearing it by 2.6. That secon"
   },
   {
    "value": "32",
-   "at": 275066,
+   "at": 274394,
    "context": "and the same step taken with the \\beta row gives r_\\beta=1-(2\\beta-1)(2\\beta+1)^{3}/(32\\beta^{4}). For both at once, write \\nu="
   },
   {
    "value": "16",
-   "at": 275295,
+   "at": 274623,
    "context": "_{\\nu\\nu}^{-1}I_{\\delta\\nu} =A^{2}\\Big[\\frac{u}{2}-\\frac{u^{2}}{4\\beta}+\\frac{u^{3}}{16\\beta^{2}}\\Big] =\\frac{A^{2}u(4\\beta^{2}"
   },
   {
    "value": "16",
-   "at": 275342,
+   "at": 274670,
    "context": "{2}-\\frac{u^{2}}{4\\beta}+\\frac{u^{3}}{16\\beta^{2}}\\Big] =\\frac{A^{2}u(4\\beta^{2}+1)}{16\\beta^{2}}, \\end{equation*} the bracket"
   },
   {
    "value": "16",
-   "at": 275572,
+   "at": 274900,
    "context": "(2\\beta-1) leaves \\begin{equation*} r_{A\\beta}=1-\\frac{(4\\beta^{2}-1)(4\\beta^{2}+1)}{16\\beta^{4}} =\\frac{1}{16\\beta^{4}}=r_A^{2"
   },
   {
    "value": "16",
-   "at": 275595,
+   "at": 274923,
    "context": "n{equation*} r_{A\\beta}=1-\\frac{(4\\beta^{2}-1)(4\\beta^{2}+1)}{16\\beta^{4}} =\\frac{1}{16\\beta^{4}}=r_A^{2}. \\end{equation*} For"
   },
   {
    "value": "16",
-   "at": 276033,
+   "at": 275361,
    "context": ") and I_{\\beta\\beta\\mid A}=W/(2\\beta+1)^{3}. A second Schur complement leaves W/\\big(16\\beta^{2}(2\\beta-1)\\big), and dividing b"
   },
   {
    "value": "16",
-   "at": 276127,
+   "at": 275455,
    "context": "2}(2\\beta-1)\\big), and dividing by I_{\\delta\\delta}=W\\beta^{2}/(2\\beta-1) returns 1/(16\\beta^{4}). Every occurrence of W cancel"
   },
   {
    "value": "16",
-   "at": 283905,
+   "at": 283233,
    "context": "n order: charged in the range the ordering reported here is certified on none of the 16 bearings, charged in the energy on 6, a"
   },
   {
    "value": "11",
-   "at": 283977,
+   "at": 283305,
    "context": "none of the 16 bearings, charged in the energy on 6, and charged in the contrast on 11. Section~\\ref{sec:currencies} measures"
   },
   {
    "value": "855",
-   "at": 284073,
+   "at": 283401,
    "context": "~\\ref{sec:currencies} measures \\eqref{eq:energybound} against free optimisation over 855 record--correction--cut cells and finds"
   },
   {
    "value": "10",
-   "at": 287378,
+   "at": 286706,
    "context": "suggest. That guard caps the condition number of the residual correlation matrix at 10^{3}, and a two-channel matrix at correl"
   },
   {
    "value": "14",
-   "at": 289018,
+   "at": 288346,
    "context": "-- the nuisance tangent space, drawn as a plane seen edge-on ------------ \\fill[gray!14] (-0.4,-0.15) -- (5.6,-0.15) -- (6.5,0."
   },
   {
    "value": "0.4",
-   "at": 289024,
+   "at": 288352,
    "context": "nuisance tangent space, drawn as a plane seen edge-on ------------ \\fill[gray!14] (-0.4,-0.15) -- (5.6,-0.15) -- (6.5,0.85) --"
   },
   {
    "value": "0.15",
-   "at": 289029,
+   "at": 288357,
    "context": "ance tangent space, drawn as a plane seen edge-on ------------ \\fill[gray!14] (-0.4,-0.15) -- (5.6,-0.15) -- (6.5,0.85) -- (0.5,0"
   },
   {
    "value": "5.6",
-   "at": 289039,
+   "at": 288367,
    "context": "nt space, drawn as a plane seen edge-on ------------ \\fill[gray!14] (-0.4,-0.15) -- (5.6,-0.15) -- (6.5,0.85) -- (0.5,0.85) -- c"
   },
   {
    "value": "0.15",
-   "at": 289044,
+   "at": 288372,
    "context": "ace, drawn as a plane seen edge-on ------------ \\fill[gray!14] (-0.4,-0.15) -- (5.6,-0.15) -- (6.5,0.85) -- (0.5,0.85) -- cycle;"
   },
   {
    "value": "6.5",
-   "at": 289054,
+   "at": 288382,
    "context": "as a plane seen edge-on ------------ \\fill[gray!14] (-0.4,-0.15) -- (5.6,-0.15) -- (6.5,0.85) -- (0.5,0.85) -- cycle; \\node[gra"
   },
   {
    "value": "0.85",
-   "at": 289058,
+   "at": 288386,
    "context": "a plane seen edge-on ------------ \\fill[gray!14] (-0.4,-0.15) -- (5.6,-0.15) -- (6.5,0.85) -- (0.5,0.85) -- cycle; \\node[gray!70,"
   },
   {
    "value": "0.5",
-   "at": 289068,
+   "at": 288396,
    "context": "en edge-on ------------ \\fill[gray!14] (-0.4,-0.15) -- (5.6,-0.15) -- (6.5,0.85) -- (0.5,0.85) -- cycle; \\node[gray!70,anchor=we"
   },
   {
    "value": "0.85",
-   "at": 289072,
+   "at": 288400,
    "context": "dge-on ------------ \\fill[gray!14] (-0.4,-0.15) -- (5.6,-0.15) -- (6.5,0.85) -- (0.5,0.85) -- cycle; \\node[gray!70,anchor=west] a"
   },
   {
    "value": "70",
-   "at": 289099,
+   "at": 288427,
    "context": "ray!14] (-0.4,-0.15) -- (5.6,-0.15) -- (6.5,0.85) -- (0.5,0.85) -- cycle; \\node[gray!70,anchor=west] at (5.7,0.15) {T}; \\node[g"
   },
   {
    "value": "5.7",
-   "at": 289119,
+   "at": 288447,
    "context": "-- (5.6,-0.15) -- (6.5,0.85) -- (0.5,0.85) -- cycle; \\node[gray!70,anchor=west] at (5.7,0.15) {T}; \\node[gray!70,anchor=west] a"
   },
   {
    "value": "0.15",
-   "at": 289123,
+   "at": 288451,
    "context": "(5.6,-0.15) -- (6.5,0.85) -- (0.5,0.85) -- cycle; \\node[gray!70,anchor=west] at (5.7,0.15) {T}; \\node[gray!70,anchor=west] at (5."
   },
   {
    "value": "70",
-   "at": 289145,
+   "at": 288473,
    "context": "85) -- (0.5,0.85) -- cycle; \\node[gray!70,anchor=west] at (5.7,0.15) {T}; \\node[gray!70,anchor=west] at (5.0,-0.62) {\\footnotes"
   },
   {
    "value": "5.0",
-   "at": 289165,
+   "at": 288493,
    "context": "cycle; \\node[gray!70,anchor=west] at (5.7,0.15) {T}; \\node[gray!70,anchor=west] at (5.0,-0.62) {\\footnotesize tangent space of"
   },
   {
    "value": "0.62",
-   "at": 289170,
+   "at": 288498,
    "context": "e; \\node[gray!70,anchor=west] at (5.7,0.15) {T}; \\node[gray!70,anchor=west] at (5.0,-0.62) {\\footnotesize tangent space of the nu"
   },
   {
    "value": "1.2",
-   "at": 289321,
+   "at": 288649,
    "context": "nsitivity, its shadow, and the residual ------------------------ \\coordinate (O) at (1.2,0.25); \\coordinate (P) at (4.1,0.72); %"
   },
   {
    "value": "0.25",
-   "at": 289325,
+   "at": 288653,
    "context": "ivity, its shadow, and the residual ------------------------ \\coordinate (O) at (1.2,0.25); \\coordinate (P) at (4.1,0.72); % the"
   },
   {
    "value": "4.1",
-   "at": 289352,
+   "at": 288680,
    "context": "residual ------------------------ \\coordinate (O) at (1.2,0.25); \\coordinate (P) at (4.1,0.72); % the projection, inside T \\coor"
   },
   {
    "value": "0.72",
-   "at": 289356,
+   "at": 288684,
    "context": "dual ------------------------ \\coordinate (O) at (1.2,0.25); \\coordinate (P) at (4.1,0.72); % the projection, inside T \\coordinat"
   },
   {
    "value": "4.1",
-   "at": 289410,
+   "at": 288738,
    "context": "0.25); \\coordinate (P) at (4.1,0.72); % the projection, inside T \\coordinate (D) at (4.1,2.85); % D' itself \\draw[very thick,->]"
   },
   {
    "value": "2.85",
-   "at": 289414,
+   "at": 288742,
    "context": "); \\coordinate (P) at (4.1,0.72); % the projection, inside T \\coordinate (D) at (4.1,2.85); % D' itself \\draw[very thick,->] (O)"
   },
   {
    "value": "65",
-   "at": 289515,
+   "at": 288843,
    "context": "lf \\draw[very thick,->] (O) -- (D) node[anchor=south west] {D'}; \\draw[thick,->,gray!65] (O) -- (P) node[anchor=north west,gray"
   },
   {
    "value": "75",
-   "at": 289558,
+   "at": 288886,
    "context": "hor=south west] {D'}; \\draw[thick,->,gray!65] (O) -- (P) node[anchor=north west,gray!75] {\\Pi_T D'}; \\draw[very thick,->] (P) -"
   },
   {
    "value": "0.26",
-   "at": 289660,
+   "at": 288988,
    "context": "draw[very thick,->] (P) -- (D) node[midway,anchor=west] {(I-\\Pi_T)D'}; \\draw (P) ++(-0.26,0) -- ++(0,0.26) -- ++(0.26,0); \\fill ("
   },
   {
    "value": "0.26",
-   "at": 289676,
+   "at": 289004,
    "context": "->] (P) -- (D) node[midway,anchor=west] {(I-\\Pi_T)D'}; \\draw (P) ++(-0.26,0) -- ++(0,0.26) -- ++(0.26,0); \\fill (O) circle (1.2pt"
   },
   {
    "value": "0.26",
-   "at": 289688,
+   "at": 289016,
    "context": "D) node[midway,anchor=west] {(I-\\Pi_T)D'}; \\draw (P) ++(-0.26,0) -- ++(0,0.26) -- ++(0.26,0); \\fill (O) circle (1.2pt); % ---- wh"
   },
   {
    "value": "7.0",
-   "at": 289835,
+   "at": 289163,
    "context": "es do to the picture ----------------------------- \\node[anchor=west,align=left] at (7.0,2.55) {\\footnotesize trend known:\\\\[-1p"
   },
   {
    "value": "2.55",
-   "at": 289839,
+   "at": 289167,
    "context": "o to the picture ----------------------------- \\node[anchor=west,align=left] at (7.0,2.55) {\\footnotesize trend known:\\\\[-1pt]\\fo"
   },
   {
    "value": "7.0",
-   "at": 289955,
+   "at": 289283,
    "context": "n:\\\\[-1pt]\\footnotesize T=\\{0\\}, nothing is lost}; \\node[anchor=west,align=left] at (7.0,1.45) {\\footnotesize power law, two par"
   },
   {
    "value": "1.45",
-   "at": 289959,
+   "at": 289287,
    "context": "[-1pt]\\footnotesize T=\\{0\\}, nothing is lost}; \\node[anchor=west,align=left] at (7.0,1.45) {\\footnotesize power law, two paramete"
   },
   {
    "value": "16",
-   "at": 290041,
+   "at": 289369,
    "context": ".0,1.45) {\\footnotesize power law, two parameters:\\\\[-1pt] \\footnotesize \\kappa_T=1/(16\\beta^{4})}; \\node[anchor=west,align=lef"
   },
   {
    "value": "7.0",
-   "at": 290090,
+   "at": 289418,
    "context": ":\\\\[-1pt] \\footnotesize \\kappa_T=1/(16\\beta^{4})}; \\node[anchor=west,align=left] at (7.0,0.35) {\\footnotesize smoother:\\ T becom"
   },
   {
    "value": "0.35",
-   "at": 290094,
+   "at": 289422,
    "context": "-1pt] \\footnotesize \\kappa_T=1/(16\\beta^{4})}; \\node[anchor=west,align=left] at (7.0,0.35) {\\footnotesize smoother:\\ T becomes\\\\["
   },
   {
    "value": "45",
-   "at": 290213,
+   "at": 289541,
    "context": "becomes\\\\[-1pt] \\footnotesize \\operatorname{range}(S), and \\kappa_S\\to0}; \\draw[gray!45,->] (6.9,2.55) -- (4.6,2.55); \\draw[gra"
   },
   {
    "value": "6.9",
-   "at": 290221,
+   "at": 289549,
    "context": "\\[-1pt] \\footnotesize \\operatorname{range}(S), and \\kappa_S\\to0}; \\draw[gray!45,->] (6.9,2.55) -- (4.6,2.55); \\draw[gray!45,->]"
   },
   {
    "value": "2.55",
-   "at": 290225,
+   "at": 289553,
    "context": "pt] \\footnotesize \\operatorname{range}(S), and \\kappa_S\\to0}; \\draw[gray!45,->] (6.9,2.55) -- (4.6,2.55); \\draw[gray!45,->] (6.9,"
   },
   {
    "value": "4.6",
-   "at": 290235,
+   "at": 289563,
    "context": "otesize \\operatorname{range}(S), and \\kappa_S\\to0}; \\draw[gray!45,->] (6.9,2.55) -- (4.6,2.55); \\draw[gray!45,->] (6.9,1.45) --"
   },
   {
    "value": "2.55",
-   "at": 290239,
+   "at": 289567,
    "context": "ize \\operatorname{range}(S), and \\kappa_S\\to0}; \\draw[gray!45,->] (6.9,2.55) -- (4.6,2.55); \\draw[gray!45,->] (6.9,1.45) -- (4.6,"
   },
   {
    "value": "45",
-   "at": 290257,
+   "at": 289585,
    "context": "range}(S), and \\kappa_S\\to0}; \\draw[gray!45,->] (6.9,2.55) -- (4.6,2.55); \\draw[gray!45,->] (6.9,1.45) -- (4.6,1.45); \\draw[gra"
   },
   {
    "value": "6.9",
-   "at": 290265,
+   "at": 289593,
    "context": "), and \\kappa_S\\to0}; \\draw[gray!45,->] (6.9,2.55) -- (4.6,2.55); \\draw[gray!45,->] (6.9,1.45) -- (4.6,1.45); \\draw[gray!45,->]"
   },
   {
    "value": "1.45",
-   "at": 290269,
+   "at": 289597,
    "context": "nd \\kappa_S\\to0}; \\draw[gray!45,->] (6.9,2.55) -- (4.6,2.55); \\draw[gray!45,->] (6.9,1.45) -- (4.6,1.45); \\draw[gray!45,->] (6.9,"
   },
   {
    "value": "4.6",
-   "at": 290279,
+   "at": 289607,
    "context": "S\\to0}; \\draw[gray!45,->] (6.9,2.55) -- (4.6,2.55); \\draw[gray!45,->] (6.9,1.45) -- (4.6,1.45); \\draw[gray!45,->] (6.9,0.35) --"
   },
   {
    "value": "1.45",
-   "at": 290283,
+   "at": 289611,
    "context": "0}; \\draw[gray!45,->] (6.9,2.55) -- (4.6,2.55); \\draw[gray!45,->] (6.9,1.45) -- (4.6,1.45); \\draw[gray!45,->] (6.9,0.35) -- (5.0,"
   },
   {
    "value": "45",
-   "at": 290301,
+   "at": 289629,
    "context": "->] (6.9,2.55) -- (4.6,2.55); \\draw[gray!45,->] (6.9,1.45) -- (4.6,1.45); \\draw[gray!45,->] (6.9,0.35) -- (5.0,0.35); \\end{tikz"
   },
   {
    "value": "6.9",
-   "at": 290309,
+   "at": 289637,
    "context": ",2.55) -- (4.6,2.55); \\draw[gray!45,->] (6.9,1.45) -- (4.6,1.45); \\draw[gray!45,->] (6.9,0.35) -- (5.0,0.35); \\end{tikzpicture}"
   },
   {
    "value": "0.35",
-   "at": 290313,
+   "at": 289641,
    "context": "5) -- (4.6,2.55); \\draw[gray!45,->] (6.9,1.45) -- (4.6,1.45); \\draw[gray!45,->] (6.9,0.35) -- (5.0,0.35); \\end{tikzpicture} \\capt"
   },
   {
    "value": "5.0",
-   "at": 290323,
+   "at": 289651,
    "context": ",2.55); \\draw[gray!45,->] (6.9,1.45) -- (4.6,1.45); \\draw[gray!45,->] (6.9,0.35) -- (5.0,0.35); \\end{tikzpicture} \\caption{What"
   },
   {
    "value": "0.35",
-   "at": 290327,
+   "at": 289655,
    "context": "5); \\draw[gray!45,->] (6.9,1.45) -- (4.6,1.45); \\draw[gray!45,->] (6.9,0.35) -- (5.0,0.35); \\end{tikzpicture} \\caption{What an un"
   },
   {
    "value": "16",
-   "at": 290625,
+   "at": 289953,
    "context": "uch of D' that space absorbs, not by how many parameters it has: nothing, all but 1/(16\\beta^{4}), or essentially everything.}"
   },
   {
    "value": "16",
-   "at": 291093,
+   "at": 290421,
    "context": "for the two-parameter power law of Proposition~\\ref{prop:nuisance} this recovers 1/(16\\beta^{4}) exactly. \\end{proposition} \\b"
   },
   {
    "value": "16",
-   "at": 291701,
+   "at": 291029,
    "context": "A\\tau^{\\beta}\\ln\\tau\\}, the tangent space of the two-parameter power law, returns 1/(16\\beta^{4}). \\end{proof} The two derivati"
   },
   {
    "value": "3.4",
-   "at": 291795,
+   "at": 291123,
    "context": "4}). \\end{proof} The two derivations agree numerically as well as formally: at \\beta=3.4 the projection gives 4.677\\times10^{-4}"
   }
  ]

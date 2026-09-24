@@ -13,28 +13,28 @@
   {
    "value": "830",
    "decimals": 0,
-   "at": 174693,
+   "at": 174036,
    "context": "s are that short; without the widening their residual would be identically zero. With it, $300$ of the $325{,}830$ fits over both rigs and all ten measures are left unf",
    "near_rig": true
   },
   {
    "value": "95",
    "decimals": 0,
-   "at": 227155,
+   "at": 226498,
    "context": "of twelve cells rise and the rest fall. A minimum window moves by a median of $0.0012$ of a lifetime with a $95$th percentile of $0.0185$ over $122$ pairs, the one la",
    "near_rig": true
   },
   {
    "value": "700",
    "decimals": 0,
-   "at": 245482,
+   "at": 244825,
    "context": "cate for every phase, that margin's sampling spread is $0.296$ in log units at $2400$ samples and $0.420$ at $700$. Splitting the sixteen by whether the margin exceeds",
    "near_rig": true
   },
   {
    "value": "38000",
    "decimals": 0,
-   "at": 255787,
+   "at": 255130,
    "context": "suppression of $126$-fold. It is not enough. The eigenvalue there is $2.6\\times10^{-5}$, an amplification of $38000$-fold, so the net factor is $302$. A smoother estimate",
    "near_rig": false
   }
