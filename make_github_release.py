@@ -19,8 +19,9 @@ DEST = os.path.join(os.path.dirname(HERE), "github_repo")
 MANIFEST = os.path.join(DEST, ".release_manifest")
 
 SKIP_DIRS = {".backup", "__pycache__", ".git"}
-SKIP_EXT = {".npz", ".pyc", ".pdf", ".png", ".tex", ".log", ".aux"}
-SKIP_NAMES = {"Cover_letter.md", "OUTLINE.md", "SPLIT.md"}
+SKIP_EXT = {".npz", ".pyc", ".pdf", ".png", ".tex", ".log", ".aux", ".docx"}
+SKIP_NAMES = {"Cover_letter.md", "OUTLINE.md", "SPLIT.md",
+              "make_cover_letter_docx.py"}
 KEEP_UNDERSCORE = {"_source.py"}
 
 GITIGNORE = """# feature caches rebuilt from the public datasets by the extraction scripts

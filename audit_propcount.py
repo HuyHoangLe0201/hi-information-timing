@@ -73,7 +73,8 @@ rest = total - len(there) - inline
 m_total = re.search(r"of the ([a-z-]+) propositions", app)
 m_there = re.search(r"([A-Z][a-z-]+) of the [a-z-]+ propositions", app)
 m_rest = re.search(r"the ([a-z-]+) that remain", app)
-m_inline = re.search(r"([A-Z][a-z-]+) carry a proof where they stand", app)
+m_inline = re.search(r"([A-Z][a-z-]+) are proved in the main paper "
+                     r"immediately after their statement", app)
 
 rows = [
     ("propositions in the manuscript", total,

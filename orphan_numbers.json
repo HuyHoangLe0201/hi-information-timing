@@ -6,36 +6,36 @@
   {
    "value": "9216",
    "decimals": 0,
-   "at": 29395,
-   "context": "Section~ recomputes the bearing indicators from the raw acquisitions: $23461$ acquisitions on PRONOSTIA and $9216$ on XJTU-SY, each resolved into thirty-two bands of $4",
+   "at": 29486,
+   "context": "al capacity. Section~ recomputes the bearing indicators from the raw acquisitions, $23461$ on PRONOSTIA and $9216$ on XJTU-SY. Each acquisition is resolved into thirty-",
    "near_rig": true
   },
   {
    "value": "830",
    "decimals": 0,
-   "at": 174036,
-   "context": "s are that short; without the widening their residual would be identically zero. With it, $300$ of the $325{,}830$ fits over both rigs and all ten measures are left unf",
+   "at": 175723,
+   "context": "e that short, and without the widening their residual would be identically zero. With it, $300$ of the $325{,}830$ fits over both rigs and all ten measures are left unf",
    "near_rig": true
   },
   {
    "value": "95",
    "decimals": 0,
-   "at": 226498,
-   "context": "of twelve cells rise and the rest fall. A minimum window moves by a median of $0.0012$ of a lifetime with a $95$th percentile of $0.0185$ over $122$ pairs, the one la",
+   "at": 228788,
+   "context": "of twelve cells rise and the rest fall. A minimum window moves by a median of $0.0012$ of a lifetime with a $95$th percentile of $0.0185$ over $122$ pairs. The one la",
    "near_rig": true
   },
   {
    "value": "700",
    "decimals": 0,
-   "at": 244825,
-   "context": "cate for every phase, that margin's sampling spread is $0.296$ in log units at $2400$ samples and $0.420$ at $700$. Splitting the sixteen by whether the margin exceeds",
+   "at": 247350,
+   "context": "uted for every phase, that margin's sampling spread is $0.296$ in log units at $2400$ samples and $0.420$ at $700$. Splitting the sixteen by whether the margin exceeds",
    "near_rig": true
   },
   {
    "value": "38000",
    "decimals": 0,
-   "at": 255130,
-   "context": "suppression of $126$-fold. It is not enough. The eigenvalue there is $2.6\\times10^{-5}$, an amplification of $38000$-fold, so the net factor is $302$. A smoother estimate",
+   "at": 257905,
+   "context": "ssion is not sufficient, because the eigenvalue in that direction is $2.6\\times10^{-5}$, an amplification of $38000$-fold, so the net factor is $302$. A smoother estimate",
    "near_rig": false
   }
  ]

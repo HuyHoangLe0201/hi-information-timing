@@ -25,6 +25,9 @@ ROOT = os.path.dirname(HERE)
 
 LET = io.open(os.path.join(HERE, "Cover_letter.md"), encoding="utf-8").read()
 TXT = re.sub(r"\s+", " ", LET)
+# the body is what the claims live in; the signature block below it is an
+# address, whose postcode is not a result and whose lines are not prose
+BODY = TXT.split("Yours sincerely")[0]
 TEX = io.open(os.path.join(ROOT, "paper", "mssp.tex"), encoding="utf-8").read()
 C = json.load(open(os.path.join(HERE, "crb_full.json")))
 
@@ -42,12 +45,15 @@ title = re.sub(r"\s+", " ", title).strip()
 chk("title matches \\title{}", title.lower() in TXT.lower(), title[:46] + "...")
 
 # --- the corresponding author is the manuscript's ---------------------------
-ead = re.search(r"\\ead\{([^}]+)\}", TEX).group(1)
-chk("corresponding e-mail", ead in TXT, ead)
+# the one whose \author carries \corref, and the \ead that follows it
+_cor = re.search(r"\\author(?:\[[^\]]*\])?\{[^\n]*\\corref\{[^}]+\}\}\s*"
+                 r"\\ead\{([^}]+)\}", TEX)
+ead = _cor.group(1) if _cor else "(no \\corref found)"
+chk("corresponding e-mail", bool(_cor) and ead in TXT, ead)
 chk("journal named", "Mechanical Systems and Signal Processing" in TXT)
 
 # --- every number in the letter is traceable --------------------------------
-nums = re.findall(r"\d+(?:\.\d+)?%?", TXT)
+nums = re.findall(r"\d+(?:\.\d+)?%?", BODY)
 GOOD = ("bearing", "turbofan_FD001", "turbofan_FD004")
 units = 370
 worst_good = max(C[d]["median"] for d in GOOD)
@@ -98,8 +104,8 @@ chk("the causal limit is disclosed",
     "causal" in TXT and ("records are short" in TXT or "short records" in TXT))
 
 # --- and that the ordering is in timing, which the amount family reverses ---
-chk("timing, not amount, is said", "timing, not in worth" in TXT
-    and "The ordering is in time, not in worth" in _TEX)
+chk("timing, not amount, is said", "the ordering concerns timing only" in TXT
+    and "The ordering concerns timing only" in _TEX)
 
 # --- what the guide asks the letter itself to carry -------------------------
 # A Long Research Article must justify its length in the cover letter, and the
@@ -128,8 +134,8 @@ chk("marked DRAFT while the manuscript has [UNFILLED]",
     draft == unfilled, "DRAFT=%s, UNFILLED in mssp.tex=%s" % (draft, unfilled))
 
 # --- length -----------------------------------------------------------------
-words = len(LET.split())
-chk("letter is one page", words <= 600, "%d words" % words)
+words = len(BODY.split())
+chk("letter is one page", words <= 600, "%d words before the signature" % words)
 
 print("%-48s%-8s%s" % ("check", "verdict", "detail"))
 print("-" * 92)

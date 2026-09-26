@@ -197,7 +197,7 @@ for _i, (_lab, _key) in enumerate((("units", None), ("series", "series"),
 tot = sum(v["cells"] for v in C.values())
 # The count now stands in the sentence that says what it is and is not a
 # sample of, so the anchor moved with it.
-num(r"The (\d{6}) cells are what gives", "total cells", tot, tol=0.0)
+num(r"The (\d{6}) cells give the comparison", "total cells", tot, tol=0.0)
 
 # --- Table distribution, every measure on both rigs --------------------------
 DB = L("distribution_both.json")
@@ -229,7 +229,7 @@ for rig, col in (("PRONOSTIA", 1), ("XJTU", 2)):
 # the own-fit figures for it.  Each number is now bound to the comparator it
 # belongs to, in Section 10 and in the introduction where a reader meets it.
 LT = L("linear_transfer_paired.json")
-num(r"averaged --- on\s*\n?(\d+) of \$?16\$? bearings",
+num(r"averaged\) on\s*\n?(\d+) of \$?16\$? bearings",
     "bearings where shape beats the transferable direction",
     LT["transfer_wins"], tol=0.0)
 num(r"paired median of at least\s*\n?([\d.]+) of a lifetime",
@@ -256,7 +256,7 @@ num(r"On \$?(\d+)\$? of the \$?14\$? records where both ages are finite the",
 # Anchored in the body, not the introduction.  The introduction states this
 # result in words and carries no figures at all, so a check that read it there
 # was reading the wrong place: the number lives where it is measured.
-num(r"averaged --- on \$?(\d+)\$? of \$?16\$? bearings",
+num(r"averaged\) on \$?(\d+)\$? of \$?16\$? bearings",
     "bearings where a fixed statistic beats the transferable direction",
     LT["transfer_wins"], tol=0.0)
 num(r"paired\s*\n?median of at least \$?([\d.]+)\$? of a lifetime\.",
@@ -394,7 +394,7 @@ for _row, _sel in (("Above 90", [x for x in TG if x["signal_frac"] > 0.90]),
          tol=0.01, after=_AF)
 _ALL = L("tightness2.json")
 _lo_all = [x["excess"] for x in _ALL if x["signal_frac"] <= 0.90]
-num(r"it reads \$?(\d+)\$? cases", "Table feasible: lower band with edge cells",
+num(r"that band has \$?(\d+)\$? cases", "Table feasible: lower band with edge cells",
     len(_lo_all), tol=0.0)
 num(r"a median of \$?([\d.]+)\$? and a worst",
     "Table feasible: that band's median", float(np.median(_lo_all)), tol=0.01,
@@ -494,7 +494,8 @@ num(r"threshold by a factor of \$?(\d+)\$?",
 # Anchored on the verb rather than on the relative pronoun in front of it: a
 # pass for sentence variety turned "which clears it by" into "clearing it by"
 # and this check reported the number missing when only the clause had moved.
-num(r"clear(?:s|ing) it by \$?([\d.]+)\$?", "prior: turbofan clears it by",
+num(r"which exceeds it by a factor of \$?([\d.]+)\$?",
+    "prior: turbofan clears it by",
     PR["margin_turbofan"], tol=0.05, rel=False)
 rows.append(("prior: the turbofan margin is the smaller of the two",
              "%.1f < %.0f" % (PR["margin_turbofan"], PR["margin_bearings"]),
@@ -664,9 +665,10 @@ rows.append(("the delta-method error tracks the simulated one",
 _b46 = next(r for r in ES["records"] if r["channel"] == "b4_6")
 num(r"so \$?\\eta=([\d.]+)\$? on the", "eta on the 4--6 kHz band", _b46["eta"],
     tol=0.002, rel=False)
-num(r"band carries \$?([\d.]+)\$? to", "that eta's lower end", _b46["lo"],
-    tol=0.002, rel=False)
-num(r"band carries \$?[\d.]+\$? to \$?([\d.]+)\$?", "that eta's upper end",
+num(r"band has an interval of\s*\n?\$?([\d.]+)\$? to", "that eta's lower end",
+    _b46["lo"], tol=0.002, rel=False)
+num(r"band has an interval of\s*\n?\$?[\d.]+\$? to \$?([\d.]+)\$?",
+    "that eta's upper end",
     _b46["hi"], tol=0.002, rel=False)
 for _i, _s in enumerate(ES["shifts"]):
     _pat = (r"log-odds scale is \$?([\d.]+)", r"scale is \$?[\d.]+\$?, ([\d.]+)",
@@ -708,10 +710,11 @@ _bo0 = L("bandwidth_optimum.json")
 _sw = _bo0["sweep"]
 for _i, _r in enumerate(_sw[:8]):
     # the last of the eight is joined with "and", not with a comma
-    _lead = r"ratio reads " + r"[\d.]+, " * _i
+    _lead = r"on the records, that ratio is " + r"[\d.]+, " * _i
     _tail = r"([\d.]+)"
     if _i == 7:
-        _lead = r"ratio reads " + r"[\d.]+, " * 6 + r"[\d.]+ and "
+        _lead = (r"on the records, that ratio is " + r"[\d.]+, " * 6
+                 + r"[\d.]+ and ")
     num(_lead + _tail, "bandwidth sweep, ratio %d" % (_i + 1), _r["ratio"],
         tol=0.06, rel=False)
 rows.append(("the bandwidth optimum is a plateau, not a peak",
@@ -913,7 +916,7 @@ rows.append(("share of kappa drift owed to the bound", "at most 0.2",
 WT = L("wishart_tails.json")
 num(r"gives an inflation of\s*\n?\$?([\d.]+)\$? at \$?m=1400", "hybrid inflation",
     WT["hybrid_at_nu428"], tol=0.002, rel=False)
-num(r"where the correction assumes \$?([\d.]+)\$?", "what the correction assumes",
+num(r"whereas the correction assumes \$?([\d.]+)\$?", "what the correction assumes",
     1.0 + (WT["hybrid_at_nu428"] - 1.0) / WT["hybrid_excess_ratio"],
     tol=0.002, rel=False)
 num(r"that is \$?([\d.]+)\\%\$? against", "hybrid excess, measured",
@@ -928,7 +931,7 @@ num(r"between \$?[\d.]+\$? and \$?([\d.]+)\$? across four", "c, highest cell",
     WT["c_hybrid_hi"], tol=0.02, rel=False)
 num(r"returns \$?c=([\d.]+)\$? and recovers", "c at Gaussian",
     WT["c_gaussian"], tol=0.02, rel=False)
-num(r"rises with the tails to \$?([\d.]+)\$? at", "c at nu=3",
+num(r"as the tails become\s*\n?heavier, reaching \$?([\d.]+)\$? at", "c at nu=3",
     next(r["c"] for r in WT["c_by_nu"] if r["nu"] == 3.0), tol=0.05, rel=False)
 num(r"moves it by \$?([\d.]+)\$? of a lifetime", "worst tau shift",
     WT["tau_shift_max"], tol=0.0005, rel=False)
@@ -1079,13 +1082,13 @@ num(r"\\E\[X\]\}=([\d.]+),", "the constant in the display",
     FC["closed_form"], tol=0.001, rel=False)
 num(r"chi\^\{2\}_\{1\}\$? directly returns \$?([\d.]+)\$?",
     "chi2 drawn directly", 0.7015, tol=0.001, rel=False)
-num(r"the answer is \$?([\d.]+)\$?, against", "pipeline value",
+num(r"the result is \$?([\d.]+)\$?, against", "pipeline value",
     FC["pipeline_surrogate"], tol=0.005, rel=False)
 num(r"kurtosis \$?([\d.]+)\$? against", "kurtosis of the density",
     FC["d_kurtosis"], tol=0.5, rel=False)
 num(r"against\s*\n?\$?([\d.]+)\$?, because the local scale", "kurtosis of chi2_1",
     FC["chi2_kurtosis"], tol=0.1, rel=False)
-num(r"sits \$?(\d+)\\%\$? above the\s*\n?median", "surrogate above the median",
+num(r"lies \$?(\d+)\\%\$? above the\s*\n?median", "surrogate above the median",
     100 * (FC["surrogate_over_median"] - 1), tol=1.0, rel=False)
 num(r"spanning \$?([\d.]+)\$? across nine", "spread across the nine cells",
     FC["spread_across_cases"], tol=0.005, rel=False)
@@ -1098,9 +1101,9 @@ num(r"per unit of noise on\s*\n?.{0,30}?\$?\d+\$? of \$?(\d+)\$?, at a median ra
     "cleanliness pairs", MT["paired_clean_n"], tol=0.0)
 num(r"at a median ratio of\s*\n?\$?([\d.]+)\$?", "cleanliness paired ratio",
     MT["paired_clean_median"], tol=0.005, rel=False)
-num(r"earlier, on \$?(\d+)\$? of \$?\d+\$? bearings", "onset wins",
+num(r"start earlier on \$?(\d+)\$? of \$?\d+\$? bearings", "onset wins",
     MT["paired_onset_wins"], tol=0.0)
-num(r"paired median of \$?([\d.]+)\$? of a\s*\n?lifetime, but on seventeen",
+num(r"paired median of \$?([\d.]+)\$? of a\s*\n?lifetime\. On seventeen units",
     "onset paired median", MT["paired_onset_median"], tol=0.002, rel=False)
 num(r"reaches only \$?p=([\d.]+)\$?", "onset signed-rank p",
     MT["paired_onset_p_signed_rank"], tol=0.005, rel=False)
@@ -1318,7 +1321,7 @@ num(r"therefore \$?([\d.]+)\\%\$? of the observed variance", "measurement share"
     100 * GS["share_within"], tol=0.2, rel=False)
 num(r"over sixteen records, \$?([\d.]+)\$?", "se of the median gap",
     GS["se_of_median_gap"], tol=0.002, rel=False)
-num(r"stands at \$?([\d.]+)\$? standard errors", "gap in standard errors",
+num(r"the median gap is \$?([\d.]+)\$? standard errors", "gap in standard errors",
     GS["gap_in_se"], tol=0.1, rel=False)
 # Re-anchored when the abstract stopped quoting figures.  This sentence used to
 # say the pair range "contains the range quoted in the abstract", which it no
@@ -1327,7 +1330,7 @@ num(r"the gap runs from\s*\n?([\d.]+) to", "pair gap, lowest",
     GS["pair_gap_lo"], tol=0.002, rel=False)
 num(r"the gap runs from\s*\n?[\d.]+ to ([\d.]+) of a lifetime",
     "pair gap, highest", GS["pair_gap_hi"], tol=0.002, rel=False)
-num(r"weakest pair in that range stands\s*\n?([\d.]+) standard",
+num(r"weakest pair in that range is\s*\n?([\d.]+) standard",
     "weakest pair in se", GS["pair_lo_in_se"], tol=0.1, rel=False)
 num(r"or more, up to\s*\n?\$?([\d.]+)\$?", "largest degenerate se",
     max(d["se"] for d in GS["degenerate"]), tol=0.01, rel=False)
@@ -1407,7 +1410,7 @@ num(r"runs from \$?([\d.]+)\$? on the root-mean-square", "kappa_S, smallest",
     IP["kappa_min"], tol=0.0005, rel=False)
 num(r"to\s*\n?\$?([\d.]+)\$? on kurtosis", "kappa_S, largest",
     IP["kappa_max"], tol=0.0005, rel=False)
-num(r"a spread of \$?([\d.]+)\$?: the smoother takes", "kappa_S spread",
+num(r"a spread of \$?([\d.]+)\$?\. The smoother absorbs", "kappa_S spread",
     IP["kappa_spread"], tol=0.1, rel=False)
 num(r"keep a median \$?([\d.]+)\$? against", "kappa_S, amount",
     IP["kappa_amount"], tol=0.0005, rel=False)
@@ -1484,7 +1487,7 @@ rows.append(("the ladder is still not monotone in d.o.f.",
 # --- Proposition 31, the estimand as a band -----------------------------------
 CB = L("clock_band.json")
 _tf = {round(r["f"], 1): r["eff"] for r in CB["transfer"]}
-num(r"efficiency reads \$?([\d.]+)\$? at \$?f=0", "efficiency at f=0",
+num(r"efficiency is \$?([\d.]+)\$? at \$?f=0", "efficiency at f=0",
     _tf[0.0], tol=0.001, rel=False)
 num(r"then \$?([\d.]+)\$? at \$?f=6", "efficiency at f=6",
     _tf[6.0], tol=0.005, rel=False)
@@ -1508,7 +1511,8 @@ rows.append(("the band's two ends really differ",
 # --- the bandwidth sweep for resolution ---------------------------------------
 BO = L("bandwidth_optimum.json")
 _bs = {round(r["frac"], 3): r["ratio"] for r in BO["sweep"]}
-num(r"ratio reads \$?([\d.]+)\$?, \$?[\d.]+\$?, \$?[\d.]+\$?", "ratio at h=0.015",
+num(r"on the records, that ratio is \$?([\d.]+)\$?, \$?[\d.]+\$?, \$?[\d.]+\$?",
+    "ratio at h=0.015",
     _bs[0.015], tol=0.05, rel=False)
 num(r"and \$?([\d.]+)\$? at \$?h=0.015\$? through", "ratio at h=0.26",
     _bs[0.26], tol=0.05, rel=False)
@@ -1520,7 +1524,7 @@ num(r"naming\s*\n?\$?([\d.]+)\$? as", "the best single bandwidth",
     BO["best_frac"], tol=0.001, rel=False)
 num(r"delivers \$?(\d+)\\%\$? of the resolution", "share of the best at 0.08",
     100 * (1 - BO["loss_at_8"]), tol=1.0, rel=False)
-num(r"reading \$?([\d.]+)\$? at \$?0.08", "ratio at 0.08", _bs[0.08],
+num(r"where the ratio is \$?([\d.]+)\$? at \$?0.08", "ratio at 0.08", _bs[0.08],
     tol=0.05, rel=False)
 num(r"and\s*\n?\$?([\d.]+)\$? at \$?0.12", "ratio at 0.12", _bs[0.12],
     tol=0.05, rel=False)
@@ -1623,9 +1627,10 @@ num(r"brings the charge to [\d.]+ and certifies \$?(\d+)",
     "essential range: certified", TC["n_essential"], tol=0.0)
 num(r"median \\alpha of\s*\n?([\d.]+)", "best trimming level",
     TC["best_alpha_median"], tol=1e-9, rel=False)
-num(r"where it\s*\n?reads ([\d.]+)", "best trimming: median charge",
+num(r"where it\s*\n?equals ([\d.]+) and the bound certifies",
+    "best trimming: median charge",
     TC["charge_best_median"], tol=0.005, rel=False)
-num(r"reads [\d.]+ and certifies \$?(\d+)", "best trimming: certified",
+num(r"equals [\d.]+ and the bound certifies \$?(\d+)", "best trimming: certified",
     TC["n_best"], tol=0.0)
 present("certifies none", "the range certificate certifies none",
         TC["n_range"] == 0)
@@ -1633,14 +1638,16 @@ present("certifies none", "the range certificate certifies none",
 # the appendix subsection that proves the energy bound -- and both are bound to
 # the same source, because a count that agrees with itself in one place and not
 # the other is exactly the defect this layer exists to catch.
-num(r"charged in the\s*\n?energy on (\d+)", "energy certificate: certified",
-    TC["n_energy"], tol=0.0)
-num(r"energy of the distortion, on (\d+)",
+num(r"certified on (\d+) when the distortion is\s*\n?measured by its energy,",
+    "energy certificate: certified", TC["n_energy"], tol=0.0)
+num(r"certified on (\d+) when the distortion is measured by its\s*\n?"
+    r"information-weighted energy",
     "energy certificate, restated in Section 4", TC["n_energy"], tol=0.0)
-present("Six against the contrast's eleven",
+present("The trimmed bound certifies six records and the contrast certifies "
+        "eleven",
         "six against eleven, spelled out",
         TC["n_best"] == 6 and TC["n_contrast"] == 11)
-present("It is five.", "the price, spelled out",
+present("with the trimmed bound, the cost is five.", "the price, spelled out",
         TC["n_contrast"] - TC["n_best"] == 5)
 rows.append(("the study reproduces the certificate already published",
              "%.2e" % TC["reproduces_contrast"], "< 5e-2",
@@ -1773,7 +1780,7 @@ num(r"spread is\s*\n?([\d.]+) in log units at 2400",
 num(r"in log units at 2400 samples and\s*\n?([\d.]+) at 700",
     "certificate margin spread at 700", CR["spread_at_700"], tol=0.0006,
     rel=False)
-num(r"three\s*\n?classes rather than two: \$?(\d+)\$? records are certified and "
+num(r"three\s*\n?classes instead of two: \$?(\d+)\$? records are certified and "
     r"resolved", "certificates resolved", CR["n_resolved"], tol=0.0)
 num(r"certified and resolved, \$?(\d+)\$? are refused", "refusals resolved",
     CR["n_refused"], tol=0.0)
@@ -1969,12 +1976,13 @@ num(r"meet the floor to within (\d+)\\%",
 # attained on.
 num(r"the floor is attained\s*\n?to within (\d+)\\%",
     "abstract: how far the bound is attained", 9, tol=0.0)
-num(r"identically; the (\d+)\\% residual is what its drift",
+num(r"identically, and the (\d+)\\% residual is due to its drift",
     "the truncation prediction's residual", 2, tol=0.0)
 # Section 4 states the certificate's coverage in words, so the count is checked
 # against the source and the wording against the count.
 _cw = {11: "eleven", 16: "sixteen", 6: "six"}
-num(r"charged in\s*\n?the contrast, on \$?(\d+)\$?",
+num(r"information-weighted\s*\n?energy, and on \$?(\d+)\$? when it is "
+    r"measured by\s*\n?the contrast",
     "the contrast certificate covers what it says", TC["n_contrast"], tol=0.0)
 num(r"certified on none of the \$?(\d+)\$? bearings",
     "the range certificate covers none of what it says",
@@ -1984,7 +1992,7 @@ rows.append(("the range certificate covers no record",
              str(TC["n_range"]),
              "ok" if TC["n_range"] == 0 and "certified on none" in flat
              else "MISMATCH"))
-present("bounded on eight sides", "the eight limits are stated as eight", True)
+present("bounded by eight limits", "the eight limits are stated as eight", True)
 
 # --- the declarations only the authors can make ------------------------------
 # Two statements are required at submission and neither can be drafted for
@@ -2092,14 +2100,14 @@ _SQ = L("span_qr.json")
 rows.append(("no bearing violates the leverage inequality",
              str(_SQ["violations"]), "0",
              "ok" if _SQ["violations"] == 0 else "MISMATCH"))
-num(r"sits a median factor ([\d.]+) above", "how tight the leverage bound is",
+num(r"lies a median factor ([\d.]+) above", "how tight the leverage bound is",
     _SQ["tightness"], tol=0.006, rel=False)
 num(r"With q/K=([\d.]+)", "the lower end of the bracket",
     _SQ["median"]["qK"], tol=0.0006, rel=False)
 num(r"permutes only the order gives ([\d.]+), well above",
     "where a shuffled record sits", _SQ["median"]["shuffled"], tol=0.002,
     rel=False)
-num(r"the record itself gives ([\d.]+), sitting on it",
+num(r"the record itself gives ([\d.]+), which lies close to that lower",
     "where the record itself sits", _SQ["median"]["tau_lin"], tol=0.002,
     rel=False)
 num(r"the leverage spent lies in a single\s*direction, against (\d+)\\%",
@@ -2177,10 +2185,10 @@ num(r"one of 0.10 has (\d+)\\%", "prior credit at a demand of 0.10",
     100 * _dm[0.10]["removed"], tol=0.6, rel=False)
 num(r"the prior contributes (\d+)\\%", "prior credit at a demand of 0.05",
     100 * _dm[0.05]["removed"], tol=0.6, rel=False)
-num(r"a median ([\d.]+) of a lifetime for an estimator handed the trend",
+num(r"a median ([\d.]+) of a lifetime for an estimator given the trend",
     "linearisation radius, trend known", _PR["radius_oracle"],
     tol=0.00006, rel=False)
-num(r"handed the trend, ([\d.]+) for one that must fit",
+num(r"given the trend, ([\d.]+) for one that must fit",
     "linearisation radius, trend fitted", _PR["radius_practical"],
     tol=0.0006, rel=False)
 num(r"spans\s*\n?(\d+) oracle radii", "the prior in oracle radii",
@@ -2258,7 +2266,7 @@ num(r"median ratio of [\d.]+ and a slope of ([\d.]+)",
     "battery cells, slope", _BD["obs_slope"], tol=0.0006, rel=False)
 for _i, _pat in enumerate((r"with length: ([\d.]+) at n=195",
                            r"at n=195, ([\d.]+) at 98",
-                           r"at 98, ([\d.]+) at 65")):
+                           r"at 98,? (?:and )?([\d.]+) at 65")):
     # printed to two decimals, so the tolerance is two decimals; the precision
     # pass asks the exact rounding question separately
     num(_pat, "slope at decimation %d" % _i, _BD["decim"][_i]["slope"],
@@ -2352,9 +2360,9 @@ num(r"trend per unit of noise on (\d+) of",
     _MT["paired_clean_worse"], tol=0.0)
 num(r"at a median ratio of ([\d.]+)", "cleanliness: median ratio",
     _MT["paired_clean_median"], tol=0.006, rel=False)
-num(r"They do start earlier, on (\d+) of", "onset: records won",
+num(r"They start earlier on (\d+) of", "onset: records won",
     _MT["paired_onset_wins"], tol=0.0)
-num(r"paired median of ([\d.]+) of a lifetime, but on seventeen",
+num(r"paired median of ([\d.]+) of a lifetime\. On seventeen units",
     "onset: paired median", _MT["paired_onset_median"], tol=0.002, rel=False)
 rows.append(("the timing arm is not significant and is reported so",
              "not significant" if not _MT["timing_significant"]

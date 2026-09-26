@@ -52,6 +52,9 @@ SUBMISSION = [
      "Graphical abstract, vector PDF"),
     (os.path.join(HERE, "Cover_letter.md"), "submission/Cover_letter.md",
      "Cover letter (DRAFT: the authors must confirm the declarations)"),
+    (os.path.join(HERE, "Cover_Letter_MSSP.docx"),
+     "submission/Cover_Letter_MSSP.docx",
+     "Cover letter, Word, one page (make_cover_letter_docx.py)"),
     (os.path.join(PAPER, "mssp.tex"), "submission/source/mssp.tex",
      "Manuscript source"),
     (os.path.join(PAPER, "supplement.tex"), "submission/source/supplement.tex",
@@ -71,10 +74,11 @@ SKIP_DIRS = {".backup", "__pycache__", ".git"}
 # .png are preview renders made while the figures were being drawn; .tex here
 # are stale fragments no document inputs, the live ones going to
 # submission/source; the caches and build litter speak for themselves.
-SKIP_EXT = {".npz", ".pyc", ".pdf", ".png", ".tex", ".log", ".aux"}
+SKIP_EXT = {".npz", ".pyc", ".pdf", ".png", ".tex", ".log", ".aux", ".docx"}
 # Project notes rather than analysis: how the paper came to be split, what the
 # outline was. README.md is written for whoever opens the released code.
-SKIP_NAMES = {"Cover_letter.md", "OUTLINE.md", "SPLIT.md"}
+SKIP_NAMES = {"Cover_letter.md", "OUTLINE.md", "SPLIT.md",
+              "make_cover_letter_docx.py"}
 
 
 def code_files():

@@ -90,7 +90,7 @@ def head(t):
 
 
 # =============================================================================
-prop('The curve is the design')
+prop('Design quantities from the cumulative curve')
 # Build an explicit record, form G by summation, and estimate the clock by
 # maximum likelihood from simulated data.  Claim (i) is that the standard
 # deviation is G(tau_0)^{-1/2}.
@@ -839,7 +839,7 @@ _b = np.sum(_w5[_ic4 + 1:] * _g4[_ic4 + 1:]) / np.sum(_g4[_ic4 + 1:])
 check("contrast of a falling w is at least one",
       float(min(_a / _b, 1.0)), 1.0, tol=1e-12, rel=False)
 
-prop('The range, charged where the information is')
+prop('The range, restricted to where the information lies')
 
 
 def _trim_sets(g, alpha):

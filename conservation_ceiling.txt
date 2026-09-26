@@ -1,4 +1,24 @@
-1448  raised from 1438 at the declarations, written to the MSSP Guide for
+2374  raised from 1452 by the language pass (2372 after the chunked rewrite,
+     2374 after two sentences of the certificate proposition's prose) the corresponding author asked for
+     (2026-09-24: formal register, literal sentences, varied structure, few
+     'not'/'rather' contrasts).  It rewrote the prose of both documents, so most
+     lines of the pre-split base no longer appear verbatim.  Conservation of
+     content was checked by another route: each of ten chunks was compared
+     with its original by check_chunk.py (every number and number word, every
+     formula, reference, citation, label, environment, theorem title and
+     float identical, and every audit anchor present), and audit_paper still
+     binds all 780 numbers.  No prose passage was lost.
+
+     Before that, at 1452: raised from 1450 when the corresponding author's affiliation gained
+     'Faculty of Electrical Engineering' and lost the street address (the
+     authors' instruction, 2026-09-24), against the printed list of two: the
+     two old affiliation lines.  No prose passage was lost.
+
+     Before that, at 1450: raised from 1448 when the corresponding author became Kim-Anh Nguyen
+     (the authors' instruction, 2026-09-24), against the printed list of two:
+     the two uthor lines, whose \corref moved.  No prose passage was lost.
+
+     Before that, at 1448: raised from 1438 at the declarations, written to the MSSP Guide for
      Authors, against the printed list of ten: the placeholder paragraphs for
      CRediT (now entered in the submission system), competing interest and
      funding (now the Guide's own sentences, on the corresponding author's
