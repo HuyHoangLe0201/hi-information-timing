@@ -171,6 +171,11 @@ bearing datasets and reproduces the comparison of distributional and
 amplitude indicators (Table 5, with its intervals) and its causal version
 (Table 8). See `reproduce/README.md`.
 
+The complete analysis of the manuscript as submitted (every script, the result
+files they write, and the audit scripts that check the manuscript against
+those files) is kept unchanged in the branch
+[`paper-analysis`](https://github.com/HuyHoangLe0201/hi-information-timing/tree/paper-analysis).
+
 ## Limitations
 
 * The age axis is `t/T`, so the ages are defined on completed records. For a
