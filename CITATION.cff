@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "hitiming: cumulative Fisher-information profiles of health indicators"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/HuyHoangLe0201/hi-information-timing"
+authors:
+  - family-names: Le
+    given-names: Huy Hoang
+  - family-names: Nguyen
+    given-names: Kim-Anh
+preferred-citation:
+  type: article
+  title: "A cumulative Fisher-information framework for the timing of health-indicator information in prognostics"
+  authors:
+    - family-names: Le
+      given-names: Huy Hoang
+    - family-names: Nguyen
+      given-names: Kim-Anh
+  journal: "Mechanical Systems and Signal Processing (submitted)"
+  year: 2026

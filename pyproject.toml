@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hitiming"
+version = "1.0.0"
+description = "When does a health indicator deliver its information? Cumulative Fisher-information profiles for prognostics."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+authors = [
+  { name = "Huy Hoang Le" },
+  { name = "Kim-Anh Nguyen" },
+]
+dependencies = ["numpy>=1.21", "scipy>=1.7"]
+keywords = ["prognostics", "health indicator", "Fisher information",
+            "condition monitoring", "remaining useful life"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib"]
+reproduce = ["pandas"]
+test = ["pytest"]
+
+[project.urls]
+Repository = "https://github.com/HuyHoangLe0201/hi-information-timing"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+# spectra built from the raw datasets by reproduce/prepare_spectra.py
+*.npz
+*.png
